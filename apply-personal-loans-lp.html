@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html>
+<head>
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/apply-personal-loans-lp-styles.css" type="text/css" rel="stylesheet" />
+<meta name="viewport" content="width=device-width; initial-scale=1.0">
+<link rel="stylesheet" href="css/pl_apply-tab_styles.css">
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js'></script>
+	<script src="organictabs.jquery.js"></script>
+    <script>
+		$(function(){
+		// Calling the plugin
+			$("#example-one").organicTabs();
+			$("#example-two").organicTabs({
+				"speed": 100,
+				"param": "tab"
+			});
+			
+		});
+	</script>
+    
+    <script type="text/javascript" src="js/dropdowntabs.js"></script>
+<script Language="JavaScript" Type="text/javascript" src="scripts/common.js"></script>
+<script src='scripts/digitToWordConvert.js' type='text/javascript' language='javascript'></script>
+
+<Script Language="JavaScript">
+function validmail(email1) 
+{
+	invalidChars = " /:,;";
+	if (email1 == "")
+	{// cannot be empty
+		alert("Invalid E-mail ID.");
+		return false;	
+	}
+	for (i=0; i<invalidChars.length; i++) 
+	{	// does it contain any invalid characters?
+		badChar = invalidChars.charAt(i);
+		if (email1.indexOf(badChar,0) > -1) 
+		{
+			return false;
+		}
+	}
+	atPos = email1.indexOf("@",1)// there must be one "@" symbol
+	if (atPos == -1) 
+	{
+		alert("Invalid E-mail ID.");
+		return false;
+	}
+	if (email1.indexOf("@",atPos+1) != -1) 
+	{	// and only one "@" symbol
+		alert("Invalid E-mail ID.");
+		return false;
+	}
+	periodPos = email1.indexOf(".",atPos)
+	if (periodPos == -1) 
+	{// and at least one "." after the "@"
+		alert("Invalid E-mail ID.");
+		return false;
+	}
+	if (periodPos+3 > email1.length)	
+	{		// must be at least 2 characters after the "."
+		alert("Invalid E-mail ID.");
+		return false;
+	}
+	return true;
+}
+	function Decoration(strPlan){       if (document.getElementById('plantype') != undefined)         {               document.getElementById('plantype').innerHTML = strPlan;			   document.getElementById('plantype').style.background='Beige';         }       return true; }
+function Decoration1(strPlan){       if (document.getElementById('plantype') != undefined)        {               document.getElementById('plantype').innerHTML = strPlan;			   document.getElementById('plantype').style.background='';  			                           }       return true; }
+function Decorate(strPlan) {       if (document.getElementById('plantype2') != undefined)         {               document.getElementById('plantype2').innerHTML = strPlan;			   document.getElementById('plantype2').style.background='Beige';         }       return true; }
+function Decorate1(strPlan) {       if (document.getElementById('plantype2') != undefined) { document.getElementById('plantype2').innerHTML = strPlan;   document.getElementById('plantype2').style.background='';  }       return true;}
+function validmobile(mobile) 
+{
+	atPos = mobile.indexOf("0")// there must be one "@" symbol
+	if (atPos == 0) 
+	{
+		alert("Mobile number cannot start with 0.");
+		return false;
+	}
+	if(!checkData(document.loan_form.Phone, 'Mobile number', 10))
+		return false;
+return true;
+}
+function submitform(Form)
+{
+	var regMail = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9])+$/
+	var dt,mdate;dt=new Date();
+	var alpha=/^[a-zA-Z\ ]*$/;
+	var alphanum=/^[a-zA-Z0-9]*$/;
+	var num=/^[0-9]*$/;
+	var space=/^[\ ]*$/;
+	var iChars ="/@#$%^&*()+=-[]\\\';,.{}|\":<>?!";
+
+	if((Form.Loan_Amount.value=='')||(Form.Loan_Amount.value=="Loan Amount"))
+	{	//alert("Kindly fill in your Loan Amount (Numeric Only)!");	
+		document.getElementById('loanVal').innerHTML = "<span  class='hintanchor'>Fill Numeric Value!</span>";
+		Form.Loan_Amount.focus();	return false;	}
+	else if(containsalph(Form.Loan_Amount.value)==true)
+	{			document.getElementById('loanVal').innerHTML = "<span  class='hintanchor'>Fill Numeric Value!</span>";	Form.Loan_Amount.focus();	return false;	}
+	
+	if(Form.Employment_Status.selectedIndex==0)
+	{
+		document.getElementById('empStatusVal').innerHTML = "<span  class='hintanchor'>Select Employment Status!</span>";	
+		Form.Employment_Status.focus();
+		return false;
+	}
+	if((Form.IncomeAmount.value=='')||(Form.IncomeAmount.value=="Annual Income"))
+	{		document.getElementById('netSalaryVal').innerHTML = "<span  class='hintanchor'>Enter Annual Income!</span>";		Form.IncomeAmount.focus();		return false;	}
+	
+	if(Form.City.selectedIndex==0)
+	{			document.getElementById('cityVal').innerHTML = "<span class='hintanchor'>Enter City to Continue!</span>";		Form.City.focus();		return false;	}
+	else if((Form.City.value=='Others')  && ((Form.City_Other.value=='')||!isNaN(Form.City_Other.value)||(Form.City_Other.value=="Other City")))
+	{	document.getElementById('othercityVal').innerHTML = "<span  class='hintanchor'>Enter Other City to Continue!</span>";	Form.City_Other.focus();	return false;	}
+
+	
+	
+	if((Form.Name.value=="") || (Form.Name.value=="Full Name")|| (Trim(Form.Name.value))==false)
+	{
+      document.getElementById('nameVal').innerHTML = "<span class='hintanchor'>Please Enter Your name</span>";		
+		Form.Name.focus();	return false;	
+	}
+	else if(containsdigit(Form.Name.value)==true)
+	{
+	//	alert("Name contains numbers!");
+        document.getElementById('nameVal').innerHTML = "<span class='hintanchor'>Name contains number</span>";		
+		Form.Name.focus();
+		return false;
+	}
+	  for (var i = 0; i < Form.Name.value.length; i++) {
+		if (iChars.indexOf(Form.Name.value.charAt(i)) != -1) {
+		//alert ("Name has special characters.\n Please remove them and try again.");
+		      document.getElementById('nameVal').innerHTML = "<span class='hintanchor'>Contains special characters!</span>";		
+		Form.Name.focus();
+		return false;
+		}
+	  }
+	  
+	if((Form.Phone.value=='Mobile') || (Form.Phone.value=='') || Trim(Form.Phone.value)==false)
+	{
+//	alert("Kindly fill in your Mobile Number!");
+	document.getElementById('phoneVal').innerHTML = "<span  class='hintanchor'>Fill Mobile Number!</span>";
+	Form.Phone.focus();
+	return false;
+	}
+	
+		  if(isNaN(Form.Phone.value)|| Form.Phone.value.indexOf(" ")!=-1)
+			{
+//				  alert("Enter numeric value");
+				  document.getElementById('phoneVal').innerHTML = "<span  class='hintanchor'>Enter numeric value!</span>";
+				  Form.Phone.focus();
+				  return false;  
+			}
+			if (Form.Phone.value.length < 10 )
+			{
+//					alert("Please Enter 10 Digits"); 
+					document.getElementById('phoneVal').innerHTML = "<span  class='hintanchor'>Fill 10 digits!</span>";
+					 Form.Phone.focus();
+					return false;
+			}
+			if ((Form.Phone.value.charAt(0)!="9") && (Form.Phone.value.charAt(0)!="8") && (Form.Phone.value.charAt(0)!="7"))
+			{
+				//alert("The number should start only with 9 or 8 or 7");
+				document.getElementById('phoneVal').innerHTML = "<span  class='hintanchor'>should start with 9 or 8 or 7!</span>";
+				Form.Phone.focus();
+				return false;
+			}	
+		  if(Form.Email.value=="")
+	  {		document.getElementById('emailVal').innerHTML = "<span  class='hintanchor'>Enter  Email Address!</span>";	Form.Email.focus();		return false;	}
+	var str=Form.Email.value
+	var aa=str.indexOf("@")
+	var bb=str.indexOf(".")
+	var cc=str.charAt(aa)
+	if(aa==-1)
+	{		document.getElementById('emailVal').innerHTML = "<span class='hintanchor'>Enter  Email Address!</span>";	Form.Email.focus();		return false;	}
+	else if(bb==-1)
+	{		document.getElementById('emailVal').innerHTML = "<span class='hintanchor'>Enter  Email Address!</span>";	Form.Email.focus();		return false;	}
+	
+	
+	
+	if(!Form.accept.checked)
+	{	document.getElementById('acceptVal').innerHTML = "<span  class='hintanchor'>Read and Accept Terms & Conditions!</span>";	Form.accept.focus();	return false;	}
+}
+function containsdigit(param)
+{
+	mystrLen = param.length;
+	for(i=0;i<mystrLen;i++)
+	{
+		if((param.charAt(i)=="0") || (param.charAt(i)=="1") || (param.charAt(i)=="2") || (param.charAt(i)=="3") || (param.charAt(i)=="4") || (param.charAt(i)=="5") || (param.charAt(i)=="6") || (param.charAt(i)=="7") || (param.charAt(i)=="8") || (param.charAt(i)=="9") || (param.charAt(i)=="/"))		{			return true;		}
+	}
+	return false;
+}
+function containsalph(param)
+{
+	mystrLen = param.length;
+	for(i=0;i<mystrLen;i++)
+	{
+		if((param.charAt(i)<"0")||(param.charAt(i)>"9"))
+		{
+			return true;
+		}
+	}
+	return false;
+}
+function Trim(strValue) {
+	var j=strValue.length-1;i=0;
+	while(strValue.charAt(i++)==' ');
+	while(strValue.charAt(j--)==' ');
+	return strValue.substr(--i,++j-i+1);
+}
+function othercity1()
+{
+	var ni1 = document.getElementById('othCitDiv');
+	var ni2 = document.getElementById('othCitvalDiv');
+	if(document.home_loan.City.value=='Others')
+	{
+		ni1.innerHTML = 'Other City';
+		ni2.innerHTML = '<input value="Other City" name="City_Other" id="City_Other" style="width: 140px;" onBlur="onBlurDefault(this,\'Other City\');"  onfocus="onFocusBlank(this,\'Other City\');" onKeyUp="searchSuggest();" /><div id="CityOLayer"></div><div id="othercityVal"></div>';
+	}
+	else	
+	{
+		ni1.innerHTML = '';
+		ni2.innerHTML = '';
+	}
+}
+function onFocusBlank(element,defaultVal){
+	if(element.value==defaultVal){		element.value="";	}
+}
+function onBlurDefault(element,defaultVal){
+	if(element.value==""){		element.value = defaultVal;	}
+}
+function HandleOnClose(filename) {
+   if ((event.clientY < 0)) {
+	   myWindow = window.open(filename, "tinyWindow", 'resizable width=510,height=390, scrollbars')
+	   myWindow.document.bgColor=""
+	   myWindow.document.close() 
+   }
+}
+</script>
+  <script>
+var ajaxRequest;  // The variable that makes Ajax possible!
+		function ajaxFunction(){
+			try{
+				// Opera 8.0+, Firefox, Safari
+				ajaxRequest = new XMLHttpRequest();
+			} catch (e){
+				// Internet Explorer Browsers
+				try{
+					ajaxRequest = new ActiveXObject("Msxml2.XMLHTTP");
+				} catch (e) {
+					try{
+						ajaxRequest = new ActiveXObject("Microsoft.XMLHTTP");
+					} catch (e){
+						// Something went wrong
+						alert("Your browser broke!");
+						return false;
+					}
+				}
+			}
+		}
+function addtooltip()
+{
+		var ni = document.getElementById('myDiv');
+		if(ni.innerHTML=="")
+		{				ni.innerHTML = 'Please give correct Mobile Number to Activate your Loan Request';		}
+		return true;
+	}
+function removetooltip()
+{
+		var ni = document.getElementById('myDiv');
+		if(ni.innerHTML!="")
+		{				ni.innerHTML = '';		}
+		return true;
+}
+
+
+function addPersonalDetails()
+{
+	var ni1 = document.getElementById('personalDetails');
+	var ni2 = document.getElementById('addPadding');
+	var ni3 = document.getElementById('addPadding1');
+	var ni4 = document.getElementById('addPadding2');
+	var ni5 = document.getElementById('addPadding3');
+	var ni6 = document.getElementById('hideHeader');
+		
+	ni1.innerHTML = '<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0"><tr><td align="left" valign="middle" class="bldtxt" colspan="2" style="padding-top:3px;" ><table width="100%" border="0" cellpadding="0" cellspacing="0"><tr><td width="48%"  align="left" style="font-size:13px; color:#156dd1; "> Personal Details</td><td width="6%" style="font-size:10px; font-weight:normal; color:#999999;"><img src="http://www.deal4loans.com/images/security.png" width="14" height="16"></td><td width="46%" align="left"class="sbi_text_a"  style="font-size:10px; font-weight:normal; color:#156dd1;">We keep this secure</td></tr></table></td></tr>   <tr>    <td width="42%" height="35" class="form_text_pl">First Name</td>    <td width="58%"><input type="hidden" name="onCloseValue" id="onCloseValue" value="1">								<input type="text" name="Name" id="Name" value=""  style="width:140px;" onKeyDown="validateDiv(\'nameVal\');" tabindex="1" /><div id="nameVal" class="alert_msg" ></div></td>  </tr>  <tr>    <td height="28" class="form_text_pl">Mobile No.</td>    <td> <span class="form_text_pl">+91</span>     <input type="text"  style="width:113px;" maxlength="10"  name="Phone" id="Phone"  value=""  onChange="intOnly(this); tosendsms(); insertData();" onKeyUp="intOnly(this);" onKeyPress="intOnly(this);" onFocus="addtooltip();" onKeyDown="validateDiv(\'phoneVal\');"  tabindex="2"/><div id="phoneVal" class="alert_msg"></div></td>  </tr>    <tr>    <td height="28" class="form_text_pl">Email</td>    <td><input class="style4" style="width:140px;" value="" name="Email" id="Email" onBlur="onBlurDefault(this,\'Email Id\');"  onFocus="removetooltip();"  onChange="insertData();" onKeyDown="validateDiv(\'emailVal\');" tabindex="3" /><div id="emailVal" class="alert_msg"></div></td>  </tr>       <tr><td id="hdfclife" colspan="2"></td></tr> <tr><td colspan="2">&nbsp;</td></tr>  <tr>    <td height="0" colspan="2"align="center" class="form_text_pl" style="font-size:10px; text-align:left;"><input type="checkbox" tabindex="8"  name="accept" style="border:none;" checked  > I Agree to <a href="http://www.deal4loans.com/Privacy.php" target="_blank" rel="nofollow">Privacy Policy</a> and <a href="http://www.deal4loans.com/Privacy.php" target="_blank" rel="nofollow">Terms and Conditions</a>.<div id="acceptVal" class="alert_msg"></div></td>  </tr>  <tr>    <td height="0" colspan="2" align="center">&nbsp;</td>  </tr>  <tr>    <td colspan="2" align="center"><input type="image" tabindex="9" name="Submit"  src="new-images/hl/pl-quote.gif"  style="width:117px; height:29px; border:none; " /></td>    </tr>    </table>';
+	ni2.innerHTML = '';
+	ni3.innerHTML = '';
+	ni4.innerHTML = '';
+	ni5.innerHTML = '';
+	ni6.innerHTML = '';	
+	
+}
+	
+function validateDiv(div)
+{
+	var ni1 = document.getElementById(div);
+	ni1.innerHTML = '';
+}
+
+function addhdfclife()
+{
+	var ni1 = document.getElementById('hdfclife');
+	var cit = document.home_loan.City.value;
+//	var otrcit = document.loan_form.City_Other.value;
+	
+	if(cit =="Bangalore" || cit =="Baroda" || cit =="Bhubaneshwar" || cit =="Chandigarh" || cit =="Cochin" || cit =="Cuttack" || cit =="Delhi" || cit =="Faridabad" || cit =="Gaziabad" || cit =="Gurgaon" || cit =="Guwahati" || cit =="Hyderabad" || cit =="Indore" || cit =="Jaipur" || cit =="Kanpur" || cit =="Kochi" || cit =="Kolkata" || cit =="Lucknow" || cit =="Mumbai" || cit =="Noida" || cit =="Pune" || cit =="Sahibabad" ||
+cit =="Surat" || cit =="Thane" || cit =="Vadodara" || cit =="Vijaywada" || cit =="Vishakapatanam" || cit =="Vizag" || cit =="Chennai")
+	{
+		//alert("ranjana");
+	ni1.innerHTML = '<table  style="border:1px solid #000000; padding:2px;"><tr><td colspan="2" class="frmbldtxt" style="font-family:verdana; font-size:10px; color:#000000; font-weight:normal; " height="20"><span style="color:#FF0000;">(Optional) </span>Special service only for Deal4loans customers:</td></tr> <tr><td width="23"><input type="checkbox"  name="hdfclife" id="hdfclife" value="1"/></td> <td class="frmbldtxt" style="font-family:verdana; font-size:10px; color:#00000; font-weight:normal; "> I would like to avail of <b>FREE </b>financial planning services by <b>Insurance & Investment experts</b> from HDFC Life.</td>		 </tr>	 </table>';	
+	}
+	else
+	{
+		ni1.innerHTML = '';
+	}
+	return true;
+}
+
+		function insertData()
+		{
+			var get_full_name = document.getElementById('Name').value;
+			var get_email = document.getElementById('Email').value;
+			var get_mobile_no = document.getElementById('Phone').value;
+			var get_city = document.getElementById('City').value;
+			var get_id = document.getElementById('Activate').value;
+			var get_product ="2";
+			var queryString = "?get_Mobile=" + get_mobile_no +"&get_City=" + get_city + "&get_Full_Name=" + get_full_name +"&get_Email=" + get_email +"&get_product=" + get_product +"&get_Id=" + get_id ;
+				ajaxRequest.open("GET", "insert-incomplete-data.php" + queryString, true);
+				ajaxRequest.onreadystatechange = function(){
+					if(ajaxRequest.readyState == 4)
+					{						document.getElementById('Activate').value=ajaxRequest.responseText;				}
+				}
+				ajaxRequest.send(null); 
+		}
+	window.onload = ajaxFunction;
+    </script>
+    
+  
+  <title>www.deal4loans.com</title>
+</head>
+<body>
+<div class="apl_top_wrapper">
+<div class="apl_logo_container"><div class="logo_box_b"><img src="d4limages/aplp_d4l-logo.jpg"  height="44" /></div>
+<div class="logo_text">Personal Loans by Choice not by Chance!</div>
+</div>
+</div>
+
+
+<div class="apl_second_container">
+ <div class="column_wrapper">
+  <div class="column_b" >
+  <div class="personal_loan" >Personal Loan Request</div>
+  <div id="example-two">
+		
+		<ul class="nav">
+			<li class="nav-one"><a href="#featured2" class="current">Get Quote</a></li>
+			<li class="nav-two"><a href="#core2">Leave Your Number</a></li>
+		</ul>
+		
+		<div class="list-wrap">
+		
+		<div id="featured2">
+		  <form name="home_loan" action="apply-home-loan-new-continue.php" onSubmit="return submitform(document.home_loan);" method="post">                         <input type="hidden" name="referrer" value="">
+                                    <input type="hidden" name="Type_Loan" value="Req_Loan_Home">
+                                    <input type="hidden" name="creative" value="">
+                                    <input type="hidden" name="section" value="">
+                                    <input type="hidden" name="source" value="new home loan">
+                                    <input type="hidden" name="last_id" value="">
+            <input type="hidden" name="PostURL" value="/apply-home-loan-new.php">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td colspan="2" class="personal_text">Professional Details</td>
+  </tr>
+  <tr>
+    <td width="209" height="45" class="form_text">Loan Amount</td>
+    <td width="291" height="30"><input  name="Loan_Amount" class="input"  id="Loan_Amount"  tabindex="7" onFocus="this.select();" onBlur="getDigitToWords('Loan_Amount', 'formatedlA', 'wordloanAmount');" onChange="intOnly(this);" onKeyPress="intOnly(this); getDigitToWords('Loan_Amount', 'formatedlA','wordloanAmount');" onKeyDown="getDigitToWords('Loan_Amount','formatedlA','wordloanAmount'); validateDiv('loanVal');"  onKeyUp="intOnly(this); getDigitToWords('Loan_Amount','formatedlA','wordloanAmount');" /><div id="loanVal"  class="alert_msg"></div></td>
+  </tr>
+  <tr>
+    <td height="45" class="form_text">Occupation</td>
+    <td height="30"><select  name="Employment_Status" class="select" id="Employment_Status" onChange="validateDiv('empStatusVal');">
+              <option selected="selected" value="-1">Employment Status</option>
+              <option  value="1">Salaried</option>
+              <option value="0">Self Employed</option>
+            </select><div id="empStatusVal" class="alert_msg"></div>
+              </td>
+  </tr>
+  <tr>
+    <td height="45" class="form_text">Annual Income</td>
+    <td><input   name="IncomeAmount" class="input" id="IncomeAmount"  tabindex="6" onFocus="this.select();" onBlur="getDiToWordsIncome('IncomeAmount', 'formatedIncome', 'wordIncome');" onChange="intOnly(this);" onKeyPress="intOnly(this); getDiToWordsIncome('IncomeAmount','formatedIncome','wordIncome');" onKeyDown="validateDiv('netSalaryVal');"  onKeyUp="intOnly(this); getDiToWordsIncome('IncomeAmount','formatedIncome','wordIncome');"/><div id="netSalaryVal" class="alert_msg"></div> </td>
+  </tr>
+  <tr>
+    <td height="44" class="form_text">City</td>
+    <td><select  name="City" class="select" id="City"  tabindex="4" onChange=" addPersonalDetails(); othercity1(); validateDiv('cityVal');" ><option value="Select Your City">Select your City</option><option value="Ahmedabad">Ahmedabad</option><option value="Aurangabad">Aurangabad</option><option value="Bangalore">Bangalore</option><option value="Baroda">Baroda</option><option value="Bhiwadi">Bhiwadi</option><option value="Bhopal">Bhopal</option><option value="Bhubneshwar">Bhubneshwar</option><option value="Chandigarh">Chandigarh</option><option value="Chennai">Chennai</option><option value="Cochin">Cochin</option><option value="Coimbatore">Coimbatore</option><option value="Cuttack">Cuttack</option><option value="Dehradun">Dehradun</option><option value="Delhi">Delhi</option><option value="Faridabad">Faridabad</option><option value="Gaziabad">Gaziabad</option><option value="Gurgaon">Gurgaon</option><option value="Guwahati">Guwahati</option><option value="Hosur">Hosur</option><option value="Hyderabad">Hyderabad</option><option value="Indore">Indore</option><option value="Jabalpur">Jabalpur</option><option value="Jaipur">Jaipur</option><option value="Jamshedpur">Jamshedpur</option><option value="Kanpur">Kanpur</option><option value="Kochi">Kochi</option><option value="Kolkata">Kolkata</option><option value="Lucknow">Lucknow</option><option value="Ludhiana">Ludhiana</option><option value="Madurai">Madurai</option><option value="Mangalore">Mangalore</option><option value="Mysore">Mysore</option><option value="Mumbai">Mumbai</option><option value="Nagpur">Nagpur</option><option value="Nasik">Nasik</option><option value="Navi Mumbai">Navi Mumbai</option><option value="Noida">Noida</option><option value="Patna">Patna</option><option value="Pune">Pune</option><option value="Ranchi">Ranchi</option><option value="Raipur">Raipur</option><option value="Rewari">Rewari</option><option value="Sahibabad">Sahibabad</option><option value="Surat">Surat</option><option value="Thane">Thane</option><option value="Thiruvananthapuram">Thiruvananthapuram</option><option value="Trivandrum">Trivandrum</option><option value="Trichy">Trichy</option><option value="Vadodara">Vadodara</option><option value="Vishakapatanam">Vishakapatanam</option><option value="Vizag">Vizag</option><option value="Others">Others</option></select><div id="cityVal" class="alert_msg"></div> </td>
+  </tr>
+  <tr>
+    <td height="20" align="right" class="form_text">&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="34" colspan="2" align="center" class="form_text"><img src="d4limages/aplp_get-quote-btn.jpg" width="172" height="40" /></td>
+  </tr>
+  <tr>
+    <td height="20" colspan="2" align="center" class="form_text">&nbsp;</td>
+  </tr>
+</table>
+		  </form>
+		</div>
+		<div id="core2" class="hide">
+		<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td colspan="2" align="center" class="personal_text"> </td>
+  </tr>
+  <tr>
+    <td height="35" colspan="2" style="color:#0881ac;" class="form_text">      Leave your Contact Number &amp; our loan experts will call back with best offers.
+      <div id="loanVal2"  class="alert_msg"></div></td>
+    </tr>
+  <tr>
+    <td width="209" height="35" class="form_text">Mobile No.</td>
+    <td width="291" height="30">+91
+      <input name="Mobile" type="text" class="mobile" id="textfield" ></td>
+  </tr>
+  <tr>
+    <td height="20" colspan="2" align="center" class="form_text">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="35" colspan="2" align="center" class="form_text"><img src="d4limages/aplp_submit_btn.jpg" width="173" height="40" /></td>
+  </tr>
+</table>
+		</div>
+		
+		
+		
+		
+
+	  </div> <!-- END List Wrap -->
+	
+	</div>
+  
+ </div> 
+ 
+ <div >
+ <div class="step" style="margin-top:10px;">
+   <img src="d4limages/step-banner.gif" width="252" height="105"> </div>
+   <div class="rewards" style="margin-top:10px;"><img src="d4limages/welcome-rewards.gif" width="255" height="103"></div>
+   
+   </div>
+  </div>
+  
+  <div class="column_a">
+  <div class="banks_text"> List of top Personal Loans Banks in India</div>
+ <div class="apl_radius">
+ <div class="bank_text">
+ <ul><li style="color:#083b65;">
+ ICICI Bank</li>
+ <li style=" color:#041d6f;">
+ HDFC Bank</li>
+ <li style=" color:#00003d;">
+ ING Vysya</li>
+ <li style="color:#ed1c24;">
+ Kotak</li>
+   <li style="color:#cd5a13;">
+ Fullerton </li>
+    <li style="color:#0076bc;">
+ Bajaj Finserv </li>
+   <li style="color:#0076bc; line-height:none; border:none;">
+ Standards <br />
+Chartered </li>
+ </ul>
+ </div>
+ </div>
+ <div class="row_a"><span class="text_head">Personal Loan for all your Financial needs</span>
+   <br>
+   "Get <span class="text_b">you Loans at Lowest Rates" Apply to 
+ 	<br>
+<span style=" color:#000;" class="text_head"> Compare n Choose</span>
+ <br>
+ the Best offers from multiple Banks </span></div>
+ <div class="table_bg">
+   <table width="100%" border="0" cellpadding="0" cellspacing="0">
+     <tr>
+       <td width="93%" valign="middle" class="text_white"  style="height:28px; background:url(d4limages/aplp_arrow_.jpg) no-repeat;">Sample Personal Loan Quotes</td>
+       <td width="7%" align="left" style="height:28px;">&nbsp;</td>
+     </tr>
+     <tr>
+       <td colspan="2" bgcolor="#2ea8dc"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+         <tr>
+           <td width="17%" align="center" class="text_white_b">Bank </td>
+           <td width="19%" align="center" class="text_white_b">Interest Rate</td>
+           <td width="23%" align="center" class="text_white_b">Eligible Loan Amt.</td>
+           <td width="21%" align="center" class="text_white_b">EMI</td>
+           <td width="20%" class="text_white_b">Pre-Payment</td>
+         </tr>
+       </table></td>
+     </tr>
+     <tr>
+       <td colspan="2"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+         <tr>
+           <td width="15%" align="center" bgcolor="#FFFFFF" class="text_white_c">Bank A<br>
+             Bank B<br>
+             Bank C<br>
+             Bank D</td>
+           <td width="19%" align="center" bgcolor="#FFFFFF" class="text_white_c">14%<br>
+             14.25%<br>
+             15%<br>
+             16%</td>
+           <td width="26%" align="center" bgcolor="#FFFFFF" class="text_white_c">Rs. 1,00,000<br>
+             Rs. 1,25,000<br>
+             Rs. 1,80,000<br>
+             Rs. 1,50,000</td>
+           <td width="20%" align="center" bgcolor="#FFFFFF" class="text_white_c">Rs. 2,733<br>
+             Rs. 3,432<br>
+             Rs. 5,010<br>
+             Rs. 4,251</td>
+           <td width="20%" align="center" bgcolor="#FFFFFF" class="text_white_c">4%<br>
+             Nil<br>
+             Nil<br>
+             4%</td>
+         </tr>
+         </table></td>
+     </tr>
+   </table>
+   <div style="clear:both;"></div>
+   <div class="row_b"><span class="text_white_b" style="font-size:12px;"><strong>Personal Loan</strong> quotes taken this month from <strong>Deal4loans</strong></span>
+     <div class="count_wrap"><table width="100" border="0" cellpadding="0" cellspacing="2">
+  <tr>
+    <td bgcolor="#FFFFFF" class="text_d">1</td>
+    <td bgcolor="#FFFFFF" class="text_d">2</td>
+    <td bgcolor="#FFFFFF" class="text_d">3</td>
+    <td bgcolor="#FFFFFF" class="text_d">4</td>
+    <td bgcolor="#FFFFFF" class="text_d">5</td>
+  </tr>
+</table>
+</div>
+<div style="clear:both;"></div>
+<div class="row_b" style="margin-top:5px;"><span class="text_white_b" style="font-size:12px;">Total Personal Loan quotes taken from <strong>Deal4loans </strong></span>
+<div class="count_wrap_b"><table width="130" border="0" align="right" cellpadding="0" cellspacing="2">
+  <tr>
+    <td bgcolor="#FFFFFF" class="text_d">6</td>
+    <td bgcolor="#FFFFFF" class="text_d">7</td>
+    <td bgcolor="#FFFFFF" class="text_d">8</td>
+    <td bgcolor="#FFFFFF" class="text_d">8</td>
+    <td bgcolor="#FFFFFF" class="text_d">9</td>
+    <td bgcolor="#FFFFFF" class="text_d">7</td>
+    <td bgcolor="#FFFFFF" class="text_d">4</td>
+  </tr>
+</table>
+</div>
+
+</div>
+<div style="clear:both;"></div>
+
+</div>
+   
+   
+ </div>
+
+ 
+ <div class="why_text_box">
+   <table width="100%" border="0" cellpadding="0" cellspacing="0">
+     <tr>
+       <td class="text_head" style="font-size:20px;">Why Deal4loans.com - Widest Choice of Banks</td>
+     </tr>
+     <tr>
+       <td class="body_apl_text"><ul>
+         <li>Get instant quote on Rates, Emi, Eligibility, <span style="font-size:17px; font-weight:bold;">Fees</span> &amp; Documents from all Banks.</li>
+         <li>Pick best Bank as per your requirement.</li>
+         <li>Deal4loans.com has serviced <span style="font-size:17px; font-weight:bold;">21 lac </span>customers till now &amp; it's a totally free service.</li>
+         <li>           Your Information is secure with us and will not be shared without your consent.</li>
+       </ul></td>
+     </tr>
+   </table>
+ </div>
+ 
+ 
+  </div>
+  <div style="clear:both;"></div>
+  
+  
+</div>
+
+
+ <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+ <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-1312775-1");
+pageTracker._trackPageview();
+} catch(err) {}</script></body>
+</html>

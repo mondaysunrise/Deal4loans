@@ -1,0 +1,811 @@
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+body{ margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; font-family:'Droid Sans', sans-serif; font-size:16px; color:#000000;}
+.d4l_inner_wrapper{width:990px; margin:auto;}
+.hl-h1{color:#3db292; font-family:'Droid Sans', sans-serif; font-size:28px; padding:0px 0px 0px 0px; margin:0px 0px 0px 0px;}
+.hl-h2{font-family:'Droid Sans', sans-serif; font-size:22px; font-weight:normal; margin:0px 0px 5px 0px; padding:5px 0px 0px 0px;}
+.hl-h3{ margin:15px 0px 5px 0px;}
+.hl-form-wrapper{width: 985px; color:#000000;
+background:#55c4a6;
+border-radius: 5px; padding:0px 0px 0px 0px; } 
+.hl_inner_wrapper{width:985px; margin:auto;}
+.common-bread-crumb{font-family:'Droid Sans', sans-serif; font-size:16px; color:#666; margin-bottom:10px;}
+.common-bread-crumb a{font-family:'Droid Sans', sans-serif; font-size:16px; color:#0080d6;}
+.common-bread-crumb a:hover{font-family:'Droid Sans', sans-serif; font-size:16px; color:#666; text-decoration:underline;}
+p{ padding:0px 0px 0px 0px; margin:5px 0px 5px 0px;}
+.form-headline-wrapper{float:left;
+font-size:21px;
+font-weight:500;
+width:675px;
+margin-top:25px;}
+.form-headline-100{font-size:21px;font-weight: 500;width:95%; padding-top:10px;}
+.from-ad{float: left;
+width: 204px;
+margin-top: 10px;}
+.p-details{padding-left:20px; font-size:19px;}
+.new-input-box{
+float: left;
+width: 200px;
+margin-left: 20px; margin-top:10px;}
+.d4l-input{width:200px; height:25px;}
+.d4l-select{width: 200px;
+height:30px;}
+.d4l-dob{float: left;
+width:30%;
+height:25px;
+margin-left: 2px;}
+.banks_associated_box {
+float:left;
+width:91px;
+margin-left:5px;}
+.d4lmob{float:left;
+width:95%; margin-left:5px;
+height:25px;}
+.hl-get-quotebtn{background:#1a67ff; width:110px; height:39px; border-radius:5px; border:2px; color:#FFF; font-size:16px; margin-right:63px; margin-bottom:5px;}
+.new_terms_box{float:left; width:100%; margin-left:25px;}
+.termtext{ font-size:14px;}
+.termtext a{font-size:14px; color:#039; text-decoration:underline;}
+.highlighter-font{ font-size:22px; font-weight:bold;}
+.greentext{color:#55af03;}
+.hintanchor{ font-size:12px; color:#D50000; background:#FFF; padding:0px 5px 0px 5px; margin-top:3px !important; width:100%;}
+.home-loan-inner_box{ width:493px; margin:45px auto; background:url(../images/home-loan-inner-page-bg-new.jpg) no-repeat top;}
+.best-bank-ico-bx{ float:left; width:138px; margin-top:-20px; margin-left:25px;}
+.best-bank-ico-bx2{ width:60px; height:60px; margin:auto; transition: all .2s ease-in-out;}
+.best-bank-ico-bx2:hover{ width:60px; height:60px; margin:auto; transform: scale(1.15);}
+.text-below-icon{  font-size:14px; color:#343434; text-align:center; margin-top:5px;}
+.text-below-icon a{  font-size:14px; color:#343434; text-align:center; text-decoration:none;}
+.text-below-icon a:hover{  font-size:14px; color:#f89412; text-align:center;}
+.best-bank-ico-bx-right{ float:right; width:188px; margin-top:-20px; margin-left:25px;}
+.best-bank-ico-bx-right2{ float:right; width:188px; margin-top:10px; margin-left:25px;}
+.best-bank-ico-bx3{ float:left; width:138px; margin-top:15px; margin-left:25px;}
+.best-bank-ico-bx4{ width:210px; margin-top:-10px; margin-left:150px;}
+.applybtn {
+  width: 50px !important;
+  border-radius: 7px;
+  padding: 10px 7px 10px 7px;
+  background: #79AB01;
+  color: #FFF !important;
+  text-decoration: none !important;
+}
+.hl-get-quotebtn{background:#1a67ff; width:110px; height:39px; border-radius:5px; border:2px; color:#FFF; font-size:16px; margin-right:72px; margin-bottom:5px;}
+
+.hli_check_home {
+  width: 850px;
+  border: #CCC thin solid;
+  margin: auto;
+  height:80px;
+}
+
+.click_input_section {
+  width: 195px;
+  float: left;
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.click_input_btn {
+  text-align: center;
+  padding: 16px;
+  margin-left: 5px;
+}
+
+.icici_bank {
+  color: #C2350D;
+  font-weight: bold;
+}
+.Hdfc_ltd_bank {
+  color: #ED1413;
+  font-weight: bold;
+}
+
+.fed_bank {
+  color: #004B93;
+  font-weight: bold;
+}
+
+.pnb_housing {
+  color: #A52921;
+  font-weight: bold;
+}
+.loan-quotewrap{ margin-left:20px;}
+.loan-quote{float:left; margin-top:10px;}
+.Hl-Quote-Btn{ float:right;  margin-right: 33px; margin-top:10px;}
+
+.table_bgcolor_Border{ background:#E4F5F1;}
+.table_bgcolor{ background:#A6F2DD;	}
+.td_border4{ border:1px solid #A6F2DD; padding:3px}
+.td_border3{ border-bottom:1px solid #A6F2DD; border-right:1px solid #A6F2DD;  border-top:1px solid #A6F2DD;  padding:3px}
+.td_border_lrb{border-left:1px solid #A6F2DD; border-right:1px solid #A6F2DD;  border-bottom:1px solid #A6F2DD;  padding:3px}
+.td_border_rb{border-right:1px solid #A6F2DD;  border-bottom:1px solid #A6F2DD;  padding:3px}
+
+#addSubmit{margin-top: 10px;}
+.hl_inner_wrapper a{ color:#3671d5;}
+
+
+/*home loan syles ends....*/
+
+
+/*..............Side Bar Styles Starts ..........*/
+.pl-h2{font-family:'Droid Sans', sans-serif; font-size:22px; font-weight:normal; margin:0px 0px 0px 0px; padding:5px 0px 0px 0px;}
+
+
+.left-wrapper{float:left;
+  width: 700px;
+  margin-top:10px;}
+.d4l-side-input{width:93%; height:20px;}
+.d4l-side-mobile{width:94%; height:20px;}
+.d4l-side-select{width:95%; height:25px;}
+.right-panel-wrapper{ float:right; width:263px; margin-top:10px; padding-bottom:10px;}
+.right-panel-fomr-box{ width:250px; border-radius:5px; background:#55c4a6;}
+.hintanchorqa{ font-size:11px; color:#F00 !important; background:#FFF; padding:0px 5px 0px 5px}
+.pl-get-quotebtn {
+  background: #1a67ff;
+  width: 110px;
+  height: 39px;
+  border-radius: 5px;
+  border: 2px;
+  color: #FFF;
+  font-size: 16px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+.side-form-text{ font-size:14px; width:70px; height:30px; vertical-align: middle; padding-left: 5px;}
+.hl-bank-leftinn {
+   float: left;
+  border: 1px solid #cccccc;
+  padding: 4px;
+}
+
+/*...........Side Bar Ends.......*/
+.apply-edu-button{ float:left; width:172px; margin-top:10px;}
+#formatedlA{font-size:12px;font-weight:normal;}
+#wordloanAmount{font-size:12px; font-weight:normal;text-transform: capitalize;}
+#formatedIncome{font-size:12px;font-weight:normal;}
+#wordIncome{font-size:12px;font-weight:normal;text-transform: capitalize;}
+.apply-hl-bank-logo{ float:left; margin-left:10px;}
+.headtextedubox{ float:left; width:680px;}
+.emi_dd {width:43px;
+  height:18px;
+}
+.emi_yy {width: 60px;
+  height: 18px;
+}
+.database_boxes {
+width: 190px;
+float: left;}
+.discription_box{ width:228px; padding:5px; margin-top:15px; float:left; margin-right:18px;}
+.discription_inner_box{ width:228px; padding:5px; background:#f9f9f9; }
+.discription_inner_box2{ width:220px; margin:auto; background:#f9f9f9; height:175px;}
+.text_new{ font-family:'Droid Sans', sans-serif; font-size:18px; color:#000;}
+.pl_body{ font-family:'Droid Sans', sans-serif; font-size:12px; color:#000; text-align:justify;}
+.boxes_wrapper_nw{ width:760px; overflow:hidden!important; margin-top:25px;}
+.eglibily_head{ font-family:'Droid Sans', sans-serif; font-size:18px;}
+.body_pl_new{ font-family:'Droid Sans', sans-serif; font-size:14px; color:#000;}
+.sbi_text_pl_new{ font-family:'Droid Sans', sans-serif; color:#203f5f; font-size:14px;}
+.stnrd_text_pl_new{ font-family:'Droid Sans', sans-serif; color:#0072aa; font-size:14px;}
+.bob_text_pl_new{ font-family:'Droid Sans', sans-serif; color:#ff5c34; font-size:14px;}
+.yes_text_pl_new{ font-family:'Droid Sans', sans-serif; color:#0071bd; font-size:14px;}
+.wrapper-content{
+	width:495px; margin-top:15px;
+	height:200px;
+	overflow-y:scroll; line-height:18px;
+}
+
+.right_container {
+  position: static;
+  border: thin solid #bebebd;
+  width: 165px;
+  padding: 2px;
+  margin-right: 10px;
+  float: right;
+  margin-top: 10px;}
+  
+  .left-container {
+  float: left;
+  width: 772px;
+  margin-left: 14px;
+  margin-top: 10px;}
+  .second_wrapper_pl_new {width:996px; margin:auto;}
+  
+.hl_form_wrapper {
+  width: 761px;
+   border-radius: 7px 7px 7px 7px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -ms-border-radius: 5px 5px 5px 5px;
+  -o-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  padding: 7px 10px 25px 10px;
+  background:#55c4a6;
+  margin-top: 15px;}
+  .hl_input-box_wrapper {
+  width: 154px;
+  float: left;
+  margin-right: 3px;
+  margin-left: 9px;
+  margin-bottom: 4px;}
+  .frm_text_tp {
+   font-size: 14px;
+  color: #000;
+}
+.iput_box_new {
+  width: 150px;
+  height: 25px;
+  border: none;
+}
+.select_box_new {
+  width: 152px;
+  height: 27px;
+  border: none;
+  padding: 2px;
+}
+.nw_ddpl {
+  width: 48px;
+  height: 25px;
+  border: none;
+}
+.mob_iput_box_new2 {
+  width: 130px;
+  height: 25px;
+  border: none;
+}
+  
+  .second_trm_box {
+  width: 600px;
+  float: left;
+  margin-top: 4px;
+}
+.second_btn_box {
+  width: 150px;
+  float: right;
+  margin-top: 4px;
+}
+.hl_input-box_wrapper2 {
+  width: 160px;
+  float: left;
+  margin-right: 6px;
+  margin-left: 3px;
+  margin-bottom: 4px;
+}
+.body_inner_tptxt {
+  width: 95%;
+  padding:5px 5px 5px 0px;
+  font-size: 16px;
+  color: #000; }
+.iput_box_new2 {
+  width: 150px;
+  height: 25px;
+  border: none;
+}
+.hl-get-quotebtn2 {
+  background: #1a67ff;
+  width: 86px;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 22px;
+  border: 2px;
+  color: #FFF;
+  font-size: 16px;
+  margin-right: 0px;
+  margin-bottom: 5px;
+  margin-left:0px;
+}
+.button_box_new {
+  width: 86px;
+  height: 24px;
+  text-align: center;
+  margin-left: 5px;
+  border: none;
+  float: left;
+  margin-top:0px;
+}
+.body_inner2 {
+  width: 95%;
+  padding: 5px 5px 5px 10px;
+   font-size: 14px;
+  }
+  .hl-h2-new {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 22px;
+  font-weight: normal;
+  margin: 0px 0px 0px 0px;
+  padding: 5px 0px 0px 10px;}
+  
+  /* new home loan form UI starts 16-5-2015.......*/
+  .form-ui-main-wrapper{ background:#55c4a6; padding:10px 0px 10px 0px; border-radius:10px;}
+  .new-ui-breadcrumb{ width:970px; margin:5px auto; }
+  .form-ui-main-wrapper-inner{ width:97%; margin:10px auto;}
+  .form-ui-text{ font-size:18px; color:#000; margin-bottom:27px;}
+  .minus{ float:left; margin-left:5px; font-size:22px; color:#FFF; margin-top:10px !important;}
+  .minus a{ float:left; margin-left:5px; font-size:22px; color:#FFF !important; text-decoration:none !important; padding:0px 0px 0px 0px; height:none important;}
+  .form-ui-slider-wrapper{width:700px; float:left; margin-left:5px;}
+  .loan-amount-box{ float:left; width:100px; padding:3px; background:#FFF; border-radius:5px; margin-left:5px; margin-top:7px; font-size:20px; color:#183cb8;}
+  .form-clear{ clear:both; height:5px;}
+  .margin-top-symbol{ margin-top:7px;}
+  .form-input-wrapper{ width:30%; float:left; text-align:left;}
+  
+  .form-icon{margin:1px auto; text-align:center;}
+  .form-input{ width:230px; height:28px;   -moz-box-shadow: inset 0px 1px 4px rgba(0,0,0,.2);
+  -webkit-box-shadow: inset 0px 1px 4px rgba(0,0,0,.2);
+  box-shadow: inset 0px 1px 4px rgba(0,0,0,.2); border:none; text-align:left; text-indent:7px; color:#333; font-size:16px; -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out; border-radius:7px;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;}
+    .form-input:focus{ width:230px; float:left; height:28px;  -moz-box-shadow: inset 0px 1px 4px rgba(0,0,0,.2);
+  -webkit-box-shadow: inset 0px 1px 4px rgba(0,0,0,.2);
+  box-shadow: inset 0px 1px 4px rgba(0,0,0,.2); border:none; text-align:left; text-indent:7px; color:#333; font-size:16px; box-shadow: 0 0 10px #fccb2a;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px; border-radius:7px;
+  border: 1px solid rgba(81, 203, 238, 1);}
+  
+   .form-output{ width:233px; float:left; height:28px; -moz-box-shadow: inset 0px 1px 4px rgba(0,0,0,.2);
+  -webkit-box-shadow: inset 0px 1px 4px rgba(0,0,0,.2);
+  box-shadow: inset 0px 1px 4px rgba(0,0,0,.2);
+  border: none;
+  text-align: left;
+  text-indent: 7px;
+  color: #333;
+  font-size: 16px;
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD; border-radius:7px;}
+    .form-output:focus{ width:233px; height:28px; background:#ddf3ed; border:none; text-align:left; text-indent:7px; color:#333; font-size:16px; box-shadow: 0 0 10px #fccb2a;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(81, 203, 238, 1); border-radius:7px;}
+  
+  .form-select{ width:233px; float:left; height:35px; moz-box-shadow: inset 0px 1px 4px rgba(0,0,0,.2);
+  -webkit-box-shadow: inset 0px 1px 4px rgba(0,0,0,.2);
+  box-shadow: inset 0px 1px 4px rgba(0,0,0,.2); border:none; text-align:left; text-indent:7px; color:#333; font-size:16px; -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out; border-radius:7px;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;}
+.form-select:focus{ width:233px; float:left; height:35px; background:#ddf3ed; border:none; text-align:left; text-indent:7px; color:#333; font-size:16px; box-shadow: 0 0 10px #fccb2a;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px; border-radius:7px;
+  border: 1px solid rgba(81, 203, 238, 1);}
+  
+  
+  .form-box-left-margin{ margin-left:45px;}
+  .form-sub-head{ font-size:18px; color:#000; text-align:left;}
+  .form-special-top-margin{ margin-top:10px !important; margin-bottom:7px;}
+  .select-text-center{ text-align:center !important;}
+  
+  
+  .bntnew-topmargin{ margin-top:0px;}
+  
+  input[type=radio].css-checkbox {
+							position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
+						}
+
+						input[type=radio].css-checkbox + label.css-label {
+							padding-left:25px;
+							height:20px; 
+							display:inline-block;
+							line-height:20px;
+							background-repeat:no-repeat;
+							background-position: 0 0;
+							vertical-align:middle;
+							color:#000; margin-top:5px;
+							cursor:pointer;
+
+						}
+
+						input[type=radio].css-checkbox:checked + label.css-label {
+							background-position: 0 -20px;
+						}
+						label.css-label {
+				background: url(../images/css-radio.png);
+				-webkit-touch-callout: none;
+				-webkit-user-select: none;
+				-khtml-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+			}
+  
+  
+input[type=checkbox].css-checkbox {
+position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;}
+
+input[type=checkbox].css-checkbox + label.css-label-check {
+padding-left:26px;
+height:22px; 
+display:inline-block;
+line-height:22px; font-size:15px !important;
+background-repeat:no-repeat;
+background-position: 0 0;
+vertical-align:middle;
+color:#000;
+cursor:pointer;}
+
+input[type=checkbox].css-checkbox:checked + label.css-label-check {background-position: 0 -22px; text-align:left;}
+label.css-label-check {background-image:url(../images/csscheckbox.png);
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;user-select: none;}
+.form-ui-quote-button{ margin:auto !important; background:#fccb2a; border-radius:5px; width:110px; font-size:18px; padding:5px; color:#000; border:none; height:40px;}
+.form-ui-quote-wapper{ margin:auto !important; width:110px;}
+.quote-form_a{background:#0016e1; color:#FFF; font-size:18px; font-weight:normal;}
+.quote-form_b{background:#0016e1;  color:#FFF; font-size:18px; font-weight:normal;}
+.quote-form_c{background: #0016e1;  color:#FFF; font-size:18px; font-weight:normal;}
+.form-white-text{ color:#000; text-align:left;}
+ .form-ui-height{ height:25px; display:none;}
+ .amount-left{ float:left; color:#FFF; margin-top:18px; margin-left:15px;}  
+  .amount-right{ float:right; color:#FFF; margin-top:18px; margin-right:18px;}
+  .tool-tip{float:right;
+  margin-top: -47px;
+  margin-right: -126px;
+  width: 10px;}
+  
+  .validationbox{ margin-top:10px;}
+ .visible{ display:none;}
+ .button-right-align{ float:right; margin-right:20px;}
+  .bottom-margin-new{ margin-bottom:49px; text-align:left;}
+  /* new home loan form UI ends 16-5-2015.......*/
+  .commonfloor{ width:62%}
+  #TermConditionVal{ text-align:left;}
+  .bottom-ulli ul { padding:0px 0px 0px 0px; margin:0px 0px 0px 0px;}
+    .bottom-ulli li{ list-style:url(../test-newui/images-newui/bottom-arrow.png); font-size:13px; padding:0px 0px 0px 0px; margin:0px 0px 0px 15px;}
+	.inputwrapperhl{}
+  
+@media screen and (max-width:680px){
+.inputwrapperhl{ float:left; width:85%; margin-left:0px;}
+.d4l_inner_wrapper{width:99% !important; margin:auto;}
+.hl-h1{color:#3db292; font-family:'Droid Sans', sans-serif; font-size:28px; padding:0px 0px 0px 0px; margin:0px 0px 0px 0px;}
+.hl-h2{font-family:'Droid Sans', sans-serif; font-size:22px; font-weight:normal; margin:0px 0px 0px 0px; padding:5px 0px 0px 3px;}
+.hl-h3{ margin:15px 0px 5px 0px; width:100%}
+.hl-form-wrapper{width:99%; color:#000000;
+background:#55c4a6;
+border-radius: 5px; padding-bottom:10px;} 
+.hl_inner_wrapper{width:99%; margin:auto;}
+.common-bread-crumb{font-family:'Droid Sans', sans-serif; font-size:16px; color:#666; margin-bottom:10px;}
+.common-bread-crumb a{font-family:'Droid Sans', sans-serif; font-size:16px; color:#0080d6;}
+.common-bread-crumb a:hover{font-family:'Droid Sans', sans-serif; font-size:16px; color:#666; text-decoration:underline;}
+p{ padding:0px 0px 0px 0px; margin:5px 0px 5px 0px;}
+.form-headline-100{font-size:21px;font-weight: 500;width:95%; padding-top:10px;}
+.from-ad{float:none;
+width: 204px;
+margin-top: 10px;}
+.p-details{padding-left:3px; font-size:19px;}
+.new-input-box{
+float:none;
+width:98%;
+margin:auto;
+ margin-top:10px;}
+.d4l-input{width:98%; height:25px;}
+.d4l-select{width:98%;
+height:30px;}
+.d4l-dob{float: left;
+width:30%;
+height:25px;
+margin-left: 2px;}
+.banks_associated_box {
+float:left;
+width:91px;
+margin-left:5px;}
+.d4lmob{float:left;
+width:95%; margin-left:5px;
+height:25px;}
+.hl-get-quotebtn{background:#1a67ff; width:110px; height:39px; border-radius:5px; border:2px; color:#FFF; font-size:16px; margin-right:10px; margin-bottom:5px;}
+.new_terms_box{float:none; width:95%; margin-left:0px;}
+.termtext{ font-size:14px;}
+.termtext a{font-size:14px; color:#039; text-decoration:underline;}
+.highlighter-font{ font-size:22px; font-weight:bold;}
+.greentext{color:#55af03;}
+.hintanchor{ font-size:12px; color:#D50000; background:#FFF; padding:0px 5px 0px 5px; margin-top:3px !important;  width:100%;}
+.home-loan-inner_box{width:90%; margin:5px auto; background:none!important;}
+.best-bank-ico-bx{float:none; width:138px; margin:7px auto;}
+.best-bank-ico-bx2{width:60px; height:60px; margin:auto; transition: all .2s ease-in-out;}
+.best-bank-ico-bx2:hover{ width:60px; height:60px; margin:auto; transform: scale(1.15);}
+.text-below-icon{  font-size:14px; color:#343434; text-align:center; margin-top:5px;}
+.text-below-icon a{font-size:14px; color:#343434; text-align:center; text-decoration:none;}
+.text-below-icon a:hover{  font-size:14px; color:#f89412; text-align:center;}
+.best-bank-ico-bx-right{ float:none; width:188px; margin:7px auto;}
+.best-bank-ico-bx-right2{ float:none; width:188px; margin:7px auto;}
+.best-bank-ico-bx3{ float:none; width:138px; margin:7px auto;}
+.best-bank-ico-bx4{width:210px; margin:7px auto;}
+
+.applybtn {
+  width: 50px !important;
+  border-radius: 7px;
+  padding: 10px 7px 10px 7px;
+  background: #79AB01;
+  color: #FFF !important;
+  text-decoration: none !important;}
+/*home loan syles ends....*/
+
+
+ /* ...........  Side baar Start ............*/
+.left-wrapper{float:left;
+  width:98%;
+  margin-top:10px;}
+  .right-panel-wrapper{ float:none; margin:auto; width:275px; clear:left;}
+.right-panel-fomr-box{ width:270px; border-radius:5px; background:#55c4a6; margin:auto;}
+ /* ...........  Side baar End............*/
+ 
+ .table_bgcolor_Border{ background:#E4F5F1;}
+.table_bgcolor{ background:#A6F2DD;	}
+.td_border4{ border:1px solid #A6F2DD; padding:3px}
+.td_border3{ border-bottom:1px solid #A6F2DD; border-right:1px solid #A6F2DD;  border-top:1px solid #A6F2DD;  padding:3px}
+.td_border_lrb{border-left:1px solid #A6F2DD; border-right:1px solid #A6F2DD;  border-bottom:1px solid #A6F2DD;  padding:3px}
+.td_border_rb{border-right:1px solid #A6F2DD;  border-bottom:1px solid #A6F2DD;  padding:3px}
+.overflow-width{
+  width: 99%;
+  overflow: scroll;
+}
+
+.click_input_section {
+  width: 195px;
+  float: left;
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.hli_check_home {
+  width:90%;
+  border:#CCC thin solid;
+  margin:auto;
+  height:256px;}
+.loan-quotewrap{ margin-left:5px;}
+.loan-quote {
+  float: left;
+  margin-top: 5px;
+}
+.Hl-Quote-Btn{ float:right; margin-right:0px; margin-top:10px}
+.headtextedubox{ float:left; width:90%;}
+.apply-hl-bank-logo{ float:none; margin:10px auto; width:150px;}
+.emi_yy {
+  width: 30%;
+  height: 18px;
+}
+.emi_dd {
+  width: 30%;
+  height: 18px;
+}
+
+.discription_box{ width:100%; padding:2px; margin-top:15px;  margin-right:18px;}
+.discription_inner_box{ width:100%; padding:5px; background:#f9f9f9; }
+.discription_inner_box2{ width:100%; margin:auto; background:#f9f9f9; height:175px;}
+.text_new{ font-family:Verdana, Geneva, sans-serif; font-size:18px; color:#000;}
+.pl_body{ font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#000; text-align:justify;}
+.boxes_wrapper_nw{ width:100%; overflow:hidden; margin-top:25px;}
+
+.pl-get-quotebtn2 {
+  background:#1a67ff;
+  width:86px;
+  height:30px;
+  border-radius:5px;
+  margin-top:23px;
+  border:2px;
+  color:#FFF; float:right;
+  font-size:16px;
+  margin-right:17px;
+  margin-bottom:5px;
+}
+.second_trm_box {
+  width: 95%;
+  float: left;
+  margin-top: 4px;
+}
+.wrapper-content{width:495px; margin-top:15px;
+	height:200px;overflow-y:scroll; line-height:18px;}
+.right_container {position:static;
+  border: thin solid #bebebd;
+  width: 165px;
+  padding: 2px;
+  margin:auto;
+  float:none;}
+  .left-container {
+  float:none;
+  width:98%;
+  margin-left:0px;
+  margin-top:10px;}
+  .second_wrapper_pl_new {width:100%; margin:auto;}
+  
+.hl_form_wrapper {width:98%;border-radius: 7px 7px 7px 7px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -ms-border-radius: 5px 5px 5px 5px;
+  -o-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  padding: 7px 10px 25px 10px;
+  background:#55c4a6;
+  margin-top: 15px;}
+  .hl_input-box_wrapper {width:98%;  float:none;
+  margin-right:3px;
+  margin-left:9px;
+  margin-bottom:4px;}
+  .frm_text_tp {font-size: 14px; color:#000;}
+.iput_box_new {width:95%;
+  height: 25px;
+  border: none;}
+.select_box_new {
+  width:95%;
+  height: 27px;
+  border: none;
+  padding: 2px;}
+.nw_ddpl {
+  width: 30%;
+  height: 25px;
+  border: none;}
+.mob_iput_box_new2 {
+  width: 90%;
+  height: 25px;
+  border: none;}
+  
+  .second_trm_box { width:98%;
+  float: left;
+  margin-top: 4px;}
+.second_btn_box {  width:98%;
+  float: right;
+  margin-top: 4px;}
+.hl_input-box_wrapper2 {  width:98%;
+  float:none;
+  margin-right: 6px;
+  margin-left: 3px;
+  margin-bottom: 4px;}
+.body_inner_tptxt {  width: 95%;
+  padding:5px 5px 5px 0px;
+  font-size: 16px;  color: #000; }
+.iput_box_new2 {  width: 95%;
+  height: 25px;
+  border: none;}
+.hl-get-quotebtn2 { background: #1a67ff;
+  width: 86px;
+  height: 30px;
+  border-radius: 5px;
+  margin-top:10px;
+  border: 2px;
+  color: #FFF; float:right;
+  font-size: 16px;
+  margin-right:20px;
+  margin-bottom: 5px;
+  margin-left:0px;}
+.button_box_new {  width: 86px;
+  height: 24px;
+  text-align: center;
+  margin-left: 5px;
+  border: none;
+  float: left;
+  margin-top:0px;}
+.body_inner2 {width: 95%;
+  padding:5px 5px 5px 10px;
+   font-size:14px;}
+  .hl-h2-new {font-family: 'Droid Sans', sans-serif;
+  font-size: 22px;
+  font-weight: normal;
+  margin: 0px 0px 0px 0px;
+  padding: 5px 0px 0px 10px;}
+  
+   /* new home loan form UI starts 16-5-2015.......*/
+  .form-ui-main-wrapper{ background:#55c4a6; padding:10px 0px 10px 0px;}
+  .new-ui-breadcrumb{ width:98%; margin:5px auto; }
+  .form-ui-main-wrapper-inner{ width:98%; margin:5px auto;}
+  .form-ui-text{ font-size:18px; color:#000;}
+  .minus{ float:left; margin-left:5px; font-size:22px; color:#FFF; margin-top:10px !important;}
+  .minus a{ float:left; margin-left:5px; font-size:22px; color:#FFF !important; text-decoration:none !important; padding:0px 0px 0px 0px; height:none important;}
+  .form-ui-slider-wrapper{width:90%; float:left; margin-left:0px;}
+  .loan-amount-box{ float:none; width:100px; padding:3px; background:#FFF; border-radius:5px; margin-left:5px; margin-top:7px; font-size:20px; color:#183cb8;}
+  .form-clear{ clear:both; height:5px;}
+  .margin-top-symbol{ margin-top:7px;}
+  .form-input-wrapper{ width:98%; float:none; margin:auto; text-align:left;}
+  .form-icon{margin:1px auto; text-align:center;}
+   .form-input{ width:97%; height:28px; -moz-box-shadow: inset 0px 1px 4px rgba(0,0,0,.2);
+  -webkit-box-shadow: inset 0px 1px 4px rgba(0,0,0,.2);
+  box-shadow: inset 0px 1px 4px rgba(0,0,0,.2); border:none; text-align:left; text-indent:7px; color:#333; font-size:16px; -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out; border-radius:7px;
+  outline:none;
+  padding:3px 0px 3px 3px;
+  margin:5px 1px 3px 0px;
+  border:1px solid #DDDDDD;}
+    .form-input:focus{ width:97%; height:28px; background:#ddf3ed; border:none; text-align:left; text-indent:7px; color:#333; font-size:16px; box-shadow: 0 0 10px #fccb2a;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(81, 203, 238, 1);}
+  .form-box-left-margin{ margin: auto}
+  .form-sub-head{ font-size:18px; color:#000;}
+  .form-special-top-margin{margin-top:10px !important; margin-bottom:7px; margin-left:0px;}
+  .form-special-top{margin-top:25px !important; margin-bottom:7px; margin-left:0px;}
+    
+  input[type=radio].css-checkbox {
+							position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
+						}
+
+						input[type=radio].css-checkbox + label.css-label {
+							padding-left:25px;
+							height:20px; 
+							display:inline-block;
+							line-height:20px;
+							background-repeat:no-repeat;
+							background-position: 0 0;
+							vertical-align:middle;
+							color:#000; margin-top:5px;
+							cursor:pointer;
+
+						}
+
+						input[type=radio].css-checkbox:checked + label.css-label {
+							background-position: 0 -20px;
+						}
+						label.css-label {
+				background: url(../images/css-radio.png);
+				-webkit-touch-callout: none;
+				-webkit-user-select: none;
+				-khtml-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+			}
+  
+  
+input[type=checkbox].css-checkbox {
+position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;}
+
+input[type=checkbox].css-checkbox + label.css-label-check {
+padding-left:20px;
+height:22px; 
+display:inline-block;
+line-height:22px;
+background-repeat:no-repeat;
+background-position: 0 0;
+vertical-align:middle;
+color:#000;
+cursor:pointer;}
+
+input[type=checkbox].css-checkbox:checked + label.css-label-check {background-position: 0 -22px;}
+label.css-label-check {background-image:url(../images/csscheckbox.png);
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;user-select: none;}
+.form-ui-quote-button{ margin:auto !important; background:#fccb2a; border-radius:5px; width:110px; font-size:18px; padding:5px; color:#000; border:none; height:40px;}
+.bntnew-topmargin{ margin-top:25px;}
+.form-ui-quote-wapper{ margin-top:12px !important; width:110px; position:relative; }
+.quote-form_a{background:#0016e1; color:#FFF; font-size:18px; font-weight:normal; padding:1px;}
+.quote-form_b{background:#0016e1;  color:#FFF; font-size:18px; font-weight:normal; padding:1px;}
+.quote-form_c{background:#0016e1;  color:#FFF; font-size:18px; font-weight:normal; padding:1px;}
+.form-white-text{ color:#000; text-align:left;}
+ .form-ui-height{ height:10px; display:inherit;}
+ .form-select{ width:100%; height:35px; -moz-box-shadow: inset 0px 1px 4px rgba(0,0,0,.2);
+  -webkit-box-shadow: inset 0px 1px 4px rgba(0,0,0,.2);
+  box-shadow: inset 0px 1px 4px rgba(0,0,0,.2); border:none; text-align:left; text-indent:7px; color:#333; font-size:16px; -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out; border-radius:7px;
+  outline: none;
+  padding: 3px 0px 3px 3px; clear:both;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;}
+ .form-select:focus{ width:100%; height:35px; background:#ddf3ed; border:none; text-align:left; text-indent:7px; color:#333; font-size:16px; box-shadow: 0 0 10px #fccb2a;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;  clear:both;
+  border: 1px solid rgba(81, 203, 238, 1);}  /* new home loan form UI ends 16-5-2015.......*/
+  .nagative-margin-new{ margin-top:0px;}
+.amount-left{ float:left; color:#FFF; margin-top:65px; margin-left:15px;}  
+.amount-right{ float:right; color:#FFF; margin-top:65px; margin-right:18px;}
+.tool-tip{float:right; margin-top:-20px; margin-right:-120px; background:#F00; width:10px; display:none;}
+ .button-right-align{ float:none; margin: auto; text-align:center; margin-top: 20px}	
+.output-box{float:none;
+  width:90%;
+  margin-top:5px;
+  margin-right: 0px;}
+  .visible{ display: inherit;}
+  .bottom-margin-new{margin-bottom:49px; text-align:left;}
+  .commonfloor{ width:90%}}

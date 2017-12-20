@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+
+@charset "utf-8";
+/* CSS Document */
+.main_container{ width:985px; margin:auto; height:auto;}
+.hlb_left_box{ float:left; width:714px;}
+.hlb_left_box_b{float:left; width:714px;}
+.hlb_right_box_main{ float:right; width:260px; margin-top:5px;}
+
+#image_hide{width:714px;}
+.hlb_right_box{float:right; width:260px; border:#9ec8e3 thin solid; padding:3px;  background:#e4f2fb; margin-top:5px;}
+.hlb_right_box-new{float:left; width:260px; border:#9ec8e3 thin solid; padding:3px;  background:#e4f2fb; margin-top:5px;}
+.hlb_bank_box{ width:260px; margin-top:7px; margin-left:-3px;}
+.hlb_graph_box{ width:260px; margin-top:7px; margin-left:-3px; display:none;}
+.hlb_logo_box{ float:left; }
+.hlb_top_head_box{ height:65px; padding-top:15px; background:#e4f2fb url(images/hlb_top_head_bg.png) right no-repeat; width:712px; margin-top:5px;}
+.hlb_why_box{ height: auto; padding:5px; background:#e4f2fb; width:701px;}
+.hlb_bank_parner{ height: auto; margin-top:1px; padding:5px; text-align:left; width:708px;}
+.hlb_text_section{ height: auto; padding:5px; text-align: justify; width:100%;}
+.line_top_head_box{ height:22px;  background: url(images/hlb_top_lining_bg.png)repeat; width:712px; margin-top:5px;}
+.hlb_text_head{ margin-left:25px; font-family: Verdana, Geneva, sans-serif; font-size:24px; font-weight:bold; color:#2a8104; }
+.hlb_sub_text{ margin-left:25px;  font-family: Verdana, Geneva, sans-serif; font-size:15px; font-weight:bold; color:#635e5e;}
+.hlb_why_text{font-family: Verdana, Geneva, sans-serif; font-size:17px; font-weight:normal; color:#444343; text-indent:15px; margin-top:5px; }
+.hlb_form_text{font-family: Verdana, Geneva, sans-serif; font-size:13px; font-weight:bold; color:#444343; }
+.hlb_input_box{ width:260px; height:22px; border:#8fbfde thin solid; }
+.hlb_input_mobo{ width:232px; height:22px; border:#8fbfde thin solid; }
+
+.hlb_select_box{ width:260px; height:24px; border:#8fbfde thin solid; }
+.hlb_img_box{ width:300px; display:none; }
+
+.hlb_body_text{ font-family:Verdana, Geneva, sans-serif;  text-align:justify; font-size:12px; color: #666;}
+
+.hlb_why_text_b ul { margin:0px; padding:0px; margin-left:35px; }
+.hlb_why_text_b li{ list-style: url(../images/bullet-hlb.png); font-family: Verdana, Geneva, sans-serif; font-size:13px; font-weight:bold; color:#444343; line-height:25px;}
+.hlb_why_tex_box{ width:100%; padding:0px; background:#e4f2fb;  margin-top:10px; padding-top:5px;}
+.shadow{ width:712px; margin-top:15px; height:22px; background:url(../images/hl_bt_cal-shadow.jpg) repeat-x;}
+.title_box{ display:inline;}
+.wrapper-second{ width:985px; margin:auto;}
+.new-right-pane2{ width:985px; margin:auto;}
+.hlb_left_box-new{ float:left; width:985px;}
+.hlb_top_head_box-new{ height:65px; padding-top:15px; width:705px; margin-top:5px; float:left; margin-left:10px;}
+.hlb_right_box_main-new{ float:left; width:260px; margin-top:5px;}
+.right-panelnew2{ float:right; width:349px;}
+.calci-wrapper{ width:350px; float:right; margin-top:6px;}
+.newformwrapper{ width:621px; float:left;}
+.left-new-wrapper{ float:right; width:350px;}
+.logos-wrapper-new{ width:620px; padding:10px 2px 10px 5px; background:#e4f1fb; border:#a1c8df solid thin; border-radius:5px; margin-top:10px;}
+.logo-box1{ float:left; width:306px;}
+.tptext{ font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#478ab2; font-weight:normal;}
+.hlb_right_box-wrappernew{width:621px; border:#9ec8e3 1px solid; padding:3px;  background:#fff; margin-top:5px;}
+.hlbt-newformbox{ width:621px; background:#fff; margin-top:5px; display:inherit;}
+.hlbt-newform-mobo-box{ width:621px; margin:auto; display:none;}
+
+@media screen and (max-width:680px){
+.main_container{ width:300px; margin:auto;}
+.hlb_left_box{ width:300px; margin:0px 0px 0px 0px;}
+.hlb_right_box_main{width:300px; margin-top:-1640px;}
+
+.hlb_right_box{width:290px; border:#9ec8e3 thin solid; padding:3px;  background:#e4f2fb; margin:0px 0px 0px 0px;}
+.hlb_bank_box{ width:300px; margin:10px 0px 0px 20px; display: inline;}
+.hlb_logo_box{ width:300px;}
+.hlb_top_head_box{height: auto; padding-top:15px; background:#e4f2fb url(images/hlb_top_head_bg.png) right no-repeat; width:300px; margin:0px 0px 0px 0px;}
+.hlb_why_box{ height: auto; padding:5px; background:#e4f2fb; width:300px; margin:0px 0px 0px 0px;}
+.hlb_bank_parner{margin-top:1px; padding:5px; text-align:left; width:300px;}
+.hlb_text_section{padding:5px; background:#FFF; text-align: justify; width:300px; margin:0px 0px 0px 0px;}
+.line_top_head_box{ height:22px;  background: url(images/hlb_top_lining_bg.png)repeat; width:300px; margin-top:5px;}
+.hlb_text_head{ font-family: Verdana, Geneva, sans-serif; font-size:15px; font-weight:bold; color:#2a8104; text-align:center;}
+.hlb_sub_text{font-family: Verdana, Geneva, sans-serif; font-size:15px; font-weight:bold; color:#635e5e;}
+.hlb_why_text{font-family: Verdana, Geneva, sans-serif; font-size:17px; font-weight:normal; color:#444343; text-indent:10px; }
+.hlb_form_text{font-family: Verdana, Geneva, sans-serif; font-size:13px; font-weight:bold; color:#444343; }
+.hlb_input_box{ width:97%; height:22px; border:#8fbfde thin solid; }
+.hlb_input_mobo{ width:97%; height:22px; border:#8fbfde thin solid; }
+
+.hlb_select_box{ width:97%; height:24px; border:#8fbfde thin solid; }
+.hlb_body_text{ font-family:Verdana, Geneva, sans-serif;  text-align:justify; font-size:12px; color: #666;}
+.hlb_why_text_b ul { margin:0px; padding:0px; margin-left:25px; }
+.hlb_why_text_b li{ list-style: url(../images/bullet-hlb.png); font-family: Verdana, Geneva, sans-serif; font-size:13px; font-weight:bold; color:#444343; line-height:25px;}
+.hlb_why_tex_box{ width:300px; padding:2px; background:#e4f2fb; margin:0px 0px 0px 0px;}
+.shadow{ width:300px; height:22px; background:url(../images/hl_bt_cal-shadow.jpg) repeat-x; display:none;}
+#image_hide{ display:none;}
+.hlb_img_box{ width:300px; display:inline;}
+.hlb_left_box_b{width:300px; margin-top:1050px;}
+.title_box{ display:none;}
+.hlb_graph_box{ width:300px; display:inline; margin-top:50px;}
+
+.wrapper-second{ width:300px; margin:auto;}
+.new-right-panel{ width:100%;margin-left:5px;}
+.hlb_left_box-new{width:100%;}
+.hlb_top_head_box-new{ height:65px; padding-top:15px; width:100%; margin-top:5px;margin-left:10px; display:none;}
+.hlb_right_box-new{width:300px; margin:auto; border:#9ec8e3 thin solid; padding:3px;  background:#e4f2fb;}
+.hlb_right_box_main-new{width:300px; margin-top:5px;}
+.newformwrapper{ width:300px;}
+.hlb_right_box-wrappernew{width:300px; border:#9ec8e3 thin solid; padding:3px;  background:#e4f2fb; margin-top:5px;}
+.left-new-wrapper{width:300px; float:none;}
+.logos-wrapper-new{ width:300px; padding:10px 2px 10px 5px; background:#e4f1fb; border:#a1c8df solid thin; border-radius:5px; margin-top:10px;}
+.calci-wrapper{ width:300px; margin-top:6px;}
+.right-panelnew2{width:300px; float:none; margin-top:5px;}
+.hlbt-newformbox{ width:621px; border:#9ec8e3 1px solid; background:#fff; margin-top:5px; display:none;}
+.hlbt-newform-mobo-box{ width:300px; margin:auto; display:inherit;}
+}

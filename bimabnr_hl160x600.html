@@ -1,0 +1,191 @@
+<script type="text/javascript">
+function removtxt(element)
+{
+  if ( element.value != '' )
+  {
+      element.value = '';
+  }
+}
+function checkData(data, msg, reqLen)
+{
+	if((data.value == "") || (data.value.length < reqLen)) {
+		alert('Please enter '+msg+' with atleast '+reqLen+' characters.');
+		data.focus();
+		return false;
+	}
+	return true;
+}
+
+function intOnly(i) {
+		if(i.value.length>0) {
+			i.value = i.value.replace(/[^\d]+/g, ''); 
+		}
+	}
+	
+function onFocusBlank(element,defaultVal){
+	if(element.value==defaultVal){
+		element.value="";
+	}
+}
+
+function onBlurDefault(element,defaultVal){
+	if(element.value==""){
+		element.value = defaultVal;
+	}
+}
+
+
+function validateMe(theFrm)
+{
+var myOption;
+	if(theFrm.full_name.value=="" || theFrm.full_name.value=="Full Name")
+	{
+		alert("Please enter Your Name");
+		theFrm.full_name.focus();
+		return false;
+	}
+	if(!checkData(theFrm.full_name, 'Your Name', 2))// As communicated by Priya 03-01-13 Changed by Upendra
+	return false;
+	
+	if(theFrm.mobile_no.value=="" || theFrm.mobile_no.value=="Mobile No.")
+	{
+		alert("Please Enter Mobile Number");
+		theFrm.mobile_no.focus();
+		return false;
+	}
+
+if(isNaN(theFrm.mobile_no.value)|| theFrm.mobile_no.value.indexOf(" ")!=-1)
+	{
+		  alert("Enter numeric value");
+		  theFrm.mobile_no.focus();
+		  return false;  
+	}
+	if (theFrm.mobile_no.value.length < 10 )
+	{
+			alert("Please Enter 10 Digits"); 
+			 theFrm.mobile_no.focus();
+			return false;
+	}
+	if ((theFrm.mobile_no.value.charAt(0)!="9") && (theFrm.mobile_no.value.charAt(0)!="8") && (theFrm.mobile_no.value.charAt(0)!="7"))
+	{
+			alert("The number should start only with 9 or 8 or 7");
+			 theFrm.mobile_no.focus();
+			return false;
+	}
+
+
+	if(theFrm.day.value=="" || theFrm.day.value=="dd")
+	{
+		alert("Please fill your day of birth.");
+		theFrm.day.focus();
+		return false;
+	}
+	if(theFrm.day.value!="")
+	{
+	 if((theFrm.day.value<1) || (theFrm.day.value>31))
+	{
+	alert("Kindly Enter your valid Date of Birth(Range 1-31)");
+	theFrm.day.focus();
+	return false;
+	}
+	}
+	if(!checkData(theFrm.day, 'Day', 2))
+		return false;
+	
+	if(theFrm.month.value=="" ||theFrm.month.value=="mm")
+	{
+		alert("Please fill your month of birth.");
+		theFrm.month.focus();
+		return false;
+	}
+	if(theFrm.month.value!="")
+	{
+	if((theFrm.month.value<1) || (theFrm.month.value>12))
+	{
+	alert("Kindly Enter your valid Month of Birth(Range 1-12)");
+	theFrm.month.focus();
+	return false;
+	}
+	}
+	if(!checkData(theFrm.month, 'month', 2))
+		return false;
+	if(theFrm.year.value=="" || theFrm.year.value=="yyyy" )
+	{
+		alert("Please fill your year of birth.");
+		theFrm.year.focus();
+		return false;
+	}
+		if(theFrm.year.value!="")
+	{
+	  if((theFrm.year.value < "1949") || (theFrm.year.value >"1993"))
+	{
+		alert("Age Criteria! \n Applicants between age group 18 - 62 only are elgibile.");
+		theFrm.year.focus();
+		return false;
+		}
+	}
+	if(!checkData(theFrm.year, 'Year', 4))
+		return false;
+	
+	if (theFrm.city.value=="" || theFrm.city.value=="Select City")
+	{
+		alert("Please enter City Name to Continue");
+		theFrm.city.focus();
+		return false;
+	}
+
+	if(theFrm.email.value=="")
+	{
+		alert("Please enter  Email Address");
+		theFrm.email.focus();
+		return false;
+	}
+	var str=theFrm.email.value
+	var aa=str.indexOf("@")
+	var bb=str.indexOf(".")
+	var cc=str.charAt(aa)
+	
+	
+	if(aa==-1)
+	{
+		alert("Please enter the valid Email Address");
+		theFrm.email.focus();
+		return false;
+	}
+	else if(bb==-1)
+	{
+		alert("Please enter the valid Email Address");
+		theFrm.email.focus();
+		return false;
+	}
+		myOption = -1;
+	for (i=theFrm.CC_Holder.length-1; i > -1; i--) {
+		if(theFrm.CC_Holder[i].checked) {
+				myOption = i;
+
+		}
+	}
+
+	if (myOption == -1) 
+	{
+		alert("Please select you are credit card holder or not");
+		return false;
+	}
+
+	return true;
+}
+
+</script>
+<form action="http://www.bimadeals.com/health-insurance-india/health-insurancecontinue-new.php" method="GET" name="health_insurance"  onsubmit="return validateMe(document.health_insurance);">
+<input  name="Source" type="hidden"  value="d4l-bnr"  class="fldformt" id="Source" readonly /><input  name="URL" type="hidden"  value="d4lcompaign" class="fldformt" id="URL" readonly /><input type="hidden" name="insID_All" value="All" >
+<table width="160" border="0" cellpadding="0" cellspacing="0">
+
+  <tr><td width="425"   align="center" valign="top" ><table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td width="120" height="186"><img src="fb_bnrimages/bima160x600_1.jpg"  width="100%" style="max-width:160" height="253" /></td>
+  </tr><tr><td height="347" valign="top" background="fb_bnrimages/bima160x600_frmbg.jpg" style="background-repeat:no-repeat; padding-top:5px;"><table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr><td height="35" align="center">&nbsp;</td></tr><tr><td height="20" align="center"><input  name="full_name" type="text" class="fldformt" id="full_name" style="width:128px;" tabindex="1" value="Full Name"  onBlur="onBlurDefault(this,'Full Name');"  onFocus="onFocusBlank(this,'Full Name');" onclick="removtxt(this);"/> </td></tr>
+	
+	<tr><td height="20" align="center" class="fldformt">+91 
+      <input name="mobile_no" type="text" class="fldformt"  id="mobile_no"  style="width:110px;" tabindex="2" onChange="intOnly(this);" onKeyPress="intOnly(this)" onKeyUp="intOnly(this);"  value="Mobile No." maxlength="10"   onBlur="onBlurDefault(this,'Mobile No.');"  onFocus="onFocusBlank(this,'Mobile No.');" onclick="removtxt(this);" />            </td></tr><tr><td height="22" align="center"><input name="day" type="text" class="fldformt" id="day"  style="width:35px;" tabindex="3"  onfocus="onFocusBlank(this,'dd'); " onBlur="onBlurDefault(this,'dd');" onChange="intOnly(this);" onKeyPress="intOnly(this)" onKeyUp="intOnly(this);" value="dd" maxlength="2"   onclick="removtxt(this);"/> <input name="month" type="text" class="fldformt" id="month"  style="width:35px;" tabindex="4"  onfocus="onFocusBlank(this,'mm');" onBlur="onBlurDefault(this,'mm');" onChange="intOnly(this);" onKeyPress="intOnly(this)" onKeyUp="intOnly(this);" value="mm" maxlength="2"   onclick="removtxt(this);"/> <input name="year" type="text" class="fldformt" id="year"  style="width:40px;"  tabindex="5" onFocus="onFocusBlank(this,'yyyy');" onBlur="onBlurDefault(this,'yyyy');" onChange="intOnly(this);" onKeyPress="intOnly(this)" onKeyUp="intOnly(this);" value="yyyy" maxlength="4"   onclick="removtxt(this);"/></td></tr>
+	  
+	  <tr><td height="50" align="center"><select name="city" class="fldformt" style="width:132px;" tabindex="6" size="3" ><option value="Select City" selected>Select City</option><option value="Ahmedabad">Ahmedabad</option><option value="Bangalore">Bangalore</option><option value="Kolkata">Kolkata</option><option value="Chennai">Chennai</option><option value="Delhi">Delhi</option><option value="Chandigarh">Chandigarh</option><option value="Hyderabad">Hyderabad</option><option value="Mumbai">Mumbai</option><option value="Pune">Pune</option><option value="Select City">------------------------</option><Option value="Allahabad">Allahabad</Option><Option value="Aurangabad">Aurangabad</Option><Option value="Baroda">Baroda</Option><Option value="Bhopal">Bhopal</Option><Option value="Bhavanagar">Bhavanagar</Option><Option value="Bhubneshwar">Bhubneshwar</Option><Option value="Cochin">Cochin</Option><Option value="Coimbatore">Coimbatore</Option><Option value="Cuttack">Cuttack</Option><Option value="Dehradun">Dehradun</Option><Option value="Faridabad">Faridabad</Option><Option value="Gaziabad">Gaziabad</Option><Option value="Gurgaon">Gurgaon</Option><Option value="Guwahati">Guwahati</Option><Option value="Hosur">Hosur</Option><Option value="Indore">Indore</Option><Option value="Jabalpur">Jabalpur</Option><Option value="Jaipur">Jaipur</Option><Option value="Jalandhar">Jalandhar</Option><Option value="Jamshedpur">Jamshedpur</Option><Option value="Kanpur">Kanpur</Option><Option value="Kochi">Kochi</Option><Option value="Kolkata">Kolkata</Option><Option value="Lucknow">Lucknow</Option><Option value="Ludhiana">Ludhiana</Option><Option value="Madurai">Madurai</Option><Option value="Mangalore">Mangalore</Option><Option value="Mysore">Mysore</Option><Option value="Nagpur">Nagpur</Option><Option value="Nasik">Nasik</Option><Option value="Navi Mumbai">Navi Mumbai</Option><Option value="Noida">Noida</Option><Option value="Patna">Patna</Option><Option value="Raipur">Raipur</Option><Option value="Ranchi">Ranchi</Option><Option value="Sahibabad">Sahibabad</Option><Option value="Salem">Salem</Option><Option value="Surat">Surat</Option><Option value="Thane">Thane</Option><Option value="Thiruvananthapuram">Thiruvananthapuram</Option><Option value="Trivandrum">Trivandrum</Option><Option value="Trichy">Trichy</Option><Option value="Vadodara">Vadodara</Option><Option value="Vishakapatanam">Vishakapatanam</Option><Option value="Vijaywada">Vijaywada</Option><Option value="Others">Others</Option></select>            </td></tr><tr><td height="19" align="center"><input name="email" value="Email Id" type="text" class="fldformt"  style="width:128px;" tabindex="7"  onBlur="onBlurDefault(this,'Email Id');"  onFocus="onFocusBlank(this,'Email Id');" onclick="removtxt(this);"/>            </td></tr> 
+            <tr><td height="17" align="center" class="fldformt">Credit Card &nbsp;<input class="fldformt" type="radio" value="1" name="CC_Holder"/> Yes &nbsp; <input type="radio" value="0" name="CC_Holder" class="fldformt"/> No</td></tr><tr><td height="30" align="center" valign="bottom"><input name="image"  type="image"   style="border:none;" value="" src="fb_bnrimages/bima160x600_sbtn.gif" /></td></tr></table></td></tr></table></td></tr></table></form>

@@ -1,0 +1,124 @@
+div, h4,p  { margin: 0; padding: 0; border: 0; outline: 0; font: 13px Arial, Helvetica, sans-serif;    color: #00000;}
+body,input {    font: 13px Arial, Helvetica, sans-serif;    color: #00000;}
+.clear { clear: both }
+.ui-widget { font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif; font-size: 1.1em; }
+.ui-widget .ui-widget { font-size: 1em; }
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button { font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif; font-size: 1em; }
+.ui-widget-content { border: 1px solid #dddddd; background: #eeeeee url(images/jqueryui/ui-bg_highlight-soft_100_eeeeee_1x100.png) 50% top repeat-x; color: #333333; }
+.ui-widget-content a { color: #333333; }
+.ui-widget-header { border: 1px solid #2d7bd8; background: #f6a828 url(images/jqueryui/ui-bg_gloss-wave_35_f6a828_500x100.png) 50% 50% repeat-x; color: #ffffff; font-weight: bold; }
+.ui-widget-header a { color: #ffffff; }
+ 
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { border: 1px solid #cccccc; background: #f6f6f6 url(images/jqueryui/ui-bg_glass_100_f6f6f6_1x400.png) 50% 50% repeat-x; font-weight: bold; color: #1c94c4; }
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited { color: #1c94c4; text-decoration: none; }
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus { border: 1px solid #fbcb09; background: #fdf5ce url(images/jqueryui/ui-bg_glass_100_fdf5ce_1x400.png) 50% 50% repeat-x; font-weight: bold; color: #c77405; }
+.ui-state-hover a, .ui-state-hover a:hover { color: #c77405; text-decoration: none; }
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active { border: 1px solid #fbd850; background: #ffffff url(images/jqueryui/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x; font-weight: bold; color: #eb8f00; }
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited { color: #eb8f00; text-decoration: none; }
+.ui-widget :active { outline: none; }
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight  {border: 1px solid #fed22f; background: #ffe45c url(images/jqueryui/ui-bg_highlight-soft_75_ffe45c_1x100.png) 50% top repeat-x; color: #363636; }
+.ui-state-highlight a, .ui-widget-content .ui-state-highlight a,.ui-widget-header .ui-state-highlight a { color: #363636; }
+.ui-state-error, .ui-widget-content .ui-state-error, .ui-widget-header .ui-state-error {border: 1px solid #cd0a0a; background: #b81900 url(images/jqueryui/ui-bg_diagonals-thick_18_b81900_40x40.png) 50% 50% repeat; color: #ffffff; }
+.ui-state-error a, .ui-widget-content .ui-state-error a, .ui-widget-header .ui-state-error a { color: #ffffff; }
+.ui-state-error-text, .ui-widget-content .ui-state-error-text, .ui-widget-header .ui-state-error-text { color: #ffffff; }
+.ui-priority-primary, .ui-widget-content .ui-priority-primary, .ui-widget-header .ui-priority-primary { font-weight: bold; }
+.ui-priority-secondary, .ui-widget-content .ui-priority-secondary,  .ui-widget-header .ui-priority-secondary { opacity: .7; filter:Alpha(Opacity=70); font-weight: normal; }
+.ui-state-disabled, .ui-widget-content .ui-state-disabled, .ui-widget-header .ui-state-disabled { opacity: .35; filter:Alpha(Opacity=35); background-image: none; }
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl { -moz-border-radius-topleft: 4px; -webkit-border-top-left-radius: 4px; -khtml-border-top-left-radius: 4px; border-top-left-radius: 4px; }
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr { -moz-border-radius-topright: 4px; -webkit-border-top-right-radius: 4px; -khtml-border-top-right-radius: 4px; border-top-right-radius: 4px; }
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl { -moz-border-radius-bottomleft: 4px; -webkit-border-bottom-left-radius: 4px; -khtml-border-bottom-left-radius: 4px; border-bottom-left-radius: 4px; }
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br { -moz-border-radius-bottomright: 4px; -webkit-border-bottom-right-radius: 4px; -khtml-border-bottom-right-radius: 4px; border-bottom-right-radius: 4px; }
+.ui-widget-overlay { background: #666666 url(images/jqueryui/ui-bg_diagonals-thick_20_666666_40x40.png) 50% 50% repeat; opacity: .50;filter:Alpha(Opacity=50); }
+.ui-widget-shadow { margin: -5px 0 0 -5px; padding: 5px; background: #000000 url(images/jqueryui/ui-bg_flat_10_000000_40x100.png) 50% 50% repeat-x; opacity: .20;filter:Alpha(Opacity=20); -moz-border-radius: 5px; -khtml-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+.ui-slider { position: relative; text-align: left; }
+.ui-slider .ui-slider-handle { position: absolute; z-index: 2; width: 1.2em; height: 1.2em; cursor: default; }
+.ui-slider .ui-slider-range{position: absolute; z-index: 1; font-size: .7em; display: block; border: 0; background-position: 0 0;}
+.ui-slider-horizontal { height: .8em; }
+.ui-slider-horizontal .ui-slider-handle { top: -.3em; margin-left: -.6em; }
+.ui-slider-horizontal .ui-slider-range { top: 0; height: 100%; }
+.ui-slider-horizontal .ui-slider-range-min { left: 0; }
+.ui-slider-horizontal .ui-slider-range-max { right: 0; }
+.ui-slider-vertical { width: .8em; height: 100px; }
+.ui-slider-vertical .ui-slider-handle { left: -.3em; margin-left: 0; margin-bottom: -.6em; }
+.ui-slider-vertical .ui-slider-range { left: 0; width: 100%; }
+.ui-slider-vertical .ui-slider-range-min { bottom: 0; }
+.ui-slider-vertical .ui-slider-range-max { top: 0; }
+
+#calc_Form { background: none repeat scroll 0pt 0pt #fcfcfc; border: 1px solid rgb(219, 218, 215); float: left; height: 180px; margin: 0pt 10px 20px 0pt; padding: 10px 20px; width: 402px; }
+.lamount span {width: 7px;  }
+.lamount img {width: 7px;  border: 0;}
+.lint span { margin: 0pt 0pt 0pt 10px; }
+#calc_Form div { margin-bottom: 10px; }
+
+#calc_Form input[type="text"] { border: 1px solid #dddddd; background: none repeat scroll 0% 0% #fcfcfc; box-shadow: 1px 1px 4px f4f4f4 inset; font-size: 13px; padding: 7px;}
+#calc_Form input:focus { border-color: rgb(192, 192, 192); }
+#Loan_Amount { width: 130px !important; margin: 0pt 0pt 0pt 5px ! important; }
+#loan_intr, #tenure { width: 60px ! important; margin: 0 0 0 15px !important; }
+#loanamountslider, #loan_intrslider, #tenureslider {  }
+.lterm { float: left; width: 315px;}
+.lterm span { margin: 0pt 0pt 0pt 10px; }
+#loading {	background: url(images/ajax-loader.gif) right center no-repeat; 	width: 32px;	height: 50px;	text-indent: -9999px;	overflow: hidden;	display: inline-block; }
+
+#emisum { background: none repeat scroll 0pt 0pt #fcfcfc; clear: both; float: left; width: 200px; margin: 0pt 0px 0px 0pt; border: 5px solid #547295; height: 195px; }
+#emisum div { margin: 0pt 0pt 0px; padding: 10px 0px 0pt; text-align: center; width: 200px; border-top: 1px dotted rgb(147, 79, 79); }
+#emisum h4 { color: #934f4f; font-weight: bold; }
+#emisum p { font-size: 18px; font-weight: bold; margin: 0pt auto; }
+#emisum span { padding-left: 5px; }
+#emiamount { border-top: 0pt none ! important; }
+#emiamount p { font-size: 24px; }
+
+#emipiechart {
+    background: none repeat scroll 0 0 #FCFCFC;
+    float: left;
+    margin: 0 0px 0px 0;
+    position: relative;
+    text-align: center;
+    width: 290px;
+    height: 250px;
+}
+#emibarchart {
+    clear: both;
+    background: none repeat scroll 0 0 #FCFCFC;
+    margin: 0 0 0px 0;
+    height: 290px; 
+    text-align: center;
+}
+
+#emipaymenttable {
+    clear: both;
+    background: none repeat scroll 0 0 #FCFCFC;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+#emipaymenttable table {
+	width: 90%;
+	text-align:center;
+	font-size:12px;
+}
+
+#emipaymenttable table td {
+	background: #fffff;
+	border: 1px solid #DBDAD7;
+}
+
+#phead {
+	background: #e7f2f9;
+}
+#yhead {
+	background: #e7f2f9;
+}
+
+#bhead {
+	background: #e7f2f9 ;
+}
+
+#ihead {
+	background: #e7f2f9 ;
+}
+
+#emipaymenttable table td {
+	border: 1px solid #DBDAD7;
+	border-top: 0;
+}
+

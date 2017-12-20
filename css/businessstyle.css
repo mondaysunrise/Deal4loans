@@ -1,0 +1,48 @@
+/* CSS Document */
+body{
+	margin:0;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#ffffff;
+	}
+body B{
+	margin:0;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+	text-align:center;
+	}
+
+.formtxt{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	color:#848383;
+	text-align:left;
+	}
+.heading_bl {
+
+	font-family:Verdana, Arial, Helvetica, sans-serif;	
+	font-size:10px;
+	font-weight:bold;
+	color:#000000;
+	text-decoration:none;
+	vertical-align: bottom;
+	padding-left:10px;
+		}
+		
+.formfield{
+	border:1px solid  #999999;
+	
+	}		
+select, option{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#333333;
+font-weight:normal;
+text-decoration:none;
+width:132px;
+padding:1px; 
+margin:1px;
+ border: 1px solid #BDBDBD;
+}

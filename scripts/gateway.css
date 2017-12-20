@@ -1,0 +1,55 @@
+body {
+}
+.onlinepayments { 
+    TEXT-ALIGN: justify;
+ 	padding: 8px ;
+}
+.internetpayments { 
+    TEXT-ALIGN: justify;
+ 	padding: 14px ;
+}
+
+.rgtlink{
+	background-image:url(../new-images/bullet.gif);
+	background-repeat:no-repeat;
+	background-position:left;
+	padding-left:17px;
+	display:block;
+	background-color:#f8f8f8;
+}
+
+.tab_hover {
+color:#222222;
+cursor:pointer;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+line-height:22px;
+border-bottom:1px dashed #CCCCCC;
+background-color:#FFFFFF;
+padding-bottom:3px;
+font-weight:bold;
+}
+
+.tab {
+color:#1C50B0;
+cursor:pointer;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+background-color:#f8f8f8;
+font-size:12px;
+line-height:22px;
+border-bottom:1px dashed #CCCCCC;
+padding-bottom:3px;
+font-weight:bold;
+}
+
+.tab :hover{
+color:#222222;
+cursor:pointer;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+background-color:#FFFFFF;
+font-size:12px;
+line-height:22px;
+border-bottom:1px dashed #CCCCCC;
+padding-bottom:3px;
+font-weight:bold;
+}

@@ -1,0 +1,130 @@
+
+/*.....................css for mobo section...............*/
+
+.emi_left_box_mobo{ width:600px;  float:left; background:#F00;} 
+.emi_right_box_mobo{ width:300px; float:right;} 
+.emi_form_box_mobo{ width:458px; height:500px; margin:auto; background:#F00;}
+.emi_cal_heading_text{height:33; margin-top:0px; float:left; clear:right; font-size:32px; text-transform:none; color:#88a943; margin-left:15px;}
+ 
+/*.....................css for mobo home-loans-interest-rates section start styles...............*/
+.hli_rates_logo{ display:none;}
+.hli_title_box{ width:588px; float:left; margin-left:35px;}
+.hli_content_box{ width:950px; margin:auto;}
+.hli_input_section{ float:left; width:230px;  margin-left:5px;}
+.hli_input_section_b{ float:left; width:470px;   margin-left:5px;}
+.hli_check_home{ width:790px; border:#CCC thin solid; margin: auto; }
+.hli_form_box{ width:950px; margin:15px 20px 5px 20px; float:left; 
+border-radius:5px 5px 5px 5px; background:#21405F; padding:5px; }
+.hli_form_title{ width:100%;  float:left; font-family: Arial, Helvetica, sans-serif; font-size:16px; color:#FFF; text-align:center; padding:5px; font-weight:bold;}
+.hli_title_wraper{ width:970px; float:left; padding-bottom:5px; border-bottom:#88a943 2px solid}
+.hli_ad{ width:243px; text-align:center; float:right; display:inline;}
+.hli_title_text{  font-size:33px; font-weight:normal; font-family:Verdana, Geneva, sans-serif; color:#88a943;}
+.hli_title_text_a{  font-size:12px; font-weight:normal; font-family:Verdana, Geneva, sans-serif; color:#88a943;}
+.p-text{font-size:12px; font-weight:bold; text-align:center; line-height:20px; width:100% font-family:Verdana, Geneva, sans-serif;}
+.click_input_section{ width:185px;float:left; padding:5px;  margin-left:5px;}
+.click_input_btn{ text-align:center; padding:5px;   margin-left:5px;}
+.bank_details_section_a{ float:left; width:480px; padding:5px 0px 0px 0px;  margin-left:5px; margin-top:10px;  }
+.bank_details_section_c{
+	float: left;
+	width: 230px;
+	padding: 5px 0px 0px 0px;
+	margin-left: 0px;
+	margin-top: 10px;
+}
+.bank_details_section_b{ float:left; width:465px; padding:5px 0px 0px 0px;  margin-left:0px;   margin-top:10px;}
+
+.text_td_mobo {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	font-variant: normal; border-left:#F3EAC2;
+	border-right:#F3EAC2;
+		border-buttom:#F3EAC2;
+				border-top:#F3EAC2;
+	color: #005399;
+	text-decoration: none; 
+	
+}
+
+.hintanchor{
+background-color:#F5FCE1;
+width: 145px;
+padding: 3px; float:left; margin-left:-5px;
+border:1px solid #7F9D27;
+font:normal 11px Verdana;
+color:#FF3333;
+line-height:18px;
+
+border-right: 3px solid #7F9D27;
+border-bottom: 3px solid #7F9D27;
+
+
+}
+
+.content_c_mobo{ width:960px; margin: auto; padding:5px;}
+
+.term_cont_box{ width:300px; float:right; margin-right:50px;}
+
+.term_cont_btn{ width:104px; float:right; margin-right:15px;}
+
+.hli_input_text{ width:100%;}
+.hli_input_text{ width:100%;}
+.heading_banks_box_txt{ width:230px; float:left; height:20px; padding:5px 0px 0px 0px; text-align:center; font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#FFF; font-weight:bold; background: #88A943; display:inline;}
+
+.showPhone_b{ width:300px; background:#88a943; display: none; }
+.showPhone_c{ width:110px; display: inherit; }
+.showPhone_a{ width:110px; display:inline ; }
+.showPhone_d{ width:110px; display:inline ; }
+
+.box_bank_details{ width:228px; padding:15px 0px 0px 0px; background:#FFF; border-right:#06C thin solid; height:auto; float:left;  }
+
+.continer_boxes{ width:928px; float:left;   margin-left:50px; margin-top:12px;  }
+.box_for_bank{ display: inline;  width:928px;}
+.bank_text_mobo{ font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#FFF; text-align:center; font-weight:bold;}
+.line_ad{ display:inline !important; }
+.responsive_ad{ display: none !important; margin-top:-50px; }
+/*.....................css for mobo home-loans-interest-rates section end styles...............*/
+/*.....................css for mobo home-loans-interest-rates section start media...............*/
+	@media screen and (max-width:680px) {
+	.hli_rates_logo{ float:left; width:243px; display:inline; margin-top:2px;}
+	.hli_rates_header{ display:none;}
+	.hli_title_box{ width:300px; margin:auto; }
+	.hli_content_box{width:300px; }
+	.hli_input_section{  width:300px; margin-left:5px;}
+	.hli_input_section_b{  width:300px;   margin-left:5px;}
+	.hli_check_home{ width:300px; margin:auto; border:#CCC thin solid;}
+	.hli_form_box{ width:95%; margin: auto ; 
+border-radius:5px 5px 5px 5px; background:#21405F; padding:5px; }
+	.hli_form_title{ width:98%; font-family: Arial, Helvetica, sans-serif; font-size:14px; color:#FFF; text-align:center; padding:5px; font-weight:bold;}
+	.hli_title_wraper{ width:300px;  padding-bottom:5px; border-bottom:#88a943 2px solid}
+	.hli_ad{ width:243px; display:none;}
+	.hli_title_text{  font-size:22px; font-weight:normal; font-family:Verdana, Geneva, sans-serif; color:#88a943;}
+	.hli_title_text_a{  font-size:12px; font-weight:normal; font-family:Verdana, Geneva, sans-serif; color:#88a943;}
+	.p-text{font-size:12px; font-weight:bold; text-align:center; line-height:20px; font-family:Verdana, Geneva, sans-serif;}
+	.click_input_section{ width:280px; padding:5px;  margin-left:5px;}
+	.bank_details_section_a{width:300px; padding:5px 0px 0px 0px;  margin-left:5px; margin-top:10px;  }
+	.bank_details_section_b{ width:300px; padding:5px 0px 0px 0px;  margin-left:0px;   margin-top:10px;}
+	.content_section_below{ width:970px; margin: auto;}
+	.text_td_mobo {	font-family: Verdana, Geneva, sans-serif;	font-size: 11px;	font-weight: normal;	font-variant: normal; border-left:#F3EAC2;	border-right:#F3EAC2;	border-buttom:#F3EAC2;	border-top:#F3EAC2;	color: #005399;	text-decoration: none; }
+	.content_c_mobo{ width:300px; margin:auto;}
+	.intrl_txt {	margin:auto;	width:300px; margin-top:1px; }		
+	.bank_details_section_c{ float:left; width:300px; padding:0px 0px 0px 0px;  margin-left:0px; margin-top:0px;  }
+	.hli_rates_footer{ display:none;}
+	.heading_banks_box_txt{ width:230px; float:left; height:20px; padding:5px; background: #88A943; display:none;}
+	.showPhone{ width:100px; display:inline !important; }
+	.box_bank_details{ width:300px; float:left; padding:2px 0px 2px 0px; height:60px; border:#d5cfb1 solid thin;  }
+	.continer_boxes{ width:300px; margin-left:0px;   }
+	.box_for_bank{ display:none;}
+	.showPhone_b{ width:295px; display: inherit; padding-left:5px; }
+	.showPhone_c{ width:110px; display: inherit; }
+	.showPhone_a{ width:110px; display:inline ; }
+	.showPhone_d{ width:110px; display:inline ; }
+	.term_cont_box{ width:300px; margin-top:-70px; margin-right:-5px; }
+	.term_cont_btn{ width:104px; margin-top:25px; }
+	.tbletext{ font-family:Verdana, Geneva, sans-serif; font-size:9px; color:#FFF; font-weight:bold;}
+	.tbl_txt {	color:#373737;	font-family:Verdana,Arial,Helvetica,sans-serif;	font-size:9px;	padding:2px; }
+	.content_section_below{ width:300px;}	.line_ad{ display: none !important; }
+	.responsive_ad{ display:inline !important; padding-top:15px; text-align:center; width:300px; background-color:#FF0000; }
+
+}
+

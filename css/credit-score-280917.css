@@ -1,0 +1,62 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+body{ margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; font-family:'Droid Sans', sans-serif !important; font-size:16px;}
+a{text-decoration:none;}
+.mr-tp-70{ margin-top:7rem;}
+.d4l{}
+
+.d4l .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #555;
+    cursor: default;
+    border-bottom: 3px solid #008fd1;
+	border-top: none;
+	border-left: none;
+	border-right: none;}
+	
+	.d4l .nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color:none;}
+	
+	.d4l .nav-tabs {
+		font-size:1.8rem;
+		color:#3b90d0;
+    border-bottom:1px solid #ddd;
+	background:#f6fbfe;
+}
+.d4l .nav-tabs > li > a:hover{background:#f6fbfe; color:#008fd1;}
+.d4l .nav-tabs>li>a { color:#666666; line-height:37px;  border: 1px solid transparent;}
+.d4l .nav-tabs>li {
+    float: left; margin-left:25px;
+    margin-bottom: -1px;
+    padding-top: 8px;}
+.d4l .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color:#3b90d0;
+    cursor: default; line-height:37px;
+    background-color:none;}
+	
+	.credit-score .container{width:710px;
+    padding:1.5rem 0 4.6rem 0;
+    box-shadow: #dcdcdc 0px 0px 7px 0px;
+    min-height: 400px;
+    margin:5rem auto;
+    border-radius: 7px;
+    background:#FFF;}
+	.logo-experian{ margin-left:2rem;}
+	.customer-headline{ font-size:18px; color:#333333; font-weight:600;}
+	.customer-headline span{ color:#0e79b9;}
+	.credit-score-digit{padding-top:4rem; font-size:4.8rem; color:#333333;}
+	.credit-score-meter{width:27.7rem; margin:3.5rem auto;}
+	.credit-score-light-text{font-size:1.8rem; padding-top:5.5rem; color:#666666;}
+	.credit-score-light-text span{font-size:1.8rem; padding-top:5.5rem; color:#0e79b9;}
+	.credit-score-medium-light-text{font-size:1.8rem; color:#666666; font-weight:600;}
+	
+	@media (max-width:767px){
+	.credit-score .container{width:95%;
+    padding:1.5rem 1rem 4.6rem 1rem;
+    box-shadow: #dcdcdc 0px 0px 7px 0px;
+    min-height:400px;
+    margin:3rem auto;
+    border-radius: 7px;
+    background:#FFF;}
+	.credit-score-digit{padding-top:2rem; font-size:4.8rem; color:#333333;}
+	.credit-score-meter{width:27.7rem; margin:2.5rem auto;}
+	}

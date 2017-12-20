@@ -1,0 +1,11 @@
+ body{ margin:0; padding:0;}
+.hdfc-rewards_top_box{ width:100%; height:101px; margin:auto; background:url(images/brochure/rewards-top-bg.jpg) repeat-x; }
+.hdfc-rewards_top_content_box{ width:1000px; margin:auto; padding:10px 0px 0px 10px; }
+.hdfc-rewards_text_A{ font-family:Arial, Helvetica, sans-serif; font-size:22px; color:#FFFFFF;}
+.hdfc-rewards_text_B{ font-family:Arial, Helvetica, sans-serif; font-size:22px; color:#FFFFFF; font-weight:bold;}
+.hdfc-rewards_select_box{ width:158px; height:23px; float:right; margin-right:10px;}
+.select-menu_text{ vertical-align:middle; color: #333333; font-family:Arial, Helvetica, sans-serif; font-size:13px; }
+.hdfc-rewards_content_box_B{ width:1000px; margin:auto; margin-top:10px;}
+.hdfc-rewards_product_heading{ font-family:Arial, Helvetica, sans-serif; font-size:20px; color: #000000; font-weight:bold;}
+.hdfc-rewards_body-text{color: #333333; font-family:Arial, Helvetica, sans-serif; font-size:12px; text-align:justify; line-height:15px;} 
+p, ul, li{ vertical-align:middle; color: #333333; font-family:Arial, Helvetica, sans-serif; font-size:13px; }

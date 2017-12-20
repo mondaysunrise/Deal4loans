@@ -1,0 +1,90 @@
+
+/*.............menu responsive starts ....................*/
+@media screen and (max-width:768px){.active{display:block;}.nav > li{float:none;}
+.nav > li > .parent{background-position:95% 50%;border:none;color:#FFF;}
+.nav li li .parent{background-repeat:no-repeat;border:none;background-position:95% 50%;font-size:14px;}
+.nav ul{display:block;width:100%;height:auto;}
+.nav > li.hover > ul, .nav li li.hover ul{position:static;color:#000099;}
+.container{width:90%;max-width:780px;margin:10px auto;background:#0f8eda;}
+.nav a{padding:5px 12px 5px 12px;color:#FFF;font-family:'Droid Sans', sans-serif;font-size:14px;font-variant:normal;color:#FFF;text-decoration:none;importurlhttp://fonts.googleapis.com/css?family=Droid+Sans);margin-top:5px;}
+.nav li li a{display:block;background:#FFF;position:relative;z-index:100;font-size:14px;font-family:'Droid Sans', sans-serif;border:none;}
+.nav li{position:relative;padding:0px 0px 0px 0px;}
+.nav li li a:hover{color:#21405F;}
+.ul_box_li{width:300px;border:#d1d1d1 solid thin !important;box-shadow:0 5px 10px rgba(0, 0, 0, 0.2) !important;border-radius:6px;height:209px !important;background:#FFF;z-index:2;position:relative;white-space:normal;padding:10px 10px 10px 10px;margin-top:0px !important;border-radius:0px;}
+.ul_box_li-two{width:300px;border:#d1d1d1 solid thin !important;box-shadow:0 5px 10px rgba(0, 0, 0, 0.2) !important;border-radius:6px;height:210px !important;background:#FFF;z-index:2;position:relative;white-space:normal;padding:10px 10px 10px 10px;margin-top:0px !important;border-radius:0px;}
+.ul_box_li-three{width:300px;border:#d1d1d1 solid thin !important;box-shadow:0 5px 10px rgba(0, 0, 0, 0.2) !important;border-radius:6px;height:210px !important;background:#FFF;z-index:2;position:relative;white-space:normal;padding:10px 10px 10px 10px;margin-top:0px !important;border-radius:0px;}
+.ul_box_li-four{width:300px;border:#d1d1d1 solid thin !important;box-shadow:0 5px 10px rgba(0, 0, 0, 0.2) !important;border-radius:6px;height:210px !important;background:#FFF;z-index:2;position:relative;white-space:normal;padding:10px 10px 10px 10px;margin-top:0px !important;border-radius:0px;}
+.ul_box_li-five{width:300px;border:#d1d1d1 solid thin !important;box-shadow:0 5px 10px rgba(0, 0, 0, 0.2) !important;border-radius:6px;height:210px !important;background:#FFF;z-index:2;position:relative;white-space:normal;padding:10px 10px 10px 10px;margin-top:0px !important;border-radius:0px;}
+.ul_box_li-six{width:300px;border:#d1d1d1 solid thin !important;box-shadow:0 5px 10px rgba(0, 0, 0, 0.2) !important;border-radius:6px;height:210px !important;background:#FFF;z-index:2;position:relative;white-space:normal;padding:10px 10px 10px 10px;margin-top:0px !important;border-radius:0px;}
+.ul_box_li-seven{width:300px;border:#d1d1d1 solid thin !important;box-shadow:0 5px 10px rgba(0, 0, 0, 0.2) !important;border-radius:6px;height:210px !important;background:#FFF;z-index:2;position:relative;white-space:normal;padding:10px 10px 10px 10px;margin-top:0px !important;border-radius:0px;}
+.ul_box_li-eight{width:300px;border:#d1d1d1 solid thin !important;box-shadow:0 5px 10px rgba(0, 0, 0, 0.2) !important;border-radius:6px;height:210px !important;background:#FFF;z-index:2;position:relative;white-space:normal;padding:10px 10px 10px 10px;margin-top:0px !important;border-radius:0px;}
+.ul_box_credit{width:300px;webkit-border-top-right-radius:0px;-webkit-border-bottom-right-radius:0px;margin-left:0px !important;border-top-right-radius:0px;margin-top:0px !important;border-bottom-right-radius:0px;-webkit-box-shadow:5px 5px 10px rgba(0, 0, 0, 0.2);-moz-box-shadow:5px 5px 10px rgba(0, 0, 0, 0.2);box-shadow:5px 5px 10px rgba(0, 0, 0, 0.2);border:#999 solid thin !important;height:210px;background:#FFF;}
+.ul_box_credit-five{width:300px;webkit-border-top-right-radius:0px;-webkit-border-bottom-right-radius:0px;margin-left:0px !important;border-top-right-radius:0px;margin-top:-125px !important;border-bottom-right-radius:0px;-webkit-box-shadow:5px 5px 10px rgba(0, 0, 0, 0.2);-moz-box-shadow:5px 5px 10px rgba(0, 0, 0, 0.2);box-shadow:5px 5px 10px rgba(0, 0, 0, 0.2);border:#999 solid thin !important;height:260px;background:#FFF;}
+.ul_box_credit-one{width:300px;webkit-border-top-right-radius:0px;-webkit-border-bottom-right-radius:0px;margin-left:0px !important;border-top-right-radius:0px;margin-top:-33px !important;border-bottom-right-radius:0px;-webkit-box-shadow:5px 5px 10px rgba(0, 0, 0, 0.2);-moz-box-shadow:5px 5px 10px rgba(0, 0, 0, 0.2);box-shadow:5px 5px 10px rgba(0, 0, 0, 0.2);border:#999 solid thin !important;height:260px;background:#FFF;}
+.ul_box_credit-five-new-bc{width:300px;webkit-border-top-right-radius:0px;-webkit-border-bottom-right-radius:0px;margin-left:-522px !important;border-top-right-radius:0px;margin-top:0px !important;border-bottom-right-radius:0px;-webkit-box-shadow:5px 5px 10px rgba(0, 0, 0, 0.2);-moz-box-shadow:5px 5px 10px rgba(0, 0, 0, 0.2);box-shadow:5px 5px 10px rgba(0, 0, 0, 0.2);border:#999 solid thin !important;height:260px;background:#FFF;}
+.ul_box_li-two-bc{width:300px;border:#d1d1d1 solid thin !important;box-shadow:0 5px 10px rgba(0, 0, 0, 0.2) !important;border-radius:6px;height:260px !important;background:#FFF;z-index:2;position:relative;white-space:normal;padding:10px 10px 10px 10px;margin-top:0px !important;border-radius:0px;}
+.ul_box_li-five_newbc{width:300px;border:#d1d1d1 solid thin !important;box-shadow:0 5px 10px rgba(0, 0, 0, 0.2) !important;border-radius:6px;height:260px !important;background:#FFF;z-index:2;position:relative;white-space:normal;padding:10px 10px 10px 10px;margin-top:0px !important;border-radius:0px;}
+.ul_box_li-two-new-bc{width:300px;border:#d1d1d1 solid thin !important;box-shadow:0 5px 10px rgba(0, 0, 0, 0.2) !important;border-radius:6px;height:260px !important;background:#FFF;z-index:2;position:relative;white-space:normal;padding:10px 10px 10px 10px;margin-top:0px !important;border-radius:0px;}
+.ul_box_li-seven-newbc{width:300px;border:#d1d1d1 solid thin !important;box-shadow:0 5px 10px rgba(0, 0, 0, 0.2) !important;border-radius:6px;height:260px !important;background:#FFF;z-index:2;position:relative;white-space:normal;padding:10px 10px 10px 10px;margin-top:0px !important;border-radius:0px;}
+.ul_box_li-four-new-bc{width:300px;border:#d1d1d1 solid thin !important;box-shadow:0 5px 10px rgba(0, 0, 0, 0.2) !important;border-radius:6px;height:260px !important;background:#FFF;z-index:2;position:relative;white-space:normal;padding:10px 10px 10px 10px;margin-top:0px !important;border-radius:0px;}
+.ul_box_li-five-new-bc{width:300px;border:#d1d1d1 solid thin !important;box-shadow:0 5px 10px rgba(0, 0, 0, 0.2) !important;border-radius:6px;height:260px !important;background:#FFF;z-index:2;position:relative;white-space:normal;padding:10px 10px 10px 10px;margin-top:0px !important;border-radius:0px;}
+.ul_box_credit-one-new-bc{width:300px;webkit-border-top-right-radius:0px;-webkit-border-bottom-right-radius:0px;margin-left:-522px !important;border-top-right-radius:0px;margin-top:0px !important;border-bottom-right-radius:0px;-webkit-box-shadow:5px 5px 10px rgba(0, 0, 0, 0.2);-moz-box-shadow:5px 5px 10px rgba(0, 0, 0, 0.2);box-shadow:5px 5px 10px rgba(0, 0, 0, 0.2);border:#999 solid thin !important;height:260px;background:#FFF;}
+.ul_box_credit-five-new-bc{width:300px;webkit-border-top-right-radius:0px;-webkit-border-bottom-right-radius:0px;margin-left:-522px !important;border-top-right-radius:0px;margin-top:0px !important;border-bottom-right-radius:0px;-webkit-box-shadow:5px 5px 10px rgba(0, 0, 0, 0.2);-moz-box-shadow:5px 5px 10px rgba(0, 0, 0, 0.2);box-shadow:5px 5px 10px rgba(0, 0, 0, 0.2);border:#999 solid thin !important;height:auto;background:#FFF;}
+.box-menu{float:none;width:100%;margin-right:5px;}
+.box-menu-lap{float:none;width:100%;margin-right:5px;}
+.text-menu-new-head{color:#000000!important;border-bottom:solid thin;}
+.text-menu-new{color:#0088cc!important;}
+.margin_left_menu{margin-left:0px;margin-top:10px;}
+.negative-margin-pl{margin-left:0px !important;}
+.negative-margin-hl{margin-left:0px !important;}
+.negative-margin-car{margin-left:0px !important;}
+.negative-margin-credit{margin-left:0px !important;}
+.negative-margin-credit-lap{margin-left:0px !important;}
+.menu-main-wrapper{width:100%;margin:auto;}
+.header-menu-new{width:100%;background:#0f8eda;}
+.menu_logo_box{float:left;width:123px;}
+.menu-wrapper-col{float:none;width:100%;margin:0px 0px 0px 0px;}
+.toolge_menuext{display:inherit;float:right;width:118px;margin-top:15px;font-size:14px;color:#FFF;}
+}
+/*.............menu responsive ends ....................*/
+/*................. styles for http://www.deal4loans.com/personal-loan.php starts*/
+
+@media screen and (max-width:680px){.breadcrumbs_wrapper{width:100%;margin:-10px auto;text-indent:10px;padding-top:10px;}
+.breadcrumbs_bluetext{color:#0e8dd9;font-family:Verdana, Geneva, sans-serif;font-size:14px;}
+.breadcrumbs_graytext{color:#191a1a;font-family:Verdana, Geneva, sans-serif;font-size:14px;}
+.pl_newuiwrapper{width:100%;background:#edf9fc;padding:10px 0px 20px 0px;border-top:#e1f2f8 solid thin;}
+.pl_newuiwrapper-inner{width:90%;margin:auto;}
+.downarrow_newuipl{width:53px;margin:auto;}
+.new_ui-text{font-family:Verdana, Geneva, sans-serif;font-size:20px;color:#203f5f;}
+.new_ui_text2{font-family:Verdana, Geneva, sans-serif;font-size:14px;color:#203f5f;}
+.new_ui_pl_wrapper_second{margin-top:-50px;height:500px;}
+.header-wrapper-newuipl{background:#FFF;}
+.boxesmain-wrapper-newui{width:100%;margin:auto;}
+.new_ui_product_box1{width:207px;text-align:center;height:283px;padding:10px 5px 5px 5px;background:#fcfcfc;border:#e6e6e6 solid thin;float:none;margin:auto !important;}
+.new_ui_product_box1:hover{float:none;width:207px;text-align:center;height:283px;padding:10px 5px 5px 5px;background:#edf8fc;border:#e6e6e6 solid thin;margin:auto !important;}
+.new_ui_product_box1_inn{width:95%;margin-top:10px;font-family:Verdana, Geneva, sans-serif;font-size:12px;color:#666;text-align:left;}
+.newul_pl_wrapper{width:100%;margin:10px auto;}
+.newul_pl_wrapper1{width:95%;margin:10px auto;}
+.logos_newui{width:152px;float:left;margin-right:10px;margin-top:15px;}
+.checkbox{float:left;width:10px;margin-right:10px;margin-top:15px;}
+.check-interest-ratebtn{width:100%;margin-top:20px;text-align:center;}
+.bodytext-newui{font-family:Verdana, Geneva, sans-serif;font-size:12px;color:#666;}
+.form_emiwrapper{width:95%;margin:auto;font-family:Verdana, Geneva, sans-serif;font-size:12px;color:#000;}
+.bankname-box-newui-left{width:100%;margin:10px 0px 0px 0px;float:none;text-align:left;}
+.bankname-box-newui-right{width:100%;margin:10px 0px 0px 0px;float:none;}
+.select-input_lightbox{width:97%;height:28px;border:#CCC solid thin;border:#CCC solid thin;border-radius:5px;}
+.input_lightbox{width:95%;height:25px;border:#CCC solid thin;border:#CCC solid thin;border-radius:5px;}
+.heading_text_lihgtbox{font-family:Verdana, Geneva, sans-serif;font-size:24px;color:#000;padding-top:10px;padding-bottom:10px;}
+.sub_heading_text_lihgtbox{font-family:Verdana, Geneva, sans-serif;font-size:18px;color:#000;padding-top:5px;padding-bottom:5px;}
+.info_text_lihgtbox{font-family:Verdana, Geneva, sans-serif;font-size:11px;color:#000;padding-top:2px;padding-bottom:2px;}
+.buttons_boxforlightbox{width:98%;margin:10px auto;text-align:center;}
+.wrapper-newform_a{margin:auto;width:98%;background:#06a2b4;border-radius:5px;}
+.lowest_form_left_text_p{float:none;font-size:21px;font-family:'Raleway';font-weight:500;width:95%;margin-top:25px;}
+.lowest_form_right_text{float:left;margin-top:15px;}
+.pl_input_b_pox_p{float:none;width:95%;margin-left:0px;}
+.pl_input_box_p{float:none;width:95%;margin-left:5px;}
+.pl_input_b_p{width:95%;height:35px;}
+.mob-numb{float:left;width:70%;height:35px;}
+.ddmmyy{float:left;width:30%;height:35px;margin-left:2px;}
+}
+/*................. styles for http://www.deal4loans.com/personal-loan.php ends*/

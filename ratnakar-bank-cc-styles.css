@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+body{margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; background:#f4f1ee;}
+.header{width:100%; height:65px; background:#1c3285;}
+.container{width:1000px; margin:auto;}
+.left_box{float:left; width:644px; margin-top:15px;}
+.form_left_text{float:left; width:278px; font-family:Arial, Helvetica, sans-serif; font-size:15px; color:#1c3285; text-align:right; padding-top:8px; margin-top:7px;}
+.form_left_input{float:left; width:353px; margin-left:8px; margin-top:7px;}
+.input{width:99%; height:29px; border:#dedede solid thin; font-family:Arial, Helvetica, sans-serif; text-indent:5px; color:#1c3285;}
+.clearfix{clear:both;}
+.padding-top{padding-top:8px; font-family:Arial, Helvetica, sans-serif; font-size:15px; color:#1c3285;}
+.dd{width:30%; height:29px; border:#dedede solid thin; margin-right:5px; font-family:Arial, Helvetica, sans-serif; text-indent:5px; color:#e8e9f0}
+.dd:focus{width:30%; height:29px; border:#dedede solid thin; margin-right:7px; font-family:Arial, Helvetica, sans-serif; text-indent:5px; color:#1c3285;}
+.text_form_body{font-family:Arial, Helvetica, sans-serif;  color:#1c3285;}
+.right_box{float:right; width:328px; margin-left:10px; margin-top:25px;}
+h1{ margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; font-size:19px; font-family:Arial, Helvetica, sans-serif; font-weight:normal;}
+.img_bx{ margin-top:10px; text-align:center;}
+.features_text{ font-family:Arial, Helvetica, sans-serif; color:#FFF; background:#003399; padding:5px 5px 5px 5px; font-style:italic; width:150px;}
+.re_bullet_text ul{ margin:10px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.re_bullet_text li{list-style:url(images/red-bullet-rbl.png); font-family:Arial, Helvetica, sans-serif; font-size:12px; margin-left:10px; margin-top:10px;}
+.logo_rbl{ width:1000px; margin:auto;}
+.logo_rbl_one{ width:250px; float:left;}
+.logo_rbl_two{ width:350px; float:right; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF; margin-top:20px;}
+
+
+@media screen and (max-width:880px) {.header{width:100%; height:30px; background:#1c3285;}
+.container{width:100%; margin:auto;}
+.left_box{width:320px; margin:15px auto; float:none;}
+.form_left_text{width:100%; font-family:Arial, Helvetica, sans-serif; font-size:15px; color:#1c3285; text-align:left; padding-top:8px; margin-top:7px; text-indent:5px;}
+.form_left_input{width:100%; margin-left:8px; margin-top:7px;}
+.input{width:99%; height:29px; border:#dedede solid thin; font-family:Arial, Helvetica, sans-serif; text-indent:5px; color:#1c3285;}
+.clearfix{clear:both;}
+.padding-top{padding-top:8px; font-family:Arial, Helvetica, sans-serif; font-size:15px; color:#1c3285;}
+.dd{width:25%; height:29px; border:#dedede solid thin; margin-right:7px; font-family:Arial, Helvetica, sans-serif; text-indent:5px; color:#e8e9f0}
+.dd:focus{width:30%; height:29px; border:#dedede solid thin; margin-right:7px; font-family:Arial, Helvetica, sans-serif; text-indent:5px; color:#1c3285;}
+.text_form_body{font-family:Arial, Helvetica, sans-serif;  color:#1c3285;}
+.right_box{float:right; width:328px; margin-left:10px; margin-top:25px;}
+h1{ margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; font-size:19px; font-family:Arial, Helvetica, sans-serif; font-weight:normal;}
+.img_bx{ margin-top:10px; text-align:center;}
+.features_text{ font-family:Arial, Helvetica, sans-serif; color:#FFF; background:#003399; padding:5px 5px 5px 5px; font-style:italic; width:150px;}
+.re_bullet_text ul{ margin:10px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.re_bullet_text li{list-style:url(images/red-bullet-rbl.png); font-family:Arial, Helvetica, sans-serif; font-size:12px; margin-left:10px; margin-top:10px;}
+	
+	
+}

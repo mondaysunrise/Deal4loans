@@ -1,0 +1,194 @@
+@charset utf-8;
+.pl_sbi_text_box{width:950px;margin:auto;padding:5px}
+.pl_input_form{float:left;width:330px;margin-left:5px}
+.festiv_box{float:left;width:663px;height:auto;margin-top:5px;display:inline}
+.pl_sbi_form{width:950px;float:left;border-radius:10px 10px 10px 10px;background:#21405F;margin:auto auto auto 7px;padding:5px}
+.terms_box{width:750px;color:#FFF;margin-top:0}
+.pl_bnt{float:right;width:114px;height:52px;margin-top:-30px;margin-right:60px}
+.pl_dd{width:43px;margin-right:2px;height:18px}
+.pl_mobo{width:153px;height:18px}
+.blink_hide{display:inline;margin-left:15px}
+.responsive_ad{display:none;margin-top:-50px}
+.line_ad{display:inline!important}
+.car_loan_text{width:600px;float:left;margin-left:135px}
+.pl_logo{width:243px;float:left;display:none}
+.pl_heading_text{height:33px;margin-top:0;float:left;clear:right;font-size:36px;text-transform:none;color:#88a943}
+.pl_left_box{width:663px;float:left;margin-top:15px}
+.pl_form_box{width:100%;float:left;border-radius:7px 7px 7px 7px;-moz-border-radius:7px;-webkit-border-radius:7px 7px 7px 7px;-o-border-radius:7px 7px 7px 7px;background:#21405f}
+.pl_titile_wraper{width:663px;float:left;border-bottom:thin solid #88a943;padding:5px 0}
+#title_pl{width:300px;height:33px;margin-top:0;float:left;font-size:36px;text-transform:none;font-family:'Droid Sans', sans-serif;font-weight:400;font-variant:normal;color:#88a943;text-decoration:none;importurlhttp://fonts.googleapis.com/css?family=Droid+Sans)}
+.pl_emi_btn_box{width:95px;height:33px;margin-top:15px;float:right}
+.pl_right_box{width:275px;float:left}
+.pl_form_title{font-size:15px;text-transform:none;width:600px;float:left;margin-left:25px;color:#FFF;padding:5px 0}
+.pl_blink_text{width:600px;float:left;margin-left:25px;padding:5px 0}
+.pl_input_box{float:left;width:29%;margin-left:25px}
+.pl_dd_b{width:43px;margin-right:2px;height:20px}
+.pl_select_b{width:180px;height:22px}
+.pl_mobo_b{width:153px;height:15px}
+.pl_terms_box{width:500px;float:left;margin-left:25px;margin-top:10px;color:#FFF;font-size:11px;text-transform:none}
+.pl_bnt_b{float:right;width:114px;height:52px;margin-top:5px;margin-right:20px}
+.pl_hide_compare_box{float:left;width:663px;margin-top:5px;text-align:justify}
+.cl_pie_hide{width:100%;display:inline}
+.ac_card_form{float:left;width:970px;border-radius:7px 7px 7px 7px;-moz-border-radius:7px;-webkit-border-radius:7px 7px 7px 7px;-o-border-radius:7px 7px 7px 7px;background:#21405f}
+.ac_input_box{float:left;width:183px;margin:5px 30px 0 25px}
+.ac_table_box{margin-top:10px}
+.ac_terms_box{width:750px;color:#FFF;margin-left:25px;margin-top:10px}
+.ac_get_btn_box{float:right;width:114px;height:47px;margin-top:-30px;margin-left:0;margin-right:23px}
+.pl_asix_offer{width:650px;float:left;margin-top:5px;text-align:justify}
+#pl_asix_tet_wraper{float:left;width:940px;height:auto;margin-top:15px;text-align:justify}
+.hl_emi_cal_form{width:950px;float:left;border-radius:5px 5px 5px 5px;background:#21405F;margin:auto auto auto 7px;padding:5px}
+.pl_emi_cal_text{width:940px;margin-left:25px}
+.hl_emi_input_form{float:left;width:230px;margin-left:5px}
+.pl_emi_cal_blink_b{width:940px;margin-left:25px;display:inline;text-align:left}
+.hl_emi_dd{width:43px;height:18px}
+#title_hdfc_ltd{width:100%;height:33px;margin-top:0;float:left;font-size:36px;text-transform:none;color:#88a943;font-family:Verdana, Geneva, sans-serif}
+.hdfc_get_btn_box{float:right;width:114px;height:47px;margin-top:-50px;margin-right:30px}
+.hdfc_ltd_form{float:left;width:970px;padding-bottom:10px;border-radius:7px 7px 7px 7px;-moz-border-radius:7px;-webkit-border-radius:7px 7px 7px 7px;-o-border-radius:7px 7px 7px 7px;background:#21405f}
+.hl_emi_get_quote{float:right;width:151px}
+.hl_emi_term_box{float:left;width:760px;height:auto;color:#FFF;font-size:11px;text-transform:none;margin-top:5px}
+.hdfc_la_offer{width:500px}
+.hdfc_la_ad{width:160px}
+.inser_cl_input{width:279px;float:left;margin-left:25px;margin-top:25px}
+.inser__btn_box{width:114px;height:52px;margin-top:25px;float:right}
+.wp_main{width:663px;margin-top:0;float:left;clear:right}
+.credit_card_form{width:950px;float:left;margin-left:7px;border-radius:5px 5px 5px 5px;background:#21405F;padding:5px}
+.credit_card_input_form{float:left;width:300px;margin-left:5px}
+.credit_card_title{float:left;width:940px;margin-left:5px}
+.credit_card_dd{width:43px;height:20px}
+.credit_card_get_quote{float:right;width:151px;margin-right:35px}
+.credit_card_terms{float:left;width:500px}
+.credit_card_select{width:182px;height:24px}
+.credit_card_yy{width:70px;height:20px}
+.credit_car_wrapper{width:950px;margin:auto}
+.credit_card_mobile{width:140px;height:20px}
+.el_form_box{width:970px;float:left;border:thick solid #a2d7f6;background:#f6fcff;padding:5px}
+.el_input_box{float:left;width:285px;margin-left:25px}
+.el_btn_box{float:left;width:128px}
+.el_compare_box{width:300px;text-align:center;margin:0 0 0 343px !important}
+.el_terms_box{float:left;width:700px;margin-left:25px;margin-top:5px;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:11px;font-weight:400;text-decoration:none;text-align:left}
+.el_terms_box a{text-decoration:none;color:#1c50b0}
+.frmbldtxt{font-family:Verdana, Arial, Helvetica, sans-serif;font-size:11px;font-weight:700;text-align:left}
+.plc_form_box{width:97%;background:#21405f;float:left}
+.plc_title_box{width:97%;margin:auto}
+.plc_input_box{margin-top:10px;float:left;width:28%;margin-left:25px}
+.plc_terms_box{margin-top:10px;float:left;width:70%;margin-left:25px}
+.plc_btn_box{margin-top:10px;float:right;width:114px;margin-right:45px}
+.plc_dd{width:35px}
+.plc_yy{width:70px}
+.plc_mobo{width:128px}
+.bl_form_box{width:97%;float:left;border-radius:7px 7px 7px 7px;-moz-border-radius:7px;-webkit-border-radius:7px 7px 7px 7px;-o-border-radius:7px 7px 7px 7px;background:#21405f;margin:auto}
+.bl_form_title{font-size:15px;text-transform:none;width:90%;float:left;margin-left:25px;color:#FFF;padding:5px 0}
+.bl_input_box{float:left;width:22%;margin-left:10px}
+.bl_terms_box{width:700px;color:#FFF;margin-top:0}
+.bl_btn{width:114px;float:right;color:#FFF;margin-top:-40px;margin-right:75px}
+.bl_input{width:183px;height:20px}
+.bl_dd{width:48px;height:20px}
+.bl_mobo{width:153px;height:20px}
+.hl_Common_form_box{width:97%;float:left;border-radius:7px 7px 7px 7px;-moz-border-radius:7px;-webkit-border-radius:7px 7px 7px 7px;-o-border-radius:7px 7px 7px 7px;background:#21405f}
+.hl_common_input_box{float:left;width:30%;margin-left:25px}
+.hl_common_bnt_b{float:right;width:180px;height:52px;margin-top:5px;margin-right:20px}
+.hl_common_mob{width:90%;height:20px}
+.gl_form{width:97%;background:#F6FCFF;border:thick #A2D7F6 solid;float:left;padding:5px}
+.gl_input_box{width:30%;float:left;margin-left:25px;margin-top:10px}
+.gl_title_box{width:97%;text-align:center;margin-top:10px}
+.gl_terms_box{width:75%;float:left;margin-left:25px;margin-top:10px}
+.gl_btn_box{width:10%;float:left;margin-top:10px}
+.pl_sbi_wrapper,.pl_intres_sec,.hl_mote_text_box{width:970px;margin:auto}
+.hide_top_menu,.ad_hide_pl{display:inline}
+.pl_input,.hl_emi_input{width:180px;height:18px}
+.pl_yy,.hl_emi_yy{width:60px;height:18px}
+.pl_select,.hl_emi_select{width:180px;height:24px}
+#home_sec,.car_loan_tbt{width:970px}
+.pl_input_b,.credit_card_input{width:180px;height:20px}
+.pl_yy_b,.bl_yy{width:60px;height:20px}
+.pl_right_box_b,.cl_right_box_b{float:right;width:227px;margin-top:5px}
+.pl_text_wrapper,.hl_text_wrapper_a,.cl_text_wrapper_a{float:left;width:663px}
+.plc_input,.plc_select{width:150px}
+.hl_common_input,.hl_common_select{width:97%;height:20px}
+@media screen and max-width680px {
+.pl_input_form{float:left;width:300px;margin-left:5px}
+.festiv_box{float:left;width:300px;height:auto;margin-top:5px;display:none}
+.pl_sbi_form{width:293px;border-radius:5px 5px 5px 5px;background:#21405F;margin:auto;padding:3px}
+.pl_input{width:280px;height:18px}
+.pl_dd{width:75px;height:18px}
+.pl_select{width:280px;height:24px}
+.pl_mobo{width:255px;height:18px}
+.pl_intres_sec{width:292px;margin:auto}
+#home_sec{width:280px;padding-bottom:20px}
+.pl_bnt{width:290px;height:52px;margin-top:10px;text-align:center}
+.blink_hide{display:none;margin-left:20px}
+.pl_logo{width:243px;float:left;display:inline}
+.cl_right_box_b{float:right;width:227px;margin-top:5px;display:none}
+.intrl_txt{width:300px;margin:1px auto auto}
+.pl_heading_text{height:33px;margin-top:0;float:left;clear:right;font-size:18px;text-transform:none;color:#88a943;padding-buttom:10px}
+.line_ad{display:none!important}
+.pl_left_box{width:300px;float:left}
+.title_pl{width:300px;border-bottom:thin solid #88a943;font-size:18px;font-family:'Droid Sans', sans-serif;font-weight:400;font-variant:normal;text-decoration:none;importurlhttp://fonts.googleapis.com/css?family=Droid+Sans);color:#88a943;margin:0}
+.pl_right_box{width:275px;float:left}
+.pl_titile_wraper{width:300px;border-bottom:thin solid #88a943;padding:5px 0}
+#title_pl{width:300px;margin-top:25px;float:left;font-size:20px;text-transform:none;color:#88a943;font-family:Verdana, Geneva, sans-serif}
+.pl_emi_btn_box{width:95px;margin-top:-15px;float:right}
+.pl_form_title{font-size:15px;text-transform:none;width:300px;float:left;color:#FFF;margin:0}
+.pl_input_b{width:275px;height:20px;margin:0}
+.pl_select_b{width:276px;height:22px}
+.pl_mobo_b{width:252px;height:18px}
+.pl_terms_box{width:98%;margin:0}
+.pl_bnt_b{width:300px;height:52px;text-align:center}
+.ac_card_form{width:300px;border-radius:7px 7px 7px 7px;-moz-border-radius:7px;-webkit-border-radius:7px 7px 7px 7px;-o-border-radius:7px 7px 7px 7px;background:#21405f;padding-bottom:5px}
+.ac_table_box{margin-top:10px;display:none}
+.ac_get_btn_box{width:300px;text-align:center;margin:-5px 0 0}
+.responsive_ad{display:inline!important;padding-top:15px;text-align:center}
+.hl_emi_cal_form{width:98%;border-radius:5px 5px 5px 5px;background:#21405F;margin:auto;padding:5px}
+.hl_emi_input_form{float:left;width:300px;margin-top:10px;margin-left:0}
+.hl_emi_input{width:100%}
+.hl_emi_dd{width:28%;height:18px}
+.hl_emi_yy{width:37%;height:18px}
+.hl_emi_mob_input{width:262px;height:18px}
+.hl_emi_select{width:100%;height:24px}
+#title_hdfc_ltd{width:100%;height:33px;margin-top:0;float:left;font-size:18px;text-transform:none;color:#88a943;font-family:Verdana, Geneva, sans-serif}
+.hdfc_ltd_form{float:left;width:300px;padding-bottom:10px;border-radius:7px 7px 7px 7px;-moz-border-radius:7px;-webkit-border-radius:7px 7px 7px 7px;-o-border-radius:7px 7px 7px 7px;background:#21405f}
+.hdfc_get_btn_box{width:300px;text-align:center;margin:5px 0 0}
+.hl_emi_get_quote{width:300px;text-align:center;margin:auto}
+.hl_emi_term_box{width:300px;height:auto;color:#FFF;font-size:11px;text-transform:none;margin:5px 0 0}
+.hdfc_la_offer{width:500px;display:none}
+.hdfc_la_ad{width:160px;display:none}
+.text3{font-family:'Droid Sans', sans-serif;font-size:16px!important;font-weight:400;font-variant:normal;color:#909faf;text-decoration:none;text-transform:uppercase;importurlhttp://fonts.googleapis.com/css?family=Droid+Sans)}
+.inser_cl_input{width:279px;margin-left:2px;margin-top:25px}
+.wp_main{width:310px;margin-top:0;float:left;clear:right}
+.credit_card_form{width:300px;border-radius:5px 5px 5px 5px;background:#21405F;margin:0}
+.credit_card_dd{width:45px;height:20px}
+.credit_card_yy{width:60px;height:20px}
+.credit_card_select{width:170px;height:22px}
+.credit_card_get_quote{width:300px;text-align:center}
+.credit_card_input{width:170px;height:20px}
+.credit_card_mobile{width:145px;height:18px}
+.credit_car_wrapper{width:300px;float:left;margin-left:-5px}
+.el_form_box{width:300px;float:left;border:thick solid #a2d7f6;background:#f6fcff;padding:5px}
+.el_terms_box{width:300px;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:11px;font-weight:400;text-decoration:none;margin:0}
+.el_btn_box{text-align:center;width:300px}
+.plc_form_box{width:300px;background:#21405f}
+.plc_input_box{width:300px;margin:0}
+.plc_terms_box{float:left;width:300px;margin:0}
+.plc_btn_box{width:300px;text-align:center;margin:0}
+.bl_input{width:260px;height:20px}
+.bl_mobo{width:235px;height:20px}
+.bl_dd{width:65px;height:20px}
+.bl_yy{width:125px;height:20px}
+.bl_form_title{font-size:15px;text-transform:none;width:300px;color:#FFF;margin:0;padding:5px 0}
+.bl_terms_box{width:285px;color:#FFF;margin:0}
+.bl_btn{width:300px;color:#FFF;text-align:center;margin:0}
+.bl_form_box{width:300px;border-radius:7px 7px 7px 7px;-moz-border-radius:7px;-webkit-border-radius:7px 7px 7px 7px;-o-border-radius:7px 7px 7px 7px;background:#21405f;margin:0}
+.hl_common_input_box{width:97%;margin:0}
+.hl_common_bnt_b{width:300px;height:52px;margin-top:5px;text-align:center}
+.gl_form{width:290px;background:#F6FCFF;border:thick #A2D7F6 solid;margin:0;padding:1px}
+.gl_title_box{width:300px;text-align:center;margin-top:10px}
+.gl_main_wrapper{width:300px;background:#C6C;margin:auto}
+.ad_hide_pl,.hide_top_menu,.pl_hide_compare_box,.cl_pie_hide,.pl_asix_offer,.pl_emi_cal_blink_b{display:none}
+.pl_sbi_wrapper,.pl_sbi_text_box,.car_loan_tbt,#pl_asix_tet_wraper,.credit_card_title,.credit_card_terms,.bl_input_box{width:300px}
+.terms_box,.ac_terms_box{width:300px;color:#FFF}
+.pl_yy,.pl_yy_b{width:113px;height:18px}
+.car_loan_text,.pl_form_box,.pl_input_box,.pl_text_wrapper,.ac_input_box,.pl_emi_cal_text,.credit_card_input_form,.hl_mote_text_box,.el_input_box,.plc_title_box,.gl_terms_box{width:300px;margin:0}
+.pl_blink_text,.pl_right_box_b{width:300px;float:left;display:none}
+.hl_text_wrapper_a,.cl_text_wrapper_a{float:left;width:300px;margin:0}
+.gl_input_box,.gl_btn_box{width:300px;margin-top:10px}
+}

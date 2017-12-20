@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+@import url(http://fonts.googleapis.com/css?family=Dancing+Script);
+@font-face {
+  font-family: 'Mistral';
+  src:  url('fonts/Mistral.ttf') format('ttf'),
+        url('fonts/Mistral.ttf') format('ttf');
+}
+body{ margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; font-family: 'Droid Sans', sans-serif; font-size:16px;}
+.tarakki-main-wrapper{ margin:auto; width:970px;}
+.70margin{ margin-top:70px;}
+.tarakki-tag-red{ background:#b32d08; width:197px; padding:25px 0px 25px 0px; color:#FFF; text-align:center; font-size:26px;}
+.tarakki-banner-main-wrapper{ width:100%; background:#88f1f5 url(../images/taraqi-ki-emi-strip.jpg); padding:10px 0px 0px 0px;}
+.tarakki-banner-big{ width:627px; margin:10px auto;}
+.image-banner-box{ float:left; width:285px; margin-bottom:-3px;}
+.tarakki-emi-text-box{margin: auto; padding:20px 0px 20px 0px; text-align:center; width:235px; font-size:44px; font-family: 'Mistral'; color:#FFF; text-shadow:#1a7f83 2px 2px 5px;  }
+
+.tarakki-chart-box{ width:215px; float:left; margin-top:0px;}
+.tarakki-margin-box{ margin-left:26px;}
+.clearfix{ clear:both;}
+.img-border{ border:#CCC solid thin; padding:2px; width:197px; height:119px;}
+.chart-head{ font-size:17px; color:#00000; text-align:left; padding:5px 0px 5px 10px;}
+.tarakki-left{ float:left; width:645px; margin-top:15px; margin-left:25px;}
+.tarakki-left-main{ float:left; width:221px; margin-top:15px;}
+.tarakki-right{float:right; width:282px; margin-top:15px; margin-right:15px;}
+.tarakki-newsbox{ width:97%; padding:0px;  margin-bottom:10px; color:#666; text-align:left;}
+.tarakki-newsbox:hover{ width:97%; padding:0px; margin-bottom:10px;}
+.tarakki-left-img-n-text{width:98%; padding:2px; border:#fff solid thin; margin-bottom:10px;}
+.tarakki-left-img-n-text:hover{width:98%; padding:2px; border:#dfdede solid thin; margin-bottom:10px;}
+.right-text{ font-size:18px; color:#0f8eda;  padding:5px 10px 5px 10px;}
+.right-text a{ font-size:18px; color:#0f8eda;   text-decoration:none;}
+.right-text a:hover{ font-size:18px; color:#0f8eda;  text-decoration: underline; }
+.fontright{ font-size:18px; color:#0f8eda;  padding:10px 5px 10px 5px; line-height:24px;}
+.fontright a{ font-size:18px; color:#0f8eda; }
+.right-mainbox{ border:#FFF solid thin; margin-bottom:10px; width:100%;}
+.right-mainbox:hover{ border:#EAEAEA solid thin; margin-bottom:10px; width:97%;}
+.taraqi-center-box{ float:left; width:461px; margin-left:10px; margin-top:15px;}
+.taraqi-right-box{ float:left; width:245px; margin-left:10px; margin-top:15px;}
+.taraqi-left-text-heard{ font-size:18px; color:#00000; margin-bottom:10px; }
+.taraqi-right-inner-box{width:100%;}
+.tint {
+	position: relative;
+	float: left;
+	cursor: pointer;
+}
+
+.tint:before {background:none;}
+
+.tint:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: none repeat scroll 0 center rgba(0,0,0,0.1);
+	-moz-transition: background .3s linear;
+	-webkit-transition: background .3s linear;
+	-o-transition: background .3s linear;
+	transition: background .3s linear;}
+	.iframe-video{ width:450px; height:265px;}
+	.light-box-image{ width:inherit;}
+	.bottom-images{ float:left; width:47%; margin-right:10px; margin-top:10px;}
+@media screen and (max-width:680px){
+	
+.tarakki-main-wrapper{ margin:auto; width:95%;}
+.70margin{ margin-top:70px;}
+.tarakki-tag-red{ background:#b32d08; width:197px; padding:25px 0px 25px 0px; color:#FFF; text-align:center; font-size:26px;}
+.tarakki-banner-main-wrapper{ width:100%;  background:#29c3e7 url(../images/taraqi-ki-emi-strip.jpg); background-size:100% 100%; padding:10px 0px 0px 0px;}
+.tarakki-banner-big{ width:95%; margin:10px auto;}
+.image-banner-box{ float:none; width:285px; margin:auto;}
+.tarakki-emi-text-box{ float:none; margin: auto; text-align:center; width:95%; padding:0px 0px 0px 0px; font-family: 'Mistral'; color:#FFF; text-shadow:#1a7f83 2px 2px 5px;  }
+
+.tarakki-chart-box{ width:95%; float:none; margin:10px auto;}
+.tarakki-margin-box{ margin-left:26px;}
+.clearfix{ clear:both;}
+.img-border{ border:#CCC solid thin; padding:2px; width:197px; height:119px;}
+.chart-head{ font-size:17px; color:#00000; text-align:left; padding:5px 0px 5px 10px;}
+.tarakki-left{ float:none; width:95%; margin:auto;}
+.tarakki-left-main{ float:none; width:95%; margin:auto;}
+.tarakki-right{float:none; width:95%; margin:auto;}
+.tarakki-newsbox{ width:97%; padding:0px;  margin-bottom:10px; color:#666; text-align:justify;}
+.tarakki-newsbox:hover{ width:97%; padding:0px; margin-bottom:10px;}
+.tarakki-left-img-n-text{width:98%; padding:2px; border:#fff solid thin; margin-bottom:10px;}
+.tarakki-left-img-n-text:hover{width:98%; padding:2px; border:#dfdede solid thin; margin-bottom:10px;}
+.right-text{ font-size:18px; color:#0f8eda;  padding:5px 0px 5px 0px;}
+.right-text a{ font-size:18px; color:#0f8eda;  padding:5px 0px 5px 0px; text-decoration:none;}
+.right-text a:hover{ font-size:18px; color:#0f8eda;  padding:5px 0px 5px 0px; text-decoration: underline; }
+.right-mainbox{ border:#FFF solid thin; margin-bottom:10px; width:97%;}
+.right-mainbox:hover{ border:#EAEAEA solid thin; margin-bottom:10px; width:97%;}
+.taraqi-center-box{ float:none; width:95%; margin:auto;}
+.taraqi-right-box{ float:none; width:245px; margin:auto !important;}
+.taraqi-left-text-heard{ font-size:18px; color:#00000; margin-bottom:10px; }
+.taraqi-right-inner-box{width:100%;}
+.tint {
+	position: relative;
+	float: left;
+	cursor: pointer;
+}
+.tint:before {background:none;}
+
+.tint:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: none repeat scroll 0 center rgba(0,0,0,0.1);
+	-moz-transition: background .3s linear;
+	-webkit-transition: background .3s linear;
+	-o-transition: background .3s linear;
+	transition: background .3s linear;}	
+		.iframe-video{ width:98%; height:40%; margin:auto; text-align:center;}
+		.light-box-image{ width:100%; height:65%;}
+			.bottom-images{ float:left; width:100%; margin-right:10px; margin-top:10px;}
+}

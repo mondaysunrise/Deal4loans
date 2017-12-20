@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+body{ background:#e6f4fd; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.apl_main_wrapper{ width:1013px;}
+.apl_top_wrapper{ width:100%; height:68px; background:url(../d4limages/aplp_topbg.jpg) repeat-x; border-top: #CCC solid thin; border-bottom: #CCC solid thin;}
+.apl_logo_container{ width:1010px; margin:auto; margin-top:10px;}
+.apl_second_container{ width:1010px; padding:5px; margin:auto;  
+box-shadow:1px 5px 15px 4px  #9ea7ae; background:#FFF; margin-top:0px;
+-webkit-box-shadow:1px 5px 15px 4px  #9ea7ae;
+-moz-webkit-box-shadow:1px 5px 15px 4px #9ea7ae;
+-o-box-shadow:1px 5px 15px 4px #9ea7ae;
+behavior: url(../ie-css3.htc);}
+.banks_text{width:470px; margin:7px 0px 7px 7px; font-family: Arial, Helvetica, sans-serif;font-size:16px; font-weight:bold; color:#07296D;}
+.column_a{width:488px; float:right; padding:3px;}
+.column_b{width:500px; padding:3px; float:left; background:#eeeeee;}
+.column_wrapper{width:505px; padding:2px;  float:left; background: #FFF;}
+.apl_radius{ width:477px; height:45px; margin-left:5px; background: url(../d4limages/aplp_d4l-radius-bh.png) no-repeat; }
+.bank_text ul{ display:block; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; list-style:none;}
+.bank_text li{ display:inline; border-right:thin solid #cfd0cf; padding:14px 2px 17px 5px;
+font-family:Verdana; font-size:10px; font-weight:bold; float:left; margin-top:0px;}
+.row_a{ width:467px; margin:10px 0px 0px 15px; font-family:Verdana, Geneva, sans-serif; font-size:22px; text-align:center;}
+.text_head{ font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#07296D; font-weight:bold;}
+.text_head_2{ font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#0a8bd9; font-weight:bold; margin-left:150px;}
+.text_head_3{ font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#474343; font-weight:normal; margin-left:200px;}
+.text_b{ font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#474343; margin-left:30px; font-weight:normal; }
+.table_bg{ width:472px; margin-top:10px; padding:5px 10px 5px 10px; background:#3070F1;}
+
+.text_white{ font-family:Verdana, Geneva, sans-serif; font-size:16px; color:#FFF; text-indent:5px;} 
+.text_white_b{ font-family:Verdana, Geneva, sans-serif; font-size:13px; color:#FFF;} 
+.text_white_c{ font-family:Verdana, Geneva, sans-serif; font-size:13px; color: #333; line-height:20px;} 
+.row_b{ width:475px; margin:auto; margin-top:20px;}
+.count_wrap{ float:right; width:100px;}
+.count_wrap_b{ float:right; width:130px;}
+.personal_loan{width:480px; padding:5px; font-family:Verdana, Geneva, sans-serif; font-size:27px; color:#07296D;}
+.personal_text{ font-family:Verdana, Geneva, sans-serif; font-size:18px; color: #07296D;}
+.form_text{ font-family:Verdana, Geneva, sans-serif; font-size:13px; color:#07296D;}
+.input{ width:315px; height:27px; border:#c9c9c9 solid thin;}
+.mobile{ width:280px; height:29px; border:#c9c9c9 solid thin;}
+.month{ width:90px; height:29px; border:#c9c9c9 solid thin;}
+.year{ width:115px; height:29px; border:#c9c9c9 solid thin;}
+.select{ width:319px; height:29px; border:#c9c9c9 solid thin;}
+.step{ width:250px; float:left; margin-right:2px; margin-top:10px; display:inline;}
+.rewards{ width:250px; float:left; margin-right:2px; margin-top:10px; display:inline;}
+
+.step1{ width:250px; float:left; margin-right:2px; margin-top:10px; display:none; }
+.rewards1{ width:250px; float:left; margin-right:2px; margin-top:10px; display:none;}
+
+.why_text_box{ width:469px; margin-left:10px; margin-top:10px;}
+.why_text_box_new1{ width:469px; margin-left:10px; margin-top:10px; display:none;}
+.body_apl_text{ font-family:Verdana, Geneva, sans-serif; font-size:14px; color:#454646;}
+.body_apl_text ul{ margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.body_apl_text li{ margin-left:30px; margin-top:8px; list-style:url(../d4limages/bullet-apl.png); text-decoration:none;}
+.text_d{ font-family:Verdana, Geneva, sans-serif; font-size:14px; color:#000000; text-align:center;}
+.logo_text{ float:left; width:350px; font-family:Verdana, Geneva, sans-serif; color:#0971b0; font-size:15px; margin-top:12px;}
+.logo_box_b{ width:141px; float:left;}
+.tab_hide{ float:left; display:none;}
+.tab_hide_b{ float:left; display: inline;}
+.alert_msg{color:#FF0000; font-weight:bold; font-size:12px; font-family: Arial, Helvetica, sans-serif;}
+.menu_display{ display:none;}
+#menu_display_b{ display: inherit;}
+.call_us_box{ float:right; width:445px; font-family:Verdana, Geneva, sans-serif; font-size:22px; color:#000; margin-top:5px;}
+.toll-free{float:right; width:197px; color:#010101; font-family:Arial, Helvetica, sans-serif; font-size:16px; margin-top:0px; text-align:center;}
+.number_text{color:#0a8bd9; font-size:20px;}
+#fillform{
+	display: block;
+}
+#leavenumber{
+	display: none;
+}
+
+/*................new styles added for lowest rate chalelnge lp Dated 18-9-2014 starts....*/
+
+.lowestrate_head_text_bx{ color:#000000; font-family:Arial, Helvetica, sans-serif; font-size:20px; padding-bottom:15px; border-bottom: thin solid #CCC;}
+.lowestrate_head_text_bx_b{ color:#000000; font-family:Arial, Helvetica, sans-serif; font-size:16px; font-weight:bold; }
+.lowestrate_head_text_bx_c{ color:#000000; font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:normal; }
+
+
+.lowest_ratenew_text ul{ margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.lowest_ratenew_text li{ margin-left:30px; margin-top:4px; list-style:url(../d4limages/bullet-apl.png); text-decoration:none; font-family:Verdana, Geneva, sans-serif; font-size:14px; color:#CC0000;}
+.lowest_ratenew_wrapper_third{ margin:10px auto; font-size:11px; color:#151515; font-family:Arial, Helvetica, sans-serif;}
+
+
+
+/*................new styles added for lowest rate chalelnge lp Dated 18-9-2014 end ....*/
+
+@media screen and (max-width:680px){
+	
+#fillform{
+	display: block;
+}
+#leavenumber{
+	display: block;
+}
+
+#menu_display_b{ display: none;}
+.menu_display{ display: inherit; width:300px;}
+.alert_msg{color:#FF0000; font-weight:bold; font-size:10px; font-family: Arial, Helvetica, sans-serif;}
+.banks_text{ width:300px; margin:0px 0px 0px 0px; font-family: Arial, Helvetica, sans-serif;font-size:14px; font-weight:bold; color:#07296D;}
+.apl_main_wrapper{ width:100%;}
+.apl_top_wrapper{ width:300px; background:#f9f9f9; height:68px; margin:auto; padding:8px; border:none;}
+.apl_logo_container{ width:300px;}
+.apl_second_container{ width:300px; paddinsg:5px; 
+box-shadow:1px 5px 15px 4px  #9ea7ae; background:#FFF; margin-top:0px;
+-webkit-box-shadow:1px 5px 15px 4px  #9ea7ae;
+-moz-webkit-box-shadow:1px 5px 15px 4px #9ea7ae;
+-o-box-shadow:1px 5px 15px 4px #9ea7ae;
+behavior: url(../ie-css3.htc); }
+.column_a{width:300px; }
+.column_b{width:300px;  border:#CCC solid thin; background:#eeeeee; padding:0px 0px 0px 0px; margin:0px 0px 0px 0px;}
+.column_wrapper{width:300px; padding:2px;   background:#fcfcfc; }
+.apl_radius{ width:300px; height: auto;  background: #F2F2F2;  }
+.bank_text ul{ display:block; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; list-style:none;}
+.bank_text li{   text-align:center; width:300px; padding:7px 0px 7px 0px;
+font-family:Verdana; font-size:14px; font-weight:bold;  margin-top:0px; border-right:none; background: #F5F5F5; border-bottom:#FFF 2px solid; float:left;}
+.row_a{ width:300px; margin:5px 0px 0px 0px; }
+.text_head{ font-family:Arial, Helvetica, sans-serif; font-size:22px; color:#ee7232; font-weight:bold;}
+.text_b{ font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#474343;  font-weight:normal;}
+.table_bg{ width:300px; margin-top:20px; padding:5px 2px 5px 2px; background:#3070F1;}
+.text_white{ font-family:Verdana, Geneva, sans-serif; font-size:16px; color:#FFF; text-indent:5px;} 
+.text_white_b{ font-family:Verdana, Geneva, sans-serif; font-size:12px; text-align:center; color:#FFF;} 
+.text_white_c{ font-family:Verdana, Geneva, sans-serif; font-size:11px; color: #333; line-height:20px;} 
+.row_b{ width:300px; margin:auto; margin-top:20px;}
+.count_wrap{ width:100px;}
+.count_wrap_b{ width:130px;}
+.personal_loan{width:300px; padding:5px; font-family:Verdana, Geneva, sans-serif; font-size:22px;}
+.personal_text{ font-family:Verdana, Geneva, sans-serif; font-size:18px; color:#07296D;}
+.form_text{ font-family:Verdana, Geneva, sans-serif; font-size:13px;}
+.input{ width:100%; height:27px; border:#c9c9c9 solid thin;}
+.mobile{ width:80%; height:29px; border:#c9c9c9 solid thin;}
+.month{ width:55px; height:29px; border:#c9c9c9 solid thin;}
+.year{ width:75px; height:29px; border:#c9c9c9 solid thin;}
+.select{ width:100%; height:29px; border:#c9c9c9 solid thin;}
+.step{ width:300px; margin-right:2px;  text-align:center; display:none;}
+.rewards{ width:300px; text-align:center; display:none;}
+.why_text_box{ width:300px; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; display:none; }
+.body_apl_text{ font-family:Verdana, Geneva, sans-serif; font-size:13px; color:#454646;}
+.body_apl_text ul{ margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.body_apl_text li{ margin-left:30px; margin-top:8px; list-style:url(../d4limages/bullet-apl.png); text-decoration:none;}
+.text_d{ font-family:Verdana, Geneva, sans-serif; font-size:14px; color:#000000; text-align:center;} 
+.logo_text{ width:300px; font-family:Verdana, Geneva, sans-serif; color:#0971b0; font-size:12px; margin-top:0px;}
+.tab_hide{ float:left; display: inline;}
+.tab_hide_b{ float:left; display:none;}
+.text_head_2{ font-family:Arial, Helvetica, sans-serif; font-size:16px; margin:0px 0px 0px 0px;  color:#0a8bd9; font-weight:bold;}
+.text_b{font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#474343;  font-weight:normal; margin:0px 0px 0px 0px;}
+.text_head_3{font-family:Arial, Helvetica, sans-serif; font-size:13px; margin:0px 0px 0px 0px; color:#474343; font-weight:normal;}
+.call_us_box{width:98%; font-family:Verdana, Geneva, sans-serif; font-size:22px; text-align:center; color:#000; margin-top:5px;}
+.step1{ width:250px; margin-right:2px; margin:10px auto; display: inherit; text-align:center; float:none;}
+.rewards1{ width:250px; margin-right:2px; margin:10px auto; display:inherit; text-align:center; float:none;}
+.why_text_box_new1{ width:98%; margin-top:10px; display:inline;}
+}
+		

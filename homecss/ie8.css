@@ -1,0 +1,13 @@
+
+#customers .customcont{
+	width:100%; 
+	max-width:1400px; 
+	height:100px;
+	margin:0 auto; 
+	background-image:url(../homeimages/customer_bgie.jpg)!important;
+	/*background-repeat:repeat-y!important;*/
+	background-position:left;
+ /*background-color:#fff;*/
+ /*background-size:contain!important;*/
+ }
+ #customers .leftcounter .counterarrow{display:none;}

@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+.form_section{ width:950px; padding:5px; background:#21405F;
+border-radius:5px 5px 5px 5px;
+-moz-border-radius:5px 5px 5px 5px;
+-ms-border-radius:5px 5px 5px 5px;
+-o-border-radius:5px 5px 5px 5px;
+-webkit-border-radius:5px 5px 5px 5px;
+margin:auto; float:left; }
+.text_head{padding-left:15px; font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#FFFFFF; width:900px;}
+.text_body{ padding-left:55px; font-size:19px; color:#FFFFFF;}
+.input_box{ width:180px; float:left; margin-right:25px; margin-left:25px; margin-top:5px; }
+.box_b{ width:440px; margin-left:15px; margin-top:15px; font-family:Verdana, Geneva, sans-serif; font-size:11px; color:#FFF; float:left; }
+.box_d{ width:440px; float:left; margin-left:25px; margin-top:10px;}
+.box_c{ width:950px;  margin:auto; margin-top:10px;}
+.second_wrapper{ width:860px;}
+.box_term{ width:280px; float:left;}
+.box_btn{ width:107px; float:left; margin-left:15px;}
+.input{ width:180px; height:18px;}
+.dd{ width:43px; height:18px; margin-right:3px; }
+.yy{ width:60px; height:18px; margin-right:3px;}
+.select{ width:180px; height:26px; }
+.mobile{ width:160px; height:24px; margin-left:5px;}
+	.menu{ display: inherit;}
+.header{ width:970px; margin:auto;}
+.ad{ display:inherit;}
+.big_text{ border-bottom: thin solid #88a943;}
+
+@media screen and (max-width:680px){
+	.menu{ display: none; width:300px; margin:auto;}
+	.ad{ display:none;}
+	.header{ width:300px; margin:auto;}
+.form_section{ width:300px; padding:5px 5px 5px 5px; background:#21405F;
+border-radius:5px 5px 5px 5px;
+-moz-border-radius:5px 5px 5px 5px;
+-ms-border-radius:5px 5px 5px 5px;
+-o-border-radius:5px 5px 5px 5px; margin:0px 0px 0px 0px;
+-webkit-border-radius:5px 5px 5px 5px; margin:0px 0px 0px 0px;
+}
+.yy{ width:100px; height:24px; margin-right:3px;}
+.dd{ width:80px; height:24px;}
+.mobile{ width:250px; height:24px; margin-left:5px;}
+.select{ width:280px; height:26px; }
+.input{ width:280px; height:24px;}
+.text_head{font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#FFFFFF; width:300px; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.text_body{ padding-left:55px; font-size:19px; color:#FFFFFF; margin:0px 0px 0px 0px;}
+.input_box{ width:300px;    float:none; margin:10px 0px 0px 0px; }
+.box_b{ width:300px; margin:0px 0px 0px 0px; margin-top:15px; font-family:Verdana, Geneva, sans-serif; font-size:11px; color:#FFF;}
+.box_d{ width:300px; margin:0px 0px 0px 0px;}
+.box_c{ width:300px; margin:0px 0px 0px 0px;}
+.box_term{ width:280px;}
+.box_btn{ width:107px;  margin-left:15px;}
+.second_wrapper{ width:98%;}
+}

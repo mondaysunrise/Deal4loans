@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+body{ margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; background:#f2eee8;}
+.tplining{ width:100%; margin:auto; background: url(../images/lp-lining-fullerten.jpg); height:7px;}
+.header-main{ width:100%; height:64px; margin:auto; background:#FFF;}
+.header-in{ width:1000px;margin:auto; background:#FFF;}
+.logo{ float:left; width:127px; margin-top:10px;}
+.second_wrapper{ width:1000px; margin:auto;}
+.left-box{width:608px; float:left; margin-top:15px;} 
+.form-box{width:585px;margin-top:15px; background:#FFF; padding:10px; border-radius:10px;} 
+h1{ font-family:Tahoma, Geneva, sans-serif; color:#cd5a13; font-size:38px; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; font-weight:normal;}
+h2{ font-family:Tahoma, Geneva, sans-serif; color:#202020; font-size:22px; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; font-weight:normal;}
+
+.text-fluttern-form{ font-family:Verdana, Geneva, sans-serif; font-size:15px; color:#202020; font-weight:normal;}
+.input{ font-family:Verdana, Geneva, sans-serif; font-size:7px; color:#202020; width:394px; background:#f4f4f4; border-radius:12px; border: #999 solid thin; height:28px; text-indent:5px; font-size:14px;} 
+.mobo{font-family:Verdana, Geneva, sans-serif; font-size:7px; color:#202020; width:350px; background:#f4f4f4; border-radius:12px; border: #999 solid thin; height:28px; text-indent:5px; font-size:14px;} 
+.select{ font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#202020; width:394px; background:#f4f4f4; border-radius:7px; border: #999 solid thin; height:30px; padding:5px 7px 5px 5px; text-indent:5px;}
+.left_panel{ width:352px; float:right; margin-top:55px;}
+.body_headtext{ font-family:Tahoma, Geneva, sans-serif; font-size:22px; color:#cd5a13; text-align:center;}
+.features{ width:310px; padding:10px; background:#cd5a13; font-family:Verdana, Geneva, sans-serif; font-size:14px; color:#FFF; margin:10px;}
+.features-list ul{ margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; }
+.features-list li{ list-style:url(../images/white-tick-flu.png); font-family:Verdana, Geneva, sans-serif; font-size:14px; color:#FFF; margin-left:25px; margin-top:5px;}
+.powered-text{ float:right; width:200px; margin-bottom:5px; font-family:Tahoma, Geneva, sans-serif; font-size:12px; color:#000;}
+.powered-text a{font-family:Tahoma, Geneva, sans-serif; font-size:12px; color:#000;}
+.bottom{ height:7px; width:100%; background:#cd5a13;}
+.dd{width:120px; font-family:Verdana, Geneva, sans-serif; font-size:7px; color:#202020;background:#f4f4f4; border-radius:12px; border: #999 solid thin; height:28px; text-indent:5px; font-size:14px;}
+.yy{width:138px; font-family:Verdana, Geneva, sans-serif; font-size:7px; color:#202020;background:#f4f4f4; border-radius:12px; border: #999 solid thin; height:28px; text-indent:5px; font-size:14px;}
+
+
+@media screen and (max-width: 768px) {
+	.tplining{ width:100%; margin:auto; background: url(../images/lp-lining-fullerten.jpg); height:7px;}
+.header-main{ width:100%; height:64px; margin:auto; background:#FFF;}
+.header-in{ width:100%;margin:auto; background:#FFF;}
+.logo{ float:left; width:127px; margin-top:10px;}
+.second_wrapper{ width:100%; margin:auto;}
+.left-box{width:100%; margin-top:15px;} 
+.form-box{width:100%;margin-top:15px; background:#FFF; padding:10px; border-radius:10px;} 
+h1{ font-family:Tahoma, Geneva, sans-serif; color:#cd5a13; font-size:38px; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; font-weight:normal;}
+h2{ font-family:Tahoma, Geneva, sans-serif; color:#202020; font-size:22px; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; font-weight:normal;}
+
+.text-fluttern-form{ font-family:Verdana, Geneva, sans-serif; font-size:15px; color:#202020; font-weight:normal;}
+.input{ font-family:Verdana, Geneva, sans-serif; font-size:7px; color:#202020; width:95%; background:#f4f4f4; border-radius:12px; border: #999 solid thin; height:28px; text-indent:5px; font-size:14px;} 
+.mobo{font-family:Verdana, Geneva, sans-serif; font-size:7px; color:#202020; width:95%; background:#f4f4f4; border-radius:12px; border: #999 solid thin; height:28px; text-indent:5px; font-size:14px;} 
+.select{ font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#202020; width:95%; background:#f4f4f4; border-radius:7px; border: #999 solid thin; height:30px; padding:5px 7px 5px 5px; text-indent:5px;}
+.left_panel{ width:100%; margin:10px auto;}
+.body_headtext{ font-family:Tahoma, Geneva, sans-serif; font-size:22px; color:#cd5a13; text-align:center;}
+.features{ width:310px; padding:10px; background:#cd5a13; font-family:Verdana, Geneva, sans-serif; font-size:14px; color:#FFF; margin:10px auto;}
+.features-list ul{ margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; }
+.features-list li{ list-style:url(images/white-tick-flu.png); font-family:Verdana, Geneva, sans-serif; font-size:14px; color:#FFF; margin-left:25px; margin-top:5px;}
+.powered-text{ float:right; width:200px; margin-bottom:5px; font-family:Tahoma, Geneva, sans-serif; font-size:12px; color:#000;}
+.powered-text a{font-family:Tahoma, Geneva, sans-serif; font-size:12px; color:#000;}
+.bottom{ height:7px; width:100%; background:#cd5a13;}
+.dd{width:30%; font-family:Verdana, Geneva, sans-serif; font-size:7px; color:#202020;background:#f4f4f4; border-radius:12px; border: #999 solid thin; height:28px; text-indent:5px; font-size:14px;}
+.yy{width:32%; font-family:Verdana, Geneva, sans-serif; font-size:7px; color:#202020;background:#f4f4f4; border-radius:12px; border: #999 solid thin; height:28px; text-indent:5px; font-size:14px;}
+
+}

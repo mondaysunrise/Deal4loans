@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+.top-strip{ height:10px; background:#f5821f}
+.body-bg-gray{ background:#f4f4f4;}
+.mr-top-50{ margin-top:5.0rem;}
+.mr-top-30{ margin-top:3.0rem;}
+.mr-top-20{ margin-top:2.0rem;}
+.h1{ font-size:2.8rem; color:#072a6c;  word-spacing:-3px;}
+.powered-text{ font-size:1.5rem; color:#072a6c;}
+.form-white-bg{ background:#FFF; border-radius:5px; border:thin solid #CCC; padding-bottom:2rem;}
+.icici-wrapper{ position:relative; width:100%;}
+.form-white-bg .col-xs-12 .col-md-4 .col-sm-6 .mr-top-30, h2{ font-size:2.2rem; color:#0c2b61 !important;}
+.form-white-bg ul, li { list-style:url(../images/icici-green-tick.png); padding-top:0.5rem; color:#0c2b61; font-size:1.6rem;}
+.mr-10{ margin-top:1.0rem;}
+.icici-wrapper .form-control{ height:4.5rem; border-left:none; border-right:#011d5e thin solid; font-size:1.6rem; border-top:#011d5e thin solid; border-bottom:#011d5e thin solid; border-radius:0rem;}
+.icici-wrapper .input-group-addon {height:4.5rem; font-size:1.8rem; border-left:#011d5e thin solid; background:none; border-right:none; border-top:#011d5e thin solid; border-bottom:#011d5e thin solid; border-radius:0rem; text-align:center;}
+.no-padding-right{padding-right:0rem;}
+.envelop-icon{ font-size:1.2rem !important;}
+.icici-wrapper .btn {background-color:#f5821f; width:100%; display:inline-block !important; font-size:1.8rem; height:5.7rem; border-radius:0; color:#FFF; border-color:#3a6dd6; transition:background-color 0.5s ease; -moz-transition:background-color 0.5s ease; -webkit-transition: background-color 0.5s ease;}
+.icici-wrapper .btn:hover {background-color:#F4F4F4 !important; height:5.7rem; border-radius:0; color:#072a6c; border-color:#3a6dd6; transition:background-color 0.5s ease; -moz-transition: background-color 0.5s ease; -webkit-transition: background-color 0.5s ease;}
+.small-text{ font-size:1.3rem; color:#0c2b61;}
+.icici-wrapper hr {margin-top:30px; margin-bottom:20px; border:0; border-top:1px solid #d0d0d0;}
+.red-text{color:#F00;}
+@media (min-width: 768px) {.no-padding-right{padding-right:0rem;}}
+@media (min-width:220px) {.no-padding-right{padding-right:15px;} .icici-wrapper .btn {background-color:#f5821f; width:100%; display:inline-block !important; font-size:1.2rem; height:5.7rem; border-radius:0; color:#FFF; border-color:#3a6dd6; transition:background-color 0.5s ease; -moz-transition:background-color 0.5s ease; -webkit-transition: background-color 0.5s ease;}}

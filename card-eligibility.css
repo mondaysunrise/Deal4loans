@@ -1,0 +1,84 @@
+#tp_pnl{
+	width:188px;
+	background-image:url(images/tp_bgshdo.gif);
+	background-repeat:no-repeat;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	line-height:12px;
+	float:left;
+}
+#tp_pnl span{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#4d4d4d;
+	line-height:42px;
+	text-indent:15px;
+	font-weight:bold;
+	float:left;
+}
+
+#bgimg_pnl{
+	width:188px;
+	background-image:url(images/bg-shado.gif);
+	background-repeat:repeat-y;
+	float:left;
+	padding-left:10px;
+}
+
+#btm_pnl{
+	width:188px;
+	background-image: url(images/bt-shado.gif) ;
+	background-repeat:no-repeat;
+	height:14px;
+	float:left;
+}
+	.bldtxt{
+	text-decoration:none;
+	color:#4d4d4d;
+	font-weight:bold;
+	font-family:Verdana, Arial, Helvetica, sans-serif; 
+	font-size:11px;
+}
+
+.bgbldtxt{
+	background-image:url(images/txtbg.gif); 
+	width:184px;
+	height:44px; 
+	background-repeat:no-repeat; 
+	z-index:1;
+	text-align:left; 
+	line-height:42px; 
+	text-indent:15px;
+ }
+	
+.bgbldtxt a{
+	text-decoration:none;
+	color:#4d4d4d;
+	font-weight:bold;
+	font-family:Verdana, Arial, Helvetica, sans-serif; 
+	font-size:11px;
+}
+
+.brdrrgt{
+	border-right:1px dashed; color:#CCCCCC;
+	padding:10px 0px;
+	border-bottom:1px dashed; color:#CCCCCC;
+}
+
+.brdrbtm{
+	padding:10px 0px;
+	border-bottom:1px dashed; color:#CCCCCC;
+}
+
+.pstn1{	position:absolute; z-index:50; margin-left:149px; margin-top:196px; left:0px; top:0px;}
+.pstn2{	position:absolute; z-index:50; margin-left:406px; margin-top:196px; left:0px; top:0px;}
+.pstn3{	position:absolute; z-index:50; margin-left:663px; margin-top:196px; left:0px; top:0px;}
+.pstn4{	position:absolute; z-index:50; margin-left:149px; margin-top:261px; left:0px; top:0px;}
+.pstn5{	position:absolute; z-index:50; margin-left:406px; margin-top:261px; left:0px; top:0px;}
+.pstn6{	position:absolute; z-index:50; margin-left:663px; margin-top:261px; left:0px; top:0px;}
+.pstn7{	position:absolute; z-index:50; margin-left:149px; margin-top:326px; left:0px; top:0px;}
+.pstn8{	position:absolute; z-index:50; margin-left:406px; margin-top:326px; left:0px; top:0px;}
+.pstn9{	position:absolute; z-index:50; margin-left:663px; margin-top:326px; left:0px; top:0px;}
+.pstn10{position:absolute; z-index:50; margin-left:149px; margin-top:391px; left:0px; top:0px;}
+
+

@@ -1,0 +1,506 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+body{ margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; font-family:'Droid Sans', sans-serif; font-size:16px; color:#000000;}
+.cl-h1{    color: #0e79b9;
+font-family: 'Droid Sans', sans-serif;
+font-size: 24px;
+padding: 0px 0px 15px 0px;
+margin: 0px 0px 0px 0px; font-weight:normal;}
+.cl-h2{font-family:'Droid Sans', sans-serif; font-size:22px; font-weight:normal; margin:0px 0px 0px 0px; padding:5px 0px 0px 0px;}
+.cl-h2-from{font-family:'Droid Sans', sans-serif; font-size:22px !important; font-weight:normal; margin:0px 0px 0px 0px; padding:5px 0px 0px 0px; color:#FFF !important;}
+.cl-form-wrapper{width:100%; color:#000000;background:#0e79b9;border-radius: 5px; padding-bottom:10px;} 
+.cl-form-text{ color:#FFF;}
+.cl_inner_wrapper{width:990px; margin:auto;}
+.cl_inner_wrapper-new{width:99%; margin:auto;}
+.new-input-box {
+  float: left;
+  width: 22%;
+  margin-left: 15px;
+  padding: 1px; margin-top: 5px; margin-bottom: 5px;}
+.cl_left_box {
+  width: 663px;
+  float: left;
+  margin-top: 15px;
+}
+.termtext{ font-size:14px; color:#FFF;}
+.termtext a{font-size:14px; color:#1A67FF; text-decoration:underline;}
+
+ .p-details{padding-left:20px; font-size:19px;}
+
+.cl_terms_box {
+  width: 75%;
+  float: left;
+  margin-left: 15px;
+  margin-top: 10px;
+  font-size: 14px;
+  text-transform: none; text-align:left !important;}
+  
+ 
+.d4l-input{
+  width: 96%;
+  height: 20px;
+}
+.d4l-select {
+  width: 93%;
+  height: 24px;
+}
+.form-headline-100 {
+  font-size: 21px; color:#FFF;
+  font-weight: 500;
+  width: 95%;
+  padding-top: 10px;
+}
+
+.pl-h2 {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 22px;
+  font-weight: normal;
+  margin: 0px 0px 0px 0px;
+  padding: 5px 0px 0px 0px;
+color:#FFF;
+}
+
+.cl-get-quotebtn {
+ background: #06b2a0;
+    width: 110px;
+    border: solid 2px #FFF;
+  height: 39px;
+  border-radius: 5px;
+    color: #FFF;
+  font-size: 16px;
+  margin-right: 63px;
+  margin-bottom: 5px;
+  float:right;
+}
+.hintanchor{ font-size:12px; color:red; background:#FFF; padding:0px 5px 0px 5px;}
+
+.right-table-text{ font-size:14px; color:#4c4c4c;}
+.right-table-text a{ font-size:14px; color:#03C;}
+
+#formatedlA{font-size:12px; font-weight:normal; color:#ffffff;}
+#wordloanAmount{font-size:12px; font-weight:normal; color:#ffffff; text-transform: capitalize;}
+#formatedIncome{font-size:12px;font-weight:normal; color:#ffffff;}
+#wordIncome{font-size:12px;font-weight:normal;text-transform: capitalize; color:#ffffff;}
+#hdfclife{ margin-top:5px;}
+.cl_bnt_b{ margin-top:5px;}
+
+.cl_inner_wrapper a{ color:#3671d5;}
+
+.table_bgcolor_Border{ background:#CCC;}
+.table_bgcolor{ background:#eceffa;	}
+.td_border4{ border:1px solid #E7DEDE; padding:3px}
+.td_border3{ border-bottom:1px solid #E7DEDE; border-right:1px solid #E7DEDE;  border-top:1px solid #E7DEDE;  padding:3px}
+.td_border_lrb{border-left:1px solid #E7DEDE; border-right:1px solid #E7DEDE;  border-bottom:1px solid #E7DEDE;  padding:3px}
+.td_border_rb{border-right:1px solid #E7DEDE;  border-bottom:1px solid #E7DEDE;  padding:3px}
+
+.overflow-width{ width:100%;}
+/*.....................single side car loan styles starts................*/
+.greentext{color:#55af03;}
+.cl_terms_box-signle {
+  width: 760px;
+  float: left;
+  margin-left: 25px;
+  margin-top: 10px;
+  font-size: 11px;
+  text-transform: none;}
+  .common-bread-crumb{font-family:'Droid Sans', sans-serif; font-size:16px; color:#666; margin-bottom:10px;}
+.common-bread-crumb a{font-family:'Droid Sans', sans-serif; font-size:16px; color:#0080d6;}
+.common-bread-crumb a:hover{font-family:'Droid Sans', sans-serif; font-size:16px; color:#666; text-decoration:underline;}
+.cl_new_bnt_b{margin-top:10px;} 
+/*.....................single side car loan styles ends................*/
+
+
+
+/*..............Side Bar Styles Starts ..........*/
+.cl-h2{font-family:'Droid Sans', sans-serif; font-size:22px; font-weight:normal; margin:0px 0px 0px 0px; padding:5px 0px 0px 0px;}
+
+
+.left-wrapper{float:left;
+  width: 710px;
+  margin-top:10px;}
+.d4l-side-input{width:93%; height:20px;}
+.d4l-side-mobile{width:94%; height:20px;}
+.d4l-side-select{width:95%; height:25px;}
+.right-panel-wrapper{ float:right; width:263px; margin-top:10px; margin-bottom:10px;}
+.right-panel-fomr-box{ width:250px; border-radius:5px; background:#0e79b9;}
+.hintanchorqa{ font-size:11px; color:#F00 !important; background:#FFF; padding:0px 5px 0px 5px}
+.pl-get-quotebtn {
+  background: #1a67ff;
+  width: 110px;
+  height: 39px;
+  border-radius: 5px;
+  border: 2px;
+  color: #FFF;
+  font-size: 16px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+
+.p-details {
+  padding-left: 15px;
+  font-size: 19px;
+  padding-top: 10px;
+  color:#FFF; text-align:left;
+}
+.side-form-text{ font-size:14px; width:70px; height:30px; vertical-align: middle; padding-left: 5px; color:#FFF}
+.cl-bank-leftinn {
+   float: left;
+  border: 1px solid #cccccc;
+  padding: 4px;
+}
+.right-panel-fomr-box span{ color:#FFF} 
+.right-panel-fomr-box a{ color:#FFF; text-decoration:underline;}
+
+
+.cl-bank-leftinn {
+   float: left;
+  border: 1px solid #cccccc;
+  padding: 4px;
+}
+
+/*...........Side Bar Ends.......*/
+
+/*.................new styles added on 13-5-2015 starts.........*/
+
+.wrapper-content{
+	width:495px; margin-top:15px;
+	height:200px;
+	overflow-y:scroll; line-height:18px;
+}
+
+.right_container {
+  position: static;
+  border: thin solid #bebebd;
+  width: 165px;
+  padding: 2px;
+  margin-right: 10px;
+  float: right;
+  margin-top: 10px;}
+  
+  .left-container {
+  float: left;
+  width: 772px;
+  margin-left: 14px;
+  margin-top: 10px;}
+  .second_wrapper_pl_new {width:996px; margin:auto;}
+  
+.cl_form_wrapper {
+  width: 761px;
+   border-radius: 7px 7px 7px 7px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -ms-border-radius: 5px 5px 5px 5px;
+  -o-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  padding: 7px 10px 25px 10px;
+  background:#0e79b9;
+  color:#FFF;
+  margin-top: 15px;}
+  .cl_input-box_wrapper {
+  width: 150px;
+  float: left;
+  margin-right: 12px;
+  margin-bottom: 4px;}
+  .frm_text_tp {
+   font-size: 14px;
+  color: #FFF;
+}
+.iput_box_new {
+  width: 150px;
+  height: 25px;
+  border: none;
+}
+.select_box_new {
+  width: 152px;
+  height: 27px;
+  border: none;
+  padding: 2px;
+}
+.nw_ddpl {
+  width: 48px;
+  height: 25px;
+  border: none;
+}
+.mob_iput_box_new2 {
+  width: 130px;
+  height: 25px;
+  border: none;
+}
+  
+  .second_trm_box {
+  width: 600px;
+  float: left;
+  margin-top: 4px;
+}
+.second_btn_box {
+  width: 150px;
+  float: right;
+  margin-top: 4px;
+}
+.hl_input-box_wrapper2 {
+  width: 160px;
+  float: left;
+  margin-right: 6px;
+  margin-left: 3px;
+  margin-bottom: 4px;
+}
+.body_inner_tptxt {
+  width: 95%;
+  padding:5px 5px 5px 0px;
+  font-size: 16px;
+  color: #FFF; }
+.iput_box_new2 {
+  width: 150px;
+  height: 25px;
+  border: none;
+}
+.cl-get-quotebtn2 {
+  background: #06b2a0;
+    width: 110px;
+    border: solid 2px #FFF;
+  height: 39px;
+  border-radius: 5px;
+  margin-top: 22px;
+ 
+  color: #FFF;
+  font-size: 16px;
+  margin-right: 0px;
+  margin-bottom: 5px;
+  margin-left:0px;
+}
+.button_box_new {
+  width: 86px;
+  height: 24px;
+  text-align: center;
+  margin-left: 5px;
+  border: none;
+  float: left;
+  margin-top:0px;
+}
+.body_inner2 {
+  width: 95%;
+  padding: 5px 5px 5px 0px;
+   font-size: 16px;
+  }
+  .hl-h2-new {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 22px;
+  font-weight: normal;
+  margin: 0px 0px 0px 0px;
+  padding: 5px 0px 0px 10px;
+}
+
+.bank_listings_box {
+  width: 782px;
+  margin-top: 0px;
+}
+
+.lac-left-box {
+  width: 663px;
+  margin-top: 5px;
+  float: left;
+  clear: right;
+}
+/*.................new styles added on 13-5-2015 ends.........*/
+
+
+
+
+
+@media screen and (max-width:680px){
+	.cl_inner_wrapper{width:98%; margin:auto;}
+.new-input-box {
+  float:none;
+  width:90%;
+  margin:auto;
+  padding: 1px; margin-top: 5px; margin-bottom: 5px;}
+.cl_left_box {
+  width:95%;
+  float: left;
+  margin-top: 15px;
+}
+.cl_terms_box {
+  width:95%;
+  float: left;
+  margin-left:10px;
+  margin-top: 10px;
+  font-size: 14px;
+  text-transform: none; text-align:left;
+  }
+.d4l-input{
+  width: 96%;
+  height: 20px;
+}
+.d4l-select {
+  width: 97%;
+  height: 24px;
+}
+.form-headline-100 {
+  font-size: 21px; color:#FFF;
+  font-weight: 500;
+  width: 95%;
+  padding-top: 10px;
+}
+.cl-get-quotebtn {
+background: #06b2a0;
+width: 110px;
+border: solid 2px #FFF;
+height: 39px;
+  border-radius: 5px;
+  color: #FFF;
+  font-size: 16px;
+  margin-right: 30px;
+  margin-bottom: 5px;
+}
+.termtext{ font-size:14px; color:#FFF;}
+.termtext a{font-size:14px; color:#1A67FF; text-decoration:underline;}
+.hintanchor{ font-size:12px; color:red; background:#FFF; padding:0px 5px 0px 5px;}
+.cl_terms_box-signle {
+  width:95%;
+  float: left;
+  margin-left:2px;
+  margin-top: 10px;
+  font-size: 11px;
+  text-transform: none; text-align:left;}
+  
+  .overflow-width{width:99%; overflow:scroll; margin:auto;}
+  
+  /* ...........  Side baar Start ............*/
+.left-wrapper{float:left;
+  width:98%;
+  margin-top:10px;}
+.right-panel-wrapper{ float:none; margin:auto; width:275px; clear:left;}
+.right-panel-fomr-box{ width:270px; border-radius:5px; background:#0e79b9; margin:auto;}
+ /* ...........  Side baar End............*/
+
+.cl-bank-leftinn {width:98%;
+float:left;
+border:1px solid #cccccc;
+padding:4px;}
+.cl_new_bnt_b{ float:right; margin-top:10px;} 
+.cl_bnt_b{ float:right; margin-top:5px;}
+ 
+ 
+ /*.................new styles added on 13-5-2015 starts.........*/
+
+.wrapper-content{
+	width:100%; margin-top:15px;
+	height:200px;
+	overflow-y:scroll; line-height:18px;
+}
+
+.right_container {
+  position: static;
+  border: thin solid #bebebd;
+  width: 165px; clear:left;
+  padding: 2px;
+  margin: auto;
+  float:none;}
+  
+  .left-container {
+  float:none;
+  width:98%;
+  margin:auto;}
+  .second_wrapper_pl_new {width:98%; margin:auto;}
+  
+.cl_form_wrapper {
+  width:98%;
+   border-radius: 7px 7px 7px 7px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -ms-border-radius: 5px 5px 5px 5px;
+  -o-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  padding: 7px 10px 25px 10px;
+  background:#0e79b9;
+  color:#FFF;
+  margin-top: 15px;}
+  .cl_input-box_wrapper {
+  width:98%;
+  float:none;
+  margin: auto;}
+  .frm_text_tp {
+   font-size: 14px;
+  color: #FFF;
+}
+.iput_box_new {
+  width:95%;
+  height: 25px;
+  border: none;
+}
+.select_box_new {
+  width:95%;
+  height: 27px;
+  border: none;
+  padding: 2px;
+}
+.nw_ddpl {
+  width: 30%;
+  height: 25px;
+  border: none;
+}
+.mob_iput_box_new2 {
+  width:87%;
+  height: 25px;
+  border: none;
+}
+  
+  .second_trm_box {
+  width:98%;
+  float:none;
+  margin-top: 4px;
+}
+.second_btn_box {
+  width: 150px;
+  float: right;
+  margin-top: 4px;
+}
+.hl_input-box_wrapper2 {
+  width:95%;
+  float:none;
+  margin-right: 6px;
+  margin-left: 3px;
+  margin-bottom: 4px;
+}
+.body_inner_tptxt {
+  width: 95%;
+  padding:5px 5px 5px 0px;
+  font-size: 16px;
+  color: #FFF; }
+.iput_box_new2 {
+  width:95%;
+  height: 25px;
+  border: none;
+}
+.cl-get-quotebtn2 {
+ background: #06b2a0;
+ border: solid 2px #FFF;
+  width: 86px;
+  height: 30px;
+  border-radius: 5px;
+  color: #FFF;
+  font-size: 16px;}
+.button_box_new {
+  width: 86px;
+  height: 24px;
+  text-align: center;
+  margin-left: 5px;
+  border: none;
+  margin-right:22px;
+  float: right;
+  margin-top:0px;
+}
+.body_inner2 {
+  width: 95%;
+  padding: 5px 5px 5px 10px;
+   font-size: 16px;
+  }
+  .hl-h2-new {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 22px;
+  font-weight: normal;
+  margin: 0px 0px 0px 0px;
+  padding: 5px 0px 0px 10px;}
+
+.bank_listings_box {
+  width:98%;  margin-top:0px;}/*.................new styles added on 13-5-2015 ends.........*/
+}

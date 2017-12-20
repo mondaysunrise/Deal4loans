@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+body{ padding:0px 0px 0px 0px; margin:0px 0px 0px 0px;}
+.top_box{ width:100%; height:60px; background:#fffdf8;}
+.top_box_a{ width:100%; max-width:990px; margin:auto; height:60px;}
+#site-logo{ float:left; width:170px;}
+
+.pl_top_text_box{ float:left; margin-left:5px; font-family:Verdana, Geneva, sans-serif; font-size:1.2em; color:#347294; font-weight:bold; margin-top:15px;}
+.pl_form_box{ width:58%; max-width:518px; padding:2px; float:left; }
+.pl_form_boxb{width:100%; max-width:516px;  border:#CCC solid thin; margin:auto;}
+.pl_form_radius_top{ max-width:518px;  height:41px; background: url(../d4limages/radius-apply-pl-bg.png) no-repeat; background-size:100%; text-align:center; color:#906c0b; font-family:Verdana, Geneva, sans-serif; font-size:16px; font-weight:bold;}
+.pl_second_wrapper{max-width:990px; width:100%; margin:auto; }
+.pl-right_img_box{ max-width:470px; float:left; width:46%; margin-left:4px;}
+.apply_pl_input{ height:29px; width:98%;}
+.text_2{ font-family:Verdana, Geneva, sans-serif; font-size:14px; color:#000000; font-weight:normal;}
+.text_4{ font-family:Verdana, Geneva, sans-serif; font-size:16px; color:#000000; font-weight:normal;}
+ .table_sample{  width:100%; margin:auto;  }
+ 
+.why_box{ width:100%; margin-top:5px;   }
+ .text_3{ font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#2d2d2d;}
+ .pl_detail_text{ font-family:Verdana, Geneva, sans-serif;font-size:18px; color:#262828;} 
+ .pl_detail_text_a{ font-family:Verdana, Geneva, sans-serif;font-size:20px; color: #FFF; text-align:center;} 
+
+/*img{ width:100%; }*/
+
+.pl_why_bullet {   font-family: Arial, Helvetica, sans-serif; font-size:13px; font-weight:bold; color:#7e5a09; }
+
+.pl_bank_logo{ max-width:972px; width:100%; padding-top:10px; margin: auto; border:thin solid #cacaca;  
+border-radius:7px 7px 7px 7px ;
+-moz-border-radius:7px 7px 7px 7px ;
+-o-border-radius:7px 7px  7px 7px ;
+-webkit-border-radius:7px 7px 7px 7px ;  }
+
+.logo_list ul{ padding:0; margin:0; list-style:none; width:100%;}
+.logo_list li{ display:inline; padding:0px 10px 0px 10px; margin:0px 0px 0px 10px; float:left; text-align: center;}
+
+.logo_list_b ul{ padding:0; margin:0; list-style:none; width:100%;}
+.logo_list_b li{ display:inline; padding:0px 3px 0px 3px; width:110px;   margin:0px 0px 0px 3px; float:left; text-align: center;}
+
+.mobile_pl{ width:88%; height:29px;}
+.dd_pl{ width:20%; height:29px;}
+.yy_pl{ width:55%; height:29px;}
+
+.logo_second_box{ width:100%; padding:2px;  margin-bottom:5px; margin-top:5px; border:thin solid #cacaca;  
+border-radius:7px 7px 7px 7px ;
+-moz-border-radius:7px 7px 7px 7px ;
+-o-border-radius:7px 7px  7px 7px ;
+-webkit-border-radius:7px 7px 7px 7px;
+ }
+.pkup{ width:100%; margin-top:-3px;}
+
+/*..............new styles added on 19-9-2014 starts.............*/
+.pl_why_bullet_newone{font-family: Arial, Helvetica, sans-serif; font-size:13px; font-weight:normal; color:#000000; }
+
+/*..............new styles added on 19-9-2014 starts.............*/
+
+/*..............new styles added on 2-5-2014 starts.............*/
+.news-box{ width:97%; padding:10px; background:#e8efd9; border-radius:5px; border:#84a4b9 solid thin; margin-top:15px; font-size:15px;}
+/*..............new styles added on 2-5-2014 ends.............*/
+
+.pl_why_bullet {   font-family: Arial, Helvetica, sans-serif; font-size:13px; font-weight:bold; color:#7e5a09; }
+
+ 
+@media screen and (max-width: 320px) {
+	.logo_second_box{ width:100%; margin-top:10px; display: inherit;}
+	
+	.pkup{ width:100%; margin-top:-3px;}
+	.mobile_pl{ width:136px; height:29px;}
+.dd_pl{ width:20%; height:29px;}
+.yy_pl{ width:50%; height:29px;}
+	
+	.text_2{ font-family:Verdana, Geneva, sans-serif; font-size:11px; color:#000000; font-weight:normal;}
+	
+	.pl_form_radius_top{ max-width:518px;background: #5ecfe8 !important; text-align:center; color:#906c0b; font-family:Verdana, Geneva, sans-serif; font-size:12px; font-weight:bold; }
+	
+
+.top_box{ width:100%; height:60px; }
+.top_box_a{ width:100%; max-width:990px; margin:auto; height:60px;}
+#site-logo{ float:left; width:170px;}
+
+.pl_top_text_box{ float:left; margin-left:5px; font-family:Verdana, Geneva, sans-serif; font-size:1.2em; color:#347294; font-weight:bold; margin:0px 0px 0px 0px;  }
+.pl_form_box{ width:100%; max-width:518px; padding:2px;  }
+.pl_steps_box{ width:100%; max-width:518px; padding:2px; margin-top:15px;  }
+.pl_form_boxb{width:99%; max-width:518px; padding:2px;}
+
+.pl_second_wrapper{max-width:990px; width:100%; margin:auto;}
+.pl-right_img_box{ max-width:463px; width:100%;}
+.apply_pl_input{ height:29px; width:98%;}
+ 
+img{ width:99%; height:auto; }
+.stepImg { width:99%; height:auto; }
+.pl_bank_logo{ max-width:972px; width:100%; padding-top:10px; margin: auto; border:thin solid #cacaca;  
+border-radius:7px 7px 7px 7px ;
+-moz-border-radius:7px 7px 7px 7px ;
+-o-border-radius:7px 7px  7px 7px ;
+-webkit-border-radius:7px 7px 7px 7px; }
+.logo_list ul{ padding:0px 0px 0px 0px; margin-left:-50px ; list-style:none; width:100%; background:#F00; }
+.logo_list li{  padding:0px 0px 0px 0px; margin:0px 0px 0px 0px ; width:80px; float:left; }
+.logo_list_b ul{ padding:0; margin:0; list-style:none; width:100%;}
+.logo_list_b li{ display:inline; padding:0px 3px 0px 3px; width:100px;   margin:0px 0px 0px 3px; float:left; text-align: center;}
+}
+
+@media screen and (max-width:960px) {
+.logo_second_box{ width:100%; margin-top:10px; display: inherit;}
+.top_box{ width:100%; height:60px; background:#fffdf8;}
+.top_box_a{ width:100%;  margin:auto; height:60px;}
+#site-logo{  width:170px;}
+.pl_top_text_box{ margin-left:5px; font-family:Verdana, Geneva, sans-serif; font-size:1.2em; color:#347294; font-weight:bold; margin-top:15px;}
+.pl_form_box{ width:100%; max-width:100%;  padding:2px;  margin:auto; }
+.pl_form_boxb{width:100%; max-width:100%;  border:#CCC solid thin; margin:auto;}
+.pl_form_radius_top{ width:100%; max-width:100%;  height:51px; background: #0993ba; background-size:100%; text-align:center; color:#906c0b; font-family:Verdana, Geneva, sans-serif; font-size:16px; font-weight:bold;}
+.pl_second_wrapper{ width:100%; margin:auto; }
+.pl-right_img_box{  width:100%; max-width:100%; }
+.apply_pl_input{ height:29px; width:98%;}
+.text_2{ font-family:Verdana, Geneva, sans-serif; font-size:14px; color:#000000; font-weight:normal;}
+.text_4{ font-family:Verdana, Geneva, sans-serif; font-size:16px; color:#000000; font-weight:normal;}
+.table_sample{  width:100%; margin:auto;  }
+.why_box{ width:100%; margin-top:5px;   }
+.text_3{ font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#2d2d2d;}
+.pl_detail_text{ font-family:Verdana, Geneva, sans-serif;font-size:18px; color:#262828;} 
+.pl_detail_text_a{ font-family:Verdana, Geneva, sans-serif;font-size:20px; color: #FFF; text-align:center;} 
+
+ img{ width:100%; height:100%;} 
+.stepImg { width:99%; height:auto; }
+
+.pl_why_bullet {   font-family: Arial, Helvetica, sans-serif; font-size:13px; font-weight:bold; color:#7e5a09; }
+.pl_bank_logo{ max-width:100%; padding-top:10px; margin: auto; border:thin solid #cacaca;  
+border-radius:7px 7px 7px 7px ;
+-moz-border-radius:7px 7px 7px 7px ;
+-o-border-radius:7px 7px  7px 7px ;
+-webkit-border-radius:7px 7px 7px 7px ;  }
+
+.logo_list ul{ padding:0px 5px 0px 5px; margin:0px 5px 0px 5px; list-style:none;  width:100%;}
+.logo_list li{  padding:0px 5px 0px 5px; margin:0px 0px 0px 2px; width:90px; float:left; }
+.logo_list_b ul{ padding:0; margin:0; list-style:none; width:100%;}
+.logo_list_b li{ display:inline; padding:0px 3px 0px 3px; width:100px;   margin:0px 0px 0px 3px; float:left; text-align: center;}
+.mobile_pl{ width:88%; height:29px;}
+.dd_pl{ width:20%; height:29px;}
+.yy_pl{ width:55%; height:29px;}
+.pkup{ width:100%; margin-top:-3px;}
+	
+	.logo_list_b ul{ padding:0; margin:0; list-style:none; width:100%;}
+.logo_list_b li{ display:inline; padding:0px 3px 0px 3px; width:110px;   margin:0px 0px 0px 3px; float:left; text-align: center;}
+
+}

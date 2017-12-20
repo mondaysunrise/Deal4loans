@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800,900);
+body{ margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.header-newpl-main{ width:100%; padding:10px 0px 10px 0px; background:#0072bc;}
+.header-newpl-main-b{ width:1000px; margin:auto;}
+.logo-new1d4l{ float:left; width:163px; margin-left:10px; }
+.top-right-boxbank{ float:left; width:700px; margin-left:40px; font-family:'Raleway'; font-size:19px; color:#FFF; margin-top:10px;}
+.why_text_box-right-new{ width:469px; margin-left:10px; margin-top:10px; font-family:'Raleway';  color:#0072bc; font-size:27px;}
+.text_head-h{ font-family:'Raleway'; color:#0072bc; font-size:25px;}
+.text_head-bullet ul{padding:0px 0px 0px 0px; margin:0px 0px 0px 25px;}
+.text_head-bullet li{ font-family:'Raleway'; color:#0072bc; font-size:18px; list-style:url(/images/bullet-arrow-new.png); margin-top:5px;}
+/*..............new styles added on 2-5-2014 starts.............*/
+.news-box{ width:97%; padding:10px; background:#e8efd9; font-family:'Raleway';  border-radius:5px; border:#84a4b9 solid thin; margin-top:15px; font-size:12px;}
+/*..............new styles added on 2-5-2014 ends.............*/
+
+
+@media screen and (max-width: 680px) {
+	.header-newpl-main{ width:100%; padding:10px 0px 10px 0px; background:#0072bc;}
+.header-newpl-main-b{ width:300px; margin:auto;}
+.logo-new1d4l{ float:left; width:163px; margin-left:10px; }
+.top-right-boxbank{ width:100%; margin-left:0px; font-family:'Raleway'; font-size:19px; color:#FFF; margin-top:10px;}
+.why_text_box-right-new{ width:100%; margin-left:10px; margin-top:10px; font-family:'Raleway';  color:#0072bc; font-size:27px;}
+.text_head-h{ font-family:'Raleway'; color:#0072bc; font-size:25px;}
+.text_head-bullet ul{padding:0px 0px 0px 0px; margin:0px 0px 0px 25px;}
+.text_head-bullet li{ font-family:'Raleway'; color:#0072bc; font-size:18px; list-style:url(/images/bullet-arrow-new.png); margin-top:5px;}
+	
+}

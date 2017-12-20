@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+
+body{margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; font-family:'Droid Sans', sans-serif;}
+.scb-header{padding:20px 0px 20px 0px; box-shadow:#cbcbcb 0px 5px 5px;}
+.scb-container{ width:1170px; margin:auto;}
+.pd-top-25{padding-top:35px;}
+.logo-scb{float:left; width:20%;}
+.logo-d4l{float:right; width:80%; text-align:right; vertical-align:middle; position:relative; top:13px;}
+.clearfix{clear:both;}
+.scb-col-left{float:left; width:57%;}
+.scb-col-left .scb-form{background:#f9f9f9; border:#c8c8c8 thin solid; padding:20px; border-radius:10px; }
+.scb-label-wrapper{float:left; width:35%; position:relative; top:10px;}
+.scb-input-wrapper{float:left; width:65%; padding-bottom:15px;}
+.scb-dd{width:32.6%; border-radius:5px; border:thin #b0b0b0 solid; height:41px; outline:none; text-indent:5px; font-size:16px;}
+.scb-col-right{float:right; width:35%; padding-left:75px;}
+.scb-form input, select{ width:100%; border-radius:5px; border:thin #b0b0b0 solid; height:41px; outline:none; text-indent:5px; font-size:16px; }
+.scb-form input{ width:100%; border-radius:5px; border:thin #b0b0b0 solid; height:41px; outline:none; text-indent:5px; font-size:16px; }
+.scb-form button{padding:5px; background:#0a71d9; color:#FFF; text-align:center; margin:auto; width:217px; border:none; height:57px;}
+.scb-form h1{ font-size:20px;}
+.scb-col-right h2{ font-weight:normal; margin-bottom:10px;}
+.scb-col-right h3{ font-weight:700; font-size:18px; margin-top:0px; margin-bottom:0px;}
+.scb-col-right p{ margin-top:0px;}
+.text-center{ text-align:center;}
+input[type=radio]:checked + i + span, input[type=checkbox]:checked + i + span {-webkit-transition: all 0.1s ease; transition: all 0.1s ease;}
+input[type=radio] + i:before { content: "\f10c"; }
+input[type=radio]:checked + i:before { content: "\f111"; }
+input[type=radio]:checked + i + span, input[type=radio]:checked + i:before { color:#0a71d9; }
+input[type=checkbox] + i:before { content: "\f096"; }
+input[type=checkbox]:checked + i:before { content: "\f046"; }
+input[type=checkbox]:checked + i + span, input[type=checkbox]:checked + i:before { color:#595959; }
+
+input[type=radio] + i::before, input[type=checkbox] + i::before {
+  display: inline-block;
+  font-family: "FontAwesome";
+  font-size: 1.5rem;
+  height: 25px;
+}
+input[type=radio], input[type=checkbox] {
+  display: none;
+}
+label i {
+  color:#565454;
+  display: inline-block;
+  font-style: normal;
+  height: 25px;
+  position: relative;
+  top: 2px;
+}
+
+@media (max-width:767px){
+	.scb-container{ width:95%; margin:auto;}
+	.scb-col-left{float:none; width:100%;}
+	.scb-col-right{float:none; width:100%; padding-left:0px;}
+	.scb-dd{width:31.5%; border-radius:5px; border:thin #b0b0b0 solid; height:41px; outline:none; text-indent:5px; font-size:16px;}
+	.scb-label-wrapper{float:left; width:35%; position:relative; top:10px; font-size:14px;}
+	.logo-d4l img{ width:50%;}
+	
+	}

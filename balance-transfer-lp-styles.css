@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+body{ margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.main_wraper{ width:966px; margin:auto;}
+.top_box{width:966px; height:98px; background:url(images/bt_top-bg.jpg) top right no-repeat; } 
+.logo{ float:left; width:212px;}
+.left_box{ float:left; width:653px; padding:4px; margin-top:-15px;}
+.right_box{ float:left;  width:290px; margin-top:-50px;}
+.form_box{width:287px; padding:2px; background:#ff8712;}
+.shadow{ float:left; background:url(images/shadow.jpg) no-repeat; width:9px; height:14px; margin-left:-8px; }
+h1{ padding:0px 0px 0px 0px; margin:0px 0px 0px 0px; font-family:Verdana, Geneva, sans-serif; font-weight:bold; color:#3c63ac; font-size:28px;}
+h2{ padding:0px 0px 0px 0px; margin:0px 0px 0px 0px; font-family:Verdana, Geneva, sans-serif; font-weight:normal; color:#cd0505; font-size:22px; text-align:right;}
+.bold{ font-weight:bold;}
+.bold_b{ font-size:18px; font-weight:bold; font-family:Verdana, Geneva, sans-serif;}
+.graph{ float:left; margin-top:15px; width:280px;}
+.box{ float: right; margin-top:15px; background:#fff2e0; border:thin solid #ff8300; width:368px;}
+.text{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#3c63ac;}
+.text_a{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color: #FFF;}
+.box_b{ width:650px; padding:5px 0px 5px 5px; background:#3c63ac; margin-top:5px;
+font-family:Verdana, Geneva, sans-serif; font-size:19px; font-weight:bold; color:#FFF; text-align:center;
+}
+.box_c{ width:650px; margin-top:15px;} 
+p{ margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.text_d{ font-family:Verdana, Geneva, sans-serif; font-size:22px; color:#000000; font-size:22px; margin-left:25px;}
+.text_e ul{ padding:0px 0px 0px 0px; margin:0px 0px 0px 0px;}
+.text_e li{ margin-left:55px; list-style:url(images/balance-tansfer-bullet.jpg); font-family:Verdana, Geneva, sans-serif; font-size:13px; font-weight: normal; color:#000000; line-height:20px;}
+.body{ font-family:Verdana, Geneva, sans-serif; font-size:12px; color: #333; margin-top:25px; text-align:justify;}
+.form_text{ font-family:Verdana, Geneva, sans-serif; font-size:12px; font-weight:bold; color:#000000;}
+.input{ width:270px; height:24px; border:none;
+border-radius:5px 5px 5px 5px;
+-moz-border-radius:5px 5px 5px 5px;
+-o-border-radius:5px 5px 5px 5px;
+-ms-border-radius:5px 5px 5px 5px;
+-webkit-border-radius:5px 5px 5px 5px; }
+
+.select{ width:270px; height:26px; border:none;
+border-radius:5px 5px 5px 5px;
+-moz-border-radius:5px 5px 5px 5px;
+-o-border-radius:5px 5px 5px 5px;
+-ms-border-radius:5px 5px 5px 5px;
+-webkit-border-radius:5px 5px 5px 5px; }
+.mobile{ width:230px; height:26px; border:none;
+border-radius:5px 5px 5px 5px;
+-moz-border-radius:5px 5px 5px 5px;
+-o-border-radius:5px 5px 5px 5px;
+-ms-border-radius:5px 5px 5px 5px;
+-webkit-border-radius:5px 5px 5px 5px; }
+.banks_box{ margin-top:5px; padding:2px; width:287px; border-radius:5px 5px 5px 5px; }
+.per_details{ width:287px; margin-top:5px;}
+.top_head_bx{ float:left; margin-left:25px; width:400px; margin-top:20px;}

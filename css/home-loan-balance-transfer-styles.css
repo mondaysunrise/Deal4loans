@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+.main_container{ width:985px; margin:auto;}
+.hlb_left_box{ float:left; width:714px;}
+.hlb_right_box_main{ float:right; width:260px; margin-top:5px;}
+
+.hlb_right_box{ float:right; width:260px; border:#9ec8e3 thin solid; padding:3px;  background:#e4f2fb; margin-top:5px;}
+.hlb_bank_box{ width:260px; margin-top:7px; margin-left:-3px;}
+.hlb_logo_box{ float:left; }
+.hlb_top_head_box{ height:65px; padding-top:15px; background:#e4f2fb url(images/hlb_top_head_bg.png) right no-repeat; width:712px; margin-top:5px;}
+.hlb_why_box{ height: auto; padding:5px; background:#e4f2fb; width:701px;}
+.hlb_bank_parner{ height: auto; margin-top:1px; padding:5px; text-align:left; width:708px;}
+.hlb_text_section{ height: auto; padding:5px; text-align: justify; width:701px;}
+.line_top_head_box{ height:22px;  background: url(images/hlb_top_lining_bg.png)repeat; width:712px; margin-top:5px;}
+.hlb_text_head{ margin-left:25px; font-family: Verdana, Geneva, sans-serif; font-size:24px; font-weight:bold; color:#2a8104; }
+.hlb_sub_text{ margin-left:25px;  font-family: Verdana, Geneva, sans-serif; font-size:15px; font-weight:bold; color:#635e5e;}
+.hlb_why_text{font-family: Verdana, Geneva, sans-serif; font-size:17px; font-weight:normal; color:#444343; }
+.hlb_form_text{font-family: Verdana, Geneva, sans-serif; font-size:13px; font-weight:bold; color:#444343; }
+.hlb_input_box{ width:260px; height:22px; border:#8fbfde thin solid; }
+.hlb_input_mobo{ width:200px; height:22px; border:#8fbfde thin solid; }
+
+.hlb_select_box{ width:260px; height:24px; border:#8fbfde thin solid; }
+
+.hlb_body_text{ font-family:Verdana, Geneva, sans-serif;  text-align:justify; font-size:12px; color: #666;}
+
+.hlb_why_text_b ul { margin:0px; padding:0px; margin-left:25px; }
+.hlb_why_text_b li{ list-style: url(../images/bullet-hlb.png); font-family: Verdana, Geneva, sans-serif; font-size:13px; font-weight:bold; color:#444343; line-height:25px;}
+.hlb_why_tex_box{ width:690px; padding:10px; background:#e4f2fb; float:left; margin-top:10px;}
+.shadow{ width:712px; margin-top:15px; height:22px; background:url(../images/hl_bt_cal-shadow.jpg) repeat-x;}
+
+@media screen and (max-width:680px) {
+.main_container{ width:300px; margin:0px 0px 0px 0px;}
+.hlb_left_box{ width:300px; margin:0px 0px 0px 0px;}
+.hlb_right_box_main{width:300px; margin:0px 0px 0px 0px;}
+
+.hlb_right_box{width:290px; border:#9ec8e3 thin solid; padding:3px;  background:#e4f2fb; margin:0px 0px 0px 0px;}
+.hlb_bank_box{ width:300px; margin:10px 0px 0px 20px;}
+.hlb_logo_box{ width:300px; }
+.hlb_top_head_box{height: auto; padding-top:15px; background:#e4f2fb url(images/hlb_top_head_bg.png) right no-repeat; width:300px; margin:0px 0px 0px 0px;}
+.hlb_why_box{ height: auto; padding:5px; background:#e4f2fb; width:300px; margin:0px 0px 0px 0px;}
+.hlb_bank_parner{margin-top:1px; padding:5px; text-align:left; width:300px;}
+.hlb_text_section{padding:5px; background:#FFF; text-align: justify; width:300px; margin:0px 0px 0px 0px;}
+.line_top_head_box{ height:22px;  background: url(images/hlb_top_lining_bg.png)repeat; width:300px; margin-top:5px;}
+.hlb_text_head{ font-family: Verdana, Geneva, sans-serif; font-size:15px; font-weight:bold; color:#2a8104; text-align: center; }
+.hlb_sub_text{font-family: Verdana, Geneva, sans-serif; font-size:15px; font-weight:bold; color:#635e5e;}
+.hlb_why_text{font-family: Verdana, Geneva, sans-serif; font-size:17px; font-weight:normal; color:#444343; }
+.hlb_form_text{font-family: Verdana, Geneva, sans-serif; font-size:13px; font-weight:bold; color:#444343; }
+.hlb_input_box{ width:290px; height:22px; border:#8fbfde thin solid; }
+.hlb_input_mobo{ width:250px; height:22px; border:#8fbfde thin solid; }
+
+.hlb_select_box{ width:290px; height:24px; border:#8fbfde thin solid; }
+
+.hlb_body_text{ font-family:Verdana, Geneva, sans-serif;  text-align:justify; font-size:12px; color: #666;}
+.hlb_why_text_b ul { margin:0px; padding:0px; margin-left:25px; }
+.hlb_why_text_b li{ list-style: url(../images/bullet-hlb.png); font-family: Verdana, Geneva, sans-serif; font-size:13px; font-weight:bold; color:#444343; line-height:25px;}
+.hlb_why_tex_box{ width:300px; padding:10px; background:#e4f2fb; margin:0px 0px 0px 0px;}
+.shadow{ width:300px; margin-top:15px; height:22px; background:url(../images/hl_bt_cal-shadow.jpg) repeat-x; display:none;}
+}
+
+
+
+

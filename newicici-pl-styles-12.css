@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+body{ margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; background:url(images/bg-new-pl.jpg) repeat;}
+hr{border-bottom:thick #fe9515 solid; padding:0px 0px 0px 0px; margin:0px 0px 0px 0px; }
+.header{ width:100%; margin:15px auto; border-bottom:#d3d3d3 solid thin;}
+.header-inner{ width:1000px; margin:10px auto;}
+.logo{float:left; width:142px;}
+.left-container{float:left; width:600px !important;}
+.wrapper{width:1000px; margin:10px auto;}
+.box1{ width:600px; padding:12px 0px 10px 0px; text-indent:7px; background:url(images/box-bg.png) repeat-x; border:#d3d3d3 solid thin;}
+.box1-inn{width:225px; float:left; font-family:Verdana, Geneva, sans-serif; font-size:18px; color:#000; margin-top:5px;}
+.blue-color{ color:#eb7f10;}
+.loaninput{ float:left; width:252px; border:#d3d3d3 solid thin; background:#FFF; border-radius:5px; padding:5px;}
+.loaninput-inn{ float:left; width:232px; margin-left:5px; background:#FFF; }
+.loaninput-inn1{width:100%; margin-left:5px; border:none; background:#FFF; height:22px; padding:0px; font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#c3c3c3; font-style:italic;}
+.input-rupee{ float:left;width:8px; margin-top:5px;}
+.right-panel{ float:right; width:311px; margin-right:25px;}
+.box-right{ background:#FFF; padding:5px 5px 0px 5px; box-shadow:#dadada 0px 0px 2px 2px; border-radius:5px; width:289px; margin:auto; }
+h1{ padding:5px 0px 5px 0px; margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#333333;}
+h2{ padding:5px 0px 5px 0px; margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#333333;}
+.banks-text{ font-family:Verdana, Geneva, sans-serif; font-size:14px; color:#0199cd; font-style:italic;}
+.hr{ border-bottom:thin #fe9515 solid; padding:0px 0px 0px 0px; margin:10px 0px 10px 0px; height:1px;}
+.lefttext ul{ padding:0px 0px 0px 0px; margin:0px 0px 0px 0px;}
+.lefttext li{ font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#333; background:url(images/bullet-text-left.jpg) left no-repeat; padding-left:20px; margin-top:5px; list-style:none; text-indent:}
+.formbodytext{ font-family:Verdana, Geneva, sans-serif; font-size:13px; color:#333333;}
+.input-bx{ width:350px; height:28px; border:#eb7f10 solid thin; border-radius:5px; font-family:Verdana, Geneva, sans-serif;}
+.select-bx{width:350px; height:32px; padding:5px; border:#eb7f10 thin solid; border-radius:5px; font-family:Verdana, Geneva, sans-serif;}
+.bottomtext{ width:624px; float:left; margin:5px auto; font-family:Verdana, Geneva, sans-serif; font-size:10px; color:#666666;}
+.ppbox{width:450px; margin-left:120px;}
+.input-wrapper{ width:193px; height:25px; background:#F00;}
+.mrgin{ margin-left:25px;}
+.left-app_wrapper{ float:left;width:97px; margin-top:10px;}
+.details_box-active{width:90px; padding:3px; background:#eb7f10; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFF; text-align:center;}
+.text-a{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#545454;}
+.form-wrapper-app{width:100%; margin-left:10px; margin-top:10px;}
+.logo{ float:left; width:195px;}
+.right-box-app{ float:right; width:149px;}
+.input-dd-app{ width:37px; height:28px; border:#eb7f10 solid thin; border-radius:5px; font-family:Verdana, Geneva, sans-serif;}
+.input-yy-app{ width:57px; height:28px; border:#eb7f10 solid thin; border-radius:5px; font-family:Verdana, Geneva, sans-serif;}
+.input-bx-phone { width:320px; height:28px; border:#eb7f10 solid thin; border-radius:5px; font-family:Verdana, Geneva, sans-serif;}
+@media screen and (max-width: 800px) { 
+.header{ width:100%; margin:15px auto; border-bottom:#d3d3d3 solid thin;}
+.header-inner{ width:100%; margin:10px auto;}
+.logo{float:left; width:142px;}
+.left-container{width:100% !important;}
+.wrapper{width:100%; margin:10px auto;}
+.box1{ width:100%; padding:12px 0px 10px 0px; text-indent:7px; background:url(images/box-bg.png) repeat-x; border:#d3d3d3 solid thin;}
+.box1-inn{width:50%;font-family:Verdana, Geneva, sans-serif; font-size:18px; color:#000; margin-top:5px;}
+.blue-color{ color:#eb7f10;}
+.loaninput{ float:left; width:35%; border:#d3d3d3 solid thin; background:#FFF; border-radius:5px; padding:5px;}
+.loaninput-inn{ float:left; width:86%; margin-left:5px; background:#FFF; }
+.loaninput-inn1{width:100%; margin-left:5px; border:none; background:#FFF; height:22px; padding:0px; font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#c3c3c3; font-style:italic;}
+.input-rupee{ float:left;width:8px; margin-top:5px;}
+.right-panel{ width:100%; margin-right:25px;}
+.box-right{ background:#FFF; padding:5px 5px 0px 5px; box-shadow:#dadada 0px 0px 2px 2px; border-radius:5px; width:250px; margin:10px auto; }
+h1{ padding:5px 0px 5px 0px; margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#333333;}
+h2{ padding:5px 0px 5px 0px; margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#333333;}
+.banks-text{ font-family:Verdana, Geneva, sans-serif; font-size:14px; color:#0199cd; font-style:italic;}
+.hr{ border-bottom:thin #fe9515 solid; padding:0px 0px 0px 0px; margin:10px 0px 10px 0px; height:1px;}
+.lefttext ul{ padding:0px 0px 0px 0px; margin:0px 0px 0px 0px;}
+.lefttext li{ font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#333; background:url(images/bullet-text-left.jpg) left no-repeat; padding-left:20px; margin-top:5px; list-style:none; text-indent:}
+.formbodytext{ font-family:Verdana, Geneva, sans-serif; font-size:14px; color:#666666;}
+.input-bx{ width:90%; height:28px; border:#eb7f10 solid thin; border-radius:5px; font-family:Verdana, Geneva, sans-serif;}
+.select-bx{width:90%; height:32px; padding:5px; border:#eb7f10 thin solid; border-radius:5px; font-family:Verdana, Geneva, sans-serif;}
+.bottomtext{ width:100%; float:left; margin:5px auto; font-family:Verdana, Geneva, sans-serif; font-size:10px; color:#666666;}
+.ppbox{width:100%; margin-left:120px;}
+.input-wrapper{ width:193px; height:25px; background:#F00;}
+.mrgin{ margin-left:25px;}
+.left-app_wrapper{ float:left;width:97px; margin-top:10px;}
+.details_box-active{width:90px; padding:3px; background:#eb7f10; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFF; text-align:center;}
+.text-a{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#545454;}
+.form-wrapper-app{width:100%; margin-left:10px; margin-top:10px;}
+.logo{ float:left; width:195px;}
+.right-box-app{ float:right; width:149px;}
+.input-bx-phone { width:80%; height:28px; border:#eb7f10 solid thin; border-radius:5px; font-family:Verdana, Geneva, sans-serif;}}

@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+body{ margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.wrapper_press_release{ font-family:'Droid Sans', sans-serif!important; font-size:35px; color:#000000; text-align:center;}
+.wrapper_press_release2{ background:#b1d0db; padding:10px 0px 10px 0px; margin:5px auto; width:100%;	}
+.wrapper_press_release2_inn{ background:#b1d0db; margin:0px auto; 
+width:980px;}
+.left_white_box{float:left; width:241px; height:200px; background:#eaeaea; margin-left:20px;}
+.font_size{font-size:14px;}
+.margin{ margin-right:50px;}
+.font_publish{ font-family:'Droid Sans', sans-serif!important; font-size:14px;}
+.font_size_head{ font-size:14px; font-family:'Droid Sans', sans-serif!important;}
+.clear-fix{ clear:both; height:20px;}
+.numbring_box{ margin:auto; width:1000px;}
+.numbering_text ul{ margin:15px 0px 0px 0px; padding:0px 0px 0px 0px; text-align:center;} 
+.numbering_text li{ background:#0b8bd9;  font-family:'Droid Sans', sans-serif!important; font-size:16px; color:#FFF; width:15px; display:inline; height:10px; margin-right:5px;}
+.numbering_text li a{ background:#0b8bd9;font-family:'Droid Sans', sans-serif!important; font-size:16px; color:#FFF; text-decoration:none;  height:10px; padding:0px 5px 0px 5px;}
+.numbering_text li a:hover{ background:#96CBEC;font-family:'Droid Sans', sans-serif!important; font-size:16px; color:#FFF; text-decoration:none; padding:0px 5px 0px 5px; }
+.online_coverage{ width:1000px; margin:10px auto;}
+.pink_text{font-family:'Droid Sans', sans-serif!important; font-size:20px; color:#ff026d;}
+.pink_text a{text-decoration:none; font-family:'Droid Sans', sans-serif!important; font-size:24px; color:#ff026d;}
+.online_coverage-box{ float:left; width:301px; height:265px; background:#ededed; padding:5px; margin-right:15px; margin-top:10px; border:#ededed thin solid;}
+.online_coverage-box:hover{ float:left; width:301px; height:265px; background:#F5F5F5; padding:5px; margin-right:15px; margin-top:10px; border:#09C thin solid;}
+.online_coverage-text{font-family:'Droid Sans', sans-serif!important; color:#000; font-size:14px;}
+.PageActive{
+  background: #96CBEC;
+  font-family: 'Droid Sans', sans-serif!important;
+  font-size: 16px;
+  color: #FFF;
+  text-decoration: none;
+  height: 10px;
+  padding: 0px 5px 0px 5px;
+  border:1px solid #CCC;
+}
+@media screen and (max-width: 768px){
+.wrapper_press_release2{background:#b1d0db; padding:10px 0px 10px 0px; margin:5px auto; width:100%;	}
+.wrapper_press_release2_inn{background:#b1d0db; margin:0px auto; 
+width:250px;}
+.left_white_box{float:none; width:241px; height:200px; background:#eaeaea; margin:5px auto;}
+.font_size{font-size:14px;}
+.margin{ margin-right:0px;}
+.font_publish{ font-family:'Droid Sans', sans-serif!important; font-size:14px;}
+.font_size_head{ font-size:14px; font-family:'Droid Sans', sans-serif!important;}
+.clear-fix{ clear:both; height:20px;}
+.numbring_box{ margin:auto; width:100%;}
+.numbering_text ul{ margin:15px 0px 0px 0px; padding:0px 0px 0px 0px; text-align:center;} 
+.numbering_text li{ background:#0b8bd9;  font-family:'Droid Sans', sans-serif!important; font-size:16px; color:#FFF; width:15px; display:inline; height:10px; margin-right:5px;}
+.numbering_text li a{ background:#0b8bd9;font-family:'Droid Sans', sans-serif!important; font-size:16px; color:#FFF; text-decoration:none;  height:10px; padding:0px 5px 0px 5px;}
+.numbering_text li a:hover{ background:red;font-family:'Droid Sans', sans-serif!important; font-size:16px; color:#FFF; text-decoration:none; padding:0px 5px 0px 5px; }
+.online_coverage{ width:100%; margin:10px auto;}
+.pink_text{font-family:'Droid Sans', sans-serif!important; font-size:20px; color:#ff026d;}
+.pink_text a{text-decoration:none; font-family:'Droid Sans', sans-serif!important; font-size:24px; color:#ff026d;}
+.online_coverage-box{float:left; width:95%; height:auto; background:#ededed; padding:5px; margin-right:15px; margin-top:10px; border:#ededed thin solid;}
+.online_coverage-box:hover{ float:none; width:95%; height:auto; background:#F5F5F5; padding:5px; margin-right:15px; margin-top:10px; border:#09C thin solid;}
+.online_coverage-text{font-family:'Droid Sans', sans-serif!important; color:#000; font-size:14px;}}

@@ -1,0 +1,38 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+body{ margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; font-family:'Droid Sans', sans-serif !important; font-size:16px;}
+a {color: #337ab7; text-decoration:none;}
+.mr-tp-70{ margin-top:70px;}
+.text-center{text-align:center;}
+	.credit-score-container{ width:1170px; margin:auto;}
+	.credit-score{width:710px;
+    padding:15px 0 46px 0;
+    box-shadow: #dcdcdc 0px 0px 7px 0px;
+    min-height: 400px;
+    margin:5rem auto;
+    border-radius: 7px;
+    background:#FFF;}
+	.credit-score hr {
+    margin-top:10px;
+    margin-bottom:20px;
+    border: 0;
+    border-top: 1px solid #eee;}
+	.logo-experian{ margin-left:2rem;}
+	.customer-headline{ font-size:18px; color:#333333; font-weight:600; text-align:center;}
+	.customer-headline span{ color:#0e79b9;}
+	.credit-score-digit{padding-top:20px; font-size:48px; color:#333333;}
+	.credit-score-meter{width:27.7rem; margin:35px auto; text-align:center;}
+	.credit-score-light-text{font-size:18px; padding-top:55px; color:#666666;}
+	.credit-score-light-text span{font-size:18px; padding-top:55px; color:#0e79b9;}
+	.credit-score-medium-light-text{font-size:18px; text-align:center; color:#666666; font-weight:600;}
+	
+	@media (max-width:767px){
+	.credit-score-container{ width:95%; margin:auto;}
+	.credit-score{width:90%;
+    padding:15px 1rem 46px 1rem;
+    box-shadow: #dcdcdc 0px 0px 7px 0px;
+    margin:3rem auto;
+    border-radius:7px;
+    background:#FFF;}
+	.credit-score-digit{padding-top:20px; font-size:48px; color:#333333;}
+	.credit-score-meter{width:250px; margin:2.5rem auto;}
+	}

@@ -1,0 +1,512 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+body{ margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; font-family:'Droid Sans', sans-serif; font-size:16px; color:#000000;}
+.lap-h1{font-family: 'Droid Sans', sans-serif;
+    color: #0e79b9;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0px 0px 15px 0px;}
+.lap-h2{font-family:'Droid Sans', sans-serif; font-size:22px; font-weight:normal; margin:0px 0px 0px 0px; padding:5px 0px 0px 0px; color:#FFF}
+.lap-h2-from{font-family:'Droid Sans', sans-serif; font-size:22px; font-weight:normal; margin:0px 0px 0px 0px; padding:5px 0px 0px 0px; color:#FFF;}
+.lap-form-wrapper{width:960px; margin:5px auto; padding:10px; color:#000000; background:#0e79b9;border-radius: 5px; padding-bottom:10px;} 
+.lap-form-text{ color:#FFF;}
+.lap_inner_wrapper{width:990px; margin:auto;}
+.new-input-box {
+  float: left;
+  width: 225px;
+  margin-left:5px; margin-top: 5px; margin-bottom: 5px;}
+.lap_left_box {
+  width: 663px;
+  float: left;
+  margin-top: 15px;
+}
+.lap_terms_box {
+  width:348px;
+  float: left;
+  margin-left:5px;
+  margin-top: 10px;
+  font-size: 14px;
+  text-transform: none; color:#FFF;}
+   .lap_terms_box a{ color:#FFF; font-size:14px;}
+.d4l-input{
+  width: 96%;
+  height: 20px;
+}
+.d4l-select {
+  width: 93%;
+  height: 24px;
+}
+.form-headline-100 {
+  font-size: 21px; color:#FFF;
+  font-weight: 500;
+  width: 95%;
+  padding-top: 10px;
+}
+.p-details {
+  padding-left: 5px;
+  color:#FFF; text-align:left;
+  padding-top:5px;
+}
+#imgDisplay{ text-align:left;}
+
+.common-bread-crumb{font-family:'Droid Sans', sans-serif; font-size:16px; color:#666; margin-bottom:10px;}
+.common-bread-crumb a{font-family:'Droid Sans', sans-serif; font-size:16px; color:#666;}
+.common-bread-crumb a:hover{font-family:'Droid Sans', sans-serif; font-size:16px; color:#666; text-decoration:underline;}
+
+p{ padding:0px 0px 0px 0px; margin:5px 0px 5px 0px;}
+.lap-get-quotebtn {
+ background: #06b2a0;
+    width: 110px;
+    border: solid 2px #FFF;
+  height: 39px;
+  border-radius: 5px;
+  color: #FFF;
+  font-size: 16px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+
+.lap_bnt_b{ float:right; margin-top:5px;}
+.hintanchor{ font-size:12px; color:#D50000; background:#FFF; padding:0px 5px 0px 5px; margin-top:3px !important; width:100%;}
+
+.termtext{ font-size:14px; color:#FFF;}
+.termtext a{font-size:14px; color:#1A67FF; text-decoration:underline;}
+
+
+#formatedlA{font-size:12px;font-weight:normal; color:#FFF;}
+#wordloanAmount{font-size:12px; font-weight:normal;text-transform: capitalize; color:#FFF;}
+#formatedIncome{font-size:12px;font-weight:normal; color:#FFF;}
+#wordIncome{font-size:12px;font-weight:normal;text-transform: capitalize; color:#FFF;}
+
+
+.table_bgcolor_Border{ background:#CCC;}
+.table_bgcolor{ background:#eceffa;	}
+.td_border4{ border:1px solid #9FE5F5; padding:3px}
+.td_border3{ border-bottom:1px solid #9FE5F5; border-right:1px solid #9FE5F5;  border-top:1px solid #9FE5F5;  padding:3px}
+.td_border_lrb{border-left:1px solid #9FE5F5; border-right:1px solid #9FE5F5;  border-bottom:1px solid #9FE5F5;  padding:3px}
+.td_border_rb{border-right:1px solid #9FE5F5;  border-bottom:1px solid #9FE5F5;  padding:3px}
+
+
+.cl_emi_process_box{float:left;width:600px;padding-top:4px;padding-bottom:25px;background:#F8F8F8;}
+.hl_emi_right_box{float:right;width:37%;padding-top:0px}
+.cl_emi_chart{float:left;margin-top:5px;width:590px;}
+.hl_emi_tbl_dis,.cl_emi_table{float:right;width:400px;   font-size: 14px;}
+.cl_emi_table_b,.cl_emi_text_a{width:600px;margin:auto;}
+.emi_sum_amount{ float:left; padding:5px; width:228px; }
+
+/*..............Side Bar Styles Starts ..........*/
+
+.left-wrapper{float:left;
+  width: 710px;
+  margin-top:10px;}
+.d4l-side-input{width:93%; height:20px;}
+.d4l-side-mobile{width:94%; height:20px;}
+.d4l-side-select{width:95%; height:25px;}
+.right-panel-wrapper{ float:right; width:263px; margin-top:10px; margin-bottom:10px;}
+.right-panel-fomr-box{ width:250px; border-radius:5px; background:#0e79b9;}
+.hintanchorqa{ font-size:11px; color:#F00 !important; background:#FFF; padding:0px 5px 0px 5px}
+
+.pl-get-quotebtn {
+  background: #ffc017;
+  width: 110px;
+  height: 39px;
+  border-radius: 5px;
+  border: 2px;
+  color:#FFF;
+  font-size: 16px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+.side-form-text{ font-size:14px; width:70px; height:30px; vertical-align: middle; padding-left: 5px; color:#FFF}
+.right-panel-fomr-box span{ color:#FFF} 
+.right-panel-fomr-box a{ color:#FFF; text-decoration:underline;}
+
+/*...........Side Bar Ends.......*/
+
+.pl-h2 {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 22px;
+  font-weight: normal;
+  margin: 0px 0px 0px 0px;
+  padding: 5px 0px 0px 0px;}
+  
+  /* new styles added on 13-5-2015 starts.................*/
+  
+  /*.................new styles added on 13-5-2015 starts.........*/
+
+.wrapper-content{
+	width:495px; margin-top:15px;
+	height:200px;
+	overflow-y:scroll; line-height:18px;
+}
+
+.right_container {
+  position: static;
+  border: thin solid #bebebd;
+  width: 165px;
+  padding: 2px;
+  margin-right: 10px;
+  float: right;
+  margin-top: 10px;}
+  
+  .left-container {
+  float: left;
+  width: 772px;
+  margin-left: 14px;
+  margin-top: 10px;}
+  .second_wrapper_pl_new {width:996px; margin:auto;}
+  
+.lap_form_wrapper {
+  width: 761px;
+   border-radius: 7px 7px 7px 7px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -ms-border-radius: 5px 5px 5px 5px;
+  -o-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  padding: 7px 10px 25px 10px;
+  background:#0e79b9;
+  color:#FFF;
+  margin-top: 15px;}
+  .lap_input-box_wrapper {
+  width: 154px;
+  float: left;
+  margin-right: 3px;
+  margin-left: 9px;
+  margin-bottom: 4px;}
+  .frm_text_tp {
+   font-size: 14px;
+  color: #FFF;
+}
+.iput_box_new {
+  width: 150px;
+  height: 25px;
+  border: none;
+}
+.select_box_new {
+  width: 152px;
+  height: 27px;
+  border: none;
+  padding: 2px;
+}
+.nw_ddpl {
+  width: 48px;
+  height: 25px;
+  border: none;
+}
+.mob_iput_box_new2 {
+  width: 130px;
+  height: 25px;
+  border: none;
+}
+  
+  .second_trm_box {
+  width: 600px;
+  float: left;
+  margin-top: 4px;
+}
+.second_btn_box {
+  width: 150px;
+  float: right;
+  margin-top: 4px;
+}
+.hl_input-box_wrapper2 {
+  width: 160px;
+  float: left;
+  margin-right: 6px;
+  margin-left: 3px;
+  margin-bottom: 4px;
+}
+.body_inner_tptxt {
+  width: 95%;
+  padding:5px 5px 5px 0px;
+  font-size: 16px;
+  color: #FFF; }
+.iput_box_new2 {
+  width: 150px;
+  height: 25px;
+  border: none;
+}
+.lap-get-quotebtn2 {
+background: #06b2a0;
+border: solid 2px #FFF;
+width: 86px;
+height: 30px;
+border-radius: 5px;
+margin-top: 22px;
+color:#FFF;
+font-size: 16px;
+margin-right: 0px;
+margin-bottom: 5px;
+margin-left:0px;}
+
+.button_box_new {
+  width: 86px;
+  height: 24px;
+  text-align: center;
+  margin-left: 5px;
+  border: none;
+  float: left;
+  margin-top:0px;
+}
+.body_inner2 {
+  width: 95%;
+  padding: 5px 5px 5px 10px;
+   font-size: 16px;
+  }
+  .hl-h2-new {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 22px;
+  font-weight: normal;
+  margin: 0px 0px 0px 0px;
+  padding: 5px 0px 0px 10px;
+}
+
+.bank_listings_box {
+  width: 790px;
+  margin-top: 0px;
+}
+.lap_input-box_wrapper2 {
+  width: 160px;
+  float: left;
+  margin-right: 6px;
+  margin-left: 3px;
+  margin-bottom: 4px;
+}
+
+.lac-left-box {
+  width: 790px;
+  margin-top: 5px;
+  float: left;
+  clear: right;
+}
+
+.overflow-width {
+  width: 100%;
+}
+
+/*.................new styles added on 13-5-2015 ends.........*/
+  
+  
+  
+ /* new styles added on 13-5-2015 ends.................*/
+
+
+@media screen and (max-width:680px){
+	.lap-form-wrapper{width:90%; margin:auto; padding:10px; color:#000000; background:#0e79b9;border-radius: 5px; padding-bottom:10px;} 
+.lap_inner_wrapper{width:95%; margin:auto!important;}
+.new-input-box {
+  float:none;
+  width:96%;
+  margin:0px 0px 0px 0px; margin-top: 5px; margin-bottom: 5px;}
+.lap_left_box {
+  width:98%;
+  float:none;
+  margin-top: 15px;
+}
+.lap_terms_box {
+  width:96%;
+  float:none;
+  font-size: 14px;
+  text-transform: none;
+  margin:auto;
+  color:#FFF;}
+  .lap_terms_box a{ color:#FFF; font-size:14px;}
+  
+.d4l-input{
+  width: 96%;
+  height: 20px;}
+.d4l-select {width: 96%;
+  height: 24px;}
+  .form-headline-100 {
+  font-size: 21px; color:#FFF;
+  font-weight: 500;
+  width:95%;
+  padding-top:10px;}
+.common-bread-crumb{font-family:'Droid Sans', sans-serif; font-size:16px; color:#666; margin-bottom:10px;}
+.common-bread-crumb a{font-family:'Droid Sans', sans-serif; font-size:16px; color:#666;}
+.common-bread-crumb a:hover{font-family:'Droid Sans', sans-serif; font-size:16px; color:#666; text-decoration:underline;}
+.hintanchor{ font-size:12px; color:#D50000; background:#FFF; padding:0px 5px 0px 5px; margin-top:3px !important; width:100%;}
+p{ padding:0px 0px 0px 0px; margin:5px 0px 5px 0px;}
+.ac_input_box{float:none; width:95%; margin:5px 30px 0px 25px;}
+.ac_table_box{width:98%; margin:auto;}
+.ac_terms_box{width:98%; color:#FFF; margin-left:0px; margin-top:10px;}
+.ac_get_btn_box{float:right; width:114px; height:47px; margin-top:-30px; margin-left:0px; margin-right:23px;}
+.lap-get-quotebtn {
+   background: #06b2a0;
+    width: 110px;
+    border: solid 2px #FFF;
+  height: 39px;
+  border-radius: 5px;
+ color:#FFF;
+  font-size: 16px;
+  margin-right:20px;
+  margin-bottom:5px;}
+  .p-details {
+  padding-left:2px;
+  font-size: 19px;
+  color:#FFF;}
+.cl_emi_process_box{float:left;width:290px;padding-top:4px;padding-bottom:5px;background:#F8F8F8;}
+.hl_emi_right_box{width:310px!important; padding-top:5px;}
+.cl_emi_chart{float:left;margin-top:20px;width:300px;}
+.cl_emi_table{float:right;margin-top:0;width:100%; font-size:14px}
+.hl_emi_cal_wrapper,.hl_emi_cal_titel,.cl_emi_table_b,.pl_emi_cal_text{width:300px;margin:auto;}
+.emi_sum_amount{ float:left; padding-top:5px; width:72%; }
+ /* ...........  Side baar Start ............*/
+.left-wrapper{float:left;
+  width:98%;
+  margin-top:10px;}
+.right-panel-wrapper{ float:none; margin:auto; width:275px; clear:left;}
+.right-panel-fomr-box{ width:270px; border-radius:5px; background:#0e79b9; margin:auto;}
+ /* ...........  Side baar End............*/
+ 
+  /*.................new styles added on 13-5-2015 starts.........*/
+
+.wrapper-content{
+	width:100%; margin-top:15px;
+	height:200px;
+	overflow-y:scroll; line-height:18px;
+}
+
+.right_container {
+  position: static;
+  border: thin solid #bebebd;
+  width: 165px;
+  padding: 2px;
+  margin: auto;
+  float:none;}
+  
+  .left-container {
+  float:none;
+  width:98%;
+  margin:0;}
+  .second_wrapper_pl_new {width:100%; margin:auto;}
+  .lap_form_wrapper {width:95%;
+   border-radius: 7px 7px 7px 7px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -ms-border-radius: 5px 5px 5px 5px;
+  -o-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  padding: 7px 10px 25px 10px;
+  background:#0e79b9;
+  color:#FFF;
+  margin-top: 15px;}
+  .lap_input-box_wrapper {
+  width:100%;
+  float: left;
+  margin-right: 3px;
+  margin-left: 0px;
+  margin-bottom: 4px;}
+  .frm_text_tp {
+   font-size: 14px;
+  color: #FFF;
+}
+.iput_box_new {
+  width:95%;
+  height: 25px;
+  border: none;
+}
+.select_box_new {
+  width: 95%;
+  height: 27px;
+  border: none;
+  padding: 2px;
+}
+.nw_ddpl {
+  width:30%;
+  height: 25px;
+  border: none;
+}
+.mob_iput_box_new2 {
+  width:86%;
+  height: 25px;
+  border: none;
+}
+  
+  .second_trm_box {
+  width:100%;
+  float:none;
+  margin-top: 4px;
+}
+.second_btn_box {
+  width:86px;
+  float: right;
+  margin-top: 4px;
+}
+.hl_input-box_wrapper2 {
+  width:100%;
+  float:none;
+  margin-right: 6px;
+  margin-left: 3px;
+  margin-bottom: 4px;
+}
+.body_inner_tptxt {
+  width: 99%;
+  padding:5px 5px 5px 0px;
+  font-size: 16px;
+  color: #FFF; }
+.iput_box_new2 {
+  width:100%;
+  height: 25px;
+  border: none;
+}
+.lap-get-quotebtn2 {
+ background: #06b2a0;
+  border: solid 2px #FFF;
+  width: 86px;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 22px;
+  color:#FFF;
+  font-size: 16px;
+  margin-right: 0px;
+  margin-bottom: 5px;
+  margin-left:0px;
+}
+.button_box_new {
+  width: 86px;
+  height: 24px;
+  text-align: center;
+  margin-right: 10px;
+  border: none;
+  float: right;
+  margin-top:0px;
+}
+.body_inner2 {
+  width: 95%;
+  padding: 5px 5px 5px 0px;
+   font-size: 16px;
+  }
+  .hl-h2-new {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 22px;
+  font-weight: normal;
+  margin: 0px 0px 0px 0px;
+  padding: 5px 0px 0px 10px;
+}
+
+.bank_listings_box {
+  width:100%;
+  margin-top: 0px;
+}
+.cl_input-box_wrapper2 {
+  width:100%;
+  float:none;
+  margin-right: 6px;
+  margin-left: 3px;
+  margin-bottom: 4px;
+}
+
+.lac-left-box {
+  width:100%;
+  margin-top: 5px;
+  float:none;
+  clear: right;
+}
+.lap_input-box_wrapper2 {
+  width:98%;
+  float:none;
+  margin-right:6px;
+  margin-left:3px;  margin-bottom:4px;}
+/*.................new styles added on 13-5-2015 ends.........*/ 
+}

@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+body{ padding:0px 0px 0px 0px; margin:2px 0px 0px 0px;}
+
+.main-continer{ margin:auto; width:1000px;}
+.header{ width:1000px; height:65px; margin:auto; background: url(../new-images/header-bg.png) bottom no-repeat; }
+.body_text_a{ padding:15px 0px 0px 15px; margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#7f840a;}
+.body_text_b{ padding:0px 0px 0px 15px; margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:24px; font-weight:bold; color:#618c9d;}
+.body_text_b_nw{ padding:0px 0px 0px 15px; margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:22px; font-weight:bold; color:#618c9d;}
+.body_text_b_nw1{ padding:0px 0px 0px 15px; margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#618c9d;}
+.body_text_D{ padding:0px 0px 0px 15px; margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:16px; font-weight:bold; color: #666666;}
+.leftpanel{ float:left; width:700px; margin: 2px 0px 0px 7px;}
+.rightpanel{ float:right; width:285px; margin: 2px 0px 0px 0px; }
+.clientsay{ width:280px; height: auto; border-radius:5px 5px 5px 5px; background:#e6e5b9;  }
+.body_text{ font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#969798; font-weight:bold;}
+.body{ font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#85847c; font-weight:normal;}
+.white_text{ font-family:Arial, Helvetica, sans-serif; color:#FFFFFF; font-size:18px; font-weight:bold; text-align:center;}
+.clietnsay_bg{ background:url(../new-images/clien-bg-shadow.jpg) top no-repeat; height:10px; }
+.body_text_nw{ font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#969798; font-weight:bold;}
+ .body_C{ font-family:Arial, Helvetica, sans-serif; font-size:13 px; color:#3F3F3B; font-weight:normal; line-height:22px;}
+  .body_C a{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#3F3F3B; font-weight:normal; text-decoration:none; line-height:22px;}
+    .body_C a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12 px; color:#85847c; font-weight:normal; text-decoration: underline; }
+.design2{
+background-color:#618c9d;
+border:1px solid #618c9d;
+padding:5px;
+font-weight:bold;
+width:150px;
+text-align:left;
+height:37px;
+font-size:19px;
+color:#FFFFFF;
+font-family: Arial, Helvetica, sans-serif;
+@import url(http://fonts.googleapis.com/css?family=Carrois+Gothic);
+font-weight:bolder;
+}
+
+.Car-specification-center{ width:690px; border-radius:7px 7px 7px 7px; background:#f4f4d3;}	
+
+.Car-specification-right{ float:left; width:231px; margin-top:5px; box-shadow:2px 3px 8px 3px #999999;  background:#f4f4d3; margin-right:15px;}	
+
+.text_car_head{ font-family:Arial, Helvetica, sans-serif; font-size:13px; font-weight:bold; color:#7f840a; text-align:center;} 
+.text_car_head_nw{ font-family:Arial, Helvetica, sans-serif; font-size:13px; font-weight:bold; color:#7f840a; text-align:left; padding-left:10px;} 
+.text_car_body{ font-family:Arial, Helvetica, sans-serif; font-size:13px; font-weight:bold; color:#567e8a; text-align:center;} 

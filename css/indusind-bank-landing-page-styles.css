@@ -1,0 +1,45 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@charset "utf-8";
+/* CSS Document */
+body{ padding:0px 0px 0px 0px; margin:0px 0px 0px 0px; background:url(../images/body_bg_indusind-lp.jpg) repeat;}
+.bg-wrapper{ background:#81b6c6; height:446px;}
+.bg-wrapper2{ background: url(../images/indusind-bank-landing-page-second-bg.jpg); width:962px; margin:auto; height:446px;}
+.form-wrapper{width:939px; margin:-175px auto; padding:10px; background:#f5fdff; border-radius:7px; box-shadow:#CCC 1px 3px 10px 3px;}
+.logo-ind{float:right; width:201px; margin-top:50px;}
+.credit-cards{ float:left; width:218px; margin-top:100px;}
+.form-left{ float:left; width:475px; margin-left:20px; margin-top:10px;}
+.form-right{ float:right; width:416px;}
+.text-head1{ color:#0d5e8f; font-family:'Roboto Condensed', sans-serif; font-size:21px; font-weight:400; margin-left:15px; margin-top:10px;}
+.text-head2{ color:#0d5e8f; font-family:'Roboto Condensed', sans-serif; font-size:15px; font-weight:400;}
+.input{ width:183px; height:27px; border:#94c1cf thin solid; border-radius:5px;}
+.select{ width:183px; height:31px; border:#94c1cf thin solid; border-radius:5px; padding:5px;}
+.input-number1{ width:25px; background:#FFF;  height:27px; border:#94c1cf thin solid; border-radius:5px; font-family:'Roboto Condensed', sans-serif; font-size:13px; line-height:25px; color:#94c1cf; float:left;  text-align:center;}
+.input-number2{ width:155px; height:27px; border:#94c1cf thin solid; border-radius:5px; font-family:'Roboto Condensed', sans-serif; font-size:15px; margin-left:5px; font-weight:300; float:left;}
+.dob{ width:54px; height:27px; border:#94c1cf thin solid; border-radius:5px;}
+.features_head{ font-family:'Roboto Condensed', sans-serif; font-size:21px; color:#0e5eb8;}
+.features_head_body ul{ padding:0px 0px 0px 0px; margin:0px 0px 0px 0px;}
+.features_head_body li{ font-family:'Roboto Condensed', sans-serif; font-size:14px; margin-top:5px; color:#0e5eb8; list-style:url(../images/vilote-bullet.png); margin-left:15px;}
+.features_head_body2 ul{ padding:0px 0px 0px 0px; margin:0px 0px 0px 0px;}
+.features_head_body2 li{ font-family:'Roboto Condensed', sans-serif; font-size:14px; margin-top:7px; color:#0e5eb8; list-style:url(../images/vilote-bullet.png); margin-left:15px;}
+
+@media screen and (max-width:880px) {
+.bg-wrapper{ background:#81b6c6;}
+.bg-wrapper2{ background: url(../images/indusind-bank-landing-page-second-bg.jpg); width:100%; background-position:center; background-size:100% 100%; margin:auto; height:200px;}
+.form-wrapper{ width:90%; margin:-220px auto; padding:10px; background:#f5fdff; border-radius:7px; box-shadow:#CCC 1px 3px 10px 3px;}
+.logo-ind{width:201px; margin-top:15px; margin-bottom:10px;}
+.credit-cards{ margin:auto; width:218px; float:none;}
+.form-left{width:95%; margin:5px auto;}
+.form-right{ float:none; width:95%;}
+.text-head1{ color:#0d5e8f; font-family:'Roboto Condensed', sans-serif; font-size:21px; font-weight:400; margin-left:15px; margin-top:10px;}
+.text-head2{ color:#0d5e8f; font-family:'Roboto Condensed', sans-serif; font-size:15px; font-weight:400;}
+.input{ width:183px; height:27px; border:#94c1cf thin solid; border-radius:5px;}
+.select{ width:183px; height:31px; border:#94c1cf thin solid; border-radius:5px; padding:5px;}
+.input-number1{ width:25px; background:#FFF;  height:27px; border:#94c1cf thin solid; border-radius:5px; font-family:'Roboto Condensed', sans-serif; font-size:13px; line-height:25px; color:#94c1cf; float:left;  text-align:center;}
+.input-number2{ width:155px; height:27px; border:#94c1cf thin solid; border-radius:5px; font-family:'Roboto Condensed', sans-serif; font-size:15px; margin-left:5px; font-weight:300; float:left;}
+.dob{ width:54px; height:27px; border:#94c1cf thin solid; border-radius:5px;}
+.features_head{ font-family:'Roboto Condensed', sans-serif; font-size:21px; color:#0e5eb8;}
+.features_head_body ul{ padding:0px 0px 0px 0px; margin:0px 0px 0px 0px;}
+.features_head_body{ font-family:'Roboto Condensed', sans-serif; font-size:14px; color:#0e5eb8; list-style:url(../images/vilote-bullet.png); margin-left:15px;}	
+.features_head_body2 ul{ padding:0px 0px 0px 0px; margin:0px 0px 0px 0px;}
+.features_head_body2 li{ font-family:'Roboto Condensed', sans-serif; font-size:12px; margin-top:7px; color:#0e5eb8; list-style:url(../images/vilote-bullet.png); margin-left:15px;}	
+}

@@ -1,0 +1,110 @@
+
+@media screen and (max-width: 330px) {
+
+	/* pagewrap */
+	#pagewrap { max-width:320px;
+	}
+
+	/* content */
+	#content {
+		width: 55%;
+		padding: 3% 4%;
+	}
+
+	/* sidebar */
+	#sidebar {
+		width: 30%;
+	}
+	#sidebar .widget {
+		padding: 8% 7%;
+		margin-bottom: 10px;
+	}
+	
+	.banks_logo_img{ width:98%;}
+	.bank_logo_box{ width:98%;}
+}
+
+/************************************************************************************
+smaller than 650
+*************************************************************************************/
+@media screen and (min-device-width : 300px) and (max-width: 650px) {
+.banks_logo_img{ width:100%;}
+.bank_logo_box{ width:100%!important;}
+
+	/* header */
+	
+	#pagewrap { max-width:300px;	}
+	.second_wrapper{ width:98%; margin:auto;}
+	#header {		height: auto;	}
+		#content {
+		width: 55%;
+		padding: 3% 4%;
+	}
+	.sbi_text_c{ color: #333; font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold;}
+
+	/* search form */
+	#searchform {
+		position: absolute;
+		top: 135px;
+		right: 0;
+		z-index: 100;
+		height: 105px; 
+	}
+	#searchform #s {
+		width: 70px; 
+	}
+	#searchform #s:focus {
+		width: 150px; height:105px;
+	}
+
+	/* main nav */
+	#main-nav {
+		position: static;
+	}
+
+	/* site logo */
+	#site-logo {
+		margin: 15px 100px 5px 0;
+		position: static;
+	}
+
+	/* site description */
+	#site-description {
+		margin: 0 0 15px;
+		position: static;
+	}
+
+	 /* content */
+       #content {
+               width: auto;
+               float: none;
+               margin-top: 20px;
+       }
+
+	/* sidebar */
+	#sidebar {
+		width: 100%;
+		margin: 0;
+		float: none;
+	}
+	#sidebar .widget {
+		padding: 3% 4%;
+		margin: 0 0 10px;
+	}
+
+	.lining{ display:none;}
+	
+  .Sbi_top_ad_box{ display:none;}
+       
+       
+.right-box-d{border-bottom:#CCC solid thin; margin-bottom:20px; display:none; }
+.right-box-c{border:#CCC solid thin; padding:5px; margin-bottom:20px; visibility:visible; margin-top:10px;}			   
+			   
+.mobo-hilight_text{color:#2f8497; font-size:18px; text-align:center;}
+.mobo_text_ab{ font-weight:normal; font-size:16px; color:#f69900; text-align:center;}		
+.call-us_box_new{ width:100%; display:inherit; text-align:center;}
+.content-innerbx{width:100%; margin:auto; display:inherit; display:none;}
+.mobilecontentbox{width:100%; display:inherit;}
+.text_box{ margin-top:10px; width:300px; float:none; padding:2px; font:bold 15px/100% Arial, Helvetica, sans-serif; color: #FFF;}
+.logo_get-pl{ float:none; width:180px; margin-top:15px; margin-left:8px;}
+}

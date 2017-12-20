@@ -1,0 +1,68 @@
+.glowingtabs{
+	margin:0px auto;
+	padding-top:0px;
+	width:821px;
+	text-align:center;
+}
+
+.glowingtabs ul{
+	list-style-type: none;
+	margin:0px;
+	padding:0px;
+}
+
+
+.glowingtabs li{
+	display:inline;
+	margin:0px;
+	padding:0px;
+}
+
+.glowingtabs a{
+	float:left;
+	margin:0px;
+	padding:0px;
+	text-decoration:none;
+}
+
+/* ######### Style for Drop Down Menu ######### */
+.dropmenudiv_d{
+	position:absolute;
+	border: 1px solid #f6fbff; /*THEME CHANGE HERE*/
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	text-align:left;
+	text-indent:4px;
+	line-height:16px;
+	z-index:100;
+	background-color: #dcefff;
+	width: 100px;
+	visibility: hidden;
+}
+
+
+.dropmenudiv_d a{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	display: block;
+	text-indent:4px;
+	border-bottom: 1px solid #f6fbff;
+	padding: 2px 0px;
+	text-decoration: none;
+	color: #100e09;
+}
+
+.dropmenudiv_d a:hover{ /*THEME CHANGE HERE*/
+	background-color: #6ea2d1;
+	color:#FFFFFF;
+	font-weight:bold;
+
+}
+
+* html .dropmenudiv_d a{ /*IE only hack*/
+width: 100%;
+
+}
+
+

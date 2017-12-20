@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+body{margin:0px 0px 0px 0px 0px; background:#104086;}
+.wrapper{width:970px; background:#FFF; margin:50px auto; border-radius:0px 0px 10px 10px; box-shadow: #3c3c3c 0px 1px 12px 3px; padding:0px 0px 10px 0px;}
+.gray-box{width:100%; background:#dcdddf; padding:10px 0px 2px 0px; }
+.logo{float:left; width:225px; margin-left:10px;}
+.com{float:right; width:163px; margin-top:15px;}
+.form-box{ float:left; width:558px; border-radius:10px; background:#fafafa; border:thin solid #ddddde; margin-top:15px; margin-left:10px; padding:5px;}
+.form-heading{ font-family:Arial, Helvetica, sans-serif; font-size:24px; color:#000;}
+.formtext{ font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#000;}
+.input{text-indent:5px; width:293px; height:25px; border-radius:10px; background:#FFF; border:thin solid #ddddde;}
+.mobo{text-indent:5px; width:268px; height:25px; border-radius:10px; background:#FFF; border:thin solid #ddddde;}
+.dd{text-indent:5px; width:85px; height:25px; border-radius:10px; background:#FFF; border:thin solid #ddddde;}
+.yy{text-indent:5px; width:110px; height:25px; border-radius:10px; background:#FFF; border:thin solid #ddddde;}
+.select{width:293px; height:28px; padding:5px; border-radius:10px; background:#FFF; border:thin solid #ddddde;}
+.info-text{ font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#000;}
+.right-box{ float:right; width:364px; margin-top:15px;}
+.font-right-head{ font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#104086; font-weight:bold;}
+.text-list ul{ margin:5px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.text-list li{ font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#000; list-style:url(images/bullet-hdbfs.jpg); margin-left:15px;} 
+.bottom{ width:970px; margin:5px auto;}
+.disc{ float:left; font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#FFF;}
+.poweredby{ float:right; font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#FFF;}
+@media screen and (max-width: 768px) {
+body{margin:0px 0px 0px 0px 0px; background:#104086;}
+.wrapper{width:100%; background:#FFF; margin:50px auto; border-radius:0px 0px 10px 10px; box-shadow: #3c3c3c 0px 1px 12px 3px; padding:0px 0px 10px 0px;}
+.gray-box{width:100%; background:#dcdddf; padding:10px 0px 2px 0px; }
+.logo{width:225px; margin-left:10px;}
+.com{width:163px; margin-top:15px; float:none; margin-left:5px;}
+.form-box{width:95%; border-radius:10px; background:#fafafa; border:thin solid #ddddde; margin:15px auto;}
+.form-heading{ font-family:Arial, Helvetica, sans-serif; font-size:24px; color:#000;}
+.formtext{ font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#000;}
+.input{text-indent:5px; width:95%; height:25px; border-radius:10px; background:#FFF; border:thin solid #ddddde;}
+.mobo{text-indent:5px; width:95%; height:25px; border-radius:10px; background:#FFF; border:thin solid #ddddde;}
+.dd{text-indent:5px; width:30%; height:25px; border-radius:10px; background:#FFF; border:thin solid #ddddde;}
+.yy{text-indent:5px; width:30%; height:25px; border-radius:10px; background:#FFF; border:thin solid #ddddde;}
+.select{width:95%; height:28px; padding:5px; border-radius:10px; background:#FFF; border:thin solid #ddddde;}
+.info-text{ font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#000;}
+.right-box{width:95%; margin-top:15px;}
+.font-right-head{ font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#104086; font-weight:bold;}
+.text-list ul{ margin:5px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.text-list li{ font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#000; list-style:url(images/bullet-hdbfs.jpg); margin-left:15px;} 
+.bottom{ width:100%; margin:5px auto;}
+.disc{font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#FFF; float:none;}
+.poweredby{font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#FFF; float:none; margin-top:5px;}}

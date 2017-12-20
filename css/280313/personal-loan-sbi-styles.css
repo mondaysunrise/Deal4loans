@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+.pl_sbi_wrapper{ width:970px; margin:auto; }
+.pl_sbi_text_box{ width:950px; margin: auto; 
+ padding:5px; }
+.pl_input_form{ float:left; width:230px;  margin-left:5px; }
+.festiv_box{ float:left; width:663px; height:auto; margin-top:5px; display:inline;}
+.pl_sbi_form{ width:950px; margin: auto; float:left; margin-left:7px;
+border-radius:10px 10px 10px 10px; background:#21405F; padding:5px;}
+.terms_box{ width:750px; color:#FFF; margin-top:0px;}
+.pl_bnt{ float:right; width:114px; height:52px; margin-top:-50px; margin-right:60px;}
+.hide_top_menu{ display: inline;}
+.pl_input{ width:180px; height:18px;}
+.pl_dd{ width:43px; margin-right:2px; height:18px;}
+.pl_yy{ width:60px; height:18px;}
+.pl_select{ width:180px; height:24px;}
+.pl_mobo{ width:153px; height:18px;}
+
+.ad_hide_pl{ display:inline;}
+.pl_intres_sec{ width:970px; margin:auto;}
+#home_sec{ width:970px;}
+.blink_hide{display:inline; margin-left:15px;}
+
+/*...............car-loan-interest-rate1.php......................*/
+
+.car_loan_text{ width:600px; float:left; margin-left:135px;}
+.car_loan_tbt{ width:970px;}
+.pl_logo{ width:243px; float:left; display:none;}
+ .line_ad{ display:inline !important; }
+/*....................end .....*/
+
+@media screen and (max-width:680px) {
+.ad_hide_pl{ display:none;}
+.pl_sbi_wrapper{ width:300px; width:auto;}
+.pl_sbi_text_box{ width:300px; }
+.pl_input_form{ float:left; width:300px;  margin-left:5px;}
+.festiv_box{ float:left; width:300px; height:auto; margin-top:5px;}
+.pl_sbi_form{ width:293px; margin: auto;
+border-radius:5px 5px 5px 5px; background:#21405F; padding:3px;}
+.terms_box{ width:300px; color:#FFF;}
+
+.hide_top_menu{ display:none;}
+.festiv_box{ float:left; width:300px; height:auto; margin-top:5px; display:none;}
+.pl_input{ width:280px; height:18px;}
+.pl_dd{ width:75px; height:18px;}
+.pl_yy{ width:113px; height:18px;}
+.pl_select{ width:280px; height:24px;}
+.pl_mobo{ width:255px; height:18px;}
+.pl_intres_sec{ width:292px; margin:auto;}
+#home_sec{ width:280px; padding-bottom:20px;}
+.pl_bnt{width:290px; height:52px; margin-top:10px; text-align:center;}
+.blink_hide{ display:none; margin-left:20px;}
+.pl_logo{ width:243px; float:left; display: inline;}
+	
+/*...............car-loan-interest-rate1.php......................*/
+
+.car_loan_text{width:300px; margin:0px;}
+.car_loan_tbt{ width:300px;}
+.intrl_txt{
+margin:auto;
+width:300px; margin-top:1px;
+}
+.line_ad{ display: none !important; }
+/*....................end .....*/
+}
+	

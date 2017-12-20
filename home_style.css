@@ -1,0 +1,83 @@
+body{
+margin:0px;
+padding:0px;
+
+}
+
+Form{
+margin:0px;
+padding:0px;
+
+}
+
+input{
+	border:1px solid #6C603C;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#2B0303;
+	font-weight:normal;
+	margin:0px;
+	padding:2px;
+
+}
+
+select{
+
+	border:1px solid #6C603C;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#2B0303;
+	font-weight:normal;
+	margin:0px;
+	padding:px;
+}
+.hlbtn{
+	width:110px;
+	background:#595137;
+	border:2px solid #FFFFFF;
+	font-family:Verdana,Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#FFFFFF;
+	font-weight:bold;
+	text-decoration:none;
+	height:26px;
+}
+.heading{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:#3A0303;
+	text-decoration:none;
+	font-weight:normal;
+	font-style:italic;
+}
+
+.subheading{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#3C0808;
+	text-decoration:none;
+	font-weight:bold;
+	text-align:left;
+}
+
+.formtext{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#3A0D04;
+	text-decoration:none;
+	font-weight:normal;
+	text-align:left;
+}
+
+
+
+.text{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#2B0303;
+text-align:justify;
+line-height:17px;
+text-decoration:none;
+}
+
+

@@ -1,0 +1,124 @@
+h3 {
+	font-size: 1.6em;
+	color: #003366;
+	font-weight:normal;
+}	
+
+h3.grey {
+	font-size: 1.6em;
+	color: #313131;
+	font-weight:normal;
+}
+
+p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1.2em;
+	color:#313131;
+}
+	
+
+
+div#content div.tabInner h3 {
+/*margin:0pt 0pt 0pt 10px;*/
+margin:0 0 20px 0;
+}
+
+
+
+div#content div.tabInner h3 span{
+	color:#FF0000;
+}
+
+.faqContainer{
+	min-height:235px;
+	padding:10px;
+}
+
+.faqContainer .menuContainer{
+	font-size:1.2em;
+	color:#313131;
+	margin-bottom:10px;
+	padding:0 0 10px 0;
+	border-bottom:1px dotted #CCCCCC;
+}
+
+.faqContainer .menuContainer a{
+	text-decoration:underline;
+	color:#003366;
+}
+
+.faqContainer .menuContainer a:hover{
+	text-decoration:none;
+	color:#FF0000;
+}
+
+.faqContainer .toggler {
+	color: #313131;
+	margin:0 0 10px 0;
+	padding:0pt 0pt 0pt 15px;
+	font-size:1.4em;
+	font-weight: normal;
+	background:transparent url(bullet.gif) no-repeat scroll 0pt 4px;
+	cursor:pointer;
+}
+
+.faqContainer h3 {
+	margin:0 0 10px 0;
+	color:#1E3665;
+}
+
+.subtitle{
+	font-size:1.2em;
+	padding:5px 0;
+	font-weight:bold;
+	border-bottom:1px dotted #cccccc;
+	border-top:1px dotted #cccccc;
+	margin-bottom:10px;
+	color:#003366;
+}
+
+.faqContainer .title{
+	font-size:1.6em;
+	color:#003366;
+}
+
+.faqContainer .titleWithTopPadding{
+	font-size:1.6em;
+	color:#003366;
+	padding:0 0 15px 0;
+}
+
+.faqContainer .titleWithPadding{
+	font-size:1.6em;
+	color:#003366;
+	padding:20px 0;
+	border-top:1px dotted blue;
+	margin-top:10px;
+}
+
+.element{
+	border-bottom:1px solid #ccc;
+	height:1%;
+}
+
+.element p{
+	color:#313131;
+	font-size:1.2em;
+}
+
+.element p.heading{
+	color:#003366;
+	font-weight:bold;
+	padding:5px 0;
+	font-size:1.3em;
+	text-decoration:underline;
+}
+
+hr{
+	margin:10px 0;
+	height:1px;
+}
+
+.elementInside{
+	padding:0 15px;
+}

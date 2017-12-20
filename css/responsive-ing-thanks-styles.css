@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+.wrapper-thanks{width:990px; margin:auto;}
+.form-wrapper-new{ width:355px; padding:5px; border:#c4c2c2 solid thin; background:#f7f7f7; border-radius:5px; margin:auto;}
+.personal-head-text{ font-family:Verdana, Geneva, sans-serif; font-size:20px; color:#000061;}
+.secr-text-newp{font-family:Verdana, Geneva, sans-serif; font-size:10px; color:#8e5e0c;}
+.frm-text-main{ font-family:Verdana, Geneva, sans-serif; font-size:14px; color:#666; font-weight:bold;}
+.ing-input{ width:95%; height:25px; background:#FFF; border:#c6c4c4 solid thin; border-radius:5px;}
+@media screen and (max-width: 768px) {.wrapper-thanks{width:100%; margin:auto;}
+.form-wrapper-new{ width:300px; padding:5px; border:#c4c2c2 solid thin; background:#f7f7f7; border-radius:5px; margin:auto;}}

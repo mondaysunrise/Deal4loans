@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+body{background:#ebe8e3; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.header{width:100%; height:73px; background:#FFF;}
+.headerinn{width:1000px; margin:auto;}
+.logo{float:left; width:162px; margin-top:10px;}
+.secondcontainer-fins{width:1000px; margin:10px auto;}
+.leftpanel{float:left; width:577px;}
+.heading-text-fins{font-family:Arial, Helvetica, sans-serif; font-size:28px; font-weight:bold; color:#231f20;}
+.form-box{ width:550px; padding:10px 5px 10px 5px; background:#FFF; margin-top:10px;}
+.form-body{ font-family:Verdana, Geneva, sans-serif;font-size:14px; color:#080808;}
+.input{ width:300px; height:30px; border:#c6c6c6 solid thin; text-indent:5px;}
+.mobo{ width:270px; height:30px; border:#c6c6c6 solid thin; text-indent:5px;}
+.select{ width:300px; padding:5px; height:34px; border:#c6c6c6 solid thin; text-indent:5px;}
+.head-textfinn{ font-family:Verdana, Geneva, sans-serif; font-size:22px; color:#0072bc;}
+.privacytext{ font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#080808;}
+.right-panel-bajaj{float:right; width:376px; padding:10px; margin-top:105px;}
+.body_text{ font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#212121; text-align:justify;}
+.features-text{ font-family:Verdana, Geneva, sans-serif; font-size:20px; color:#0072bc; margin-bottom:10px;}
+.features-subtext{ font-family:Verdana, Geneva, sans-serif; font-size:14px; color:#0072bc; margin-bottom:5px;}
+.powered-by{ font-family:Verdana, Geneva, sans-serif; color:#080808; font-size:11px; text-align:right;}
+.discailer-text{ font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#666;}
+@media only screen and (max-width:780px){
+.header{width:100%; height:73px; background:#FFF;}
+.headerinn{width:100%; margin:auto;}
+.logo{float:left; width:162px; margin-top:10px;}
+.secondcontainer-fins{width:100%; margin:10px auto;}
+.leftpanel{width:100%; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.heading-text-fins{font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#231f20;}
+.form-box{ width:100%; padding:10px 5px 10px 5px; background:#FFF; margin-top:10px;}
+.form-body{ font-family:Verdana, Geneva, sans-serif;font-size:14px; color:#080808;}
+.input{ width:90%; height:30px; border:#c6c6c6 solid thin; text-indent:5px;}
+.mobo{ width:90%; height:30px; border:#c6c6c6 solid thin; text-indent:5px;}
+.select{ width:90%; padding:5px; height:34px; border:#c6c6c6 solid thin; text-indent:5px;}
+.head-textfinn{ font-family:Verdana, Geneva, sans-serif; font-size:22px; color:#0072bc;}
+.privacytext{ font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#080808;}
+.right-panel-bajaj{width:95%; padding:10px; margin-top:10px;}
+}

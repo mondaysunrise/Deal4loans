@@ -1,0 +1,737 @@
+*{margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.navy-header{ width:1024px; height:100px; margin:auto; background: url(new-images/hdfcapp/navy-colorHDFC-bank-offers--header.gif) repeat-x;  }
+.navy-main-continer{ margin:auto; width:1024px; height:auto;}
+.navy-body_text_c{ padding:15px 0px 0px 0px; margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#404042;}
+
+.navy-body_text_b{ padding:0px 0px 0px 15px; margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:24px; font-weight:bold; color:#e4272d;}
+.navy-body_text_D{ padding:0px 0px 0px 15px; margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:16px; font-weight:bold; color:#666666;}
+.navy-body_text_testimonials{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; text-align:center;}
+.navy-body_text_a{	  padding: 5px 15px;  font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#404042;}
+.chhose-car{ width:1024px; height:44px; background:#eae8e8;}
+.chhose-car-bg{ width:435px; float:left; height:44px; background: url(images/newimages/choose-car-bg.jpg);}
+.form-section{ width:720px; float:left; height: auto;}
+.form_body_text{ font-family:Arial, Helvetica, sans-serif; font-size:13px; color: #868383; font-weight:bold;}
+.form_head_text{ font-family:Arial, Helvetica, sans-serif; line-height:35px; font-size:20px; color: #868383; font-weight:bold;}
+.lining{ border-top:thin #868383 solid;}
+.navy-right_panel{ width:300px; float:right; margin-top:-55px;}
+.navy-testimonials-box{width:267px; height:220px; border-radius:5px 5px 5px 5px; border: thin solid #1061bb; vertical-align:middle; background: #FFFFFF; margin: auto; margin-top:10px; padding:2px 2px 2px 2px; }
+.navy-testimonials-box2{width:267px; height:220px; border-radius:5px 5px 5px 5px; background: url(images/newimages/client-testimonials.jpg ) no-repeat center; margin: auto; vertical-align:middle; }
+
+.navy-features-box{width:281px; height:154px; border-radius:5px 5px 5px 5px; background: url(images/newimages/features-benifits-bg.jpg) repeat-x; margin:auto; }
+.navy-welcome-rewards-box{width:281px; height:175px; border-radius:0px 0px 5px 5px; margin:auto; margin-top:5px; border: thin solid #1061bb;}
+.navy-welcome-rewards-img{width:260px; height:125px; border-radius:5px 5px 5px 5px; margin:auto; margin-top:7px; border: thin solid #1061bb;}
+
+
+p{ font-size:20px; font-family:Arial, Helvetica, sans-serif; font-weight:bold; text-align:left; padding:2px 0px 0px 0px; margin:2px 0px 0px 10px; color:#FFFFFF; }
+
+.features_bullet ul{display:block; padding:0px 0px 0px 0px; margin:0px 0px 0px 0px; list-style:none;}
+.features_bullet li{ margin:0px 0px 0px 15px;} 
+.features_bullet li a{background:url(images/newimages/navy-white-bullet.png) left no-repeat; font-family:Arial, Helvetica, sans-serif ; font-size:13px; line-height:15px; text-decoration:none; color:#FFFFFF; padding:0px 0px 0px 15px;} 
+.features_bullet li a:hover{ color: #FF0000; }
+.navy_features_shadow{ width:279px; height:12px; margin:auto; background:url(images/newimages/features-benifits-bg-shadow.gif) no-repeat;} 
+.navy-footer{ width:100%; height:28px; background:url(images/newimages/navy-blue-bottom-bg.jpg) repeat-x; margin: auto; margin-top:5px;}
+
+
+
+
+/*.......................................New styles for color theme...........................*/
+
+/*.......................commom csss......................*/
+
+.body_text_a{ padding:15px 0px 0px 15px; margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#404042;}
+.body_text_c{ padding:15px 0px 0px 0px; margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#404042;}
+.Car-specification-right{ float:right; width:231px; height:104px; margin-top:5px; box-shadow:2px 3px 8px 3px #999999;  background:#f4f4d3; margin-right:15px;}
+.leftpanel{ float:left; width:722px; margin: 2px 0px 0px 7px;}
+.white_text{ font-family:Arial, Helvetica, sans-serif; color:#FFFFFF; font-size:18px; font-weight:bold; text-align:center;}	
+.text_car_head{ font-family:Arial, Helvetica, sans-serif; font-size:18px; font-weight:bold; color: #FFFFFF;} 
+.text_car_body{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color: #FFFFFF;} 
+/*................................closed...............*/
+
+
+/*...........................tata...................*/
+.tata-car-specification-center{ width:683px; height:104px; border-radius:7px 7px 7px 7px; background: url(images/newimages/tata-car-specification.jpg) repeat-x;}	
+.tata-body_text_b{ padding:0px 0px 0px 15px; margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:24px; font-weight:bold; color:#2e87ef;}
+.tata-body_text_c{ margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#2e87ef;}
+/*...............................end...........................*/
+
+/*...........................Skoda...................*/
+.skoda-car-specification-center{ width:683px; height:104px; border-radius:7px 7px 7px 7px; background: url(images/newimages/skoda-car-specification.jpg) repeat-x;}	
+.skoda-body_text_b{ padding:0px 0px 0px 15px; margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:24px; font-weight:bold; color:#623dbe;}
+.skoda-body_text_c{ font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#623dbe;}
+/*...............................end...........................*/
+
+/*...........................chevrolet...................*/
+.chevrolet-car-specification-center{ width:683px; height:104px; border-radius:7px 7px 7px 7px; background: url(images/newimages/chevrolet-car-specification.jpg) repeat-x;}
+.chevrolet-body_text_b{ padding:0px 0px 0px 15px; margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:24px; font-weight:bold; color:#5da81a;}
+.chevrolet-body_text_c{ font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#5da81a;}
+/*...............................end...........................*/
+
+/*...........................hyundai...................*/
+.hyundai-car-specification-center{ width:683px; height:104px; border-radius:7px 7px 7px 7px; background: url(images/newimages/hyundai-car-specification.jpg) repeat-x;}
+.hyundai-body_text_b{ padding:0px 0px 0px 15px; margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:24px; font-weight:bold; color:#db552f;}
+.hyundai-body_text_c{ font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#db552f;}
+/*...............................end...........................*/
+
+/*...........................volkswagen...................*/
+.volkswagen-car-specification-center{ width:683px; height:104px; border-radius:7px 7px 7px 7px; background: url(images/newimages/volkswagen-car-specification.jpg) repeat-x;}
+.volkswagen-body_text_b{ padding:0px 0px 0px 15px; margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:24px; font-weight:bold; color:#af1b40;}
+.volkswagen-body_text_c{ font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#af1b40;}
+/*...............................end...........................*/
+
+/*...........................mercedes...................*/
+.mercedes-car-specification-center{ width:683px; height:104px; border-radius:7px 7px 7px 7px; background: url(images/newimages/hyundai-car-specification.jpg) repeat-x;}
+.mercedes-body_text_b{ padding:0px 0px 0px 15px; margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:24px; font-weight:bold; color:#db552f;}
+.mercedes-body_text_c{ font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#db552f;}
+/*...............................end...........................*/
+
+/*...........................mahindra...................*/
+.mahindra-car-specification-center{width:683px; height:104px; border-radius:7px 7px 7px 7px; background: url(images/newimages/mahindra-car-specification.jpg) repeat-x;}
+.mahindra-body_text_b{ padding:0px 0px 0px 15px; margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:24px; font-weight:bold; color:#1f7982;}
+.mahindra-body_text_c{ font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#1f7982;}
+/*...............................end...........................*/
+
+/*...........................honda...................*/
+.honda-car-specification-center{width:683px; height:104px; border-radius:7px 7px 7px 7px; background: url(images/newimages/honda-car-specification.jpg) repeat-x;}
+.honda-body_text_b{ padding:0px 0px 0px 15px; margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:24px; font-weight:bold; color:#07aa22;}
+.honda-body_text_c{ font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#07aa22;}
+/*...............................end...........................*/
+
+/*...........................Maruti...................*/
+.maruti-car-specification-center{ width:683px; height:104px; border-radius:7px 7px 7px 7px; background: url(images/newimages/maruti-car-specification.jpg) repeat-x;}	
+.maruti-body_text_b{ padding:0px 0px 0px 15px; margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:24px; font-weight:bold; color:#623dbe;}
+.maruti-body_text_c{ font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#623dbe;}
+/*...............................end...........................*/
+
+/*...........................Nissan...................*/
+.nissan-car-specification-center{ width:683px; height:104px; border-radius:7px 7px 7px 7px; background: url(images/newimages/nissan-car-specification.jpg) repeat-x;}	
+.nissan-body_text_b{ padding:0px 0px 0px 15px; margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:24px; font-weight:bold; color:#06a7b1;}
+.nissan-body_text_c{ font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#06a7b1;}
+/*...............................end...........................*/
+
+/*...........................toyota...................*/
+.toyota-car-specification-center{width:683px; height:104px; border-radius:7px 7px 7px 7px; background: url(images/newimages/toyota-car-specification.jpg) repeat-x;}	
+.toyota-body_text_b{ padding:0px 0px 0px 15px; margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:24px; font-weight:bold; color:#2e87ef;}
+.toyota-body_text_c{ margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#2e87ef;}
+/*...............................end...........................*/
+
+/*...........................Audi...................*/
+.audi-car-specification-center{ width:683px; height:104px; border-radius:7px 7px 7px 7px; background: url(images/newimages/audi-car-specification.jpg) repeat-x;}	
+.audi-body_text_b{ padding:0px 0px 0px 15px; margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:24px; font-weight:bold; color:#623dbe;}
+.audi-body_text_c{ font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#623dbe;}
+/*...............................end...........................*/
+
+/*...........................Fiat...................*/
+.fiat-car-specification-center{ width:683px; height:104px; border-radius:7px 7px 7px 7px; background: url(images/newimages/fiat-car-specification.jpg) repeat-x;}
+.fiat-body_text_b{ padding:0px 0px 0px 15px; margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:24px; font-weight:bold; color:#5da81a;}
+.fiat-body_text_c{ font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#5da81a;}
+/*...............................end...........................*/
+
+/*...........................Premier...................*/
+.premier-car-specification-center{ width:683px; height:104px; border-radius:7px 7px 7px 7px; background: url(images/newimages/premier-car-specification.jpg) repeat-x;}	
+.premier-body_text_b{ padding:0px 0px 0px 15px; margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:24px; font-weight:bold; color:#06a7b1;}
+.premier-body_text_c{ font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#06a7b1;}
+/*...............................end...........................*/
+
+/*...........................Volvo...................*/
+.volvo-car-specification-center{ width:683px; height:104px; border-radius:7px 7px 7px 7px; background: url(images/newimages/volvo-car-specification.jpg) repeat-x;}	
+.volvo-body_text_b{ padding:0px 0px 0px 15px; margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:24px; font-weight:bold; color:#06a7b1;}
+.volvo-body_text_c{ font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#06a7b1;}
+/*...............................end...........................*/
+
+/*...........................landrover...................*/
+.landrover-car-specification-center{ width:683px; height:104px; border-radius:7px 7px 7px 7px; background: url(images/newimages/landrover-car-specification.jpg) repeat-x;}
+.landrover-body_text_b{ padding:0px 0px 0px 15px; margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:24px; font-weight:bold; color:#db552f;}
+.landrover-body_text_c{ font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#db552f;}
+/*...............................end...........................*/
+
+/*...........................Ford...................*/
+.ford-car-specification-center{ width:683px; height:104px; border-radius:7px 7px 7px 7px; background: url(images/newimages/ford-car-specification.jpg) repeat-x;}
+.ford-body_text_b{ padding:0px 0px 0px 15px; margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:24px; font-weight:bold; color:#043361;}
+.ford-body_text_c{ font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#043361;}
+/*...............................end...........................*/
+
+/*...........................jaguar...................*/
+.jaguar-car-specification-center{ width:683px; height:104px; border-radius:7px 7px 7px 7px; background: url(images/newimages/jaguar-car-specification.jpg) repeat-x;}
+.jaguar-body_text_b{ padding:0px 0px 0px 15px; margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:24px; font-weight:bold; color:#043361;}
+.jaguar-body_text_c{ font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#043361;}
+/*...............................end...........................*/
+
+/*...........................Mitsubishi...................*/
+.mitsubishi-car-specification-center{ width:683px; height:104px; border-radius:7px 7px 7px 7px; background: url(images/newimages/mitsubishi-car-specification.jpg) repeat-x;}
+.mitsubishi-body_text_b{ padding:0px 0px 0px 15px; margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:24px; font-weight:bold; color:#de9230;}
+.mitsubishi-body_text_c{ font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#de9230;}
+/*...............................end...........................*/
+
+/*...........................BMW...................*/
+.bmw-car-specification-center{ width:683px; height:104px; border-radius:7px 7px 7px 7px; background: url(images/newimages/bmw-car-specification.jpg) repeat-x;}
+.bmw-body_text_b{ padding:0px 0px 0px 15px; margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:24px; font-weight:bold; color:#de9230;}
+.bmw-body_text_c{ font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#de9230;}
+/*...............................end...........................*/
+
+/*...........................Hindustan Motors...................*/
+.hindustan-motors-car-specification-center{ width:683px; height:104px; border-radius:7px 7px 7px 7px; background: url(images/newimages/hindustan-car-specification.jpg) repeat-x;}
+.hindustan-motors-body_text_b{ padding:0px 0px 0px 15px; margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:24px; font-weight:bold; color:#a9b21b;}
+.hindustan-motors-body_text_c{ font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#a9b21b;}
+/*...............................end...........................*/
+
+/*...........................Hindustan Motors...................*/
+.hindustan-car-specification-center{ width:683px; height:104px; border-radius:7px 7px 7px 7px; background: url(images/newimages/hindustan-car-specification.jpg) repeat-x;}
+.hindustan-body_text_b{ padding:0px 0px 0px 15px; margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:24px; font-weight:bold; color:#a9b21b;}
+.hindustan-body_text_c{ font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#a9b21b;}
+/*...............................end...........................*/
+
+/*...........................Renault...................*/
+.renault-car-specification-center{ width:683px; height:104px; border-radius:7px 7px 7px 7px; background: url(images/newimages/renault-car-specification.jpg) repeat-x;}
+.renault-body_text_b{ padding:0px 0px 0px 15px; margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:24px; font-weight:bold; color:#661758;}
+.renault-body_text_c{ font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#661758;}
+/*...............................end...........................*/
+
+
+/*...........................Porsche...................*/
+.porsche-car-specification-center{ width:683px; height:104px; border-radius:7px 7px 7px 7px; background: url(images/newimages/porsche-car-specification.jpg) repeat-x;}
+.porsche-body_text_b{ padding:0px 0px 0px 15px; margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:24px; font-weight:bold; color:#94af4e;}
+.porsche-body_text_c{ font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#94af4e;}
+/*...............................end...........................*/
+
+
+.car-specification-center{width:683px; height:104px; border-radius:7px 7px 7px 7px; background: url(new-images/car-details-bg.jpg) repeat-x;}	
+.body_text_b{ padding:0px 0px 0px 15px; margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:24px; font-weight:bold; color:#2e87ef;}
+.body_text_c{ margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#2e87ef;}
+
+
+h1{ padding:7px 0px 7px 0px;  font-family:Arial, Helvetica, sans-serif; font-size:20px; color:#333333;}
+.text_sub{ font-family:Arial, Helvetica, sans-serif; font-size:15px; color: #999999;}
+.video-box{ width:246px; height:222px; float:left;
+box-shadow:0.5px 1px 10px 0px #999999;}
+.slider-wrapper{ width:688px; float:left; margin:auto; }
+.slider-section{ width:650px; height:96px; margin:auto; }
+.slider-section_B{ width:325px; height:96px; float:left; }
+.heading_text_slider{ font-family:Arial, Helvetica, sans-serif; font-size:18px; font-weight:bold; color:#7853d6; margin:0px; padding:2px;}
+ .text-car-name{ font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#FFFFFF;}	
+  .text-car-heading{ font-family:Arial, Helvetica, sans-serif; font-size:16px; font-weight:bold; color:#FFFFFF;}	
+  
+.button-box{ width:226px; height:48px; float:right; margin-top:10px;}
+.menu-section{ width:1000px; height:50px; margin:auto; margin-top:10px;}
+.text_slider{ font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#333333; text-align:center; font-weight:bold;}
+.buttom{width:1000px; margin:auto; height:25px; background:#7853d6; margin-top:15px;}
+
+
+.skoda-rewards-box{ width:970px; margin:auto; margin-top:5px; height:145px; border:#7853d6 thin solid; }
+.skoda-heading_text_slider{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#7853d6; margin:0px; padding-top:20px; padding-bottom:3px;}
+.skoda-heading_text_slider_box{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#7853d6;}
+.skoda-slider-section_b{ width:650px; height:86px; 
+margin:auto; margin-top:25px; 
+background: url(images/newimages/skoda-slider-bg.jpg) repeat;
+ -moz-border-radius:5px 5px 5px 5px ;
+ -webkit-border-radius:5px 5px 5px 5px;
+ -khtml-border-radius:5px 5px 5px 5px;
+ -o-border-radius:5px 5px 5px 5px;
+ border-radius:5px 5px 5px 5px;}
+.skoda-buttom{width:1000px; margin:auto; height:25px; background:#7853d6; margin-top:15px;}
+
+/*......................tata slider..............*/
+.tata-heading_text_slider{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#338af0; margin:0px; padding-top:20px; padding-bottom:3px;}
+.tata-heading_text_slider_box{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#338af0; margin:0px; }
+.tata-rewards-box{ width:970px; margin:auto; margin-top:5px; height:145px; border:#338af0 thin solid; }
+.tata-slider-section_b{ width:650px; height:86px; 
+margin:auto; margin-top:25px; 
+background: url(images/newimages/tata-slider-bg.jpg) repeat-x;
+-moz-border-radius:5px 5px 5px 5px ;
+-webkit-border-radius:5px 5px 5px 5px;
+-khtml-border-radius:5px 5px 5px 5px;
+-o-border-radius:5px 5px 5px 5px;
+border-radius:5px 5px 5px 5px;}
+.tata-buttom{width:100%; margin:auto; height:25px; background:#338af0; margin-top:15px;}
+ /*......................tata slider end..............*/
+ 
+ /*......................chevrolet slider..............*/
+.chevrolet-heading_text_slider{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#5da818; margin:0px; padding-top:20px; padding-bottom:3px;}
+.chevrolet-heading_text_slider_box{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#5da818;}
+.chevrolet-rewards-box{ width:970px; margin:auto; margin-top:5px; height:150px; border:#5da818 thin solid; }
+.chevrolet-slider-section_b{ width:650px; height:86px; 
+margin:auto; margin-top:25px; 
+background: url(images/newimages/chevrolet-slider-bg.jpg) repeat-x;
+ -moz-border-radius:5px 5px 5px 5px ;
+ -webkit-border-radius:5px 5px 5px 5px;
+ -khtml-border-radius:5px 5px 5px 5px;
+ -o-border-radius:5px 5px 5px 5px;
+ border-radius:5px 5px 5px 5px;}
+  .chevrolet-buttom{width:100%; margin:auto; height:25px; background:#5da818; margin-top:15px;}
+ /*......................tata slider end..............*/
+
+
+ /*......................porche slider..............*/
+.porsche-heading_text_slider{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#5da818; margin:0px; padding-top:20px; padding-bottom:3px;}
+.porsche-heading_text_slider_box{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#5da818;}
+.porsche-rewards-box{ width:970px; margin:auto; margin-top:5px; height:150px; border:#5da818 thin solid; }
+.porsche-slider-section_b{ width:650px; height:86px; 
+margin:auto; margin-top:25px; 
+background: url(images/newimages/chevrolet-slider-bg.jpg) repeat-x;
+ -moz-border-radius:5px 5px 5px 5px ;
+ -webkit-border-radius:5px 5px 5px 5px;
+ -khtml-border-radius:5px 5px 5px 5px;
+ -o-border-radius:5px 5px 5px 5px;
+ border-radius:5px 5px 5px 5px;}
+.porche-buttom{width:100%; margin:auto; height:25px; background:#5da818; margin-top:15px;}
+ /*......................porche slider end..............*/
+
+ 
+ /*......................hyundai slider..............*/
+.hyundai-heading_text_slider{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#db552f; margin:0px; padding-top:20px; padding-bottom:3px;}
+.hyundai-heading_text_slider_box{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#db552f; }
+  .hyundai-rewards-box{ width:970px; margin:auto; margin-top:5px; height:145px; border:#db552f thin solid; }
+    .hyundai-slider-section_b{ width:650px; height:86px; 
+margin:auto; margin-top:25px; 
+background: url(images/newimages/hyundai-slider-bg.jpg)repeat-x;
+ -moz-border-radius:5px 5px 5px 5px ;
+ -webkit-border-radius:5px 5px 5px 5px;
+ -khtml-border-radius:5px 5px 5px 5px;
+ -o-border-radius:5px 5px 5px 5px;
+ border-radius:5px 5px 5px 5px;}
+ .hyundai-buttom{width:100%; margin:auto; height:25px; background:#db552f; margin-top:15px;}
+ /*......................tata slider end..............*/
+ 
+  /*......................Volkswagen slider..............*/
+.volkswagen-heading_text_slider{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#af1b40; margin:0px; padding-top:20px; padding-bottom:3px;}
+.volkswagen-heading_text_slider_box{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#af1b40;  }
+  .volkswagen-rewards-box{ width:970px; margin:auto; margin-top:5px; height:145px; border:#af1b40 thin solid; }
+    .volkswagen-slider-section_b{ width:650px; height:86px; 
+margin:auto; margin-top:25px; 
+background: url(images/newimages/volkswagen-slider-bg.jpg) repeat-x;
+ -moz-border-radius:5px 5px 5px 5px ;
+ -webkit-border-radius:5px 5px 5px 5px;
+ -khtml-border-radius:5px 5px 5px 5px;
+ -o-border-radius:5px 5px 5px 5px;
+ border-radius:5px 5px 5px 5px;}
+ .volkswagen-buttom{width:100%; margin:auto; height:25px; background:#af1b40; margin-top:15px;}
+ /*......................Volkswagen slider end..............*/
+ 
+   /*......................Mercedes slider..............*/
+.mercedes-heading_text_slider{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#d54b27; margin:0px; padding-top:20px; padding-bottom:3px;}
+.mercedes-heading_text_slider_box{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#d54b27; }
+  .mercedes-rewards-box{width:970px; margin:auto; margin-top:5px; height:145px; border:#af1b40 thin solid; }
+    .mercedes-slider-section_b{ width:650px; height:86px; 
+margin:auto; margin-top:25px; 
+background: url(images/newimages/mercedes-slider-bg.jpg) repeat-x;
+ -moz-border-radius:5px 5px 5px 5px ;
+ -webkit-border-radius:5px 5px 5px 5px;
+ -khtml-border-radius:5px 5px 5px 5px;
+ -o-border-radius:5px 5px 5px 5px;
+ border-radius:5px 5px 5px 5px;}
+.mercedes-buttom{width:100%; margin:auto; height:25px; background:#d54b27; margin-top:15px;}
+ /*......................Mercedes slider end..............*/
+ 
+   /*......................Mahindra slider..............*/
+.mahindra-heading_text_slider{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#1f7982; margin:0px; padding-top:20px; padding-bottom:3px;}
+.mahindra-heading_text_slider_box{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#1f7982; }
+  .mahindra-rewards-box{width:970px; margin:auto; margin-top:5px; height:145px; border:#1f7982 thin solid; }
+    .mahindra-slider-section_b{ width:650px; height:86px; 
+margin:auto; margin-top:25px; 
+background: url(images/newimages/mahindra-slider-bg.jpg) repeat-x;
+ -moz-border-radius:5px 5px 5px 5px ;
+ -webkit-border-radius:5px 5px 5px 5px;
+ -khtml-border-radius:5px 5px 5px 5px;
+ -o-border-radius:5px 5px 5px 5px;
+ border-radius:5px 5px 5px 5px;}
+ .mahindra-buttom{width:100%; margin:auto; height:25px; background:#1f7982; margin-top:15px;}
+ /*......................Mahindra slider end..............*/
+ 
+  /*......................Honda slider..............*/
+.honda-heading_text_slider{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#009118; margin:0px; padding-top:20px; padding-bottom:3px;}
+.honda-heading_text_slider_box{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#009118; } 
+  .honda-rewards-box{width:970px; margin:auto; margin-top:5px; height:145px; border:#009118 thin solid; }
+    .honda-slider-section_b{ width:650px; height:86px;
+margin:auto; margin-top:25px; 
+background: url(images/newimages/honda-slider-bg.jpg) repeat-x;
+ -moz-border-radius:5px 5px 5px 5px;
+ -webkit-border-radius:5px 5px 5px 5px;
+ -khtml-border-radius:5px 5px 5px 5px;
+ -o-border-radius:5px 5px 5px 5px;
+ border-radius:5px 5px 5px 5px;}
+ .honda-buttom{width:100%; margin:auto; height:25px; background:#009118; margin-top:15px;}
+  /*......................Honda slider end..............*/
+  
+   /*......................Maruti slider..............*/
+.maruti-heading_text_slider{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#7853d6; margin:0px; padding-top:20px; padding-bottom:3px; }
+.maruti-heading_text_slider_box{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#7853d6; margin:0px;}
+  .maruti-rewards-box{width:970px; margin:auto; margin-top:5px; height:145px; border:#7853d6 thin solid; }
+    .maruti-slider-section_b{ width:650px; height:86px;
+margin:auto; margin-top:25px; 
+background: url(images/newimages/maruti-slider-bg.jpg) repeat-x;
+ -moz-border-radius:5px 5px 5px 5px;
+ -webkit-border-radius:5px 5px 5px 5px;
+ -khtml-border-radius:5px 5px 5px 5px;
+ -o-border-radius:5px 5px 5px 5px;
+ border-radius:5px 5px 5px 5px;}
+  .maruti-buttom{width:100%; margin:auto; height:25px; background:#7853d6; margin-top:15px;}
+  /*......................Maruti slider end..............*/
+  
+     /*......................Nissan slider..............*/
+.nissan-heading_text_slider{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#06a7b1; margin:0px;padding-top:20px; padding-bottom:3px;}
+.nissan-heading_text_slider_box{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#06a7b1; } 
+  .nissan-rewards-box{width:970px; margin:auto; margin-top:5px; height:145px; border:#06a7b1 thin solid; }
+    .nissan-slider-section_b{ width:650px; height:86px;
+margin:auto; margin-top:25px; 
+background: url(images/newimages/nissan-slider-bg.jpg) repeat-x;
+ -moz-border-radius:5px 5px 5px 5px;
+ -webkit-border-radius:5px 5px 5px 5px;
+ -khtml-border-radius:5px 5px 5px 5px;
+ -o-border-radius:5px 5px 5px 5px;
+ border-radius:5px 5px 5px 5px;}
+ .nissan-buttom{width:100%; margin:auto; height:25px; background:#06a7b1; margin-top:15px;}
+  /*......................Nissan slider end..............*/
+  
+   /*......................Toyota slider..............*/
+.toyota-heading_text_slider{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#338af0; margin:0px; padding-top:20px; padding-bottom:3px;}
+.toyota-heading_text_slider_box{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#338af0; }
+.toyota-rewards-box{width:970px; margin:auto; margin-top:5px; height:145px; border:#338af0 thin solid; }
+ 	.toyota-slider-section_b{ width:650px; height:86px;
+margin:auto; margin-top:25px;
+background: url(images/newimages/toyota-slider-bg.jpg) repeat-x;
+ -moz-border-radius:5px 5px 5px 5px;
+ -webkit-border-radius:5px 5px 5px 5px;
+ -khtml-border-radius:5px 5px 5px 5px;
+ -o-border-radius:5px 5px 5px 5px;
+ border-radius:5px 5px 5px 5px;}
+ .toyota-buttom{width:100%; margin:auto; height:25px; background:#338af0; margin-top:15px;}
+  /*......................Toyota slider end..............*/
+  
+   /*......................ford slider..............*/
+.ford-heading_text_slider{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#0c4c8b; margin:0px; padding-top:20px; padding-bottom:3px;}
+.ford-heading_text_slider_box{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#0c4c8b; }
+.ford-rewards-box{width:970px; margin:auto; margin-top:5px; height:145px; border:#0c4c8b thin solid; }
+ 	.ford-slider-section_b{ width:650px; height:86px;
+margin:auto; margin-top:25px;
+background: url(images/newimages/ford-slider-bg.jpg) repeat-x;
+ -moz-border-radius:5px 5px 5px 5px;
+ -webkit-border-radius:5px 5px 5px 5px;
+ -khtml-border-radius:5px 5px 5px 5px;
+ -o-border-radius:5px 5px 5px 5px;
+ border-radius:5px 5px 5px 5px;}
+ .ford-buttom{width:100%; margin:auto; height:25px; background:#0c4c8b; margin-top:15px;}
+  /*......................ford slider end..............*/
+  
+  /*......................Land Rover slider..............*/
+.landrover-heading_text_slider{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#d25944; margin:0px; padding-top:20px; padding-bottom:3px;}
+.landrover-heading_text_slider_box{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#d25944; }
+.landrover-rewards-box{width:970px; margin:auto; margin-top:5px; height:145px; border:#d25944	 thin solid; }
+.landrover-slider-section_b{ width:650px; height:86px;
+margin:auto; margin-top:25px;
+background: url(images/newimages/land-rover-slider-bg.jpg) repeat-x;
+ -moz-border-radius:5px 5px 5px 5px;
+ -webkit-border-radius:5px 5px 5px 5px;
+ -khtml-border-radius:5px 5px 5px 5px;
+ -o-border-radius:5px 5px 5px 5px;
+ border-radius:5px 5px 5px 5px;}
+.landrover-buttom{width:100%; margin:auto; height:25px; background:#d25944; margin-top:15px;}
+  /*......................Land Rover slider end..............*/
+  
+/*......................Hindustan Motors slider..............*/
+.hindustan-motors-heading_text_slider{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#a9b21b; margin:0px; padding-top:20px; padding-bottom:3px;}
+.hindustan-motors-heading_text_slider_box{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#a9b21b;  } 
+.hindustan-motors-rewards-box{width:970px; margin:auto; margin-top:5px; height:145px; border:#a9b21b	 thin solid; }
+.hindustan-motors-slider-section_b{ width:650px; height:86px;
+margin:auto; margin-top:25px;
+background: url(images/newimages/hindustan-motors-slider-bg.jpg)repeat-x;
+ -moz-border-radius:5px 5px 5px 5px;
+ -webkit-border-radius:5px 5px 5px 5px;
+ -khtml-border-radius:5px 5px 5px 5px;
+ -o-border-radius:5px 5px 5px 5px;
+ border-radius:5px 5px 5px 5px;}
+.hindustan-motors-buttom{width:100%; margin:auto; height:25px; background:#a9b21b; margin-top:15px;}
+
+.hindustan-heading_text_slider{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#a9b21b; margin:0px; padding-top:20px; padding-bottom:3px;}
+.hindustan-heading_text_slider_box{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#a9b21b;  } 
+.hindustan-rewards-box{width:970px; margin:auto; margin-top:5px; height:145px; border:#a9b21b	 thin solid; }
+.hindustan-slider-section_b{ width:650px; height:86px;
+margin:auto; margin-top:25px;
+background: url(images/newimages/hindustan-motors-slider-bg.jpg)repeat-x;
+ -moz-border-radius:5px 5px 5px 5px;
+ -webkit-border-radius:5px 5px 5px 5px;
+ -khtml-border-radius:5px 5px 5px 5px;
+ -o-border-radius:5px 5px 5px 5px;
+ border-radius:5px 5px 5px 5px;}
+.hindustan-buttom{width:100%; margin:auto; height:25px; background:#a9b21b; margin-top:15px;}
+  /*......................Hindustan Motors slider end..............*/
+  
+  /*......................mitsubishi slider..............*/
+.mitsubishi-heading_text_slider{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#db891d; margin:0px; padding-top:20px; padding-bottom:3px;}
+.mitsubishi-heading_text_slider_box{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#db891d; }
+.mitsubishi-rewards-box{width:970px; margin:auto; margin-top:5px; height:145px; border:#db891d	 thin solid; }
+.mitsubishi-slider-section_b{ width:650px; height:86px;
+margin:auto; margin-top:25px;
+background: url(images/newimages/mitsubishi-slider-bg.jpg) repeat-x;
+ -moz-border-radius:5px 5px 5px 5px;
+ -webkit-border-radius:5px 5px 5px 5px;
+ -khtml-border-radius:5px 5px 5px 5px;
+ -o-border-radius:5px 5px 5px 5px;
+ border-radius:5px 5px 5px 5px;}
+.mitsubishi-buttom{width:100%; margin:auto; height:25px; background:#db891d; margin-top:15px;}
+  /*......................Hindustan Motors slider end..............*/
+  
+    /*......................bmw slider..............*/
+.bmw-heading_text_slider{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#db891d; margin:0px; padding-top:20px; padding-bottom:3px;}
+.bmw-heading_text_slider_box{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#db891d; }
+.bmw-rewards-box{width:970px; margin:auto; margin-top:5px; height:145px; border:#db891d	 thin solid; }
+.bmw-slider-section_b{ width:650px; height:86px;
+margin:auto; margin-top:25px;
+background: url(images/newimages/mitsubishi-slider-bg.jpg) repeat-x;
+ -moz-border-radius:5px 5px 5px 5px;
+ -webkit-border-radius:5px 5px 5px 5px;
+ -khtml-border-radius:5px 5px 5px 5px;
+ -o-border-radius:5px 5px 5px 5px;
+ border-radius:5px 5px 5px 5px;}
+.bmw-buttom{width:100%; margin:auto; height:25px; background:#db891d; margin-top:15px;}
+  /*......................bmw Motors slider end..............*/
+  
+  
+      /*......................Fiat slider..............*/
+	  
+	  .fiat-heading_text_slider{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#87a73c; margin:0px; padding-top:20px; padding-bottom:3px;}
+.fiat-heading_text_slider_box{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#87a73c; }
+  .fiat-rewards-box{width:970px; margin:auto; margin-top:5px; height:145px; border:#87a73c thin solid;}
+.fiat-slider-section_b{ width:650px; height:86px;
+margin:auto; margin-top:25px;
+background: url(images/newimages/fiat-slider-bg.jpg) repeat-x;
+ -moz-border-radius:5px 5px 5px 5px;
+ -webkit-border-radius:5px 5px 5px 5px;
+ -khtml-border-radius:5px 5px 5px 5px;
+ -o-border-radius:5px 5px 5px 5px;
+ border-radius:5px 5px 5px 5px;}
+.fiat-buttom{width:100%; margin:auto; height:25px; background:#87a73c; margin-top:15px;}
+  /*......................mitsubishi slider end..............*/
+  
+ /*......................Renault slider..............*/
+.renault-heading_text_slider{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#661758; margin:0px; padding-top:20px; padding-bottom:3px;}
+.renault-heading_text_slider_box{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#661758; }
+  .renault-rewards-box{width:970px; margin:auto; margin-top:5px; height:145px; border:#661758 thin solid; }
+    .renault-slider-section_b{ width:650px; height:86px; 
+margin:auto; margin-top:25px; 
+background: url(images/newimages/renault-slider-bg.jpg) repeat-x;
+ -moz-border-radius:5px 5px 5px 5px ;
+ -webkit-border-radius:5px 5px 5px 5px;
+ -khtml-border-radius:5px 5px 5px 5px;
+ -o-border-radius:5px 5px 5px 5px;
+ border-radius:5px 5px 5px 5px;}
+ .renault-buttom{width:100%; margin:auto; height:25px; background:#661758; margin-top:15px;}
+ /*......................Renault slider end..............*/
+
+ /*......................prorche slider..............*/
+.prorche-heading_text_slider{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#94af4e; margin:0px; padding-top:20px; padding-bottom:3px;}
+.prorche-heading_text_slider_box{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#94af4e; }
+  .prorche-rewards-box{width:970px; margin:auto; margin-top:5px; height:145px; border:#94af4e thin solid; }
+    .prorche-slider-section_b{ width:650px; height:86px;
+margin:auto; margin-top:25px;
+background: url(images/newimages/porche-slider-bg.jpg) repeat-x;
+ -moz-border-radius:5px 5px 5px 5px;
+ -webkit-border-radius:5px 5px 5px 5px;
+ -khtml-border-radius:5px 5px 5px 5px;
+ -o-border-radius:5px 5px 5px 5px;
+ border-radius:5px 5px 5px 5px;}
+ .prorche-buttom{width:100%; margin:auto; height:25px; background:#94af4e; margin-top:15px;}
+ /*......................porche slider end..............*/
+ 
+  /*......................premier slider..............*/
+.premier-heading_text_slider{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#459fa7; margin:0px; padding-top:20px; padding-bottom:3px;}
+.premier-heading_text_slider_box{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#459fa7; }
+  .premier-rewards-box{width:970px; margin:auto; margin-top:5px; height:145px; border:#459fa7 thin solid; }
+    .premier-slider-section_b{ width:650px; height:86px;
+margin:auto; margin-top:25px;
+background: url(images/newimages/premier-slider-bg.jpg) repeat-x;
+ -moz-border-radius:5px 5px 5px 5px;
+ -webkit-border-radius:5px 5px 5px 5px;
+ -khtml-border-radius:5px 5px 5px 5px;
+ -o-border-radius:5px 5px 5px 5px;
+ border-radius:5px 5px 5px 5px;}
+ .premier-buttom{width:100%; margin:auto; height:25px; background:#459fa7; margin-top:15px;}
+ /*......................premier slider end..............*/
+ 
+ /*......................premier slider..............*/
+.premier-heading_text_slider{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#459fa7; margin:0px; padding-top:20px; padding-bottom:3px;}
+.premier-heading_text_slider_box{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#459fa7; }
+  .premier-rewards-box{width:970px; margin:auto; margin-top:5px; height:145px; border:#459fa7 thin solid; }
+    .premier-slider-section_b{ width:650px; height:86px;
+margin:auto; margin-top:25px;
+background: url(images/newimages/premier-slider-bg.jpg) repeat-x;
+ -moz-border-radius:5px 5px 5px 5px;
+ -webkit-border-radius:5px 5px 5px 5px;
+ -khtml-border-radius:5px 5px 5px 5px;
+ -o-border-radius:5px 5px 5px 5px;
+ border-radius:5px 5px 5px 5px;}
+ .premier-buttom{width:100%; margin:auto; height:25px; background:#459fa7; margin-top:15px;}
+ /*......................premier slider end..............*/
+ 
+ /*......................jaguar slider..............*/
+.jaguar-heading_text_slider{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#245a89; margin:0px; padding-top:20px; padding-bottom:3px;}
+.jaguar-heading_text_slider_box{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#245a89; }
+  .jaguar-rewards-box{width:970px; margin:auto; margin-top:5px; height:145px; border:#245a89 thin solid; }
+    .jaguar-slider-section_b{ width:650px; height:86px;
+margin:auto; margin-top:25px;
+background: url(images/newimages/jaguar-slider-bg.jpg) repeat-x;
+ -moz-border-radius:5px 5px 5px 5px;
+ -webkit-border-radius:5px 5px 5px 5px;
+ -khtml-border-radius:5px 5px 5px 5px;
+ -o-border-radius:5px 5px 5px 5px;
+ border-radius:5px 5px 5px 5px;}
+ .jaguar-buttom{width:100%; margin:auto; height:25px; background:#245a89; margin-top:15px;}
+ /*......................jaguar slider end..............*/
+ 
+  /*......................audi slider..............*/
+.audi-heading_text_slider{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#895cb1; margin:0px; padding-top:20px; padding-bottom:3px;}
+.audi-heading_text_slider_box{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#895cb1; }
+  .audi-rewards-box{width:970px; margin:auto; margin-top:5px; height:145px; border:#895cb1 thin solid; }
+    .audi-slider-section_b{ width:650px; height:86px;
+margin:auto; margin-top:25px;
+background: url(images/newimages/jaguar-slider-bg.jpg) repeat-x;
+ -moz-border-radius:5px 5px 5px 5px;
+ -webkit-border-radius:5px 5px 5px 5px;
+ -khtml-border-radius:5px 5px 5px 5px;
+ -o-border-radius:5px 5px 5px 5px;
+ border-radius:5px 5px 5px 5px;}
+ .audi-buttom{width:100%; margin:auto; height:25px; background:#895cb1; margin-top:15px;}
+ /*......................jaguar slider end..............*/
+ 
+ /*......................volvo slider..............*/
+.volvo-heading_text_slider{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#459fa7; margin:0px; padding-top:20px; padding-bottom:3px;}
+.volvo-heading_text_slider_box{ font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#459fa7; }
+  .volvo-rewards-box{width:970px; margin:auto; margin-top:5px; height:145px; border:#459fa7 thin solid; }
+    .volvo-slider-section_b{ width:650px; height:86px;
+margin:auto; margin-top:25px;
+background: url(images/newimages/volvo-slider-bg.jpg) repeat-x;
+ -moz-border-radius:5px 5px 5px 5px;
+ -webkit-border-radius:5px 5px 5px 5px;
+ -khtml-border-radius:5px 5px 5px 5px;
+ -o-border-radius:5px 5px 5px 5px;
+ border-radius:5px 5px 5px 5px;}
+ .volvo-buttom{width:100%; margin:auto; height:25px; background:#459fa7; margin-top:15px;}
+ /*......................premier slider end..............*/
+ 
+
+a.tooltip {outline:none;text-decoration:none;border-bottom:dotted 0px blue;}
+    a.tooltip strong {line-height:30px;}
+    a.tooltip > span 
+    {
+	    width:160px;
+	    padding: 2px 4px;
+/*	    margin-top: 20px;*/
+	    margin-left: -85px;
+	    opacity: 0;
+	    visibility: hidden;
+	    z-index: 10;	   
+	    position: absolute;
+
+	    font-family: Arial;
+	    font-size: 12px;
+	    font-style: normal;  
+        	    
+	    -webkit-border-radius: 3px;
+	    -moz-border-radius: 3px;
+	    -o-border-radius: 3px;
+	    border-radius: 3px;
+	    
+	    
+        -webkit-box-shadow: 2px 2px 2px #999;
+	    -moz-box-shadow: 2px 2px 2px #999;		
+	    box-shadow: 2px 2px 2px #999;	    
+	    
+	    -webkit-transition-property:opacity, margin-top, visibility, margin-left;
+	    -webkit-transition-duration:0.4s, 0.3s, 0.4s, 0.3s;  
+	    -webkit-transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+	
+	    -moz-transition-property:opacity, margin-top, visibility, margin-left;
+	    -moz-transition-duration:0.4s, 0.3s, 0.4s, 0.3s;  
+	    -moz-transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+	
+	    -o-transition-property:opacity, margin-top, visibility, margin-left;
+	    -o-transition-duration:0.4s, 0.3s, 0.4s, 0.3s;  
+	    -o-transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+	
+	    transition-property:opacity, margin-top, visibility, margin-left;
+	    transition-duration:0.4s, 0.3s, 0.4s, 0.3s;  
+	    transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+    }
+    
+    /*a.tooltip > span:hover,*/
+	a.tooltip:hover > span
+	{
+		opacity: 1;
+		text-decoration:none;
+		visibility: visible;
+		overflow: visible;
+		margin-top:50px;
+		display: inline;
+		margin-left: -130px;		
+	}
+
+	a.tooltip span b {
+    
+		width: 15px;
+		height: 15px;
+		margin-left: 20px;
+		margin-top: -19px;
+			
+		display: block;
+		position: absolute;
+
+		-webkit-transform: rotate(-45deg);
+		-moz-transform: rotate(-45deg);
+		-o-transform: rotate(-45deg);
+		transform: rotate(-45deg);
+			
+		-webkit-box-shadow: inset -1px 1px 0 #fff;
+		-moz-box-shadow: inset 0 1px 0 #fff;
+		-o-box-shadow: inset 0 1px 0 #fff;
+		box-shadow: inset 0 1px 0 #fff;
+			
+		display: none\0/;
+		*display: none;
+	}
+    
+a.tooltip > span {
+	color: #000000; 
+
+	background: #FBF5E6;
+	background: -moz-linear-gradient(top, #FBF5E6 0%, #FFFFFF 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FBF5E6), color-stop(100%,#FFFFFF));
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FBF5E6', endColorstr='#FFFFFF',GradientType=0 );
+	    
+	border: 1px solid #CFB57C;	     
+}    
+	  
+a.tooltip span b {
+	background: #FBF5E6;
+	border-top: 1px solid #CFB57C;
+	border-right: 1px solid #CFB57C;
+}  
+
+
+#scroll {
+width:970px;
+height:150px;
+/*margin:100px auto;*/
+
+border:0px solid #000;
+overflow:auto;
+}
+/* ------------- Flexcroll CSS ------------ */
+.scrollgeneric {
+line-height:1px;
+font-size:1px;
+position:absolute;
+top:0;left:0;
+}
+.hscrollerbase {
+height:17px;
+
+}
+.hscrollerbar {
+height:7px;
+background:#000;
+cursor:e-resize;
+padding:3px;
+border:1px solid #999;
+}
+.hscrollerbar:hover {
+background:#222;
+border:1px solid #222;
+}

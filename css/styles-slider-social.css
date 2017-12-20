@@ -1,0 +1,22 @@
+.sidebarBox {
+	width: 300px; /* Replace with your sidebar width */
+position: relative; margin:auto !important; 
+}
+.scrollingBox { margin:auto !important;
+	width:300px; /* Replace with the same width as sidebar */
+}
+.social-media-new-wrapper{ width:0px;}
+.img-left{ float:none; margin-top:2px}
+
+@media screen and (max-width:700px){
+.sidebarBox {
+width: 300px; /* Replace with your sidebar width */
+position: relative; margin:auto !important; text-align:center;}
+.scrollingBox { margin:auto !important; text-align:center; position:fixed;
+width:300px;  color:#F00; top:420px !important; font-size:56px; /* Replace with the same width as sidebar */
+
+}
+.social-media-new-wrapper{ width:180px; margin:auto;}
+.img-left{ float:left; margin-left:2px}
+	
+}

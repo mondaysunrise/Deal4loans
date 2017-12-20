@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+.mf-wrapper{ max-width:775px; margin:auto; width:100%; background:#0e79b9;  padding:10px 0px 10px 15px;  border-radius: 5px;}
+.mf-wrapper tr td { border:none;}
+.mf-wrapper table { margin-bottom:0px;}
+.mf-wrapper a{ color:#FFF;}
+.mf-wrapper input[type="text"], input[type="email"], input[type="password"], textarea{ margin-bottom: 0px;}
+.white-text{ color:#FFF !important;}
+.mf-form-heading{color:#FFF; font-family: 'Droid Sans', sans-serif !important; font-size: 20px !important; font-weight: normal;  margin: 0px 0px 0px 0px;  padding: 5px 0px 0px 0px !important;}
+.mf-col{width:23%; float: left; margin-right:10px; margin-top:15px;  text-align: left;}
+.clearfix{ clear:both;}
+.mf-description{ text-align:center; width:100%; max-width:775px; margin:auto; padding:15px 0px 15px 0px}
+.mf-input{width:100%; height:35px; -moz-box-shadow: inset 0px 1px 4px rgba(0,0,0,.2); -webkit-box-shadow: inset 0px 1px 4px rgba(0,0,0,.2); box-shadow: inset 0px 1px 4px rgba(0,0,0,.2);
+    border: none; text-align: left;  text-indent: 7px;  color: #333;  font-size: 16px;  -webkit-transition: all 0.30s ease-in-out;   -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;  -o-transition: all 0.30s ease-in-out; border-radius: 7px;   outline: none;  padding: 3px 0px 3px 3px;  margin: 5px 1px 3px 0px;  border: 1px solid #DDDDDD;}
+.mf-form-text{text-align:left; font-size: 16px; color: #FFF; text-indent: 4px;}
+.mf-btn {background: #06b2a0 !important;  width: 110px !important;   border: solid 2px #FFF !important;
+    height: 39px !important;
+    border-radius: 5px !important;
+    color: #FFF !important;
+    font-size: 16px !important;
+    margin-top: 20px;
+    float: right;
+    margin-right: 36px;}
+	.disclaimer{font-family: 'Droid Sans', sans-serif !important; font-size:10px; color:#FFF; padding-top:25px;}
+	.mf-tc{float:left; width:75%;}
+        .mf-btn-box{float:left; width:25%;}
+        .v-align{ vertical-align:middle;}
+	
+@media screen and (max-width:765px) {
+	.mf-wrapper{margin:auto; width:95%; background:#0e79b9;  padding:10px;  border-radius: 5px;}
+	.mf-col{width:100%; margin-left:0px; margin-right:15px;  text-align: left; float:none;}
+	.mf-btn {background: #06b2a0 !important; width: 110px !important;  border: solid 2px #FFF !important;  height: 39px !important;  border-radius: 5px !important; color: #FFF !important;
+    font-size: 16px !important;  margin:auto;}
+	.text-center{ text-align:center !important;}
+        .mf-btn{ margin-top:20px;}
+}

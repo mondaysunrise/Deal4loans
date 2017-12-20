@@ -1,0 +1,1755 @@
+# ColorMag Pro WordPress Theme. Translation template file.
+# This file is distributed under the same license as the ColorMag Theme.
+msgid ""
+msgstr ""
+"Project-Id-Version: ColorMag Pro\n"
+"POT-Creation-Date: 2015-07-14 17:12+0100\n"
+"PO-Revision-Date: 2015-07-14 19:22+0100\n"
+"Last-Translator: \n"
+"Language-Team: ThemeGrill <themegrill@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: nb\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:22
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Beklager! Den siden finner vi ikke."
+
+#: 404.php:24
+msgid "It looks like nothing was found at this location. Try the search below."
+msgstr ""
+"Det ser ut som ingenting ble funnet her. Pr&oslash;v et s&oslash;k under."
+
+#: 404.php:30
+msgid "404"
+msgstr "404"
+
+#: 404.php:32
+msgid "Error"
+msgstr "Feil"
+
+#: am/admin/class-wc-api-manager-menu.php:62
+#: am/admin/class-wc-api-manager-menu.php:66
+msgid "Save Changes"
+msgstr "Lagre endringer"
+
+#: am/admin/class-wc-api-manager-menu.php:81
+msgid "API License Activation"
+msgstr "API Lisens-aktivering"
+
+#: am/admin/class-wc-api-manager-menu.php:82
+msgid "API License Key"
+msgstr "API lisensn&oring;kkel"
+
+#: am/admin/class-wc-api-manager-menu.php:83
+msgid "API License email"
+msgstr "API lisens e-post"
+
+#: am/admin/class-wc-api-manager-menu.php:87
+msgid "API License Deactivation"
+msgstr "API lisens-deaktivering"
+
+#: am/admin/class-wc-api-manager-menu.php:88
+msgid "Deactivate API License Key"
+msgstr "Deaktiver API lisensn&oring;kkel"
+
+#: am/admin/class-wc-api-manager-menu.php:159
+msgid "Theme activated. "
+msgstr "Tema aktivert"
+
+#: am/admin/class-wc-api-manager-menu.php:165
+msgid "Connection failed to the License Key API server. Try again later."
+msgstr ""
+"Tilkobling feilet for lisensn&oring;kkelens API-server. Prøv igjen senere."
+
+#: am/admin/class-wc-api-manager-menu.php:254
+msgid ""
+"The license could not be deactivated. Use the License Deactivation tab to "
+"manually deactivate the license before activating a new license."
+msgstr ""
+"Lisensen kunne ikke aktiveres. Bruk lisens-deaktiveringsboksen for å manuelt "
+"deaktivere lisensen før du aktiverer en ny."
+
+#: am/admin/class-wc-api-manager-menu.php:296
+msgid "Theme license deactivated. "
+msgstr "Tema-lisens deaktivert."
+
+#: am/admin/class-wc-api-manager-menu.php:365
+msgid "Deactivates an API License Key so it can be used on another blog."
+msgstr ""
+"Dekativerer en API-lisensnøkkel så den kan bli brukt på en annen blogg."
+
+#: am/classes/class-wc-plugin-update.php:370
+#, php-format
+msgid ""
+"The license key for %s has expired. You can reactivate or purchase a license "
+"key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Lisensnøkkelen for %s har utløpt. Du kan reaktivere eller kjøpe en ny "
+"lisensnøkkel fra din kontos <a href=\"%s\" target=\"_blank\">kontrollpanel</"
+"a>."
+
+#: am/classes/class-wc-plugin-update.php:385
+#, php-format
+msgid ""
+"The subscription for %s is on-hold. You can reactivate the subscription from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Abonnementet for %s er på hold. Du kan reaktivere eller kjøpe en ny "
+"lisensnøkkel fra din kontos <a href=\"%s\" target=\"_blank\">kontrollpanel</"
+"a>."
+
+#: am/classes/class-wc-plugin-update.php:400
+#, php-format
+msgid ""
+"The subscription for %s has been cancelled. You can renew the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>. A new "
+"license key will be emailed to you after your order has been completed."
+msgstr ""
+"Ditt abonnement for %s har blitt kansellert. Du kan reaktivere eller kjøpe "
+"en ny lisensnøkkel fra din kontos <a href=\"%s\" target=\"_blank"
+"\">kontrollpanel</a>. En ny lisensnøkkel vil bli sendt på e-post til deg "
+"etter at salget er gjennomført."
+
+#: am/classes/class-wc-plugin-update.php:415
+#, php-format
+msgid ""
+"The subscription for %s has expired. You can reactivate the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Abonnementet for %s har løpt ut. Du kan reaktivere eller kjøpe en ny "
+"lisensnøkkel fra din kontos <a href=\"%s\" target=\"_blank\">kontrollpanel</"
+"a>."
+
+#: am/classes/class-wc-plugin-update.php:430
+#, php-format
+msgid ""
+"The subscription for %s has been suspended. You can reactivate the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+"Abonnementet for %s har blitt satt på hold. Du kan reaktivere eller kjøpe en "
+"ny lisensnøkkel fra din kontos <a href=\"%s\" target=\"_blank"
+"\">kontrollpanel</a>."
+
+#: am/classes/class-wc-plugin-update.php:445
+#, php-format
+msgid ""
+"The subscription for %s is still pending. You can check on the status of the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+"Abonnementet for %s er fortsatt på hold. du kan sjekke status på "
+"abonnementet fra din kontos <a href=\"%s\" target=\"_blank\">kontrollpanel</"
+"a>."
+
+#: am/classes/class-wc-plugin-update.php:460
+#, php-format
+msgid ""
+"The subscription for %s has been placed in the trash and will be deleted "
+"soon. You can purchase a new subscription from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr ""
+"Abonnementet for %s har blitt slettet og vil bli fjernet snart. Du kan "
+"reaktivere eller kjøpe en ny lisensnøkkel fra din kontos <a href=\"%s\" "
+"target=\"_blank\">kontrollpanel</a>."
+
+#: am/classes/class-wc-plugin-update.php:475
+#, php-format
+msgid ""
+"A subscription for %s could not be found. You can purchase a subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Et abonnement for %s ble ikke funnet. Du kan reaktivere eller kjøpe en ny "
+"lisensnøkkel fra din kontos <a href=\"%s\" target=\"_blank\">kontrollpanel</"
+"a>."
+
+#: am/classes/class-wc-plugin-update.php:490
+#, php-format
+msgid ""
+"A license key for %s could not be found. Maybe you forgot to enter a license "
+"key when setting up %s, or the key was deactivated in your account. You can "
+"reactivate or purchase a license key from your account <a href=\"%s\" target="
+"\"_blank\">dashboard</a>."
+msgstr ""
+"En lisensnøkkel for %s kunne ikke finnes. Kanskje du glemte å legge inn "
+"lisensnøkkel da du satte opp %s, eller at lisensnøkkelen ble deaktivert i "
+"din konto. Du kan reaktivere eller kjøpe en ny lisensnøkkel fra din kontos "
+"<a href=\"%s\" target=\"_blank\">kontrollpanel</a>."
+
+#: am/classes/class-wc-plugin-update.php:505
+#, php-format
+msgid ""
+"Download permission for %s has been revoked possibly due to a license key or "
+"subscription expiring. You can reactivate or purchase a license key from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Nedlastingstillatelser for %s har blitt fjernet, muligens fordi "
+"lisensnøkkelen eller abonnementet har løpt ut. Du kan reaktivere eller kjøpe "
+"en ny lisensnøkkel fra din kontos <a href=\"%s\" target=\"_blank"
+"\">kontrollpanel</a>."
+
+#: am/classes/class-wc-plugin-update.php:520
+#, php-format
+msgid ""
+"%s has not been activated. Go to the settings page and enter the license key "
+"and license email to activate %s."
+msgstr ""
+"%s har ikke blitt aktivert. Gå til innstillings-siden og legg inn "
+"lisensnøkkelen og lisens e-post for å aktivere %s."
+
+#: am/classes/class-wc-plugin-update.php:535
+#, php-format
+msgid ""
+"You changed the subscription for %s, so you will need to enter your new API "
+"License Key in the settings page. The License Key should have arrived in "
+"your email inbox, if not you can get it by logging into your account <a href="
+"\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Du endret abonnementet for %s, så du må legge inn din nye API-lisensnøkkel i "
+"innstillings-siden. Lisensnøkkelen skal ha nådd din e-post, hvis ikke kan du "
+"logge inn på kontoen din og sjekke <a href=\"%s\" target=\"_blank"
+"\">kontrollpanelet</a>."
+
+#: archive.php:36
+#, php-format
+msgid "Author: %s"
+msgstr "Forfatter: %s"
+
+#: archive.php:44
+#, php-format
+msgid "Day: %s"
+msgstr "Dag: %s"
+
+#: archive.php:47
+#, php-format
+msgid "Month: %s"
+msgstr "M&aring;ned: %s"
+
+#: archive.php:50
+#, php-format
+msgid "Year: %s"
+msgstr "&Aring;r: %s"
+
+#: archive.php:53
+msgid "Asides"
+msgstr "Sider"
+
+#: archive.php:56
+msgid "Images"
+msgstr "Bilder"
+
+#: archive.php:59
+msgid "Videos"
+msgstr "Videoer"
+
+#: archive.php:62
+msgid "Quotes"
+msgstr "Sitater"
+
+#: archive.php:65
+msgid "Links"
+msgstr "Lenker"
+
+#: archive.php:68
+msgid "Archives"
+msgstr "Arkiver"
+
+#: comments.php:31
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "En tanke om &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s tanker om &ldquo;%2$s&rdquo;"
+
+#: comments.php:38 comments.php:55
+msgid "Comment navigation"
+msgstr "Kommentar-navigasjon"
+
+#: comments.php:39 comments.php:56
+msgid "&larr; Older Comments"
+msgstr "&larr; Eldre kommentarer"
+
+#: comments.php:40 comments.php:57
+msgid "Newer Comments &rarr;"
+msgstr "Nyere kommentarer &rarr;"
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr "Kommentarfeltet er stengt"
+
+#: content-page.php:24 content-single.php:48
+msgid "Pages:"
+msgstr "Sider:"
+
+#: content.php:38
+msgid "Read more"
+msgstr "Les mer"
+
+#: functions.php:66
+msgid "Primary Menu"
+msgstr "Hovedmeny"
+
+#: functions.php:67
+msgid "Footer Menu"
+msgstr "Footer-meny"
+
+#: inc/admin/meta-boxes.php:16 inc/admin/meta-boxes.php:18
+msgid "Select Layout"
+msgstr "Velg utseende"
+
+#: inc/admin/meta-boxes.php:28
+msgid "Default Layout"
+msgstr "Standard utseende"
+
+#: inc/admin/meta-boxes.php:33 inc/widgets/widgets.php:21
+msgid "Right Sidebar"
+msgstr "H&oslash;yre sidekolonne"
+
+#: inc/admin/meta-boxes.php:38 inc/widgets/widgets.php:32
+msgid "Left Sidebar"
+msgstr "Venstre sidekolonne"
+
+#: inc/admin/meta-boxes.php:43
+msgid "No Sidebar Full Width"
+msgstr "Ingen sidekolonne full bredde"
+
+#: inc/admin/meta-boxes.php:48
+msgid "No Sidebar Content Centered"
+msgstr "Ingen sidekolonner, innhold sentrert"
+
+#: inc/customizer.php:22
+msgid "Documentation"
+msgstr "Dokumentasjon"
+
+#: inc/customizer.php:26
+msgid "Support"
+msgstr "Hjelp"
+
+#: inc/customizer.php:30
+msgid "View Demo"
+msgstr "Se demonstrasjon"
+
+#: inc/customizer.php:34
+msgid "Rate This Theme"
+msgstr "Vurdér dette temaet"
+
+#: inc/customizer.php:46
+msgid "ColorMag Theme Important Links"
+msgstr "ColorMag-tema viktige lenker"
+
+#: inc/customizer.php:58
+msgid "Important Links"
+msgstr "Viktige lenker"
+
+#: inc/customizer.php:67
+msgid "Change the Header Settings from here as you want"
+msgstr "Endre Header-innstillingene herfra som du &oslash;nsker"
+
+#: inc/customizer.php:69
+msgid "Header Options"
+msgstr "Header-innstillinger"
+
+#: inc/customizer.php:74
+msgid "Breaking News"
+msgstr "Siste nytt"
+
+#: inc/customizer.php:87
+msgid "Check to enable the breaking news section"
+msgstr "Huk av for &aring; aktivere siste nytt-funksjonen"
+
+#: inc/customizer.php:94 inc/functions.php:674
+msgid "Latest:"
+msgstr "Siste:"
+
+#: inc/customizer.php:100
+msgid "Enter the text to display for the ticker news"
+msgstr "Fyll inn tekst som skal vises for ticker-nyhetsfeltet"
+
+#: inc/customizer.php:114
+msgid "Choose the animation style for the Breaking News in the Header"
+msgstr "Velg animasjonsstil for siste nytt i headeren"
+
+#: inc/customizer.php:118 inc/customizer.php:1977
+msgid "Up"
+msgstr "Opp"
+
+#: inc/customizer.php:119 inc/customizer.php:1978
+msgid "Down"
+msgstr "Ned"
+
+#: inc/customizer.php:131
+msgid "Enter the duration time for the Breaking News in the Header"
+msgstr "Velg varighet for siste nytt i headeren"
+
+#: inc/customizer.php:144
+msgid "Enter the speed time for the Breaking News in the Header"
+msgstr "Velg hastighet for siste nytt i headeren"
+
+#: inc/customizer.php:158
+msgid "Choose the location/area to place the Breaking News"
+msgstr "Velg hvor du skal plassere siste nytt"
+
+#: inc/customizer.php:162 inc/customizer.php:2006
+msgid "Header"
+msgstr "Header"
+
+#: inc/customizer.php:163 inc/customizer.php:2007
+msgid "Below Navigation"
+msgstr "Under navigasjon"
+
+#: inc/customizer.php:169
+msgid "Show Date"
+msgstr "Vis dato"
+
+#: inc/customizer.php:182
+msgid "Check to show the date in header"
+msgstr "Huk av for &aring; vise dato i header"
+
+#: inc/customizer.php:189
+msgid "Show Home Icon"
+msgstr "Vis hjem-ikon"
+
+#: inc/customizer.php:202
+msgid "Check to show the home icon in the primary menu"
+msgstr "Huk av for &aring; vise hjem-ikon i hovedmenyen"
+
+#: inc/customizer.php:209
+msgid "Sticky Menu"
+msgstr "Faststilt meny"
+
+#: inc/customizer.php:222
+msgid "Check to enable the sticky behavior of the primary menu"
+msgstr "Huk av for &aring; aktivere hovedmeny som er faststilt"
+
+#: inc/customizer.php:229
+msgid "Search Icon"
+msgstr "S&oslash;ke-ikon"
+
+#: inc/customizer.php:242
+msgid "Check to display the Search Icon in the primary menu"
+msgstr "Huk av for &aring; vise s&oslash;ke-ikon i hovedmenyen"
+
+#: inc/customizer.php:249
+msgid "Random Post"
+msgstr "Tilfeldig innlegg"
+
+#: inc/customizer.php:262
+msgid "Check to display the Random Post Icon in the primary menu"
+msgstr "Huk av for &aring; vise tilfeldig innlegg-ikon i hovedmenyen"
+
+#: inc/customizer.php:270
+msgid "Header Logo"
+msgstr "Header-logo"
+
+#: inc/customizer.php:281
+msgid "Upload logo for your header"
+msgstr "Last opp logo i header"
+
+#: inc/customizer.php:294
+msgid "Choose the option that you want"
+msgstr "Velg den innstillingen du &oslash;nsker"
+
+#: inc/customizer.php:297 inc/customizer.php:1715
+msgid "Header Logo Only"
+msgstr "Kun logo i header"
+
+#: inc/customizer.php:298 inc/customizer.php:1716
+msgid "Header Text Only"
+msgstr "Kun tekst i header"
+
+#: inc/customizer.php:299 inc/customizer.php:1717
+msgid "Show Both"
+msgstr "Vis begge"
+
+#: inc/customizer.php:300 inc/customizer.php:1718
+msgid "Disable"
+msgstr "Deaktiver"
+
+#: inc/customizer.php:307
+msgid "Header Image Position"
+msgstr "Header-bildets posisjon"
+
+#: inc/customizer.php:319
+msgid "Header image display position"
+msgstr "Header-bildets visnings-posisjon"
+
+#: inc/customizer.php:322 inc/customizer.php:1729
+msgid "Display the Header image just above the site title/text."
+msgstr "Vis header-bilde rett over side-tittel/tekst"
+
+#: inc/customizer.php:323 inc/customizer.php:1730
+msgid ""
+"Default: Display the Header image between site title/text and the main/"
+"primary menu."
+msgstr "Standard: Vis header-bilde mellom side-tittel/tekst og hovedmeny"
+
+#: inc/customizer.php:324 inc/customizer.php:1731
+msgid "Display the Header image below main/primary menu."
+msgstr "Vis header-bilde under hovedmeny"
+
+#: inc/customizer.php:336
+msgid "Check to make header image link back to home page"
+msgstr "Huk av for &aring; gj&oslash;re header-bilde til lenke til forsiden"
+
+#: inc/customizer.php:343
+msgid "Header Display Type"
+msgstr "Header-utseende"
+
+#: inc/customizer.php:355
+msgid "Choose the header display type that you want"
+msgstr "Velg det header-utseendet du &oslash;nsker"
+
+#: inc/customizer.php:358 inc/customizer.php:2019
+msgid "Type 1 (Default): Header text & logo on left, header sidebar on right"
+msgstr ""
+"Type 1 (standard): Header-tekst og logo til venstre - sidebar til h&oslash;"
+"yre"
+
+#: inc/customizer.php:359 inc/customizer.php:2020
+msgid "Type 2: Header sidebar on left, header text & logo on right"
+msgstr ""
+"Type 2 (standard): Sidebar til venstre, Header-tekst og logo til h&oslash;yre"
+
+#: inc/customizer.php:360 inc/customizer.php:2021
+msgid "Type 3: Header text, header sidebar both aligned center"
+msgstr "Type 2 (standard):Header-tekst og header sidebar bedde sentrert"
+
+#: inc/customizer.php:368
+msgid "Change the Design Settings from here as you want"
+msgstr "Endre design-innstillingene herfra som du &oslash;nsker"
+
+#: inc/customizer.php:370
+msgid "Design Options"
+msgstr "Design-alternativer"
+
+#: inc/customizer.php:376
+msgid "Front Page Settings"
+msgstr "Innstillinger for forsiden"
+
+#: inc/customizer.php:387
+msgid "Check to hide blog posts/static page on front page"
+msgstr "Huk av for &aring; skjule innlegg/statisk side p&aring; forsiden"
+
+#: inc/customizer.php:394
+msgid "Site Layout"
+msgstr "Side-utseende"
+
+#: inc/customizer.php:406
+msgid "Choose your site layout. The change is reflected in whole site"
+msgstr "Velg ditt side-utseende. Endringen gjelder for hele nettstedet"
+
+#: inc/customizer.php:408 inc/customizer.php:1742
+msgid "Boxed Layout"
+msgstr "Boks-utseende"
+
+#: inc/customizer.php:409 inc/customizer.php:1743
+msgid "Wide Layout"
+msgstr "Bredt utseende"
+
+#: inc/customizer.php:479
+msgid "Default layout"
+msgstr "Standard utseende"
+
+#: inc/customizer.php:491
+msgid ""
+"Select default layout. This layout will be reflected in whole site archives, "
+"categories, search page etc. The layout for a single post and page can be "
+"controlled from below options"
+msgstr ""
+"Velg standard utseende. Dette utseendet vil v&aelig;re gjeldende for hele "
+"siden inkludert arkiv, kategorier, s&oslash;kesiden mm. Utseendet p&aring; "
+"enkeltinnlegg og sider kan bli endret i innstillingene under."
+
+#: inc/customizer.php:505
+msgid "Default layout for pages only"
+msgstr "Standard utseende kun for sider"
+
+#: inc/customizer.php:517
+msgid ""
+"Select default layout for pages. This layout will be reflected in all pages "
+"unless unique layout is set for specific page"
+msgstr ""
+"Velg standard utseende for sider. Dette utseendet vil gjelde for alle sider "
+"med mindre unikt utseende blir satt for spesifikke sider."
+
+#: inc/customizer.php:531
+msgid "Default layout for single posts only"
+msgstr "Standard utseende kun for innlegg"
+
+#: inc/customizer.php:543
+msgid ""
+"Select default layout for single posts. This layout will be reflected in all "
+"single posts unless unique layout is set for specific post"
+msgstr ""
+"Velg standard utseende for innlegg. Dette utseendet vil gjelde for alle "
+"innlegg med mindre et unikt utseende blir satt for et spesifikt innlegg"
+
+#: inc/customizer.php:558
+msgid "Primary color option"
+msgstr "Hovedfarge"
+
+#: inc/customizer.php:569
+msgid ""
+"This will reflect in links, buttons and many others. Choose a color to match "
+"your site"
+msgstr ""
+"Dette vil vises i lenker, knapper og mange andre alternativer. Velg en farge "
+"som passer siden din."
+
+#: inc/customizer.php:592
+msgid "Custom CSS"
+msgstr "Custom CSS"
+
+#: inc/customizer.php:604
+msgid "Write your custom css"
+msgstr "Skriv inn custom CSS"
+
+#: inc/customizer.php:613
+msgid "Social Options"
+msgstr "Sosiale alternativer"
+
+#: inc/customizer.php:614
+msgid "Change the Social Links Settings from here as you want"
+msgstr "Endre innstillinger for sosiale lenker herfra"
+
+#: inc/customizer.php:620
+msgid "Activate social links area"
+msgstr "Aktiver omr&aring;det for sosiale lenker"
+
+#: inc/customizer.php:632
+msgid "Check to activate social links area"
+msgstr "Huk av for &aring; aktivere sosiale lenker"
+
+#: inc/customizer.php:640 inc/functions.php:1025 inc/header-functions.php:20
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/customizer.php:645 inc/functions.php:1019 inc/header-functions.php:21
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/customizer.php:650 inc/header-functions.php:22
+msgid "Google-Plus"
+msgstr "Google Plus"
+
+#: inc/customizer.php:655 inc/functions.php:1049 inc/header-functions.php:23
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/customizer.php:660 inc/header-functions.php:24
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: inc/customizer.php:665 inc/header-functions.php:25
+msgid "YouTube"
+msgstr "YouTube"
+
+#: inc/customizer.php:670 inc/header-functions.php:26
+msgid "Vimeo-Square"
+msgstr "Vimeo-Square"
+
+#: inc/customizer.php:675 inc/functions.php:1043 inc/header-functions.php:27
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: inc/customizer.php:680 inc/header-functions.php:28
+msgid "Delicious"
+msgstr "Delicious"
+
+#: inc/customizer.php:685 inc/functions.php:1037 inc/header-functions.php:29
+msgid "Flickr"
+msgstr "Flickr"
+
+#: inc/customizer.php:690 inc/header-functions.php:30
+msgid "Skype"
+msgstr "Skype"
+
+#: inc/customizer.php:695 inc/header-functions.php:31
+msgid "SoundCloud"
+msgstr "SoundCloud"
+
+#: inc/customizer.php:700 inc/header-functions.php:32
+msgid "Vine"
+msgstr "Vine"
+
+#: inc/customizer.php:705 inc/header-functions.php:33
+msgid "StumbleUpon"
+msgstr "StumbleUpon"
+
+#: inc/customizer.php:710 inc/functions.php:1055 inc/header-functions.php:34
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: inc/customizer.php:715 inc/header-functions.php:35
+msgid "Reddit"
+msgstr "Reddit"
+
+#: inc/customizer.php:720 inc/header-functions.php:36
+msgid "Xing"
+msgstr "Xing"
+
+#: inc/customizer.php:725 inc/header-functions.php:37
+msgid "VK"
+msgstr "VK"
+
+#: inc/customizer.php:755 inc/customizer.php:855
+msgid "Check to show in new tab"
+msgstr "Huk av for &aring; vise i nytt vindu"
+
+#: inc/customizer.php:768 inc/header-functions.php:43
+msgid "Additional Social Link One"
+msgstr "Ekstra sosial-lenke 1"
+
+#: inc/customizer.php:773 inc/header-functions.php:44
+msgid "Additional Social Link Two"
+msgstr "Ekstra sosial-lenke 2"
+
+#: inc/customizer.php:778 inc/header-functions.php:45
+msgid "Additional Social Link Three"
+msgstr "Ekstra sosial-lenke 3"
+
+#: inc/customizer.php:783 inc/header-functions.php:46
+msgid "Additional Social Link Four"
+msgstr "Ekstra sosial-lenke 4"
+
+#: inc/customizer.php:788 inc/header-functions.php:47
+msgid "Additional Social Link Five"
+msgstr "Ekstra sosial-lenke 5"
+
+#: inc/customizer.php:793 inc/header-functions.php:48
+msgid "Additional Social Link Six"
+msgstr "Ekstra sosial-lenke 6"
+
+#: inc/customizer.php:800
+msgid "Additional Social Icons"
+msgstr "Ekstra sosiale ikoner"
+
+#: inc/customizer.php:827
+msgid "Preferred Social Link FontAwesome Icon"
+msgstr "Foretrukket sosial lenke FontAwesome-ikon"
+
+#: inc/customizer.php:841
+msgid "Preferred Social Link Color Option"
+msgstr "Foretrukket sosial lenke fargeinnstillinger"
+
+#: inc/customizer.php:868
+msgid "Change the Additional Settings from here as you want"
+msgstr "Endre ekstra innstillinger herfra"
+
+#: inc/customizer.php:870
+msgid "Additional Options"
+msgstr "Ekstra innstillinger"
+
+#: inc/customizer.php:876
+msgid "Activate favicon"
+msgstr "Aktiver favicon"
+
+#: inc/customizer.php:888
+msgid "Check to activate favicon. Upload favicon from below option"
+msgstr ""
+"Huk av for &aring; aktivere favicon. Last opp favicon fra under innstillinger"
+
+#: inc/customizer.php:900
+msgid "Upload favicon for your site"
+msgstr "Last opp favicon for nettstedet ditt"
+
+#: inc/customizer.php:908
+msgid "Related Posts"
+msgstr "Relaterte innlegg"
+
+#: inc/customizer.php:920
+msgid "Check to activate the related posts"
+msgstr "Huk av for a aktivere relaterte innlegg"
+
+#: inc/customizer.php:933
+msgid "Related Posts Must Be Shown As:"
+msgstr "Relaterte innlegg blir vist som"
+
+#: inc/customizer.php:937 inc/customizer.php:1703
+msgid "Related Posts By Categories"
+msgstr "Relaterte innlegg basert p&aring; kategorier"
+
+#: inc/customizer.php:938 inc/customizer.php:1704
+msgid "Related Posts By Tags"
+msgstr "Relaterte innlegg basert p&aring; tagger"
+
+#: inc/customizer.php:945
+msgid "Social Share Button"
+msgstr "Del dette:"
+
+#: inc/customizer.php:957
+msgid "Check to activate social share buttons in single post"
+msgstr "Huk av for &aring; aktivere sosiale delingsknapper i enkeltinnlegg"
+
+#: inc/customizer.php:965
+msgid "Image Lightbox"
+msgstr "Bilde-lightbox"
+
+#: inc/customizer.php:977
+msgid "Check to enable the lightbox for the featured images in single post"
+msgstr ""
+"Huk av for &aring; aktivere bilde-lightbox for fremhevede bilder i innlegg"
+
+#: inc/customizer.php:985
+msgid "Social Profiles in Author Bio"
+msgstr "Sosiale profiler i forfatterbio"
+
+#: inc/customizer.php:997
+msgid "Check to show the Social Profiles in the Author Bio"
+msgstr "Huk av for &aring; vise sosiale profiler i forfatterbio"
+
+#: inc/customizer.php:1020
+msgid "Footer Copyright Editor"
+msgstr "Footer Copyright-redgering"
+
+#: inc/customizer.php:1024 inc/functions.php:1196
+msgid "Copyright &copy; "
+msgstr "Copyright &copy; "
+
+#: inc/customizer.php:1024 inc/functions.php:1196
+msgid "Theme: ColorMag by "
+msgstr "Tema: ColorMag av"
+
+#: inc/customizer.php:1024 inc/functions.php:1196
+msgid "Powered by "
+msgstr "Drevet av"
+
+#: inc/customizer.php:1033
+msgid ""
+"Edit the Copyright information in your footer. You can also use shortcodes "
+"[the-year], [site-link], [wp-link], [tg-link] for current year, your site "
+"link, WordPress site link and ThemeGrill site link respectively."
+msgstr ""
+"Endre copyright-informasjonen i footeren. Du kan ogs&aring; bruke kortkoder "
+"som [the-year], [site-link], [wp-link], [tg-link] for henholdsvis gjeldende "
+"&aring;r, lenke til din side, WordPress-lenke og ThemeGrill-lenke"
+
+#: inc/customizer.php:1042
+msgid "Category Color Options"
+msgstr "Fargeinnstillinger for kategorier"
+
+#: inc/customizer.php:1044
+msgid "Change the color of each category items as you want."
+msgstr "Endre farge for hver kategori"
+
+#: inc/customizer.php:1049
+msgid "Category Color Settings"
+msgstr "Kategori farge-innstillinger"
+
+#: inc/customizer.php:1071
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: inc/customizer.php:1082
+msgid "Typography Options"
+msgstr "Typografi-innstillinger"
+
+#: inc/customizer.php:1083
+msgid "Change the Typography Settings from here as you want"
+msgstr "Endre typografi-innstillinger herfra"
+
+#: inc/customizer.php:1090
+msgid "Google Font Options"
+msgstr "Google Font-innstillinger"
+
+#: inc/customizer.php:1098
+msgid "Site title font. Default is \"Open Sans\""
+msgstr "Sidetittel-font. Standard er \"Open Sans\""
+
+#: inc/customizer.php:1103
+msgid "Site tagline font. Default is \"Open Sans\""
+msgstr "Sidens slagords font. Standard er \"Open Sans\""
+
+#: inc/customizer.php:1108
+msgid "Primary menu font. Default is \"Open Sans\""
+msgstr "Hovedmenys font. Standard er \"Open Sans\""
+
+#: inc/customizer.php:1113
+msgid "All Titles font. Default is \"Open Sans\""
+msgstr "Alle titlers fonter. Standard er \"Open Sans\""
+
+#: inc/customizer.php:1118
+msgid "Content font and for others. Default is \"Open Sans\""
+msgstr "Innholdets font og for andre. Standard er \"Open Sans\""
+
+#: inc/customizer.php:1149
+msgid "Header font size Options"
+msgstr "Header fontstørrelse-innstillinger"
+
+#: inc/customizer.php:1162
+msgid "Site title font size. Default is 46px"
+msgstr "Sidetittel fontstørrelse. Standard er 46px."
+
+#: inc/customizer.php:1177
+msgid "Site tagline font size. Default is 16px"
+msgstr "Sidens slagords fontstørrelse. Standard er 16px."
+
+#: inc/customizer.php:1192
+msgid "Primary menu. Default is 14px"
+msgstr "Hovedmeny. Standard er 14px."
+
+#: inc/customizer.php:1207
+msgid "Primary sub menu. Default is 14px"
+msgstr "Hoved-undermeny. Standard er 14px."
+
+#: inc/customizer.php:1216
+msgid "Titles related font size options"
+msgstr "Tittel-relaterte font-innstillinger"
+
+#: inc/customizer.php:1229
+msgid "Heading h1 tag. Default is 42px"
+msgstr "Overskrift h1-tag. Standard er 42px."
+
+#: inc/customizer.php:1244
+msgid "Heading h2 tag. Default is 38px"
+msgstr "Overskrift h2-tag. Standard er 38px."
+
+#: inc/customizer.php:1259
+msgid "Heading h3 tag. Default is 34px"
+msgstr "Overskrift h3-tag. Standard er 34px."
+
+#: inc/customizer.php:1274
+msgid "Heading h4 tag. Default is 30px"
+msgstr "Overskrift h4-tag. Standard er 30px."
+
+#: inc/customizer.php:1289
+msgid "Heading h5 tag. Default is 26px"
+msgstr "Overskrift h5-tag. Standard er 26px."
+
+#: inc/customizer.php:1304
+msgid "Heading h6 tag. Default is 22px"
+msgstr "Overskrift h6-tag. Standard er 22px."
+
+#: inc/customizer.php:1319
+msgid "Post Title. Default is 32px"
+msgstr "Innleggs-tittel. Standard er 32px."
+
+#: inc/customizer.php:1334
+msgid "Page Title. Default is 34px"
+msgstr "Sidetittel. Standard er 34px"
+
+#: inc/customizer.php:1349
+msgid "Widget Title. Default is 18px"
+msgstr "Widget-tittel. Standard er 18px"
+
+#: inc/customizer.php:1364
+msgid "Comment Title. Default is 22px"
+msgstr "Kommentar-tittel. Standard er 22px."
+
+#: inc/customizer.php:1373
+msgid "Content font size options"
+msgstr "Innhold fontstørrelse-innstillinger"
+
+#: inc/customizer.php:1386
+msgid ""
+"Content font size, also applies to other text like in search fields, post "
+"comment button etc. Default is 18px"
+msgstr ""
+"Innhold fontstørrelse omfatter også tekst i søkefelt, kommentarknappen osv. "
+"Standard er 18px"
+
+#: inc/customizer.php:1401
+msgid "Post meta font size. Default is 12px"
+msgstr "Innleggs metainformasjon fontstørrelse. Standard er 12px"
+
+#: inc/customizer.php:1416
+msgid ""
+"Button text font size (Buttons like Read more, submit, post comment etc). "
+"Default is 12px"
+msgstr ""
+"Knappers tekststørrelse (Knapper som les mer, send, post kommentar osv). "
+"Standard er 12px."
+
+#: inc/customizer.php:1425
+msgid "Footer font size options"
+msgstr "Footer fontstørrelse-innstillinger"
+
+#: inc/customizer.php:1438
+msgid "Footer widget Titles. Default is 15px"
+msgstr "Footer-widget-titler. Standard er 15px."
+
+#: inc/customizer.php:1453
+msgid "Footer widget content font size. Default is 14px"
+msgstr "Footer widget-innholdstekst. Standard er 14px"
+
+#: inc/customizer.php:1468
+msgid "Footer copyright text font size. Default is 14px"
+msgstr "Footer copyright-tekst fontstørrelse. Standard er 14px"
+
+#: inc/customizer.php:1483
+msgid "Footer small menu. Default is 14px"
+msgstr "Footer liten meny. Standard er 14px"
+
+#: inc/customizer.php:1493
+msgid "Color Options"
+msgstr "Fargeinnstillinger"
+
+#: inc/customizer.php:1495
+msgid "Change the Color Settings from here as you want"
+msgstr "Endre farge-innstillinger herfra"
+
+#: inc/customizer.php:1501
+msgid "Header Color Options"
+msgstr "Header farge-innstillinger"
+
+#: inc/customizer.php:1508
+msgid "Site Title."
+msgstr "Sidetittel."
+
+#: inc/customizer.php:1513
+msgid "Site Tagline."
+msgstr "Sidens tagline"
+
+#: inc/customizer.php:1518
+msgid "Primary menu text color."
+msgstr "Hovedmenyens tekstfarge"
+
+#: inc/customizer.php:1523
+msgid "Primary menu selected/hovered item color."
+msgstr "Hovedmeny valgt/mousover-farge"
+
+#: inc/customizer.php:1528
+msgid "Header background color."
+msgstr "Headerens bakgrunnsfarge"
+
+#: inc/customizer.php:1556
+msgid "Content part color options"
+msgstr "Innholdets fargeinnstillinger"
+
+#: inc/customizer.php:1563
+msgid "Content Part titles color (like h1, h2 in content section)."
+msgstr "Innholdets tittelfarger (som h1, h2 osv i innholdsseksjonen)."
+
+#: inc/customizer.php:1568
+msgid "Posts title color."
+msgstr "Innleggs tittelfarge."
+
+#: inc/customizer.php:1573
+msgid "Page title color."
+msgstr "Siders tekstfarge"
+
+#: inc/customizer.php:1578
+msgid "Content text color."
+msgstr "Innhold tekstfarge"
+
+#: inc/customizer.php:1583
+msgid "Post meta color."
+msgstr "Innlegg meta farge"
+
+#: inc/customizer.php:1588
+msgid "Button text color."
+msgstr "Knappers tekstfarge"
+
+#: inc/customizer.php:1593
+msgid "Button background color."
+msgstr "Knappers bakgrunnsfarge"
+
+#: inc/customizer.php:1598
+msgid "Sidebar widget title color."
+msgstr "Sidekolonners widgettitlers farge"
+
+#: inc/customizer.php:1603
+msgid "Content section background color."
+msgstr "Innholds-seksjonen bakgrunnsfarge"
+
+#: inc/customizer.php:1631
+msgid "Footer part color options"
+msgstr "Footers fargeinnstillinger"
+
+#: inc/customizer.php:1638
+msgid "Widget title color."
+msgstr "Widgetters tittelfarge"
+
+#: inc/customizer.php:1643
+msgid "Footer widget content color."
+msgstr "Footer-widget innholdsfarge"
+
+#: inc/customizer.php:1648
+msgid "Footer widget content link text color."
+msgstr "Footer-widget innhold lenkefarge"
+
+#: inc/customizer.php:1653
+msgid "Footer widget background color."
+msgstr "Footer-widget bakgrunnsfarge"
+
+#: inc/customizer.php:1658
+msgid "Footer copyright text color."
+msgstr "Footer copyright tekstfarge"
+
+#: inc/customizer.php:1663
+msgid "Footer copyright link text color."
+msgstr "Footer copyright-lenke tekstfarge"
+
+#: inc/customizer.php:1668
+msgid "Footer small menu text color."
+msgstr "Footer liten meny tekstfarge"
+
+#: inc/customizer.php:1673
+msgid "Footer copyright part background color."
+msgstr "Footer copyright-delen bakgrunnsfarge"
+
+#: inc/functions.php:288 inc/related-posts.php:33 inc/widgets/widgets.php:380
+#: inc/widgets/widgets.php:509 inc/widgets/widgets.php:669
+#: inc/widgets/widgets.php:836 inc/widgets/widgets.php:1469
+#: inc/widgets/widgets.php:1637 inc/widgets/widgets.php:1747
+#: inc/widgets/widgets.php:1805 inc/widgets/widgets.php:1937
+#: inc/widgets/widgets.php:2197 inc/widgets/widgets.php:2375
+#: inc/widgets/widgets.php:2535
+#, php-format
+msgid ""
+"<span class=\"posted-on\"><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark"
+"\"><i class=\"fa fa-calendar-o\"></i> %3$s</a></span>"
+msgstr ""
+"<span class=\"posted-on\"><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark"
+"\"><i class=\"fa fa-calendar-o\"></i> %3$s</a></span>"
+
+#: inc/functions.php:300
+msgid "<i class=\"fa fa-comment\"></i> 0 Comment"
+msgstr "<i class=\"fa fa-comment\"></i> 0 kommentarer"
+
+#: inc/functions.php:300
+msgid "<i class=\"fa fa-comment\"></i> 1 Comment"
+msgstr "<i class=\"fa fa-comment\"></i> 1 kommentar"
+
+#: inc/functions.php:300
+msgid "<i class=\"fa fa-comments\"></i> % Comments"
+msgstr "<i class=\"fa fa-comments\"></i> % kommentarer"
+
+#: inc/functions.php:302
+msgid ", "
+msgstr ", "
+
+#: inc/functions.php:305
+msgid "Edit"
+msgstr "Endre"
+
+#: inc/functions.php:559
+msgid "Post navigation"
+msgstr "Innleggsnavigasjon"
+
+#: inc/functions.php:563 navigation.php:44
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: inc/functions.php:564 navigation.php:45
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: inc/functions.php:569
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Eldre innlegg"
+
+#: inc/functions.php:573
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Nyere innlegg <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/functions.php:599
+msgid "Pingback:"
+msgstr "Tilbakesporing:"
+
+#: inc/functions.php:599
+msgid "(Edit)"
+msgstr "(Endre)"
+
+#: inc/functions.php:614
+msgid "Post author"
+msgstr "Innleggsforfatter"
+
+#: inc/functions.php:617
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s at %2$s"
+
+#: inc/functions.php:625
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar venter p&aring; moderering"
+
+#: inc/functions.php:630
+msgid "Reply"
+msgstr "Svar"
+
+#: inc/functions.php:750
+msgid "View a random post"
+msgstr "Vis et tilfeldig innlegg"
+
+#: inc/functions.php:902
+msgid "Video URL"
+msgstr "URL til video"
+
+#: inc/functions.php:975
+msgid "0 View"
+msgstr "0 visninger"
+
+#: inc/functions.php:977
+#, php-format
+msgid "%s Views"
+msgstr "%s visninger"
+
+#: inc/functions.php:999
+msgid "Total Views"
+msgstr "Totalt antall visninger"
+
+#: inc/functions.php:1016
+msgid "User Social Links"
+msgstr "Brukers sosiale lenker"
+
+#: inc/functions.php:1031
+msgid "Google Plus"
+msgstr "Google Plus"
+
+#: inc/functions.php:1061
+msgid "Youtube"
+msgstr "YouTube"
+
+#: inc/functions.php:1178
+msgid "WordPress"
+msgstr "WordPress"
+
+#: inc/functions.php:1187
+msgid "ThemeGrill"
+msgstr "ThemeGrill"
+
+#: inc/related-posts.php:5
+msgid "You May Also Like"
+msgstr "Du liker kanskje ogs&aring; dette"
+
+#: inc/share.php:2
+msgid "Share This Post:"
+msgstr "Del dette:"
+
+#: inc/share.php:3
+msgid "Tweet This"
+msgstr "Tweet dette"
+
+#: inc/share.php:4
+msgid "Like This"
+msgstr "Lik dette"
+
+#: inc/share.php:5
+msgid "+1 This"
+msgstr "+1 dette"
+
+#: inc/share.php:6
+msgid "Pin It"
+msgstr "Pin dette"
+
+#: inc/widgets/widgets.php:23
+msgid "Shows widgets at Right side."
+msgstr "Vis widgeter p&aring; h&oslash;yre side"
+
+#: inc/widgets/widgets.php:34
+msgid "Shows widgets at Left side."
+msgstr "Vis widgeter p&aring; venstre side"
+
+#: inc/widgets/widgets.php:43
+msgid "Header Sidebar"
+msgstr "Header sidekolonne"
+
+#: inc/widgets/widgets.php:45
+msgid "Shows widgets in header section just above the main navigation menu."
+msgstr "Viser widgeter i header-delen, rett over hovedmenyen"
+
+#: inc/widgets/widgets.php:54
+msgid "Front Page: Top Full Width Area"
+msgstr "Forside: Topp full bredde"
+
+#: inc/widgets/widgets.php:56
+msgid "Show widget just below menu."
+msgstr "Vis widget rett under menyen. "
+
+#: inc/widgets/widgets.php:65
+msgid "Front Page: Slider Area"
+msgstr "Hovedside: Slider-omr&aring;de"
+
+#: inc/widgets/widgets.php:67
+msgid "Show widget just below menu. Suitable for TG: Featured Cat Slider."
+msgstr "Vis widget rett under menyen. Passer for TG: Featured Cat Slider"
+
+#: inc/widgets/widgets.php:76
+msgid "Front Page: Area beside slider"
+msgstr "Hovedside: Omr&aring;de ved siden av slider"
+
+#: inc/widgets/widgets.php:78
+msgid "Show widget beside the slider. Suitable for TG: Highlighted Posts."
+msgstr "Vis widget ved siden av slideren.. Passer for TG: Highlighted Posts."
+
+#: inc/widgets/widgets.php:87
+msgid "Front Page: Content Top Section"
+msgstr "Forside: Innhold topp-seksjonen"
+
+#: inc/widgets/widgets.php:89
+msgid "Content Top Section"
+msgstr "Innhold topp-seksjonen"
+
+#: inc/widgets/widgets.php:98
+msgid "Front Page: Content Middle Left Section"
+msgstr "Forside: Innhold, midten, venstre"
+
+#: inc/widgets/widgets.php:100
+msgid "Content Middle Left Section"
+msgstr "Innhold, midten, venstre"
+
+#: inc/widgets/widgets.php:109
+msgid "Front Page: Content Middle Right Section"
+msgstr "Forside: Innhold, midten, h&oslash;yre"
+
+#: inc/widgets/widgets.php:111
+msgid "Content Middle Right Section"
+msgstr "Innhold, midten, h&oslash;yre"
+
+#: inc/widgets/widgets.php:120
+msgid "Front Page: Content Bottom Section"
+msgstr "Forside: innhold, bunn"
+
+#: inc/widgets/widgets.php:122
+msgid "Content Middle Bottom Section"
+msgstr "Innhold, midten, bunn"
+
+#: inc/widgets/widgets.php:131
+msgid "Contact Page Sidebar"
+msgstr "Kontaktside sidekolonne"
+
+#: inc/widgets/widgets.php:133
+msgid "Shows widgets on Contact Page Template."
+msgstr "Vis widgeter p&aring; kontaktside"
+
+#: inc/widgets/widgets.php:142
+msgid "Error 404 Page Sidebar"
+msgstr "404-feilside sidekolonne"
+
+#: inc/widgets/widgets.php:144
+msgid "Shows widgets on Error 404 page."
+msgstr "Vis widgeter p&aring: 404-feilside"
+
+#: inc/widgets/widgets.php:153
+msgid "Advertisement Above The Footer"
+msgstr "Annonse over footer"
+
+#: inc/widgets/widgets.php:155
+msgid "Shows widgets Just Above The Footer, suitable for TG: 728x90 widget."
+msgstr "Vis widgeter like over footer, passer for TG: 728x90 widget."
+
+#: inc/widgets/widgets.php:164
+msgid "Footer Sidebar One ( Upper )"
+msgstr "Footer-kolonne 1 (&oring;vre)"
+
+#: inc/widgets/widgets.php:166
+msgid "Shows widgets at footer sidebar one in upper."
+msgstr "Vis widgeter i footer-kolonne 1 (&oring;vre)"
+
+#: inc/widgets/widgets.php:175
+msgid "Footer Sidebar Two ( Upper )"
+msgstr "Footer-kolonne 2 (&oring;vre)"
+
+#: inc/widgets/widgets.php:177
+msgid "Shows widgets at footer sidebar two in upper."
+msgstr "Vis widgeter i footer-kolonne 2 (&oring;vre)"
+
+#: inc/widgets/widgets.php:186
+msgid "Footer Sidebar Three ( Upper )"
+msgstr "Footer-kolonne 3 (&oring;vre)"
+
+#: inc/widgets/widgets.php:188
+msgid "Shows widgets at footer sidebar three in upper."
+msgstr "Vis widgeter i footer-kolonne 3 (&oring;vre)"
+
+#: inc/widgets/widgets.php:197
+msgid "Footer Sidebar One ( Lower )"
+msgstr "Footer-kolonne 1 (nedre)"
+
+#: inc/widgets/widgets.php:199
+msgid "Shows widgets at footer sidebar one."
+msgstr "Vis widgeter i footer-kolonne 1 (nedre)"
+
+#: inc/widgets/widgets.php:208
+msgid "Footer Sidebar Two ( Lower )"
+msgstr "Footer-kolonne 2 (nedre)"
+
+#: inc/widgets/widgets.php:210
+msgid "Shows widgets at footer sidebar two."
+msgstr "Vis widgeter i footer-kolonne 2 (nedre)"
+
+#: inc/widgets/widgets.php:219
+msgid "Footer Sidebar Three ( Lower )"
+msgstr "Footer-kolonne 3 (nedre)"
+
+#: inc/widgets/widgets.php:221
+msgid "Shows widgets at footer sidebar three."
+msgstr "Vis widgeter i footer-kolonne 3 (nedre)"
+
+#: inc/widgets/widgets.php:230
+msgid "Footer Sidebar Four ( Lower )"
+msgstr "Footer-kolonne 4 (nedre)"
+
+#: inc/widgets/widgets.php:232
+msgid "Shows widgets at footer sidebar four."
+msgstr "Vis widgeter i footer-kolonne 4 (nedre)"
+
+#: inc/widgets/widgets.php:266
+msgid ""
+"Display latest posts or posts of specific category, which will be used as "
+"the slider."
+msgstr ""
+"Vis siste innlegg eller innlegg i en spesiell kategori, som vil bli brukt i "
+"slideren"
+
+#: inc/widgets/widgets.php:268
+msgid "TG: Featured Category Slider"
+msgstr "TG: Featured Category Slider"
+
+#: inc/widgets/widgets.php:283 inc/widgets/widgets.php:427
+#: inc/widgets/widgets.php:565 inc/widgets/widgets.php:732
+#: inc/widgets/widgets.php:1351 inc/widgets/widgets.php:1533
+#: inc/widgets/widgets.php:1996 inc/widgets/widgets.php:2258
+#: inc/widgets/widgets.php:2431
+msgid "Number of posts to display:"
+msgstr "Antall innlegg &aring; vise"
+
+#: inc/widgets/widgets.php:287 inc/widgets/widgets.php:431
+#: inc/widgets/widgets.php:569 inc/widgets/widgets.php:736
+#: inc/widgets/widgets.php:1355 inc/widgets/widgets.php:1537
+#: inc/widgets/widgets.php:2000 inc/widgets/widgets.php:2262
+#: inc/widgets/widgets.php:2435
+msgid "Show latest Posts"
+msgstr "Vis siste innlegg"
+
+#: inc/widgets/widgets.php:288 inc/widgets/widgets.php:432
+#: inc/widgets/widgets.php:570 inc/widgets/widgets.php:737
+#: inc/widgets/widgets.php:1356 inc/widgets/widgets.php:1538
+#: inc/widgets/widgets.php:2001 inc/widgets/widgets.php:2263
+#: inc/widgets/widgets.php:2436
+msgid "Show posts from a category"
+msgstr "Vis innlegg fra en kategori"
+
+#: inc/widgets/widgets.php:291 inc/widgets/widgets.php:435
+#: inc/widgets/widgets.php:573 inc/widgets/widgets.php:740
+#: inc/widgets/widgets.php:1359 inc/widgets/widgets.php:1541
+#: inc/widgets/widgets.php:2004 inc/widgets/widgets.php:2266
+#: inc/widgets/widgets.php:2439
+msgid "Select category"
+msgstr "Velg kategori"
+
+#: inc/widgets/widgets.php:294
+msgid "Image Size:"
+msgstr "Bildest&oring;rrelse:"
+
+#: inc/widgets/widgets.php:295
+msgid "Image Size medium (800X445 pixels)"
+msgstr "Bildest&oring;rrelse medium (800x445 pixels):"
+
+#: inc/widgets/widgets.php:296
+msgid ""
+"Image Size large (1400X600 pixels, suitable for Front Page: Top Full Width "
+"Area)"
+msgstr ""
+"Bildest&oring;rrelse stor (1400x600 pixels - passer for forside topp full "
+"bredde):"
+
+#: inc/widgets/widgets.php:412
+msgid ""
+"Display latest posts or posts of specific category. Suitable for the Area "
+"Beside Slider Sidebar."
+msgstr ""
+"Display latest posts or posts of specific category. Passer for omr&aring;de "
+"ved siden av slider."
+
+#: inc/widgets/widgets.php:414
+msgid "TG: Highligted Posts"
+msgstr "TG: Highligted Posts"
+
+#: inc/widgets/widgets.php:538 inc/widgets/widgets.php:705
+#: inc/widgets/widgets.php:1322 inc/widgets/widgets.php:1506
+#: inc/widgets/widgets.php:1969 inc/widgets/widgets.php:2229
+#: inc/widgets/widgets.php:2404
+msgid "Display latest posts or posts of specific category."
+msgstr "Vis siste innlegg eller innlegg i en spesiell kategori"
+
+#: inc/widgets/widgets.php:540
+msgid "TG: Featured Posts (Style 1)"
+msgstr "TG: Featured Posts (Style 1)"
+
+#: inc/widgets/widgets.php:556 inc/widgets/widgets.php:723
+#: inc/widgets/widgets.php:1342 inc/widgets/widgets.php:1524
+#: inc/widgets/widgets.php:1987 inc/widgets/widgets.php:2249
+#: inc/widgets/widgets.php:2422
+msgid "Layout will be as below:"
+msgstr "Utseende vil bli som under:"
+
+#: inc/widgets/widgets.php:559 inc/widgets/widgets.php:726
+#: inc/widgets/widgets.php:892 inc/widgets/widgets.php:1006
+#: inc/widgets/widgets.php:1120 inc/widgets/widgets.php:1255
+#: inc/widgets/widgets.php:1345 inc/widgets/widgets.php:1527
+#: inc/widgets/widgets.php:1867 inc/widgets/widgets.php:1990
+#: inc/widgets/widgets.php:2130 inc/widgets/widgets.php:2252
+#: inc/widgets/widgets.php:2425
+msgid "Title:"
+msgstr "Tittel"
+
+#: inc/widgets/widgets.php:562 inc/widgets/widgets.php:729
+#: inc/widgets/widgets.php:1348 inc/widgets/widgets.php:1530
+#: inc/widgets/widgets.php:1993 inc/widgets/widgets.php:2255
+#: inc/widgets/widgets.php:2428
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: inc/widgets/widgets.php:707
+msgid "TG: Featured Posts (Style 2)"
+msgstr "TG: Featured Posts (Style 2)"
+
+#: inc/widgets/widgets.php:874
+msgid "Add your 300x250 Advertisement here"
+msgstr "Legg til din 300x250-annonse her"
+
+#: inc/widgets/widgets.php:876
+msgid "TG: 300x250 Advertisement"
+msgstr "TG: 300x250 Advertisement"
+
+#: inc/widgets/widgets.php:895
+msgid "Add your Advertisement 300x250 Images Here"
+msgstr "Legg til dine 300x250-annonsebilder her"
+
+#: inc/widgets/widgets.php:897 inc/widgets/widgets.php:1011
+#: inc/widgets/widgets.php:1130
+msgid "Advertisement Image Link "
+msgstr "Annonse-lenke p&aring; bilde"
+
+#: inc/widgets/widgets.php:901 inc/widgets/widgets.php:1015
+#: inc/widgets/widgets.php:1134
+msgid "Advertisement Image "
+msgstr "Annonse-bilde"
+
+#: inc/widgets/widgets.php:911 inc/widgets/widgets.php:1025
+#: inc/widgets/widgets.php:1144
+msgid "Upload Image"
+msgstr "Last opp bilde"
+
+#: inc/widgets/widgets.php:988
+msgid "Add your 728x90 Advertisement here"
+msgstr "Legg til dine 728x90-annonser her"
+
+#: inc/widgets/widgets.php:990
+msgid "TG: 728x90 Advertisement"
+msgstr "TG: 728x90 Advertisement"
+
+#: inc/widgets/widgets.php:1009
+msgid "Add your Advertisement 728x90 Images Here"
+msgstr "Legg til dine 728x90-annonsebilder her"
+
+#: inc/widgets/widgets.php:1102
+msgid "Add your 125x125 Advertisement here"
+msgstr "Legg til dine 125x125-annonser her"
+
+#: inc/widgets/widgets.php:1104
+msgid "TG: 125x125 Advertisement"
+msgstr "TG: 125x125 Advertisement"
+
+#: inc/widgets/widgets.php:1123
+msgid "Add your Advertisement 125x125 Images Here"
+msgstr "Legg til dine 125x125-annonsebilder her"
+
+#: inc/widgets/widgets.php:1238
+msgid "Add the videos here, Youtube and Vimeo Videos is only accepted for now."
+msgstr ""
+"Legg til videoer her, YouTube- og Vimeo-videoer er det eneste som per "
+"n&aring; er akseptert."
+
+#: inc/widgets/widgets.php:1240
+msgid "TG: Videos"
+msgstr "Videoer"
+
+#: inc/widgets/widgets.php:1259
+msgid "Youtube Video ID:"
+msgstr "YouTube video-ID"
+
+#: inc/widgets/widgets.php:1263
+msgid "Vimeo Video ID:"
+msgstr "Vimeo video-ID:"
+
+#: inc/widgets/widgets.php:1324
+msgid "TG: Featured Posts (Style 5)"
+msgstr "TG: Featured Posts (Style 5)"
+
+#: inc/widgets/widgets.php:1364
+msgid "Check not to have the slider effect for this widget"
+msgstr "Huk av for ikke &aring; ha slider-effekten p&aring; denne widgeten."
+
+#: inc/widgets/widgets.php:1508
+msgid "TG: Featured Posts (Style 4)"
+msgstr "TG: Featured Posts (Style 4)"
+
+#: inc/widgets/widgets.php:1668
+msgid ""
+"Displays the popular posts, latest posts and the recent comments in tab. "
+"Suitable for the Right/Left sidebar."
+msgstr ""
+"Viser popul&aelig;re innlegg, siste innlegg og nylige kommentarer i en boks. "
+"Passer for begge sidekolonnene."
+
+#: inc/widgets/widgets.php:1670
+msgid "TG: Tabbed Widget"
+msgstr "TG: Tabbed Widget"
+
+#: inc/widgets/widgets.php:1679 inc/widgets/widgets.php:1871
+msgid "Number of popular posts, recent posts and comments to display:"
+msgstr ""
+"Antallet popul&aeling;re innlegg, nylige innlegger og kommentarer som skal "
+"vises:"
+
+#: inc/widgets/widgets.php:1703
+msgid "<i class=\"fa fa-star\"></i>Popular"
+msgstr "<i class=\"fa fa-star\"></i>Popul&aelig;rt"
+
+#: inc/widgets/widgets.php:1704
+msgid "<i class=\"fa fa-history\"></i>Recent"
+msgstr "<i class=\"fa fa-history\"></i>Nylig"
+
+#: inc/widgets/widgets.php:1705
+msgid "<i class=\"fa fa-comment\"></i>Comment"
+msgstr "<i class=\"fa fa-comment\"></i>Kommentar"
+
+#: inc/widgets/widgets.php:1854
+msgid ""
+"Displays the random posts from your site. Suitable for the Right/Left "
+"sidebar."
+msgstr "Viser tilfeldige innlegg fra din side. Passer for begge sidekolonner."
+
+#: inc/widgets/widgets.php:1856
+msgid "TG: Random Posts Widget"
+msgstr "TG: Random Posts Widget"
+
+#: inc/widgets/widgets.php:1971
+msgid "TG: Featured Posts (Style 6)"
+msgstr "TG: Featured Posts (Style 6)"
+
+#: inc/widgets/widgets.php:2117
+msgid ""
+"Displays the breaking news in the news ticker way. Suitable for the Right/"
+"Left Sidebar"
+msgstr "Viser siste nytt i en nyhets-ticker. Passer for begge sidekolonner."
+
+#: inc/widgets/widgets.php:2119
+msgid "TG: Breaking News Widget"
+msgstr "TG: Breaking News Widget"
+
+#: inc/widgets/widgets.php:2134
+msgid "Number of recent posts to show as the breaking news:"
+msgstr "Antallet nylige innlegg som skal vises under siste nytt:"
+
+#: inc/widgets/widgets.php:2231
+msgid "TG: Featured Posts (Style 7)"
+msgstr "TG: Featured Posts (Style 7)"
+
+#: inc/widgets/widgets.php:2271
+msgid "Check to display the content in the popup"
+msgstr "Huk av for &aring; vise innhold i pop-up."
+
+#: inc/widgets/widgets.php:2406
+msgid "TG: Featured Posts (Style 3)"
+msgstr "TG: Featured Posts (Style 3)"
+
+#: license.php:127 license.php:136
+msgid "Cheatin&#8217; huh?"
+msgstr "Jukser&#8217; h&aelig;?"
+
+#: license.php:172
+msgid "License Activation"
+msgstr "Lisens-aktivering"
+
+#: license.php:173
+msgid "License Deactivation"
+msgstr "Lisens deaktivering"
+
+#: license.php:392
+#, php-format
+msgid ""
+"The License Key for Theme Colormag has not been activated, %sClick here%s to "
+"activate the license key."
+msgstr ""
+"Lisensn&oslash;kkelen for Temaet ColorMag har ikke blitt aktivert, %s Klikk "
+"her%s for &aring; aktivere lisensn&oslash;kkelen"
+
+#: license.php:411
+#, php-format
+msgid ""
+"<b>Warning!</b> You're blocking external requests which means you won't be "
+"able to get %s updates. Please add %s to %s."
+msgstr ""
+"<b>Advarsel!</b> Du blokkere eksterne tilkoblinger hvilket betyr at du ikke "
+"f&aring;r oppdateringer fra %s. Vennligst legg til %s til %s."
+
+#: navigation.php:24 navigation.php:36
+msgid "&larr; Previous"
+msgstr "&larr; Forrige"
+
+#: navigation.php:25 navigation.php:37
+msgid "Next &rarr;"
+msgstr "Neste &rarr;"
+
+#: no-results.php:18
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Klar for &aring; publisere ditt f&oslash;rste innlegg? <a href=\"%1$s"
+"\">Start her</a>."
+
+#: no-results.php:22
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Beklager, ingenting passet med s&oslash;ket ditt. Pr&oslash;v igjen med noen "
+"andre ord."
+
+#: no-results.php:27
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Vi finner ikke hva du leter etter. Kanskje det kan hjelpe &aring; s&oslash;"
+"ke."
+
+#: searchform.php:12
+msgid "Search"
+msgstr "S&oslash;k"
+
+#: sidebar-left.php:24 sidebar.php:24
+msgid "Contact Page"
+msgstr "Kontaktside"
+
+#: sidebar-left.php:26
+msgid "Left"
+msgstr "Venstre"
+
+#: sidebar-left.php:30 sidebar.php:30
+msgid "Example Widget"
+msgstr "Eksempel-widget"
+
+#: sidebar-left.php:31 sidebar.php:31
+#, php-format
+msgid ""
+"This is an example widget to show how the %s Sidebar looks by default. You "
+"can add custom widgets from the %swidgets screen%s in the admin. If custom "
+"widgets is added than this will be replaced by those widgets."
+msgstr ""
+"Dette er en eksempel-widget som kan vise hvordan %s sidekolonnen ser ut som "
+"standard. Du kan legge til flere widgeter fra %swidgets screen%s i "
+"administratorpanelet. Hvis widgeter blir lagt til vil de erstatte dette."
+
+#: sidebar.php:26
+msgid "Right"
+msgstr "H&oslash;yre"

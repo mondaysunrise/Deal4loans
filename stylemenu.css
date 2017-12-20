@@ -1,0 +1,97 @@
+ul, li, a  {margin: 0; padding: 0;}
+a {text-decoration: none; margin: 0; padding: 0;}
+.container {width: 90%;max-width:780px;margin: 10px auto;
+}
+.toggleMenu {
+    display:  none; font-family:Verdana, Geneva, sans-serif; font-size:14px;
+    background: #666;
+    padding: 10px 15px;
+    color: #fff;
+}
+.nav {
+    list-style: none;
+*zoom: 1;}
+.nav:before,
+.nav:after {
+    content: " "; 
+    display: table; 
+}
+.nav:after {
+    clear: both;
+}
+.nav ul {margin: 0; padding: 0;
+    list-style:none;
+    width:255px; 
+}
+.nav a {
+    padding: 5px 12px 5px 12px;
+    color:#588f27; font-family: Verdana, Geneva, sans-serif;
+}
+.nav li {
+    position: relative;
+}
+.nav > li {
+    float: left;
+   
+}
+.nav > li > .parent {
+   
+    background-repeat: no-repeat; font-size:14px; 
+    background-position: right; border-right:thin solid #a5c48a;
+}
+.nav > li > a {
+    display: block;
+}
+.nav li  ul { border-top:none !important; border-right:#aaaaaa solid thin; border-bottom:#aaaaaa solid thin; border-left:#aaaaaa solid thin;position: absolute;left: -9999px;}
+.nav > li.hover > ul {
+    left: 0;
+}
+.nav li li.hover ul {
+    left: 100%;
+    top: 0;
+}
+.nav li li a {
+    display: block;
+    background: #FFF;
+    position: relative;
+    z-index:100; font-size:14px; font-family:Verdana, Geneva, sans-serif;
+    border-top: 1px solid #175e4c;
+}
+.nav li li li a {
+    background:#249578;
+    z-index:200;
+    border-top: 1px solid #1d7a62;
+}
+
+@media screen and (max-width: 768px) {
+    .active {
+        display: block;
+    }
+    .nav > li {
+        float: none;  
+    }
+	
+    .nav > li > .parent {
+        background-position: 95% 50%; border:none; color:#FFF;  
+    }
+    .nav li li .parent {
+        background-repeat: no-repeat; border:none;
+        background-position: 95% 50%; font-size:14px; 
+    }
+    .nav ul {display: block; 
+        width: 100%;
+    }
+   .nav > li.hover > ul , .nav li li.hover ul {
+        position: static;
+    }
+	
+.container {width: 90%;max-width:780px;margin: 10px auto; background:#0f8eda;}
+.nav a {padding: 5px 12px 5px 12px;color: #FFF; font-family: Verdana, Geneva, sans-serif;}
+
+.nav li li a {
+    display: block;
+    background: none;
+    position: relative;
+    z-index:100; font-size:14px; font-family:Verdana, Geneva, sans-serif; border:none;
+   }
+}

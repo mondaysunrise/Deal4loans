@@ -1,0 +1,2 @@
+<table cellpadding="0" cellspacing="0" border="0" align="right" width="590"><tr><td width="229" align="right" valign="bottom" style="border-right:#CCCCCC 2px solid; padding-right:10px;"><a href="agent_packages_insurance.php" class="text4">Insurance Products</a></td>
+<td width="361" align="right">Welcome <?php echo $_SESSION['A_Name'] ; ?> | <a href="LogoutAgent.php" class="text4">Logout</a> <img src="images/beta-t.jpg" border="0" width="30" height="22" /></td></tr></table>

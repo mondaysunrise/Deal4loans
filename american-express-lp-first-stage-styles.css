@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+body{ background:#cccccc; margin:5px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.amx-second{ width:980px; padding:10px; margin:auto; background:#FFF;
+border-radius:10px 10px 10px 10px; border:#999 thin solid; box-shadow:5px 3px 18px 3px #666666;}
+.logo_d4l{ float:left; width:164px; }
+.logo_amx{ float:right; width:276px;}
+
+.left_panel{ width:578px; float:left; border-radius:5px 5px 5px 5px;  background:#10cbf3 url(images/form-platinum-card.png) bottom center no-repeat;}
+.rightbox{width:360px; padding:4px; float:right; border-radius:5px 5px 5px 5px;  background:#e9f9fc;}
+.left_inner_text_bx{ width:96%; margin:auto; padding:7px; border-bottom:thin solid  #79e1f7; font-family:Arial, Helvetica, sans-serif;font-size:16px; font-weight:bold; text-align:center;}
+.filed-box{ float:left; width:245px; margin-left:22px; margin-top:5px; margin-right:20px;}
+.right_panel{ width:578px; float:left;}
+.input-box{ height:25px; width:236px; background:url(images/input-bg.jpg) repeat-x; border:0px; text-indent:5px; color:#8c9091; text-transform:uppercase; font-size:12px;}
+.input-box-phone{ height:25px; width:182px; background:url(images/input-bg.jpg) repeat-x; border:0px; text-indent:5px; color:#8c9091; text-transform:uppercase; font-size:12px;}
+.input-box-code{ height:25px; width:50px; background:url(images/input-bg.jpg) repeat-x; border:0px; text-indent:5px; margin-top:-2px; color:#8c9091; text-transform:uppercase; font-size:12px;}
+.pl_input-box{ height:25px; width:159px; background:url(images/input-bg.jpg) repeat-x; border:0px; text-indent:5px; color:#8c9091; text-transform:uppercase; font-size:12px;}
+.pl_input-box_select{ height:25px; width:159px; padding:6px; background:url(images/input-bg.jpg) repeat-x; border:0px; text-indent:5px; color:#8c9091; text-transform:uppercase; font-size:12px;}
+.pl_input-box_b{ height:25px; width:118px; background:url(images/input-bg.jpg) repeat-x; border:0px; text-indent:5px; color:#8c9091; text-transform:uppercase; font-size:12px;}
+.pl_input-box_ph{ height:25px; width:49px; background:url(images/input-bg.jpg) repeat-x; border:0px; text-indent:5px; color:#8c9091; text-transform:uppercase; font-size:12px;}
+.pl_input-box_ph_b{ height:25px; width:102px;  background:url(images/input-bg.jpg) repeat-x; border:0px; text-indent:5px; color:#8c9091; text-transform:uppercase; font-size:12px;}
+.select-box{ height:25px; width:235px; padding:6px; padding-right:8px; vertical-align:middle; background:url(images/input-bg.jpg) repeat-x; border:0px; text-indent:5px; color:#8c9091; text-transform:uppercase; font-size:12px;}
+.pl-select-box{ height:25px; width:159px; padding:6px; padding-right:8px; vertical-align:middle; background:url(images/input-bg.jpg) repeat-x; border:0px; text-indent:5px; color:#8c9091; text-transform:uppercase; font-size:12px;}
+.form_text{ font-family:Verdana, Geneva, sans-serif; color:#010101; font-size:12px;}
+.bullet_text ul{ padding:0px 0px 0px 0px; margin:0px 0px 0px 0px;}
+.bullet_text li{ margin-left:20px; margin-top:5px; list-style:url(images/amx-bullet.png); text-align:justify; font-family:Verdana, Geneva, sans-serif; color:#010101; font-size:12px;}
+.text_below_form{ width:92%; margin:auto;}
+.onclick_below_form{ width:100%; margin:auto;}
+.crdit_card_box{ text-align:center; width:98%; margin:auto;}
+.form_head_text{ font-family:Verdana, Geneva, sans-serif; font-size:14px; color:#313131; font-weight:bold;}
+.form_body_text{ font-family:Verdana, Geneva, sans-serif; font-size:11px; color:#010101; font-weight: normal;}

@@ -1,0 +1,55 @@
+<Script Language="JavaScript">
+   function validateMe(theFrm){
+	//if(!checkData(theFrm.Email, 'Email', 6))
+	//	return false;
+	if(!checkData(theFrm.FName, 'First Name', 3))
+		return false;
+	if(!checkData(theFrm.LName, 'Last Name', 3))
+		return false;
+	if(!checkData(theFrm.Phone, 'Phone/Contact No.', 5))
+		return false;
+	return true;
+    }
+ </Script>
+
+ 
+ <input type="hidden" name="UserID" value="<?=$UserID?>">
+ <table width="400" border="0" cellpadding="4" cellspacing="0" class="blueborder" id="frm">
+   <tr>
+     <td colspan="2" class="bluebutton">Edit Profile </td>
+   </tr>
+   <tr><td colspan="2" id="Alert"> &nbsp; <?=$Msg?></td></tr>
+   <!--tr>
+     <td width="35%">Email</td>
+     <td width="50%"><input type="text" name="Email" size="30" maxlength="50" value="<?//=$Email?>"></td>
+   </tr-->
+   <tr>
+     <td width="30%" class="bodyarial11">First Name</td>
+     <td width="70%"><input name="FName" type="text" class="form" value="<?=$FName?>" size="20" maxlength="30"></td>
+   </tr>
+   <tr>
+     <td class="bodyarial11">Last Name</td>
+     <td><input name="LName" type="text" class="form" value="<?=$LName?>" size="20" maxlength="30"></td>
+   </tr>
+   <tr>
+     <td class="bodyarial11">Contact No./Mobile</td>
+     <td><input name="Phone" type="text" class="form" value="<?=$Phone?>" size="30" maxlength="30"></td>
+   </tr>
+   <tr>
+     <td class="bodyarial11">DOB</td>
+     <td class="bodyarial11"><input name="day" type="text" class="form" id="day" size="5" value="<?=$Day?>" />
+     <input name="month" type="text" class="form" id="month" size="5" value="<?=$Month?>" />
+     <input name="year" type="text" class="form" id="year" size="8" value="<?=$Year?>" />
+     (YYYY/MM/DD)</td>
+   </tr>
+   <tr>
+     <td class="bodyarial11">Make Contact Public</td>
+     <td><input class="NoBrdr" type="checkbox" name="IsPublic" value="1" <?=($IsPublic==1)?"Checked":""?>></td>
+   </tr>
+   <tr>
+     <td colspan="2" align="center"><br><input type="submit" class="bluebutton" value="Submit">
+     &nbsp;
+     <input type="reset" class="bluebutton" value="Reset"></td>
+   </tr>
+ </table>
+ 

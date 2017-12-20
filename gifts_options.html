@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Untitled Document</title>
+<script>
+window.open('','','toolbar=no,scrollbars=no,menubar=no,width=180,height=180');
+</script>
+<style type="text/css">
+<!--
+ 
+.ppt li {
+	list-style-type: none;
+	position: absolute;
+	top: 0px;
+	left: 0;
+	float: left;
+	height: 299px;
+	width: 963px;
+ 
+}
+
+.ppt img {
+ 
+}
+
+</style>
+</head>
+<body >
+<ul class="ppt">
+	<li><img src="http://www.deal4loans.com/new-images/bluetooth_dev.jpg" width="180" height="180" />
+</li>
+	<li><img src="http://www.deal4loans.com/new-images/polo_watch.jpg" width="180" height="180" /></li>
+<li>
+<img src="http://www.deal4loans.com/new-images/gps_device.jpg" width="180" height="180" />
+</li>
+ <li> <img src="http://www.deal4loans.com/new-images/digital_pframe.jpg" width="180" height="180" />
+    </li>
+	 <li> <img src="http://www.deal4loans.com/new-images/rbk_sunglasses.jpg" width="180" height="180" />
+    </li>
+</ul>
+<script src="http://www.deal4loans.com/ICICI_CL/jquery-1.4.4.js"></script>
+<script type="text/javascript">
+$('.ppt li:gt(0)').hide();
+$('.ppt li:last').addClass('last');
+var cur = $('.ppt li:first');
+
+function animate() {
+	cur.fadeOut( 1000 );
+	if ( cur.attr('class') == 'last' )
+		cur = $('.ppt li:first');
+	else
+		cur = cur.next();
+	cur.fadeIn( 1000 );
+}
+
+$(function() {
+	setInterval( "animate()", 2000 );
+} );
+</script>
+</body>
+</html>

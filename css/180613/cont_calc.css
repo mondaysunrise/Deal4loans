@@ -1,0 +1,81 @@
+/*..........................new css/////////////////////////////*/
+
+.main_menu_mobo{ display: inline;}
+.left_wrap-mob{ width:600px; float:left; margin:auto;}
+ .emi_left_box_mobo{ width:600px;  float:left;  margin-top:20px;} 
+ .emi_main_wrapper_mobo{ width:600px;  float:left;  margin-top:20px;} 
+    .rihgt_wrap-mob{ width:300px; float:left; margin-left:60px;     }
+	 .form_wrap-mob{ width:458px; float:left;  background: #090; }
+	    .content_row_a-mob{ width:500px; height:150px; background:#FF0; float:none; }
+		
+		.emi_head_text_box_a{ width:250px;  float:left;} 
+    .emi_head_text_box_b{ width:300px; margin-left:10px; margin-top:5px;  float:left; }
+	.emi_form_box_mobo{ background:#21405F; padding:10px; width:458px;  margin:auto;  border-radius:5px 5px 5px 5px;}
+		
+		.emi_mobo_content_txt_c{ width:600px; float:left; text-align:justify;}
+		.emi_logo_box_mobo{ margin-top:-50px; text-align:justify; display:none;} 
+		.responsive_ad{ display: none; margin-top:-50px; }
+				.line_ad{ display:inline !important; }
+		
+		@media screen and (max-width:960px) { 
+	.emi_logo_box_mobo{ margin-top:10px; text-align:justify; display:inline !important; padding-top:15px;} 
+	
+	 .emi_left_box_mobo{ width:300px;  float:left;  margin-top:20px;} 
+	.content_cal_wrap-mob{ width:300px; background:#0F3; }
+	.left_wrap-mob{ width:300px;  margin:auto;}
+    .rihgt_wrap-mob{ width:100%; float:left; margin-left:-150px;  margin-top:-2900px;  }
+	 .form_wrap-mob{ width:300px;  background: #03F; float:left;}
+	    .content_row_a-mob{ width:300px; height:150px; background:#FF0;  }
+		.emi_form_box_mobo{ background:#21405F; padding:10px; width:98%;  margin:auto;  border-radius:5px 5px 5px 5px;}
+		.footer_emi_cal{ display:none;}
+				.emi_mobo_content_txt_c{ margin-top:630px; width:98%; float:left;  }
+				.emi_aply_block{ display:none;}
+				.main_menu_mobo{ display:none !important;}
+				.responsive_ad{ display:inline !important; padding-top:15px; text-align:center; }
+				.intrl_txt { width:300px;}
+		.line_ad{ display: none !important;   }
+
+		}
+		 
+	@media screen and (max-width:480px) { 
+	.emi_logo_box_mobo{ margin-top:10px; text-align:justify; display:inline !important; padding-top:15px;} 
+	
+	 .emi_left_box_mobo{ width:300px;  float:left;  margin-top:20px;} 
+	.content_cal_wrap-mob{ width:300px; background:#0F3; }
+	.left_wrap-mob{ width:300px;  margin:auto;}
+    .rihgt_wrap-mob{ width:300px; text-align:center; margin-left:90px;  margin-top:-2900px; }
+	 .form_wrap-mob{ width:300px;  background: #03F; float:left;}
+	    .content_row_a-mob{ width:300px; height:150px; background:#FF0;  }
+		.emi_form_box_mobo{ background:#21405F; padding:10px; width:98%;  margin:auto;  border-radius:5px 5px 5px 5px;}
+		.footer_emi_cal{ display:none;}
+				.emi_mobo_content_txt_c{ margin-top:630px; width:98%; float:left;  }
+				.emi_aply_block{ display:none;}
+				.main_menu_mobo{ display:none;}
+				.responsive_ad{ display:inline !important; padding-top:15px; text-align:center; }
+				.intrl_txt { width:300px;}
+		.line_ad{ display: none !important;  }
+		}
+		
+		
+		
+	@media screen and (max-width:330px) { 
+	.emi_logo_box_mobo{ margin-top:10px; text-align:justify; display:inline !important; padding-top:15px;} 
+	
+	 .emi_left_box_mobo{ width:300px;  float:left;  margin-top:20px;} 
+	.content_cal_wrap-mob{ width:300px; background:#0F3; }
+	.left_wrap-mob{ width:300px;  margin:auto;}
+    .rihgt_wrap-mob{ width:300px; float:left; margin-left:-7px;  margin-top:-2900px;  }
+	 .form_wrap-mob{ width:300px;  background: #03F; float:left;}
+	    .content_row_a-mob{ width:300px; height:150px; background:#FF0;  }
+		.emi_form_box_mobo{ background:#21405F; padding:10px; width:98%;  margin:auto;  border-radius:5px 5px 5px 5px;}
+		.footer_emi_cal{ display:none;}
+				.emi_mobo_content_txt_c{ margin-top:630px; width:98%; float:left;  }
+				.emi_aply_block{ display:none;}
+				.main_menu_mobo{ display:none;}
+				.responsive_ad{ display:inline !important; padding-top:15px; text-align:center; }
+				.intrl_txt { width:300px;}
+		.line_ad{ display: none !important;  }
+		}
+		
+		
+		

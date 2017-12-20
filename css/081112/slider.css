@@ -1,0 +1,139 @@
+.sldrpnl{
+	width:900px;
+	height:60px;
+	overflow:hidden;
+	float:left;
+	margin-left:15px;
+
+}
+
+#slider{
+	width:890px;
+	text-align:center;
+	margin-left:50px;
+	padding-top:10px;
+}	
+
+#slider ul, #slider li{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+#slider li{ 
+	/* define width and height of list item (slide)	entire slider area will adjust according to the parameters provided here*/ 
+	width:780px;
+	height:136px;
+	overflow:hidden; 
+}
+		
+	
+#slider li div{
+	display:block;
+	float:left;
+	width:192px;
+}
+
+p#controls{
+	margin:-146px 0 0 0;
+	position:relative;
+	width:900px;
+} 
+
+
+#slider1 li{ 
+	/* 
+	define width and height of list item (slide)
+	entire slider area will adjust according to the parameters provided here
+	*/ 
+	width:900px;
+	overflow:hidden; 
+}
+		
+	
+#slider1 li div{
+	display:block;
+	float:left;
+	width:153px;
+}
+
+p#controls1{
+	margin:-176px 0 0 0;
+	position:relative;
+	width:650px;
+} 
+		
+	
+#prevBtn, #nextBtn{ 
+	display:block;
+	overflow:hidden;
+	text-indent:-8000px;		
+	height:60px;
+	position:absolute;
+}	
+
+#nextBtn{ 
+	margin-left:870px;
+}														
+
+
+#prevBtn a, #nextBtn a{  
+	display:block;
+	width:32px;
+	height:60px;
+	background: url(../new-images/slider/left_arrow.gif) no-repeat left center;
+	margin-right:5px;
+}	
+
+#nextBtn a{ 
+	background: url(../new-images/slider/right_arrow.gif) no-repeat left center;
+}												
+
+/* slider 2 */
+#slider2 {
+	width:40px;
+	margin:0 0 0 30px;
+}
+
+#slider2 ul, #slider2 li{
+	margin:0;
+	padding:0;
+	list-style:none;
+ }
+
+#slider2 li{
+	padding:13px 10px 0 10px;
+	height:100px;
+ }
+
+p#controls2{
+	margin:-10px 0 0 0;
+	position:absolute;
+	width:930px;
+} 
+
+#prevBtn2, #nextBtn2{ 
+	display:block;
+	margin:0;
+	overflow:hidden;
+	text-indent:-8000px;		
+	width:34px;
+	position:absolute;
+	}	
+
+#nextBtn2{ 
+	left:750px;
+}														
+
+#prevBtn2 a, #nextBtn2 a{  
+	display:block;
+	width:32px;
+	background:url(../new-images/slider/left_arrow.gif) no-repeat left center;
+	left:10px;
+}	
+
+
+#nextBtn2 a{ 
+	background:url(../new-images/slider/right_arrow.gif) no-repeat left center;
+}												
+

@@ -1,0 +1,137 @@
+h1{
+	font-family: Century Gothic;
+	font-size: 18px;
+	color:#0F74D4;
+	text-decoration: none;
+	font-weight: bold;
+	margin:0px;
+	padding: 0px;
+}
+
+.heading2h{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color:#666666;
+	text-decoration: none;
+	font-weight: bold;
+	margin:0px;
+}
+.heading3h{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#666666;
+	text-decoration: none;
+	font-weight: bold;
+	margin:0px;
+}
+.heading4h{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#666666;
+	text-decoration: none;
+	font-weight: bold;
+	margin:0px;
+}
+
+
+.changecolor{
+color:#0F74D4;
+}
+.newstyle
+{
+color:#E1E1E1;
+font-size:11px;
+padding-right:10px;
+}
+.formfield
+{
+width:96px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#666666;
+margin-top:4px;
+}
+
+
+input.NoBrdr	{font:12px Arial; padding:0px; margin:0px; border: 0px}
+/**_________Data Grids________**/
+table caption	{font:bold 12px Arial; color:#FF0000; text-align:left}
+table#Grid	{font:10px Arial; background-color:#FFFFFF;}
+table#Grid #r	{text-align:right}
+table#Grid #c	{text-align:center}
+table#Grid #HD	{color:#FFFFFF; background-color:#70A5DA}
+table#Grid #HD td	{font-weight:bold; text-align:center}
+table#Grid #row1	{background-color:#EFEFEF}
+table#Grid #row2	{background-color:#FFFFFF}
+
+
+input#grad	{border:1px solid #000000; background-image:url(../images/bgGreyGrad.gif); font-style:normal;  font-variant:normal; font-weight:normal; font-size:10px; font-family:Arial, Helvetica, sans-serif;}
+.bluebutton {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	background-color: #529BE4;
+	border: 1px solid #529BE4;
+	font-weight: bold;
+}
+.blueborder {
+	border: 1px solid #999999;
+}
+.head1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #529BE4;
+}
+.bodyarial11 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	text-decoration: none;
+}
+.head2 {
+	font-family: Century Gothic;
+	font-size: 18px;
+	color:0F74D4;
+	text-decoration: none;
+	font-weight: bold;
+}
+body		{font:12px Arial; color:#000000; margin:0; background-color:#FFFFFF}
+td		{font:12px Arial}
+input, textarea {font:12px Arial; padding:2px; margin:2px; border: 1px solid #CECECE;}
+table#frm td	{font: bold 10px Verdana;}
+
+
+
+FIELDSET LEGEND a{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+color: #0D589E;
+font-weight:bold;
+text-decoration:none;
+}
+
+.know_link a{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+float:right;
+font-weight:bold;
+color: #0D589E;
+text-decoration:none;
+}
+
+.know_link a:hover{
+	text-decoration:underline;
+}
+
+FIELDSET  LABEL{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#666666;
+text-decoration:none;
+}
+FIELDSET LEGEND a:hover{
+text-decoration:underline;
+}

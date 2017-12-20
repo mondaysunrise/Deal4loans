@@ -1,0 +1,441 @@
+/*Scrolable text on front page*/ 
+#pscroller1{
+width: 200px;
+height: 100px;
+border: 0px solid black;
+padding: 5px;
+background-color: white;
+}
+
+#pscroller2{
+width: 350px;
+height: 20px;
+border: 1px solid black;
+padding: 3px;
+}
+
+#pscroller2 a{
+text-decoration: none;
+}
+
+.someclass{ //class to apply to your scroller(s) if desired
+}
+
+/*End */
+#change
+{
+font:bold 11px Arial;}
+
+.formfield
+{
+width:96px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#666666;
+margin-top:4px;
+}
+
+li		{font: 13px Arial;}
+li a		{text-decoration:none;color:0F74D4;}
+li a:hover		{ text-decoration:underline;}
+
+.bodyarial11
+{
+font-family:Arial; font-size:12px; color:#898989;
+}
+.bodyarial112
+{
+font-family:Arial; font-size:11px; color:0F74D4;
+}
+body{
+	margin:0px; padding:0px;
+}
+img{ border:0px; }
+#dvContainer{
+	width:777px;
+	margin:0px auto;
+}
+#dvTopPanel {
+	height:84px; width:777px;
+	margin:0px auto;
+}
+#dvTopPanel #dvLogoPanel{
+	height:84px;
+	margin:0px auto;
+}
+#dvTopPanel #dvLogoPanel #dvLogo{
+	height:84px; width:212px;
+	float:left;
+	font-size:0px;
+}
+#dvTopPanel #dvLogoPanel #dvTopRightPanel{
+	height:84px; width:555px;
+	float:right;
+	text-align:right;
+	font-size:0px;
+	
+}
+#dvTopPanel #dvLogoPanel #dvTopRightPanel p{
+	margin:0px; padding:20px 2px 4px 0px;
+	text-align:right;
+	font-family:Arial; font-size:12px; font-weight:bold;  color:#898989;
+}
+#dvTopPanel p a:link{ color:#0F74DA; text-decoration:none; } #dvTopPanel p a:visited{ color:#0F74DA; text-decoration:none; } #dvTopPanel p a:hover{ color:#0F74DA; text-decoration:underline; }
+
+#dvTopPanel #dvLogoPanel #dvTopRightPanel h1{
+	margin:0px; margin-left:0px; padding:10px 6px 0px 0px;
+	text-align:right;
+	font-family:Arial; font-size:11px; color:#BA7205; font-weight:bold;
+}
+
+form{
+	margin:0px; padding:0px;
+}
+
+#dvTopPanel #dvLogoPanel #dvTopRightPanel form input{
+	width:120px;
+	border-bottom:solid 1px #999;
+	border-right:solid 1px #999;
+	border-top:solid 1px #666;
+	border-left:solid 1px #666;
+}
+
+#dvTopPanel #dvLogoPanel #dvTopRightPanel form #btnLoginGO{
+	border:0px; width:26px; height:19px;
+	cursor:pointer; margin:0px 0px 0px 0px; 
+	position:relative; top:4px;
+}
+
+#dvMenuPanel{
+	width:777px; height:32px;
+	margin:0px auto; padding:0px 0px 0px 0px;
+	font-size:0px;
+}
+
+#dvMainbanner{
+	width:775px;
+	margin:0px auto; 
+	padding:0px;
+}
+
+#dvMainbanner #dvNavbg{
+	width:775px; height:24px;
+	background-repeat:repeat-x; 
+	
+}
+
+#dvMainbanner #dvNavbg #dvTopNav{
+	float:right;
+	height:19px;
+	background-repeat:repeat-x; 
+	text-align:right;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	padding-right:15px;
+	font-size:11px;
+	font-weight:bold;
+	margin-top:3px;
+}
+
+#dvMainbanner #dvNavbg #dvTopNav  a:link{ color:#FFFFFF; text-decoration:underline; } #dvMainbanner #dvNavbg #dvTopNav  a:visited{ color:#FFFFFF; text-decoration:underline; } #dvMainbanner #dvNavbg #dvTopNav a:hover{ color:#FFFFFF; text-decoration:none; }
+
+#dvMainbanner #dvbannerContainer{
+	width:777px;
+	height:145px;
+	padding:0px 0px 0px 0px;
+	font-size:0px;
+	float:left;
+}
+
+
+#dvContentPanel{
+	width:777px;
+	margin:0px auto;
+	
+}
+
+#dvContentPanel #dvMaincontent{
+	width:540px;
+	float:left;
+	margin-top:0px;
+	
+}
+ 
+#dvContentPanel #dvMaincontent b{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	text-align:justify;
+	line-height:18px;
+	word-spacing:-1px;
+} 
+ 
+
+#dvContentPanel #dvMaincontent ul {
+	font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#3D3D3D; text-align:left;
+	margin-top:0px;
+	padding-top:3px;
+	list-style-image:url(images/squar_box.gif);
+	margin-left:20px;
+	padding-left:0px;
+	text-align:left;
+	margin-bottom:5px;
+	padding-top:5px;
+	}
+#dvContentPanel #dvMaincontent li p{
+	list-style-type:square;
+	list-style-image:url(images/squar_box.gif);
+	margin-left:0px; 
+	padding-left:0px;
+	margin-bottom:0px;
+}
+	
+#dvContentPanel #dvMaincontent p{
+	font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#3D3D3D; text-align:left;
+	float:left;
+	margin-top:3px;
+	padding-top:3px;
+	padding-bottom:3px;
+	
+}
+
+#dvContentPanel #dvMaincontent .dvTxtImage{
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:0px;
+	}
+
+#dvContentPanel #dvMaincontent p{
+	padding-top:3px;
+	padding-bottom:10px;
+	margin:0px;
+	padding-left:5px;
+}
+	
+#dvContentPanel #dvColumn1{
+	width:260px;
+	float:left;
+}
+
+#dvContentPanel #dvColumn1 #dvbanner{
+	width:250px;
+	padding-top:10px;
+	font-size:0px;
+	margin:0px;
+}
+
+#dvContentPanel #btnCalEMI{
+	border:0px; width:103px; height:19px;
+	cursor:pointer; margin:0px;
+	position:relative; top:0px; left:-5px; font-size:0px;
+}
+
+
+
+#dvContentPanel #dvColumn1 #dvDescBase{
+	width:237px;
+	padding-top:0px;
+	padding-left:10px;
+	font-size:0px;
+	
+		
+}
+
+#dvContentPanel #dvColumn1 #dvDescBase #dvImagePhoto{
+	float:left;
+	padding-right:10px;
+	padding-top:0px;
+	padding-bottom:10px;
+	
+}
+
+#dvDescBase p{
+	font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#898989; text-align:left;
+	float:left;
+	margin-top:0px;
+	margin-bottom:0px;
+	width:210px;
+	padding-top:3px;
+}
+#dvMaincontent p a:link{ color:#0F74DA; text-decoration:none; } #dvMaincontent p a:visited{ color:#0F74DA; text-decoration:none; } #dvMaincontent p a:hover{ color:#0F74DA; text-decoration:underline; }
+#dvDescBase p a:link{ color:#0F74DA; text-decoration:none; } #dvDescBase p a:visited{ color:#0F74DA; text-decoration:none; } #dvDescBase p a:hover{ color:#0F74DA; text-decoration:underline; }
+
+#dvDescBase p span{
+	font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#898989; text-align:left;
+	float:left;
+	margin-top:0px;
+	margin-bottom:0px;
+	width:237px;
+	padding-top:3px;
+}
+#dvDescBase p a:link{ color:#0F74DA; text-decoration:none; } #dvDescBase p a:visited{ color:#0F74DA; text-decoration:none; } #dvDescBase p a:hover{ color:#0F74DA; text-decoration:underline; }
+
+
+#dvContentPanel #dvColumn2{
+	width:260px;
+	float:left;
+}
+
+#dvContentPanel #dvColumn2 #dvbanner{
+	width:250px;
+	padding-top:18px;
+	margin-top:0px;
+	font-size:0px;
+}
+
+
+#dvContentPanel #dvColumn2 #dvDescBase{
+	width:237px;
+	padding-top:5px;
+	padding-left:20px;
+	margin-bottom:0px;
+	font-size:0px;
+		
+}
+#dvContentPanel #dvColumn2 #dvhedingTxtImg{
+	width:237px;
+	padding-top:12px;
+	padding-left:20px;
+	margin-bottom:5px;
+	font-size:0px;
+	clear:both;
+	
+}
+#dvhedingTxtImg p {
+	font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#898989; text-align:left;
+	float:left;
+	margin-top:0px;
+	margin-bottom:8px;
+	width:237px;
+	padding-top:0px;
+}
+#dvhedingTxtImg p a:link{ color:#0F74DA; text-decoration:none; } #dvhedingTxtImg p a:visited{ color:#0F74DA; text-decoration:none; } #dvhedingTxtImg p a:hover{ color:#0F74DA; text-decoration:underline; }
+
+#dvContentPanel #dvColumn2 #dvDescBase #dvImagePhoto{
+	width:90px;
+	float:left;
+	padding-right:10px;
+	padding-top:3px;
+	font-size:0px;
+	
+}
+
+#dvContentPanel #dvColumn3{
+	width:210px;
+	float:right;
+	font-size:0px;
+	
+}
+
+#dvContentPanel #dvColumn3new{
+	width:210px;
+	float:right;
+	font-size:0px;
+	
+}
+#dvContentPanel #dvColumn3 #dvRightBanner{
+	width:210px;
+	font-size:0px;
+}
+
+
+
+#dvContentPanel #dvColumn3 #dvRighttxtImage{
+	width:210px;
+	font-size:0px;
+	margin:0px auto;
+	padding-left:10px;
+}
+
+#dvContentPanel #dvColumn3 #dvRightBanner150{
+	width:150px;
+	font-size:0px;
+	margin:0px;
+	padding-left:12px;
+	margin-top:20px;
+	float:center;
+}
+
+#dvContentPanel #dvColumn3 p {
+	font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#464646; text-align:left;
+	float:left;
+	margin-top:0px;
+	margin-bottom:0px;
+	width:237px;
+	padding-top:0px;
+	padding-left:15px;
+	padding-bottom:5px;
+}
+#dvColumn3 p a:link{ color:#464646; text-decoration:underline; } #dvColumn3 p a:visited{ color:#464646; text-decoration:underline; } #dvColumn3 p a:hover{ color:#464646; text-decoration:none; }
+
+#dvContentPanel #dvColumn3 .graytxt {
+	font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#707070; text-align:left;
+	float:left;
+	margin-top:0px;
+	margin-bottom:0px;
+	width:237px;
+	padding-top:0px;
+	padding-bottom:5px;
+}
+#dvColumn3 .graytxt a:link{ color:#0F74DA; text-decoration:none; } #dvColumn3 .graytxt a:visited{ color:#0F74DA; text-decoration:none; } #dvColumn3 .graytxt a:hover{ color:#0F74DA; text-decoration:underline; }
+
+#dvContentPanel #dvColumn3 #dvClickImage {
+		float:left;
+		width:22px;
+}
+
+#dvColumn3 .graytxt #btnClick{
+	border:0px; width:23px; height:22px;
+	cursor:pointer; margin:0px 0px 0px 0px; 
+	position:relative; top:6px;
+}
+
+#dvContentPanel #dvColumn3 .graytxt1 {
+	font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#707070; text-align:left;
+	float:left;
+	margin-top:0px;
+	margin-bottom:0px;
+	width:237px;
+	padding-top:0px;
+	padding-bottom:5px;
+}
+#dvColumn3 .graytxt1 a:link{ color:#0F74DA; text-decoration:none; } #dvColumn3 .graytxt1 a:visited{ color:#0F74DA; text-decoration:none; } #dvColumn3 .graytxt1 a:hover{ color:#0F74DA; text-decoration:underline; }
+
+#dvContentPanel #dvColumn3 h1 {
+	font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#2C75BF; text-align:left; font-weight:bold;
+	float:left;
+	margin-top:0px;
+	margin-bottom:0px;
+	width:237px;
+	padding-top:10px;
+	padding-left:15px;
+}
+#dvColumn3 h1 a:link{ color:#464646; text-decoration:underline; } #dvColumn3 h1 a:visited{ color:#464646; text-decoration:underline; } #dvColumn3 h1 a:hover{ color:#464646; text-decoration:none; }
+
+#dvFTMenu{
+	height:22px; width:777px;
+	clear:both;
+}
+
+
+ #dvFooter{
+	width:200px;
+	font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#898989; text-align:left; font-weight:normal;
+	text-align:left;
+	float:left;
+	padding-left:10px;
+	padding-top:10px;
+}
+
+ #dvFtlink{
+		font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#898989; text-align:left; font-weight:normal;
+		text-align:right;
+		float:right;
+		width:300px;
+		padding-right:10px;
+		padding-top:10px;
+} 
+ #dvFtlink  a:link{ color:#464646; text-decoration:none; }  #dvFtlink a:visited{ color:#464646; text-decoration:none; } #dvFtlink a:hover{ color:#464646; text-decoration:underline; }
+
+
+

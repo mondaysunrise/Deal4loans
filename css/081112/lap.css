@@ -1,0 +1,58 @@
+body{ margin:0px;
+background-color:#EDF4EE;
+}
+
+.text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-style: normal;
+	line-height: normal;
+}
+
+body {
+	margin-top: 0px;
+}
+.textstyle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 7px;
+	font-style: normal;
+}
+.easy-steps{font-family: Verdana, Arial, Helvetica, sans-serif; font-size:36px; color:#FFFFFF; font-weight:bold;
+}
+.step{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	line-height:18px;
+	color:#333333;
+	text-decoration:none;
+}
+
+.text-help{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#000000;
+	}
+.texti-text{font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#333333;}
+.points{ font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px;}
+.testi{font-family:Verdana, Arial, Helvetica, sans-serif; font-size:18px; font-weight:bold; color:#FFFFFF;}
+input{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	color:#666666;
+	}
+select {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	color:#666666;
+	}
+.form-text{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	color:#666666;
+	}

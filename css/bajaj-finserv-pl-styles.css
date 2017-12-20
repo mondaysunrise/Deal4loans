@@ -1,0 +1,433 @@
+/************************************************************************************
+RESET
+*************************************************************************************/
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800,900);
+
+html, body, address, blockquote, div, dl, form, h1, h2, h3, h4, h5, h6, ol, p, pre, table, ul,
+dd, dt, tbody, td, tfoot, th, thead, tr, button, del, ins, map, object,
+a, abbr, acronym, b, bdo, big, br, cite, code, dfn, em, i, img, kbd, q, samp, small, span,
+strong, sub, sup, tt, var, legend, fieldset {
+	margin: 0;
+	padding: 0;
+}
+.lining{ height:50px; margin-top:2%; width:100%; background:url(../new-images/Sbi_top_bg.jpg) repeat-x;}
+.heading_text{font-size:24px; font-family:'Raleway'; font-weight:700; color:#0199cd; margin-left:15px; }
+
+.heading_text_b{font-size:18px; font-family:'Raleway'; color:#0199cd; 
+	margin: 0 0 5px;
+	padding: 0;	
+}
+ 
+img, fieldset {
+	border: 0;
+}
+
+/* set image max width to 100% */
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+}
+
+/* set html5 elements to block */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+    display: block;
+}
+
+/************************************************************************************
+GENERAL STYLING
+*************************************************************************************/
+body {
+	no-repeat center top;
+	font: .81em/120% Arial, Helvetica, sans-serif;
+	color: #666;
+}
+a {
+	color: #026acb;
+	text-decoration: none;
+	outline: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+p {
+	margin: 0 0 1.2em;
+	padding: 0;
+}
+
+/* list */
+
+
+/* headings */
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.4em;
+	margin: 20px 0 .4em;
+	color: #000;
+}
+h1 {
+	font-size: 2em;
+}
+h2 {
+	font-size: 1.6em;
+}
+h3 {
+	font-size: 1.4em;
+}
+h4 {
+	font-size: 1.2em;
+}
+h5 {
+	font-size: 1.1em;
+}
+h6 {
+	font-size: 1em;
+}
+
+/* reset webkit search input styles */
+input[type=search] {
+	-webkit-appearance: none;
+	outline: none; 
+}
+input[type="search"]::-webkit-search-decoration, 
+input[type="search"]::-webkit-search-cancel-button {
+	display: none;
+	
+}
+
+/************************************************************************************
+STRUCTURE
+*************************************************************************************/
+#pagewrap {
+	width: 980px;
+	margin: 0 auto;
+}
+
+/************************************************************************************
+HEADER
+*************************************************************************************/
+#header {
+	position: relative; margin-top:25px;
+
+}
+
+/* site logo */
+#site-logo {
+	position: absolute;
+	top: 10px;
+}
+#site-logo a {
+	font: bold 30px/100% Arial, Helvetica, sans-serif;
+	color: #fff;
+	text-decoration: none;
+}
+
+/* site description */
+#site-description {
+	font: italic 100%/130% "Times New Roman", Times, serif;
+	color: #fff;
+	position: absolute;
+	top: 55px;
+}
+
+/* searchform */
+#searchform { float:right; width:200px; height:105px; background:#000; margin-top:-35px;
+}
+#searchform #s {
+	width: 105px;
+	float: right;
+	background: #fff;
+	border: none; 
+	
+	/* border radius */
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	/* box shadow */
+	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.2);
+	/* transition */
+	-webkit-transition: width .7s;
+	-moz-transition: width .7s;
+	transition: width .7s;
+}
+
+/************************************************************************************
+MAIN NAVIGATION
+*************************************************************************************/
+#main-nav {
+	width: 100%;
+	background: #ccc;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 100;
+	/* gradient */
+	background: #6a6a6a url(/new-images/nav-bar-bg.png) repeat-x;
+	background: -webkit-gradient(linear, left top, left bottom, from(#b9b9b9), to(#6a6a6a));
+	background: -moz-linear-gradient(top,  #b9b9b9,  #6a6a6a);
+
+
+
+	background: linear-gradient(-90deg, #b9b9b9, #6a6a6a);
+	/* rounded corner */
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	/* box shadow */
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.3), 0 1px 1px rgba(0,0,0,.4);
+	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.3), 0 1px 1px rgba(0,0,0,.4);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,.3), 0 1px 1px rgba(0,0,0,.4);
+}
+#main-nav li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	position: relative;
+}
+#main-nav li:first-child {
+	margin-left: 10px;
+}
+#main-nav a {
+	line-height: 100%;
+	font-weight: bold;
+	color: #fff;
+	display: block;
+	padding: 14px 15px;
+	text-decoration: none;
+	text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+}
+#main-nav a:hover {
+	color: #fff;
+	background: #474747;
+	/* gradient */
+	background: -webkit-gradient(linear, left top, left bottom, from(#282828), to(#4f4f4f));
+	background: -moz-linear-gradient(top,  #282828,  #4f4f4f);
+	background: linear-gradient(-90deg, #282828, #4f4f4f);
+}
+
+/************************************************************************************
+CONTENT
+*************************************************************************************/
+#content {
+	background: #fff;
+	margin: 0px 0 30px;
+	padding: 10px;
+	width: 565px;
+	/* rounded corner */
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	/* box shadow */
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.4);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.4);
+	box-shadow: 0 1px 3px rgba(0,0,0,.4);
+}
+
+#content-new {
+	background: #fff;
+	margin: 30px 0 30px;
+	padding: 10px;
+	width: 565px;
+	float: left;
+	/* rounded corner */
+
+}
+
+
+/* post */
+.post {
+	margin-bottom: 40px;
+}
+.post-title {
+	margin: 0 0 5px;
+	padding: 0;
+	font: bold 26px/120% Arial, Helvetica, sans-serif;
+}
+.post-title a {
+	text-decoration: none;
+	color: #000;
+}
+.post-meta {
+	margin: 0 0 10px;
+	font-size: 90%;
+}
+
+.right-box{border-bottom:#CCC solid thin; margin-bottom:20px;}
+/* post image */
+.post-image {
+	margin: 0 0 15px;
+}
+
+/************************************************************************************
+SIDEBAR
+*************************************************************************************/
+#sidebar {
+	width: 340px;
+	float: right;
+	margin: 30px 0 30px;
+}
+.widget {
+	background: #fff;
+	margin: 0 0 30px;
+	padding: 10px 20px;
+	/* rounded corner */
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	/* box shadow */
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.4);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.4);
+	box-shadow: 0 1px 3px rgba(0,0,0,.4);
+}
+
+/* flickr widget */
+.widget .flickr_badge_image {
+	margin-top: 10px;
+}
+.widget .flickr_badge_image img {
+	width: 48px;
+	height: 48px;
+	margin-right: 12px;
+	margin-bottom: 12px;
+	float: left;
+}
+
+/************************************************************************************
+FOOTER
+*************************************************************************************/
+#footer {
+	clear: both;
+	color: #ccc;
+	font-size: 85%;
+}
+#footer a {
+	color: #fff;
+}
+
+/************************************************************************************
+CLEARFIX
+*************************************************************************************/
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.clearfix { display: inline-block; }
+.clearfix { display: block; zoom: 1; }
+
+.hdfc-bank{font-size:15px; color:#001f79; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold;}
+
+.axis-bank{font-size:15px; color:#a50032; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold;}
+.bajaj-finserv{font-size:15px; color:#0177be; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold;}
+
+.sbi-bank{font-size:20px; color:#0199cd;  font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold;}
+.kotak{font-size:15px; color:#08315f; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold;}
+.ing-vysya{font-size:15px; color:#ff6600; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold;}
+
+.fullerton{font-size:15px; color:#de6020; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold;}
+.pnb-bank{font-size:15px; color:#f7b801; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold;}
+
+.Standard-Chart{font-size:15px; color:#0072a8; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold;}
+
+
+.sbi_text_bullet ul{ padding:0px 0px 0px 0px; margin:0px 0px 0px 0px}
+.sbi_text_bullet li{color:#0199cd; font-family:'Raleway'; font-size:14px; font-weight:600; list-style: url(/new-images/sbi_bullet1.jpg); margin-left:15px; line-height:25px; }
+.sbi_text_bullet li a{color:#0199cd; font-family:'Raleway'; font-size:14px; font-weight:600;}
+.sbi-form_txt{font-size:24px; font-family:'Raleway'; color:#0199cd; width:550px; border-bottom: #CCC solid thin; padding-bottom:7px;} 
+.sbi_text_c{ color:#0199cd; font-family:'Raleway'; font-size:14px; font-weight:bold;}
+.sbi_input{width:551px; height:25px; border-radius:5px 5px 5px 5px; border: solid 2px #0199cd;}
+.sbi_input-b{width:28%; height:25px; border-radius:5px 5px 5px 5px; border: solid 2px #0199cd;}
+.Sbi_top_ad_box{ width:205px; float:right; text-align:center; background:#fffee9; margin-bottom:-15px; border:thin solid #0199cd; border-radius:5px 5px 5px 5px; height:105px; padding:5px 5px 5px 5px; }
+.right-box-c{border-bottom:#CCC solid thin; margin-bottom:20px; margin-top:-50px;visibility:hidden; }
+.right-box-b{border-bottom:#CCC solid thin; margin-bottom:20px;}
+.right-box-d{border-bottom:#CCC solid thin; margin-bottom:20px; visibility: visible; }
+.alert_msg{color:#FF0000; font-weight:bold;}
+.hint { color:#000000; font-weight:normal;}
+
+.bajaj-finserv_box{ background:#FFF; height:64px; width:158px; float:right; text-align:center; margin-top:18px; border:thin solid #0199cd; border-radius:5px 5px 5px 5px; padding:5px 5px 5px 5px; }
+.content_b{ width:900px; margin:auto; margin-top:5px;}
+.list_box{ width:500px; float:left; margin-top:50px; }
+.listing_text ul{ margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.listing_text li{ font-family:Verdana, Geneva, sans-serif; font-size:14px; font-weight:normal; list-style:url(../images/tick-green.png); margin-left:30px; line-height:35px;}
+.stamp{ float:right; width:250px; margin-top:5px;	 padding-top:10px; background: #EAF7FB; border-radius:10px 10px 10px 10px; }
+.stamp_b{ float:right; width:250px; margin-top:5px;	 padding-top:10px; background: #FFF; border-radius:10px 10px 10px 10px; }
+.click_text{ color:#F00; font-size:18px; line-height:15px; }
+.click_text a{ color:#F00; font-size:18px; line-height:15px;  font-weight:bold; }
+
+.bajaj_arrow{ width:150px; float:left;  margin-top:75px; text-align:center;}
+.dd-bajaj_new_input{ width:30%; height:25px;
+border-radius: 5px 5px 5px 5px; text-align:center;
+border: solid 2px #0199cd;}
+.dd-bajaj_new_inputbox{ width:95%; height:25px;
+border-radius: 5px 5px 5px 5px;
+border: solid 2px #0199cd;}
+.dd-bajaj_new_selectbox{ width:97%; height:30px;
+border-radius: 5px 5px 5px 5px;
+border: solid 2px #0199cd; padding:5px;}
+.landline-bajaj_new_input{ width:20%; height:25px;
+border-radius: 5px 5px 5px 5px;
+border: solid 2px #0199cd;}
+.landline-bajaj_new_input2{ width:73%; height:25px;
+border-radius: 5px 5px 5px 5px;
+border: solid 2px #0199cd;}
+.year1-bajaj_new_input{ width:48%; height:30px;
+border-radius: 5px 5px 5px 5px; padding:5px;
+border: solid 2px #0199cd;}
+.year2-bajaj_new_input{ width:48%; padding:5px; height:30px;
+border-radius: 5px 5px 5px 5px;
+border: solid 2px #0199cd;}
+.table_bajaj_fin_details{ width:1000px; margin:auto;}
+/*...............new css added on 23-2-2015 starts ..............*/
+.tablewrapper-new{width:565px;}
+.tablewrapper-new2{width:565px; display:none;}
+/*................new css added on 23-2-2015 ends...............*/
+
+/*..................new css added as on 23-7-2015 starts...........*/
+.promowrapper{ width:10px auto; width:100%; border: thin solid #1097ad;}
+.promo-head-text{font-family:'Raleway'; font-size:24px; color:#0072bc;}
+.sub-promo-head-text{font-family:'Raleway'; font-size:12px; color:#0072bc;}
+
+
+/*..................new css added as on 23-7-2015 end...........*/
+
+@media screen and (min-device-width : 300px) and (max-width: 650px) {
+	#sidebar {
+	width: 340px;
+	float: right;
+	margin: 10px 0 30px;
+}
+	
+.tablewrapper-new{ width:300px; overflow:scroll !important;  overflow-y:hidden !important; display:none;}
+.tablewrapper-new2{width:300px; display: inherit; overflow:scroll !important;  overflow-y:hidden !important;}
+#content-new {
+background:#fff;
+margin:5px 0 30px;
+padding:10px;
+width:95%;
+/* rounded corner */
+
+}
+	
+.dd-bajaj_new_input{ width:25%; height:25px;
+border-radius: 5px 5px 5px 5px;
+border: solid 2px #0199cd;}
+.dd-bajaj_new_inputbox{ width:95%; height:25px;
+border-radius: 5px 5px 5px 5px;
+border: solid 2px #0199cd;}
+.dd-bajaj_new_selectbox{ width:97%; height:30px;
+border-radius: 5px 5px 5px 5px;
+border: solid 2px #0199cd; padding:5px;}
+.landline-bajaj_new_input{ width:20%; height:25px;
+border-radius: 5px 5px 5px 5px;
+border: solid 2px #0199cd;}
+.landline-bajaj_new_input2{width:70%; height:25px;
+border-radius: 5px 5px 5px 5px;
+border: solid 2px #0199cd;}
+.year1-bajaj_new_input{width:48%; height:30px;
+border-radius: 5px 5px 5px 5px; padding:5px;
+border: solid 2px #0199cd;}
+.year2-bajaj_new_input{width:48%; padding:5px; height:30px;
+border-radius: 5px 5px 5px 5px;
+border: solid 2px #0199cd;}
+.table_bajaj_fin_details{width:300px; overflow:scroll; margin:auto;}
+.sbi_input{width:100%; height:25px; border-radius:5px 5px 5px 5px; border: solid 2px #0199cd;}}

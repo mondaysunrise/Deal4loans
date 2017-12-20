@@ -1,0 +1,145 @@
+.global {
+	width: 100%;
+	margin:0px auto;
+	background-image: url(../images/global_bg.gif);
+	background-repeat: repeat-x;
+	height: 54px;
+	clear: left;
+	text-align:center;
+}
+.globalcont {
+	width: 960px;
+	margin:0px auto;
+}
+
+.masthead {
+	float: left;
+	width: 960px;
+	background-image: url(../images/masthead_bg.jpg);
+	background-repeat: repeat-x;
+	height: 112px;
+}
+.mastheadcont {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 10px;
+}
+.moneylogo {
+	float:left; 
+	width:249px; 
+}
+.ad728 {
+	float: left;
+}
+.tphead {
+	width:100%; float:left; height:80px; padding:5px 0px;
+}
+
+.blubg {
+	width:960px;
+	margin:0px auto;
+	height:3px;
+	overflow:hidden;
+	background-color:#3d60a4;
+}
+
+
+.d4llogo {
+float:right; width:201px; padding-right:10px; padding-top:35px;
+}
+
+.pl{
+	float:left;
+	width:315px;
+	padding-top:15px;
+	padding-left:130px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:25px;
+	font-weight:bold;
+	color:#3c61a5;
+}
+
+.footer {
+	width: 960px;
+	margin:0px auto;
+
+}
+.footercont {
+	width: 960px;
+	margin:0px auto;
+}
+
+.topnav {
+	width: 100%;
+	background-image: url(../images/topnav_bg.jpg);
+	background-repeat: repeat-x;
+	height: 27px;
+
+	clear: left;
+}
+.topnavcont {
+	width: 990px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 5px;
+
+}
+
+
+b.seltopnavbut {
+	color: #444;
+	display: block;
+	float: left;
+	font: normal 12px arial, sans-serif;
+	height: 22px;
+	margin-right: 12px;
+	padding-right: 10px; /* sliding doors padding */
+	text-decoration: none;
+	background-attachment: scroll;
+	background-color: transparent;
+	background-image: url(../images/topnav_sel_right.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+b.seltopnavbut span {
+	background: transparent url('../images/topnav_sel_left.gif') no-repeat;
+	display: block;
+	line-height: 14px;
+	font-weight: bold;
+	padding-top: 3px;
+	padding-right: 0;
+	padding-bottom: 5px;
+	padding-left: 12px;
+}
+
+
+a.topnavbut {
+	color: #444;
+	display: block;
+	float: left;
+	font: normal 12px arial, sans-serif;
+	height: 22px; /* sliding doors padding */
+	text-decoration: none;
+	background-attachment: scroll;
+	background-color: transparent;
+	margin-top: 0;
+	padding-bottom: 0; /* sliding doors padding */
+	margin-right: 15px;
+}
+
+a.topnavbut span {
+	display: block;
+	line-height: 14px;
+	font-weight: bold;
+	color: #fff;
+	margin-right: 12px;
+	padding-top: 2px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+}
+a.topnavbut:hover {
+	text-decoration:underline;
+	color:#FFFFFF;
+}

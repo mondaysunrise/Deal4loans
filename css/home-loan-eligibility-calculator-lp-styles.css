@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+body{ padding:0px 0px 0px 0px; margin:0px 0px 0px 0px; background: url(../images/body-bg-hl-eligibility-calculator.jpg) repeat;}
+.colum1{ float:left; width:367px; color:#463535; font-family:Arial, Helvetica, sans-serif; font-size:18px;}
+.colum2{ float:left; width:322px; color:#463535; font-family:Arial, Helvetica, sans-serif; font-size:18px;}
+.colum3{ float:left; width:345px; color:#463535; font-family:Arial, Helvetica, sans-serif; font-size:18px;}
+.colum4{ float:left; width:258px; color:#463535; font-family:Arial, Helvetica, sans-serif; font-size:18px;}
+.colum5{ float:left; width:142px; color:#463535; font-family:Arial, Helvetica, sans-serif; font-size:18px;}
+.colum6{ float:left; width:536px; color:#463535; font-family:Arial, Helvetica, sans-serif; font-size:18px;}
+.error_display{ float:right; width:171px;}
+.wrapper_second-new{ width:603px; margin:auto;}
+.wrapper_third-new{ width:678px; margin:auto;}
+.header-hl_ec{ height:69px; background:#FFF; width:100%; border-bottom:#7eb5eb thin solid;}
+.header{ width:1000px; margin:auto;}
+.logo_hlec{ float:left; width:116px; margin-left:5px;}
+.topnumbers_bx{ width:833px; float:left; text-align:center; font-family:Arial, Helvetica, sans-serif; font-size:24px; color:#000; margin-top:20px;}
+.banner_a{ width:100%; background: url(../images/bg-header-new1.jpg) repeat;}
+.banner_b{ width:1000px; margin:auto;}
+.hand_withmoney_bag{float:left; width:108px;}
+.clearfix_div{ clear:both;}
+.formdetails{ width:735px; float:left; margin-top:10px;}
+p{ color:#463535; font-family:Arial, Helvetica, sans-serif; font-size:18px; text-align:center;}
+.select{ width:171px; height:28px; border:#ccdbea solid thin;}
+.select-age{ width:95px; height:28px; border:#ccdbea solid thin;}
+.input{ width:171px; height:28px; border-bottom:#056ed9 solid thin; border-left:none; border-right:none; border-top:none; background:none; font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#056ed9;}
+.input:focus{ width:171px; height:28px; border-bottom:#056ed9 solid thin; border-left:none; border-right:none; border-top:none; background:none; font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#056ed9;}
+.input_name{ width:120px; height:28px; border-bottom:#056ed9 solid thin; border-left:none; border-right:none; border-top:none; background:none; font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#056ed9;}
+.input_name:focus{ width:120px; height:28px; border-bottom:#056ed9 solid thin; border-left:none; border-right:none; border-top:none; background:none; font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#056ed9;}
+.second_wrapper{ width:975px; margin:15px auto;}
+h1{ padding:0px 0px 0px 0px; margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; color:#000; font-weight:normal; font-size:21px;}
+.sbi_text{float:left; padding:5px; border-bottom:thick solid #1185bb; font-family:Arial, Helvetica, sans-serif; color:#1185bb; font-size:17px; margin-right:5px;}
+.bottom{ background:#484848; padding-top:15px; padding-bottom:15px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#CCC; text-align:center; margin-top:80px;}
+.bottom a{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#CCC; text-align:center; text-decoration:none;}
+.bottom a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFF; text-align:center; text-decoration:none;}
+.image_show_hide{ display:inherit;}
+.tablw_widht{}
+.td{ vertical-align:bottom;}
+@media screen and (max-width:762px)
+{
+.tablw_widht{ width:100%; display:inherit;}
+.image_show_hide{ display:none;}
+.header-hl_ec{ background:#FFF; width:100%; border-bottom:#7eb5eb thin solid;}
+.header{ width:100%; margin:auto;}
+.logo_hlec{ float:none; width:116px; margin-left:5px;}
+.topnumbers_bx{ width:100%; text-align:center; font-family:Arial, Helvetica, sans-serif; font-size:20px; color:#000; margin-top:20px;}
+.banner_a{ width:100%; background:url(images/bg-header-new-m.jpg) repeat;}
+.banner_b{ width:100%; margin:auto;}
+.hand_withmoney_bag{float:left; width:108px;}
+.clearfix_div{clear:both;}
+.formdetails{ width:100%; float:none; margin-top:10px;}
+p{ color:#463535; font-family:Arial, Helvetica, sans-serif; font-size:22px; width:110%; text-align:center;}
+.select{ width:95%; height:28px; border:#ccdbea solid thin;}
+.select-age{ width:95px; height:28px; border:#ccdbea solid thin;}
+.input{width:95%; height:28px; border-bottom:#056ed9 solid thin; border-left:none; border-right:none; border-top:none; background:none; margin-bottom:5px; font-family:Arial, Helvetica, sans-serif; font-size:24px; text-align:center; color:#056ed9;}
+.input:focus{ width:95%; height:28px; border-bottom:#056ed9 solid thin; border-left:none; border-right:none; border-top:none; background:none; margin-bottom:5px; font-family:Arial, Helvetica, sans-serif; font-size:24px; color:#056ed9; text-align:center;}
+.input_name{ width:95%; height:28px; border-bottom:#056ed9 solid thin; border-left:none; border-right:none; border-top:none; background:none; text-align:center; font-family:Arial, Helvetica, sans-serif; font-size:24px; color:#056ed9;}
+.input_name:focus{ text-align:center; width:95%; height:28px; border-bottom:#056ed9 solid thin; border-left:none; border-right:none; border-top:none; background:none; font-family:Arial, Helvetica, sans-serif; font-size:24px; color:#056ed9;}
+.second_wrapper{ width:90%; margin:15px auto;}
+h1{ padding:0px 0px 0px 0px; margin:0px 0px 0px 0px; font-family:Arial, Helvetica, sans-serif; color:#000; font-weight:normal; font-size:21px;}
+.sbi_text{float:left; padding:5px; border-bottom:thick solid #1185bb; font-family:Arial, Helvetica, sans-serif; color:#1185bb; font-size:17px; margin-right:5px;}
+.bottom{ background:#484848; padding-top:15px; padding-bottom:15px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#CCC; text-align:center; margin-top:15px;}
+.bottom a{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#CCC; text-align:center; text-decoration:none;}
+.bottom a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFF; text-align:center; text-decoration:none;}
+
+
+
+.colum1{width:90%; color:#463535; font-family:Arial, Helvetica, sans-serif; font-size:22px; margin:auto; float:none;}
+.colum2{width:90%; color:#463535; font-family:Arial, Helvetica, sans-serif; font-size:22px; margin:auto; float:none;}
+.colum3{width:90%; color:#463535; font-family:Arial, Helvetica, sans-serif; font-size:22px; margin:auto; float:none;}
+.colum4{width:90%; color:#463535; font-family:Arial, Helvetica, sans-serif; font-size:22px; margin:auto; float:none;}
+.colum5{width:90%; color:#463535; font-family:Arial, Helvetica, sans-serif; font-size:22px; margin:auto; float:none;}
+.colum6{width:90%; color:#463535; font-family:Arial, Helvetica, sans-serif; font-size:22px; margin:auto; float:none;}
+
+.wrapper_second-new{ width:110%; margin:auto;}
+.wrapper_third-new{ width:110%; margin:auto;}
+.error_display{ float:none; width:90%; margin-bottom:7px;}
+
+}

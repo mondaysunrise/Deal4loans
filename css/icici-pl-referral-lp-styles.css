@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+body{ margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+
+@font-face {
+   font-family: "Zurich Lt BT";
+   src: url(http://www.deal4loans.com/zurich-lt-bt-light.ttf) format("truetype");
+}
+.text_head_box{ width:500px; margin:0px auto; text-align:center; font-family: "Zurich Lt BT"; font-size:24px; color:#FFF; font-weight:bold;}
+#icici_pl-header{ width:100%; height:96px; background:url(../images/icici_refer_tpbg.jpg) repeat;}
+.icici_pl-header_inn{ width:1000px; height:96px; margin:auto; background: url(/images/icici_refer_tpbg_inn.png) no-repeat bottom;}
+.logo{float:left; width:176px; margin-top:25px;}
+.banner-icici-refer{background: url(/images/icici_rf_banner_bg.jpg) repeat-x; height:185px; width:1000px; margin:auto; border-bottom:#e3e0e0 solid thin;}
+.second_container{ width:1000px; margin:auto; padding-bottom:10px; border-right:#e3e0e0 solid thin; border-left:#e3e0e0 solid thin; border-bottom:#e3e0e0 solid thin;}
+.banner_text_bx{ width:782px; float:left; margin-top:30px; margin-left:15px;}
+.right_img_box{ width:153px; float:right; margin-top:6px; margin-right:20px;}
+.text_head_banner{ font-family:"Zurich Lt BT"; font-size:29px; color:#982b30; text-align:center; font-weight:bold;}
+.text_subhead_banner{ font-family:"Zurich Lt BT"; font-size:22px; color:#000000; text-align:center; font-weight:bold;}
+.left_form{ float:left; width:458px; border-radius:7px 7px 7px 7px; border:#d5d5d5 solid thin; margin-top:5px;  margin-left:10px;}
+.left_bg_tp{height:49px; width:100%; background:url(/images/icici_rf_form_tp_bg.jpg) repeat-x; border-radius:7px 7px 0px 0px;font-family:"Zurich Lt BT"; font-size:22px; font-weight:bold; color:#FFF; text-align:left;} 
+.shadow_line{ float:left; width:49px; background:url(/images/icici_rf_shadow-lining.png); height:485px;}
+.icici_input_details{ width:100%; margin-top:5px;}
+.form_text_body{ font-family:"Zurich Lt BT"; font-size:14px; font-weight:bold; color:#000;}
+.input_refer{ width:239px; height:25px; border:thin solid #c4c1c1;}
+.select_refer{ width:242px; height:28px; border:thin solid #c4c1c1;}
+.mobile_refer{ width:204px; height:25px; border:thin solid #c4c1c1;}
+.powered_text{ float:right; width:260px; margin-top:5px; font-family:"Zurich Lt BT"; font-size:16px; color:#0a86e5; font-weight:bold;}
+.other_head_text{ font-family:"Zurich Lt BT"; font-size:19px; color:#09366d;}
+.dd_icici{ width:73px; height:25px; border:thin solid #c4c1c1;}
+.ttxt_box{ width:100%; margin:auto; padding:20px 0px 20px 0px;}
+.aplication_text{ float:right; text-align:right; margin-right:10px; margin-top:5px; font-size:12px; font-family:"Zurich Lt BT";}
+

@@ -1,0 +1,127 @@
+
+#ajax_listOfOptions {
+    background-color: #FFFFFF;
+    border: 1px solid #317082;
+    color: black;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    height: 160px;
+    overflow: auto;
+    position: absolute;
+    text-align: left;
+    width: 300px;
+    z-index: 100;
+}
+#ajax_listOfOptions div {
+    cursor: pointer;
+    font-size: 10px;
+    margin: 1px;
+    padding: 1px;
+}
+#ajax_listOfOptions .optionDivSelected {
+    background-color: #2375CB;
+    color: #FFFFFF;
+}
+#ajax_listOfOptions_iframe {
+    background-color: #FF0000;
+    position: absolute;
+    z-index: 5;
+}
+form {
+    display: inline;
+}
+body {
+    background-color: #989898;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+}
+input, select {
+    border: 1px solid #CECECE;
+    margin: 0;
+    padding: 1px;
+}
+.lftshado {
+    background: url(new-images/hdfc-pl/left_shado.gif) repeat-y scroll left top transparent;
+    width: 6px;
+}
+.rgtshado {
+    background: url(new-images/hdfc-pl/right_shado.gif) repeat-y scroll left top transparent;
+    width: 6px;
+}
+.frmbg {
+    background: url(new-images/hdfc-pl/form_bg.gif) repeat-x scroll left bottom #F9F9F9;
+}
+
+
+
+.frmhdng {
+    color: #000066;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.boldtxt {
+    color: #ff6600;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+.privcytxt {
+    color: #4F4D4D;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 9px;
+    line-height: 11px;
+}
+.hdng {
+    color: #4F4D4D;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-indent: 18px;
+}
+.blutxt {
+    color: #fe6a07;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+.stepbg {
+    background: url("../new-images/hdfc-pl/step_bg.gif") no-repeat scroll left top transparent;
+    height: 107px;
+    width: 679px;
+}
+.stepdng {
+    color: #B04C09;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.steptxt {
+    color: #717171;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 25px;
+}
+.rgtfrmbg {
+    background: url("../new-images/hdfc-pl/rgtform_bg.gif") no-repeat scroll center top transparent;
+    color: #4F4D4D;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    height: 407px;
+    width: 276px;
+}
+.rgtfrmbg_nw {
+    background: url("../new-images/hdfc-pl/rgtform_bg_nw.gif") no-repeat scroll center top transparent;
+    color: #4F4D4D;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    height: 580px;
+    width: 276px;
+}
+
+

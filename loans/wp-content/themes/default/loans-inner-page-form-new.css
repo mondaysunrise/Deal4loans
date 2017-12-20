@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800,900);
+body{ margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.form-rightwp{ float:left; width:268px; padding:10px 5px 10px 5px; background:#7bcabd; font-family:'Raleway'; font-size:16px;}
+.span1{ padding:1px; background:#fc9605; color:#FFF; font-size:17px;}
+.span2{ padding:1px; background:#03a1a7; color:#FFF; font-size:17px;}
+.span3{ padding:1px; background:#ff4200; color:#FFF; font-size:17px; margin-left:5px;}
+.span4{ padding:1px; background:#044573; color:#FFF; font-size:17px; margin-left:0px;}
+.span5{ padding:1px; background:#fc7305; color:#FFF; font-size:17px; margin-left:2px;}
+.select-loans-wp{ width:95%; height:33px; border-radius:5px; font-size:17px; color:#066a60; font-weight:300; border:none;}
+.select-loans-wp-b{ width:93%; height:33px; border-radius:5px; font-size:17px; color:#066a60; font-weight:300; border:none;}
+
+.input-loans-wp{ width:92%; height:33px; border-radius:5px; font-size:17px; color:#066a60; font-weight:300; border:none;}
+.mobo-wp-new{ float:left; width:25px; height:33px; border-radius:5px; border:none; background:#FFF; line-height:25px; padding:0px 5px 0px 5px;}
+.mobo-wp-new2{ float:left; width:70%; height:33px; border-radius:5px; border:none; margin-left:5px;}

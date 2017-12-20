@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+body{ margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; background: url(../images/loans-agains-bodybg.jpg) ;}
+#header-lap{ height:154px; width:100%; margin:auto; background:#0976b9;}
+#header-lap-inner{ height:154px; width:1000px; margin:auto; background:url(../images/loans-agains-bodybglighting.png) left no-repeat; }
+.logo{float:left; width:184px; margin-top:35px;}
+.top-textbox{width:522px; float:left; margin-left:250px; margin-top:20px;}
+.top-text{ font-family:Tahoma, Geneva, sans-serif; font-size:40px; color:#FFF;}
+.top-text-sub{ font-family:Tahoma, Geneva, sans-serif; font-size:20px; color:#FFF;}
+span{ margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.content{ width:1003px; margin:auto; padding-bottom:15px;}
+.form_box_lap{ float:left; width:560px; padding:20px 5px 5px 5px; border:thin solid #CCC; border-radius:5px 5px 5px 5px; margin:7px 0px 0px 5px; background:#FFF;}
+.rihgt_box_lap{ float:left; width:388px; padding:10px 0px 10px 10px; border:thin solid #CCC; border-radius:5px 5px 5px 5px; margin:7px 10px 0px 5px; background:#FFF;}
+
+.head_text{ font-family:Verdana, Geneva, sans-serif; font-size:24px; color:#000000; font-weight:normal;} 
+.form_body{ font-family:Verdana, Geneva, sans-serif; font-size:14px; color:#000000; font-weight:bold;}
+.input_lap{ width:345px; height:26px; border:#0f8eda solid thin;} 
+.dd_input_lap{ width:109px; height:26px; border:#0f8eda solid thin; text-align:center} 
+.mob_input_lap{ width:305px; height:26px; border:#0f8eda solid thin;} 
+.select_lap{ width:345px; height:26px; border:#0f8eda solid thin; padding:2px;} 
+.term_text{ font-family:Verdana, Geneva, sans-serif; font-size:11px; color:#333;}
+.right_body-text{ font-family:Verdana, Geneva, sans-serif; font-size:16px; color:#000000;}
+.bullete_text ul{ padding:0px 0px 0px 0px; margin:0px 0px 0px 0px;}
+.bullete_text li { margin-left:20px; margin-top:5px; font-family:Verdana, Geneva, sans-serif; font-size:13px; color:#000; list-style:disc;}
+.mobo_box{ width:100%; height:154px; background:url(../images/mobo-box-lap.jpg); background:url(../images/mobo-box-lap.jpg); background-size:100% 100%; display:none;}
+
+#personalDetails{ width:560px; padding:20px 5px 5px 5px; margin:7px 0px 0px 5px;}
+.bank-name{ display:none; width:100%;}
+@media screen and (max-width:880px) {
+	.top-text-sub{ font-family:Tahoma, Geneva, sans-serif; font-size:15px; color:#FFF;}
+	.top-text{ font-family:Tahoma, Geneva, sans-serif; font-size:25px; color:#FFF;}
+	.top-textbox{width:95%; float:none; margin:0px 0px 0px 0px;}
+.logo{width:184px; margin-top:35px; float:none;}
+.mobo_box{ width:100%; height:auto; background:#0976b9!important; background-size:100% 100%; display:inherit; display:none;}
+img{ max-width:100%;}
+#header-lap{ height:auto; width:100%; margin:auto; background:#0976b9 !important;}
+#header-lap-inner{ height:auto; width:100%; margin:auto; background:#0976b9;}
+.content{ width:95%; margin:5px 5px 5px 5px;
+border-radius:0px 0px 10px 10px; background:#FFF repeat; margin-top:2px;  padding-bottom:15px;}
+.form_box_lap{width:90%; padding:20px 5px 5px 5px; margin:5px 0px 0px 0px;}
+.rihgt_box_lap{ width:95%; padding:5px 0px 5px 5px; border:thin solid #CCC; border-radius:5px 5px 5px 5px; margin:10px 5px 0px 0px; display:none;}
+.head_text{ font-family:Verdana, Geneva, sans-serif; font-size:24px; color:#000000; font-weight:normal;} 
+.form_body{ font-family:Verdana, Geneva, sans-serif; font-size:14px; color:#000000; font-weight:bold;}
+.input_lap{ width:95%; height:26px; border:#0f8eda solid thin;} 
+.select_lap{ width:95%; height:26px; border:#0f8eda solid thin; padding:2px;} 
+.dd_input_lap{ width:30%; height:26px; border:#0f8eda solid thin; text-align:center} 
+.mob_input_lap{ width:70%; height:26px; border:#0f8eda solid thin;} 
+.term_text{ font-family:Verdana, Geneva, sans-serif; font-size:11px; color:#333;}
+.right_body-text{ font-family:Verdana, Geneva, sans-serif; font-size:16px; color:#000000;}
+.bullete_text ul{ padding:0px 0px 0px 0px; margin:0px 0px 0px 0px;}
+.bullete_text li { margin-left:20px; margin-top:5px; font-family:Verdana, Geneva, sans-serif; font-size:13px; color:#000; list-style:disc;}
+.bank-name{ display:inherit; width:100%;}
+}

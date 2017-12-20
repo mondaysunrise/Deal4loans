@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+.home-loan-new-head{ font-weight:bold; font-size:42px; color:#343434; padding:0px 0px 0px 0px; margin:0px 0px 0px 0px; text-align:center;}
+.body-text-new-hl{ font-size:16px;}
+.body-text-new-h2{ font-size:26px; margin-top:10px; margin-bottom:10px;}
+.row-hl-new-main-wrapper{ width:1000px; margin:10px auto;}
+.hl-newform-wrapper{ width:671px; margin:auto;}
+.hl-newform-wrapper-main{ width:871px; margin:auto;}
+.float-left{ float:left;}
+.loan-taken-bx{ float:left; margin-left:10px; margin-top:55px;}
+.hl-newform-wrapper-main{ width:871px; margin:auto;}
+
+.th-new-text{ font-size:16px; color:#63cdc2;}
+.th-new2-text{ font-size:16px; color:#343434;}
+
+.hl-newform-wrapper-new{ width:980px; margin:auto; }
+.textinput-new111{  font-size:14px; color:#FFFFFF; margin-bottom:5px;}
+.applybtn{ width:90px !important; border-radius:7px; padding:10px 7px 10px 7px; background:#79AB01;  color:#FFF !important; text-decoration:none !important;}
+.applybtn div{width:90px !important; border-radius:7px; padding:10px 7px 10px 7px; background:#79AB01;  color:#FFF !important; text-decoration:none !important;}
+
+@media screen and (max-width:680px){
+.home-loan-new-head{  font-weight:bold; font-size:42px; color:#343434; padding:0px 0px 0px 0px; margin:0px 0px 0px 0px; text-align:center;}
+.body-text-new-hl{ font-size:16px;}
+.body-text-new-h2{ font-size:26px; margin-top:10px; margin-bottom:10px;}
+.row-hl-new-main-wrapper{ width:100%; margin:10px auto;}
+.hl-newform-wrapper{ width:90%; margin:auto;}
+.hl-newform-wrapper-main{ width:90%; margin:auto;}
+.float-left{ float:left;}
+.loan-taken-bx{ float:left; margin-left:10px; margin-top:55px;}
+.hl-newform-wrapper-main{ width:90%; margin:auto;}
+
+.th-new-text{ font-size:16px; color:#63cdc2;}
+.th-new2-text{ font-size:16px; color:#343434;}
+
+.hl-newform-wrapper-new{ width:90%; margin:auto; }
+
+/*.....................new css added on 27/1/2015 starts................*/
+
+.home-loan-inner_box{ width:95%; margin:45px auto; background:none;}
+
+.best-bank-ico-bx{width:138px; margin:7px auto; float:none;}
+.best-bank-ico-bx2{ width:60px; height:60px; margin:auto; transition: all .2s ease-in-out;}
+.best-bank-ico-bx2:hover{ width:60px; height:60px; margin:auto; transform: scale(1.15);}
+.text-below-icon{  font-size:14px; color:#343434; text-align:center; margin-top:5px;}
+.text-below-icon a{  font-size:14px; color:#343434; text-align:center; text-decoration:none;}
+.text-below-icon a:hover{  font-size:14px; color:#f89412; text-align:center;}
+
+.best-bank-ico-bx-right{width:188px; margin:7px auto; float:none;}
+.best-bank-ico-bx-right2{width:188px; margin:7px auto; float:none;}
+.best-bank-ico-bx3{width:138px; margin:7px auto; float:none;}
+.best-bank-ico-bx4{ width:210px; margin:7px auto; float:none;}
+.hl-newform-wrapper-main-new1{ width:95%; margin:auto;}
+.form-wrapper-main{ width:95%; background:#069eca; border-radius:5px; margin:auto; padding:5px;}
+.input-hanger-new{float:left; width:213px; margin-top:10px;}
+/*.....................new css added on 27/1/2015 ends................*/
+}

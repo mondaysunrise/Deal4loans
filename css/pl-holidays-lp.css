@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+body{ background: #FFF url(../d4limages/background-holidays-lp.jpg) repeat-x; background-size:100% 450px;}
+#top_wrapper{ width:100%; max-width:1000px; margin:auto; }
+#second_wrapper{ width:100%; max-width:1000px; margin:auto; }
+#logo{float:left; width:172px; margin-top:10px;}
+#text_top{float:left; width:671px; margin-left:50px; line-height:80px;
+font-family:Verdana, Geneva, sans-serif; font-size:26px; color:#000000;}
+.colum_one{ float:left; width:60%; max-width:500px; }
+
+.form_wrapper{  width:100%;  padding:7px; max-width:500px; background:url(../d4limages/form-bg.png) repeat; padding:7px; border:#cecece solid thin; }
+
+.colum_two{ float:right; width:45%; max-width:465px; height:322px;  margin-right:10px; }
+img{ width:100%; height:100%;}
+
+.colum_image{  width:100%;  height:320px;  background:url(../d4limages/form-bg.png) repeat;  border:#cecece solid thin; padding:5px;}
+img{ width:100%; height:100%;}
+
+.why_text_box{width:100%; padding:7px 7px 35px 7px; margin-top:10px; max-width:500px; background: #FFF;  border:#cecece solid thin;}
+.text_a{ font-family:Verdana, Geneva, sans-serif; font-size:22px; color:#0d76b5;} 
+.text_b{ font-family:Verdana, Geneva, sans-serif; font-size:18px; color:#000000;} 
+.text_c{ font-family:Verdana, Geneva, sans-serif; font-size:14px; color:#000000;} 
+.text_d{ font-family:Verdana, Geneva, sans-serif; font-size:20px; color:#000000;} 
+.text_e ul{ margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;} 
+.text_e li{ font-family:Verdana, Geneva, sans-serif; font-size:14px; margin-left:20px; margin-top:10px; color:#000000;
+list-style: url(../d4limages/bullet-tick-blue.png)} 
+
+.input{ width:95%; height:32px; border:#d2d2d2 solid thin;}
+.mobile{ width:81%; height:32px; border:#d2d2d2 solid thin;}
+.dd{ width:25%; height:32px; border:#d2d2d2 solid thin;}
+.yy{ width:40%; height:32px; border:#d2d2d2 solid thin;}
+
+.testimonial_box{ width:100%;   margin-top:10px; }
+.logo_box{ width:93%; margin-top:1px; padding:5px; border:thin solid #EAEAEA; }
+.steps_box{ float:left; width:300px;}
+.stickpin-box{ width:130px; float:right;}
+.logo ul{ margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.logo li{ float:left; width:100px; margin-right:3px; list-style:none;}
+
+@media screen and (max-width: 840px){
+	#top_wrapper{ width:100%; max-width:100%; margin:auto; }
+#second_wrapper{width:100%; max-width:100%; margin:auto; }
+#logo{ width:172px; float: none; }
+#text_top{ float: none; max-width:100%; font-family:Verdana, Geneva, sans-serif; font-size:18px; color:#000000; line-height:25px; margin:10px 0px 0px 0px; padding:0px 0px 0px 0px !important;}
+.colum_one{ width:100%; max-width:100%; }
+.form_wrapper{  width:100%;  padding:7px; max-width:100%; background:url(../d4limages/form-bg.png) repeat; padding:7px; border:#cecece solid thin; }
+
+.colum_two{width:100%; max-width:98%; height:322px; margin-top:10px;}
+img{ width:100%; height:100%;}
+
+.colum_image{  width:100%;  height:320px;  background:url(../d4limages/form-bg.png) repeat;  border:#cecece solid thin; padding:5px;}
+img{ width:100%; height:100%;}
+
+.why_text_box{width:100%; padding:7px 7px 35px 7px; margin-top:10px; max-width:100%; background: #FFF;  border:#cecece solid thin;}
+.text_a{ font-family:Verdana, Geneva, sans-serif; font-size:22px; color:#0d76b5;} 
+.text_b{ font-family:Verdana, Geneva, sans-serif; font-size:18px; color:#000000;} 
+.text_c{ font-family:Verdana, Geneva, sans-serif; font-size:14px; color:#000000;} 
+.text_d{ font-family:Verdana, Geneva, sans-serif; font-size:20px; color:#000000;} 
+.text_e ul{ margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;} 
+.text_e li{ font-family:Verdana, Geneva, sans-serif; font-size:14px; margin-left:20px; margin-top:10px; color:#000000;
+list-style: url(../d4limages/bullet-tick-blue.png)} 
+
+.input{ width:95%; height:32px; border:#d2d2d2 solid thin;}
+.mobile{ width:90%; height:32px; border:#d2d2d2 solid thin;}
+.dd{ width:25%; height:32px; border:#d2d2d2 solid thin;}
+.yy{ width:40%; height:32px; border:#d2d2d2 solid thin;}
+
+.testimonial_box{ width:100%;   margin-top:10px; }
+.logo_box{ width:93%; margin-top:1px; padding:5px; border:thin solid #EAEAEA; }
+.steps_box{ float:left; width:300px;}
+.stickpin-box{ width:130px; float:right;}
+.logo ul{ margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.logo li{ float:left; width:100px; margin-right:3px; list-style:none;}
+	
+	}
+
+
+
+
+

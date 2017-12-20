@@ -1,0 +1,60 @@
+body{
+background-image:url(../images/lap-bg.gif);
+background-repeat:repeat;
+}
+
+input{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	border:1px solid #082F58;
+	color:#2E1D04;
+	margin:1px 0px;
+	}
+
+select {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	color:#2E1D04;
+	}
+
+.wht-text{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+font-weight:normal;
+color:#FFFFFF;
+line-height:17px;
+}
+
+.whtbold-text{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+font-weight:bold;
+color:#FFFFFF;
+line-height:17px;
+}
+
+.stpbold-text{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+font-weight:bold;
+color:#736A21;
+line-height:17px;
+}
+
+.bluebld-text{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+font-weight:bold;
+color:#08365A;
+line-height:22px;
+}
+
+.blue-text{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+font-weight:normal;
+color:#08365A;
+line-height:17px;
+}

@@ -1,0 +1,1852 @@
+.maruti {color:#FFFFFF; background:#F5F5F5 url(../newimages/maruti_bg.png); background-position:center; background-repeat:no-repeat; background-attachment:fixed;}
+#maruti-model-box{text-align:center;  float:right; width:100px;  background:#623dbd; line-height:35px;  height:100px; margin-top:2px;}
+.maruti-menu-section{ width:185px; float:left; margin-top:0px;}
+.maruti-content{ width:200px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px; padding:5px 5px 5px 5px; height:auto; float:left; margin-left:5px; margin-top:0px; background:#9472ea;}
+.maruti-content2{ width:236px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px;  height:auto; float:left; margin-left:2px; margin-top:0px; background: #f2f2f2; padding-left:5px; padding-top:5px;}
+.maruti_menu_top_text_box{ width:900px; height:25px; margin:auto; font-family:Arial, Helvetica, sans-serif; font-size:35px; color:#666666; font-weight:normal;}
+#maruti_internal_text{ font-size:12px; font-family:Arial, Helvetica, sans-serif; color: #000000; font-weight:bold; text-indent:10px;}
+.maruti-body_text a{ font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color: #666666; text-decoration:none;}
+.maruti-body_text { font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color:  text-decoration:none;}
+.maruti-body_text a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#1e7983; text-decoration:none;}
+.maruti-body_text2 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.maruti-body_text2{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.maruti-body_text2 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#1e7983; text-decoration:none;  text-align:center; }
+
+.maruti-body_text{ font-family:Arial, Helvetica, sans-serif; font-size:14pxpx; font-weight:bold; color: #FFFFFF; text-decoration:none;}
+
+.maruti_center_box{ margin:auto; width:800px;}
+.maruti-body_text3{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.maruti-body_text3 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.maruti-body_text3 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color: #666666; text-decoration:none;  text-align:center; }
+
+
+#marutimenu {font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 100%;width: 160px;padding: 0px;margin: 0px;}
+#marutimenu h1 {display: block; background-color:#FF9900;font-size: 90%; padding: 3px 0 5px 3px;border: 1px solid #000000;color: #333333;margin: 0px;width:159px;}
+#marutimenu ul {list-style: none;margin: 0px;padding: 0px;border: none;}
+#marutimenu ul li {margin: 0px;padding: 0px;}
+#marutimenu ul li a {font-size: 80%;display: block;padding: 5px 0px 2px 2px;margin-bottom: 2px;text-decoration: none;text-align:left;color: #FFFFFF;background:#623dbe;width:200px;}
+
+#marutimenu ul li a:hover, #marutimenu ul li a:focus {color: #000000;background-color: #eeeeee;}
+#marutimenu2 {font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 100%;width: 228px;padding: 0px;margin: 0px;}
+#marutimenu2 ul {list-style: none;margin: 0px;padding: 0px;border: none;}
+#marutimenu2 ul li {margin: 0px;padding: 0px;}
+#marutimenu2 ul li a {font-size: 80%;display: block;margin-bottom: 2px;text-decoration: none;text-align:left;color: #000000;background:#FFFFFF;width:228px;padding: 5px 0px 2px 2px;}
+
+#marutimenu2 ul li a:hover, #marutimenu ul li a:focus {background-color:  #623dbe;color: #ffffff;}
+
+/**********************************Toyota****************************/
+.toyota  {background:#623dbd; color:#FFFFFF;}
+#toyota-model-box{ text-align:center; float:right; width: 100px; background:#297aee; line-height:35px;  height:100px; margin-top:3px;}
+.toyota-menu-section{ width:185px; float:left; margin-top:0px;}
+.toyota-content{ width:200px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px; padding:5px 5px 5px 5px; height:auto; float:left; margin-left:5px; margin-top:0px; background:#83b6ff;}
+.toyota-content2{ width:236px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px;  height:421px; float:left; margin-left:2px; margin-top:0px; background: #f2f2f2; padding-left:5px; padding-top:5px;}
+.toyota_menu_top_text_box{ width:900px; height:25px; margin:auto; font-family:Arial, Helvetica, sans-serif; font-size:35px; color:#666666; font-weight:normal;}
+#toyota_internal_text{ font-size:12px; font-family:Arial, Helvetica, sans-serif; color: #000000; font-weight:bold; text-indent:10px;}
+.toyota-body_text a{ font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color: #666666; text-decoration:none;}
+.toyota-body_text { font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color:  text-decoration:none;}
+.toyota-body_text a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#1e7983; text-decoration:none;}
+.toyota-body_text2 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.toyota-body_text2{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.toyota-body_text2 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#1e7983; text-decoration:none;  text-align:center; }
+
+.toyota-body_text{ font-family:Arial, Helvetica, sans-serif; font-size:14pxpx; font-weight:bold; color: #FFFFFF; text-decoration:none;}
+
+.toyota_center_box{ margin:auto; width:800px;}
+.toyota-body_text3{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.toyota-body_text3 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.toyota-body_text3 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color: #666666; text-decoration:none;  text-align:center; }
+
+
+#toyotamenu {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 160px;
+padding: 0px;
+margin: 0px;
+}
+
+
+#toyotamenu ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+border: none;
+}
+#toyotamenu ul li {
+margin: 0px;
+padding: 0px;
+}
+#toyotamenu ul li a {
+font-size: 80%;
+display: block;
+padding: 5px 0px 2px 2px;
+margin-bottom: 2px;
+text-decoration: none;
+text-align:left;
+color: #FFFFFF;
+background:#297aee;
+width:200px;
+}
+
+#toyotamenu ul li a:hover, #toyotamenu ul li a:focus {
+color: #000000;
+background-color: #eeeeee;
+}
+#toyotamenu2 {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 228px;
+padding: 0px;
+margin: 0px;
+}
+#toyotamenu2 ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+border: none;
+}
+#toyotamenu2 ul li {
+margin: 0px;
+padding: 0px;
+}
+#toyotamenu2 ul li a {
+font-size: 80%;
+display: block;
+margin-bottom: 2px;
+text-decoration: none;
+text-align:left;
+color: #000000;
+background:#FFFFFF;
+width:228px;
+padding: 5px 0px 2px 2px;
+}
+
+#toyotamenu2 ul li a:hover, #toyotamenu ul li a:focus {
+background-color:  #297aee;
+color: #ffffff;
+}
+
+/**********************************volkswagen****************************/
+.volkswagen {background:#623dbd; color:#FFFFFF;}
+#volkswagen-model-box{ text-align:center; float:right; width:100px; background:#b01a40; line-height:35px;  height:100px; margin-top:2px;}
+.volkswagen-menu-section{ width:185px; float:left; margin-top:0px;}
+.volkswagen-content{ width:200px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px; padding:5px 5px 5px 5px; height:auto; float:left; margin-left:5px; margin-top:0px; background:#f7416f;}
+.volkswagen-content2{ width:236px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px;  height:421px; float:left; margin-left:2px; margin-top:0px; background: #f2f2f2; padding-left:5px; padding-top:5px;}
+.volkswagen_menu_top_text_box{ width:900px; height:25px; margin:auto; font-family:Arial, Helvetica, sans-serif; font-size:35px; color:#666666; font-weight:normal;}
+#volkswagen_internal_text{ font-size:12px; font-family:Arial, Helvetica, sans-serif; color: #000000; font-weight:bold; text-indent:10px;}
+.volkswagen-body_text a{ font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color: #666666; text-decoration:none;}
+.volkswagen-body_text { font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color:  text-decoration:none;}
+.volkswagen-body_text a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#1e7983; text-decoration:none;}
+.volkswagen-body_text2 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.volkswagen-body_text2{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.volkswagen-body_text2 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#1e7983; text-decoration:none;  text-align:center; }
+
+.volkswagen-body_text{ font-family:Arial, Helvetica, sans-serif; font-size:14pxpx; font-weight:bold; color: #FFFFFF; text-decoration:none;}
+
+.volkswagen_center_box{ margin:auto; width:800px;}
+.volkswagen-body_text3{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.volkswagen-body_text3 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.volkswagen-body_text3 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color: #666666; text-decoration:none;  text-align:center; }
+
+
+#volkswagenmenu {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 160px;
+padding: 0px;
+margin: 0px;
+}
+
+
+#volkswagenmenu ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+border: none;
+}
+#volkswagenmenu ul li {
+margin: 0px;
+padding: 0px;
+}
+#volkswagenmenu ul li a {
+font-size: 80%;
+display: block;
+padding: 5px 0px 2px 2px;
+margin-bottom: 2px;
+text-decoration: none;
+text-align:left;
+color: #FFFFFF;
+background:#b01a40;
+width:200px;
+}
+
+#volkswagenmenu ul li a:hover, #volkswagenmenu ul li a:focus {
+color: #000000;
+background-color: #eeeeee;
+}
+#volkswagenmenu2 {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 228px;
+padding: 0px;
+margin: 0px;
+}
+#volkswagenmenu2 ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+border: none;
+}
+#volkswagenmenu2 ul li {
+margin: 0px;
+padding: 0px;
+}
+#volkswagenmenu2 ul li a {
+font-size: 80%;
+display: block;
+margin-bottom: 2px;
+text-decoration: none;
+text-align:left;
+color: #000000;
+background:#FFFFFF;
+width:228px;
+padding: 5px 0px 2px 2px;
+}
+
+#volkswagenmenu2 ul li a:hover, #volkswagenmenu ul li a:focus {
+background:#b01a40;
+color: #ffffff;
+}
+
+/***********************Honda****************************/
+.honda {background:#623dbd; color:#FFFFFF;}
+#honda-model-box{text-align:center; float:right; width:100px; background:#009118; line-height:35px;  height:100px; margin-top:2px;}
+.honda-menu-section{ width:185px; float:left; margin-top:0px;}
+.honda-content{ width:200px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px; padding:5px 5px 5px 5px; height:auto; float:left; margin-left:5px; margin-top:0px; background:#c6e57b;}
+.honda-content2{ width:236px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px;  height:421px; float:left; margin-left:2px; margin-top:0px; background: #f2f2f2; padding-left:5px; padding-top:5px;}
+.honda_menu_top_text_box{ width:900px; height:25px; margin:auto; font-family:Arial, Helvetica, sans-serif; font-size:35px; color:#666666; font-weight:normal;}
+#honda_internal_text{ font-size:12px; font-family:Arial, Helvetica, sans-serif; color: #000000; font-weight:bold; text-indent:10px;}
+.honda-body_text a{ font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color: #666666; text-decoration:none;}
+.honda-body_text { font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color:  text-decoration:none;}
+.honda-body_text a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#1e7983; text-decoration:none;}
+.honda-body_text2 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.honda-body_text2{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.honda-body_text2 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#1e7983; text-decoration:none;  text-align:center; }
+
+.honda-body_text{ font-family:Arial, Helvetica, sans-serif; font-size:14pxpx; font-weight:bold; color: #FFFFFF; text-decoration:none;}
+
+.honda_center_box{ margin:auto; width:800px;}
+.honda-body_text3{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.honda-body_text3 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.honda-body_text3 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color: #666666; text-decoration:none;  text-align:center; }
+
+
+#hondamenu {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 160px;
+padding: 0px;
+margin: 0px;
+}
+
+
+#hondamenu ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+border: none;
+}
+#hondamenu ul li {
+margin: 0px;
+padding: 0px;
+}
+#hondamenu ul li a {
+font-size: 80%;
+display: block;
+padding: 5px 0px 2px 2px;
+margin-bottom: 2px;
+text-decoration: none;
+text-align:left;
+color: #FFFFFF;
+background:#009118;
+width:200px;
+}
+
+#hondamenu ul li a:hover, #hondamenu ul li a:focus {
+color: #000000;
+background-color: #eeeeee;
+}
+#hondamenu2 {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 228px;
+padding: 0px;
+margin: 0px;
+}
+#hondamenu2 ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+border: none;
+}
+#hondamenu2 ul li {
+margin: 0px;
+padding: 0px;
+}
+#hondamenu2 ul li a {
+font-size: 80%;
+display: block;
+margin-bottom: 2px;
+text-decoration: none;
+text-align:left;
+color: #000000;
+background:#FFFFFF;
+width:228px;
+padding: 5px 0px 2px 2px;
+}
+
+#hondamenu2 ul li a:hover, #hondamenu ul li a:focus {
+background:#009118;
+color: #ffffff;
+}
+
+
+/****************************Mahindra*************************/
+.mahindra {background:#623dbd; color:#FFFFFF;}
+#mahindra-model-box{text-align:center; float:right; width:100px; background:#459fa7; line-height:35px;  height:100px; margin-top:2px;}
+.mahindra-menu-section{ width:185px; float:left; margin-top:0px;}
+.mahindra-content{ width:200px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px; padding:5px 5px 5px 5px; height:auto; float:left; margin-left:5px; margin-top:0px; background:#9fe1e7;}
+.mahindra-content2{ width:236px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px;  height:421px; float:left; margin-left:2px; margin-top:0px; background: #f2f2f2; padding-left:5px; padding-top:5px;}
+.mahindra_menu_top_text_box{ width:900px; height:25px; margin:auto; font-family:Arial, Helvetica, sans-serif; font-size:35px; color:#666666; font-weight:normal;}
+#mahindra_internal_text{ font-size:12px; font-family:Arial, Helvetica, sans-serif; color: #000000; font-weight:bold; text-indent:10px;}
+.mahindra-body_text a{ font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color: #666666; text-decoration:none;}
+.mahindra-body_text { font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color:  text-decoration:none;}
+.mahindra-body_text a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#1e7983; text-decoration:none;}
+.mahindra-body_text2 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.mahindra-body_text2{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.mahindra-body_text2 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#1e7983; text-decoration:none;  text-align:center; }
+
+.mahindra-body_text{ font-family:Arial, Helvetica, sans-serif; font-size:14pxpx; font-weight:bold; color: #FFFFFF; text-decoration:none;}
+
+.mahindra_center_box{ margin:auto; width:800px;}
+.mahindra-body_text3{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.mahindra-body_text3 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.mahindra-body_text3 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color: #666666; text-decoration:none;  text-align:center; }
+
+
+#mahindramenu {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 160px;
+padding: 0px;
+margin: 0px;
+}
+
+
+#mahindramenu ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+border: none;
+}
+#mahindramenu ul li {
+margin: 0px;
+padding: 0px;
+}
+#mahindramenu ul li a {
+font-size: 80%;
+display: block;
+padding: 5px 0px 2px 2px;
+margin-bottom: 2px;
+text-decoration: none;
+text-align:left;
+color: #FFFFFF;
+background:#459fa7;
+width:200px;
+}
+
+#mahindramenu ul li a:hover, #mahindramenu ul li a:focus {
+color: #000000;
+background-color: #eeeeee;
+}
+#mahindramenu2 {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 228px;
+padding: 0px;
+margin: 0px;
+}
+#mahindramenu2 ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+border: none;
+}
+#mahindramenu2 ul li {
+margin: 0px;
+padding: 0px;
+}
+#mahindramenu2 ul li a {
+font-size: 80%;
+display: block;
+margin-bottom: 2px;
+text-decoration: none;
+text-align:left;
+color: #000000;
+background:#FFFFFF;
+width:228px;
+padding: 5px 0px 2px 2px;
+}
+
+#mahindramenu2 ul li a:hover, #mahindramenu ul li a:focus {
+background:#459fa7;
+color: #ffffff;
+}
+
+/*********************Skoda*****************************/
+.skoda {background:#623dbd; color:#FFFFFF;}
+#skoda-model-box{text-align:center; float:right; width:100px; background:#623dbd; line-height:35px;  height:100px; margin-top:2px;}
+.skoda-menu-section{ width:185px; float:left; margin-top:0px;}
+.skoda-content{ width:200px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px; padding:5px 5px 5px 5px; height:auto; float:left; margin-left:5px; margin-top:0px; background:#9472ea;}
+.skoda-content2{ width:236px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px;  height:421px; float:left; margin-left:2px; margin-top:0px; background: #f2f2f2; padding-left:5px; padding-top:5px;}
+.skoda_menu_top_text_box{ width:900px; height:25px; margin:auto; font-family:Arial, Helvetica, sans-serif; font-size:35px; color:#666666; font-weight:normal;}
+#skoda_internal_text{ font-size:12px; font-family:Arial, Helvetica, sans-serif; color: #000000; font-weight:bold; text-indent:10px;}
+.skoda-body_text a{ font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color: #666666; text-decoration:none;}
+.skoda-body_text { font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color:  text-decoration:none;}
+.skoda-body_text a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#1e7983; text-decoration:none;}
+.skoda-body_text2 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.skoda-body_text2{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.skoda-body_text2 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#1e7983; text-decoration:none;  text-align:center; }
+
+.skoda-body_text{ font-family:Arial, Helvetica, sans-serif; font-size:14pxpx; font-weight:bold; color: #FFFFFF; text-decoration:none;}
+
+.skoda_center_box{ margin:auto; width:800px;}
+.skoda-body_text3{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.skoda-body_text3 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.skoda-body_text3 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color: #666666; text-decoration:none;  text-align:center; }
+
+
+#skodamenu {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 160px;
+padding: 0px;
+margin: 0px;
+}
+
+
+#skodamenu ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+border: none;
+}
+#skodamenu ul li {
+margin: 0px;
+padding: 0px;
+}
+#skodamenu ul li a {
+font-size: 80%;
+display: block;
+padding: 5px 0px 2px 2px;
+margin-bottom: 2px;
+text-decoration: none;
+text-align:left;
+color: #FFFFFF;
+background:#623dbd;
+width:200px;
+}
+
+#skodamenu ul li a:hover, #skodamenu ul li a:focus {
+color: #000000;
+background-color: #eeeeee;
+}
+#skodamenu2 {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 228px;
+padding: 0px;
+margin: 0px;
+}
+#skodamenu2 ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+border: none;
+}
+#skodamenu2 ul li {
+margin: 0px;
+padding: 0px;
+}
+#skodamenu2 ul li a {
+font-size: 80%;
+display: block;
+margin-bottom: 2px;
+text-decoration: none;
+text-align:left;
+color: #000000;
+background:#FFFFFF;
+width:228px;
+padding: 5px 0px 2px 2px;
+}
+
+#skodamenu2 ul li a:hover, #skodamenu ul li a:focus {
+background:#623dbd;
+color: #ffffff;
+}
+
+/**********************************BMW************************/
+.bmw {background:#623dbd; color:#FFFFFF;}
+#bmw-model-box{text-align:center; float:right; width:100px; background:#db891d; line-height:35px;  height:100px; margin-top:2px;}
+.bmw-menu-section{ width:185px; float:left; margin-top:0px;}
+.bmw-content{ width:200px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px; padding:5px 5px 5px 5px; height:auto; float:left; margin-left:5px; margin-top:0px; background:#ffc06c;}
+.bmw-content2{ width:236px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px;  height:421px; float:left; margin-left:2px; margin-top:0px; background: #f2f2f2; padding-left:5px; padding-top:5px;}
+.bmw_menu_top_text_box{ width:900px; height:25px; margin:auto; font-family:Arial, Helvetica, sans-serif; font-size:35px; color:#666666; font-weight:normal;}
+#bmw_internal_text{ font-size:12px; font-family:Arial, Helvetica, sans-serif; color: #000000; font-weight:bold; text-indent:10px;}
+.bmw-body_text a{ font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color: #666666; text-decoration:none;}
+.bmw-body_text { font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color:  text-decoration:none;}
+.bmw-body_text a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#1e7983; text-decoration:none;}
+.bmw-body_text2 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.bmw-body_text2{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.bmw-body_text2 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#1e7983; text-decoration:none;  text-align:center; }
+
+.bmw-body_text{ font-family:Arial, Helvetica, sans-serif; font-size:14pxpx; font-weight:bold; color: #FFFFFF; text-decoration:none;}
+
+.bmw_center_box{ margin:auto; width:800px;}
+.bmw-body_text3{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.bmw-body_text3 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.bmw-body_text3 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color: #666666; text-decoration:none;  text-align:center; }
+
+
+#bmwmenu {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 160px;
+padding: 0px;
+margin: 0px;
+}
+
+
+#bmwmenu ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+border: none;
+}
+#bmwmenu ul li {
+margin: 0px;
+padding: 0px;
+}
+#bmwmenu ul li a {
+font-size: 80%;
+display: block;
+padding: 5px 0px 2px 2px;
+margin-bottom: 2px;
+text-decoration: none;
+text-align:left;
+color: #FFFFFF;
+background:#db891d;
+width:200px;
+}
+
+#bmwmenu ul li a:hover, #bmwmenu ul li a:focus {
+color: #000000;
+background-color: #eeeeee;
+}
+#bmwmenu2 {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 228px;
+padding: 0px;
+margin: 0px;
+}
+#bmwmenu2 ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+border: none;
+}
+#bmwmenu2 ul li {
+margin: 0px;
+padding: 0px;
+}
+#bmwmenu2 ul li a {
+font-size: 80%;
+display: block;
+margin-bottom: 2px;
+text-decoration: none;
+text-align:left;
+color: #000000;
+background:#FFFFFF;
+width:228px;
+padding: 5px 0px 2px 2px;
+}
+
+#bmwmenu2 ul li a:hover, #bmwmenu ul li a:focus {
+background:#db891d;
+color: #ffffff;
+}
+
+/***************************** TATA *************************************/
+.tata {color:#FFFFFF; background:#F5F5F5 url(../newimages/tata_bg.png); background-position:center; background-repeat:no-repeat; background-attachment:fixed;}
+#tata-model-box{text-align:center; float:right; width:100px; background:#2e87ef; line-height:35px;  height:100px; margin-top:2px;}
+.tata-menu-section{ width:185px; float:left; margin-top:0px;}
+.tata-content{ width:200px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px; padding:5px 5px 5px 5px; height:auto; float:left; margin-left:5px; margin-top:0px; background:#a8d0ff;}
+.tata-content2{ width:236px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px;  height:auto; float:left; margin-left:2px; margin-top:0px; background: #f2f2f2; padding-left:5px; padding-top:5px;}
+.tata_menu_top_text_box{ width:900px;  height:25px; margin:auto; font-family:Arial, Helvetica, sans-serif; font-size:35px; color:#666666; font-weight:normal;}
+#tata_internal_text{ font-size:12px; font-family:Arial, Helvetica, sans-serif; color: #000000; font-weight:bold; text-indent:10px;}
+.tata-body_text a{ font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color: #666666; text-decoration:none;}
+.tata-body_text { font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color:  text-decoration:none;}
+.tata-body_text a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#1e7983; text-decoration:none;}
+.tata-body_text2 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.tata-body_text2{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.tata-body_text2 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#1e7983; text-decoration:none;  text-align:center; }
+
+.tata-body_text{ font-family:Arial, Helvetica, sans-serif; font-size:14pxpx; font-weight:bold; color: #FFFFFF; text-decoration:none;}
+
+.tata_center_box{ margin:auto; width:800px;}
+.tata-body_text3{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.tata-body_text3 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.tata-body_text3 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color: #666666; text-decoration:none;  text-align:center; }
+
+
+#tatamenu {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 160px;
+padding: 0px;
+margin: 0px;
+}
+
+
+#tatamenu ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+border: none;
+}
+#tatamenu ul li {
+margin: 0px;
+padding: 0px;
+}
+#tatamenu ul li a {
+font-size: 80%;
+display: block;
+padding: 5px 0px 2px 2px;
+margin-bottom: 2px;
+text-decoration: none;
+text-align:left;
+color: #FFFFFF;
+background:#2e87ef;
+width:200px;
+}
+
+#tatamenu ul li a:hover, #tatamenu ul li a:focus {
+color: #000000;
+background-color: #eeeeee;
+}
+#tatamenu2 {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 228px;
+padding: 0px;
+margin: 0px;
+}
+#tatamenu2 ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+border: none;
+}
+#tatamenu2 ul li {
+margin: 0px;
+padding: 0px;
+}
+#tatamenu2 ul li a {
+font-size: 80%;
+display: block;
+margin-bottom: 2px;
+text-decoration: none;
+text-align:left;
+color: #000000;
+background:#FFFFFF;
+width:228px;
+padding: 5px 0px 2px 2px;
+}
+
+#tatamenu2 ul li a:hover, #tatamenu ul li a:focus {
+background:#2e87ef;
+color: #ffffff;
+}
+
+/*****************************FORD**************************/
+.ford {background:#623dbd; color:#FFFFFF;}
+#ford-model-box{text-align:center; float:right; width:100px; background:#043361; line-height:35px;  height:100px; margin-top:2px;}
+.ford-menu-section{ width:185px; float:left; margin-top:0px;}
+.ford-content{ width:200px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px; padding:5px 5px 5px 5px; height:auto; float:left; margin-left:5px; margin-top:0px; background:#3d85cc;}
+.ford-content2{ width:236px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px;  height:421px; float:left; margin-left:2px; margin-top:0px; background: #f2f2f2; padding-left:5px; padding-top:5px;}
+.ford_menu_top_text_box{ width:900px; height:25px; margin:auto; font-family:Arial, Helvetica, sans-serif; font-size:35px; color:#666666; font-weight:normal;}
+#ford_internal_text{ font-size:12px; font-family:Arial, Helvetica, sans-serif; color: #000000; font-weight:bold; text-indent:10px;}
+.ford-body_text a{ font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color: #666666; text-decoration:none;}
+.ford-body_text { font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color:  text-decoration:none;}
+.ford-body_text a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#1e7983; text-decoration:none;}
+.ford-body_text2 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.ford-body_text2{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.ford-body_text2 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#1e7983; text-decoration:none;  text-align:center; }
+
+.ford-body_text{ font-family:Arial, Helvetica, sans-serif; font-size:14pxpx; font-weight:bold; color: #FFFFFF; text-decoration:none;}
+
+.ford_center_box{ margin:auto; width:800px;}
+.ford-body_text3{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.ford-body_text3 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.ford-body_text3 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color: #666666; text-decoration:none;  text-align:center; }
+
+
+#fordmenu {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 160px;
+padding: 0px;
+margin: 0px;
+}
+
+
+#fordmenu ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+border: none;
+}
+#fordmenu ul li {
+margin: 0px;
+padding: 0px;
+}
+#fordmenu ul li a {
+font-size: 80%;
+display: block;
+padding: 5px 0px 2px 2px;
+margin-bottom: 2px;
+text-decoration: none;
+text-align:left;
+color: #FFFFFF;
+background:#043361;
+width:200px;
+}
+
+#fordmenu ul li a:hover, #fordmenu ul li a:focus {
+color: #000000;
+background-color: #eeeeee;
+}
+#fordmenu2 {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 228px;
+padding: 0px;
+margin: 0px;
+}
+#fordmenu2 ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+border: none;
+}
+#fordmenu2 ul li {
+margin: 0px;
+padding: 0px;
+}
+#fordmenu2 ul li a {
+font-size: 80%;
+display: block;
+margin-bottom: 2px;
+text-decoration: none;
+text-align:left;
+color: #000000;
+background:#FFFFFF;
+width:228px;
+padding: 5px 0px 2px 2px;
+}
+
+#fordmenu2 ul li a:hover, #fordmenu ul li a:focus {
+background:#043361;
+color: #ffffff;
+}
+
+/****************************PORSCHE***************************/
+
+.porsche {background:#623dbd; color:#FFFFFF;}
+#porsche-model-box{text-align:center; float:right; width:100px; background:#93af4e; line-height:35px;  height:100px; margin-top:2px;}
+.porsche-menu-section{ width:185px; float:left; margin-top:0px;}
+.porsche-content{ width:200px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px; padding:5px 5px 5px 5px; height:auto; float:left; margin-left:5px; margin-top:0px; background:#c6e57b;}
+.porsche-content2{ width:236px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px;  height:421px; float:left; margin-left:2px; margin-top:0px; background: #f2f2f2; padding-left:5px; padding-top:5px;}
+.porsche_menu_top_text_box{ width:900px; height:25px; margin:auto; font-family:Arial, Helvetica, sans-serif; font-size:35px; color:#666666; font-weight:normal;}
+#porsche_internal_text{ font-size:12px; font-family:Arial, Helvetica, sans-serif; color: #000000; font-weight:bold; text-indent:10px;}
+.porsche-body_text a{ font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color: #666666; text-decoration:none;}
+.porsche-body_text { font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color:  text-decoration:none;}
+.porsche-body_text a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#1e7983; text-decoration:none;}
+.porsche-body_text2 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.porsche-body_text2{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.porsche-body_text2 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#1e7983; text-decoration:none;  text-align:center; }
+
+.porsche-body_text{ font-family:Arial, Helvetica, sans-serif; font-size:14pxpx; font-weight:bold; color: #FFFFFF; text-decoration:none;}
+
+.porsche_center_box{ margin:auto; width:800px;}
+.porsche-body_text3{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.porsche-body_text3 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.porsche-body_text3 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color: #666666; text-decoration:none;  text-align:center; }
+
+#porschemenu {font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 100%;width: 160px;padding: 0px;margin: 0px;}
+#porschemenu ul {list-style: none;margin: 0px;padding: 0px;border: none;}
+#porschemenu ul li {margin: 0px;padding: 0px;}
+#porschemenu ul li a {font-size: 80%;display: block;padding: 5px 0px 2px 2px;margin-bottom: 2px;text-decoration: none;text-align:left;color: #FFFFFF;background:#93af4e;width:200px;}
+#porschemenu ul li a:hover, #porschemenu ul li a:focus {color: #000000;background-color: #eeeeee;}
+#porschemenu2 {font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 100%;width: 228px;padding: 0px;margin: 0px;}
+#porschemenu2 ul {list-style: none;margin: 0px;padding: 0px;border: none;}
+#porschemenu2 ul li {margin: 0px;padding: 0px;}#porschemenu2 ul li a {font-size: 80%;display: block;margin-bottom: 2px;text-decoration: none;text-align:left;color: #000000;background:#FFFFFF;width:228px;padding: 5px 0px 2px 2px;}
+#porschemenu2 ul li a:hover, #porschemenu ul li a:focus {background:#93af4e;color: #ffffff;}
+
+/**************************************HYUNDAI***********************/
+.hyundai {background:#623dbd; color:#FFFFFF;}
+#hyundai-model-box{ text-align:center; float:right; width:100px; background:#db562e; line-height:35px;  height:100px; margin-top:2px;}
+.hyundai-menu-section{ width:185px; float:left; margin-top:0px;}
+.hyundai-content{ width:200px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px; padding:5px 5px 5px 5px; height:auto; float:left; margin-left:5px; margin-top:0px; background:#feaf97;}
+.hyundai-content2{ width:236px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px;  height:421px; float:left; margin-left:2px; margin-top:0px; background: #f2f2f2; padding-left:5px; padding-top:5px;}
+.hyundai_menu_top_text_box{ width:900px; height:25px; margin:auto; font-family:Arial, Helvetica, sans-serif; font-size:35px; color:#666666; font-weight:normal;}
+#hyundai_internal_text{ font-size:12px; font-family:Arial, Helvetica, sans-serif; color: #000000; font-weight:bold; text-indent:10px;}
+.hyundai-body_text a{ font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color: #666666; text-decoration:none;}
+.hyundai-body_text { font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color:  text-decoration:none;}
+.hyundai-body_text a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#1e7983; text-decoration:none;}
+.hyundai-body_text2 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.hyundai-body_text2{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.hyundai-body_text2 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#1e7983; text-decoration:none;  text-align:center; }
+
+.hyundai-body_text{ font-family:Arial, Helvetica, sans-serif; font-size:14pxpx; font-weight:bold; color: #FFFFFF; text-decoration:none;}
+
+.hyundai_center_box{ margin:auto; width:800px;}
+.hyundai-body_text3{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.hyundai-body_text3 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.hyundai-body_text3 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color: #666666; text-decoration:none;  text-align:center; }
+
+
+#hyundaimenu {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 160px;
+padding: 0px;
+margin: 0px;
+}
+
+
+#hyundaimenu ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+border: none;
+}
+#hyundaimenu ul li {
+margin: 0px;
+padding: 0px;
+}
+#hyundaimenu ul li a {
+font-size: 80%;
+display: block;
+padding: 5px 0px 2px 2px;
+margin-bottom: 2px;
+text-decoration: none;
+text-align:left;
+color: #FFFFFF;
+background:#db562e;
+width:200px;
+}
+
+#hyundaimenu ul li a:hover, #hyundaimenu ul li a:focus {
+color: #000000;
+background-color: #eeeeee;
+}
+#hyundaimenu2 {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 228px;
+padding: 0px;
+margin: 0px;
+}
+#hyundaimenu2 ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+border: none;
+}
+#hyundaimenu2 ul li {
+margin: 0px;
+padding: 0px;
+}
+#hyundaimenu2 ul li a {
+font-size: 80%;
+display: block;
+margin-bottom: 2px;
+text-decoration: none;
+text-align:left;
+color: #000000;
+background:#FFFFFF;
+width:228px;
+padding: 5px 0px 2px 2px;
+}
+
+#hyundaimenu2 ul li a:hover, #hyundaimenu ul li a:focus {
+background:#db562e;
+color: #ffffff;
+}
+
+/********************************MERCEDES***************************/
+.mercedes {color:#FFFFFF; background:#F5F5F5 url(../newimages/mercedes_bg.png); background-position:center; background-repeat:no-repeat;background-attachment:fixed;}
+#mercedes-model-box{ text-align:center; float:right; width:100px; background:#d54b28; line-height:35px;  height:100px; margin-top:2px;}
+.mercedes-menu-section{ width:185px; float:left; margin-top:0px;}
+.mercedes-content{ width:200px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px; padding:5px 5px 5px 5px; height:auto; float:left; margin-left:5px; margin-top:0px; background:#feaf97;}
+.mercedes-content2{ width:236px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px;  height:auto; float:left; margin-left:2px; margin-top:0px; background: #f2f2f2; padding-left:5px; padding-top:5px;}
+.mercedes_menu_top_text_box{ width:900px; height:25px; margin:auto; font-family:Arial, Helvetica, sans-serif; font-size:35px; color:#666666; font-weight:normal;}
+#mercedes_internal_text{ font-size:12px; font-family:Arial, Helvetica, sans-serif; color: #000000; font-weight:bold; text-indent:10px;}
+.mercedes-body_text a{ font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color: #666666; text-decoration:none;}
+.mercedes-body_text { font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color:  text-decoration:none;}
+.mercedes-body_text a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#1e7983; text-decoration:none;}
+.mercedes-body_text2 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.mercedes-body_text2{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.mercedes-body_text2 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#1e7983; text-decoration:none;  text-align:center; }
+
+.mercedes-body_text{ font-family:Arial, Helvetica, sans-serif; font-size:14pxpx; font-weight:bold; color: #FFFFFF; text-decoration:none;}
+
+.mercedes_center_box{ margin:auto; width:800px;}
+.mercedes-body_text3{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.mercedes-body_text3 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.mercedes-body_text3 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color: #666666; text-decoration:none;  text-align:center; }
+
+
+#mercedesmenu {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 160px;
+padding: 0px;
+margin: 0px;
+}
+
+
+#mercedesmenu ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+border: none;
+}
+#mercedesmenu ul li {
+margin: 0px;
+padding: 0px;
+}
+#mercedesmenu ul li a {
+font-size: 80%;
+display: block;
+padding: 5px 0px 2px 2px;
+margin-bottom: 2px;
+text-decoration: none;
+text-align:left;
+color: #FFFFFF;
+background:#db562e;
+width:200px;
+}
+
+#mercedesmenu ul li a:hover, #mercedesmenu ul li a:focus {
+color: #000000;
+background-color: #eeeeee;
+}
+#mercedesmenu2 {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 228px;
+padding: 0px;
+margin: 0px;
+}
+#mercedesmenu2 ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+border: none;
+}
+#mercedesmenu2 ul li {
+margin: 0px;
+padding: 0px;
+}
+#mercedesmenu2 ul li a {
+font-size: 80%;
+display: block;
+margin-bottom: 2px;
+text-decoration: none;
+text-align:left;
+color: #000000;
+background:#FFFFFF;
+width:228px;
+padding: 5px 0px 2px 2px;
+}
+
+#mercedesmenu2 ul li a:hover, #mercedesmenu ul li a:focus {
+background:#d54b28;
+color: #ffffff;
+}
+
+/********************************CHEVROLET**************************/
+.chevrolet {background:#623dbd; color:#FFFFFF;}
+#chevrolet-model-box{ text-align:center; float:right; width:100px; background:#5da81a; line-height:35px;  height:100px; margin-top:2px;}
+.chevrolet-menu-section{ width:185px; float:left; margin-top:0px;}
+.chevrolet-content{ width:200px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px; padding:5px 5px 5px 5px; height:auto; float:left; margin-left:5px; margin-top:0px; background:#aef96a;}
+.chevrolet-content2{ width:236px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px;  height:421px; float:left; margin-left:2px; margin-top:0px; background: #f2f2f2; padding-left:5px; padding-top:5px;}
+.chevrolet_menu_top_text_box{ width:900px; height:25px; margin:auto; font-family:Arial, Helvetica, sans-serif; font-size:35px; color:#666666; font-weight:normal;}
+#chevrolet_internal_text{ font-size:12px; font-family:Arial, Helvetica, sans-serif; color: #000000; font-weight:bold; text-indent:10px;}
+.chevrolet-body_text a{ font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color: #666666; text-decoration:none;}
+.chevrolet-body_text { font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color:  text-decoration:none;}
+.chevrolet-body_text a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#1e7983; text-decoration:none;}
+.chevrolet-body_text2 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.chevrolet-body_text2{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.chevrolet-body_text2 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#1e7983; text-decoration:none;  text-align:center; }
+
+.chevrolet-body_text{ font-family:Arial, Helvetica, sans-serif; font-size:14pxpx; font-weight:bold; color: #FFFFFF; text-decoration:none;}
+
+.chevrolet_center_box{ margin:auto; width:800px;}
+.chevrolet-body_text3{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.chevrolet-body_text3 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.chevrolet-body_text3 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color: #666666; text-decoration:none;  text-align:center; }
+
+
+#chevroletmenu {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 160px;
+padding: 0px;
+margin: 0px;
+}
+
+
+#chevroletmenu ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+border: none;
+}
+#chevroletmenu ul li {
+margin: 0px;
+padding: 0px;
+}
+#chevroletmenu ul li a {
+font-size: 80%;
+display: block;
+padding: 5px 0px 2px 2px;
+margin-bottom: 2px;
+text-decoration: none;
+text-align:left;
+color: #FFFFFF;
+background:#5da81a;
+width:200px;
+}
+
+#chevroletmenu ul li a:hover, #chevroletmenu ul li a:focus {
+color: #000000;
+background-color: #eeeeee;
+}
+#chevroletmenu2 {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 228px;
+padding: 0px;
+margin: 0px;
+}
+#chevroletmenu2 ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+border: none;
+}
+#chevroletmenu2 ul li {
+margin: 0px;
+padding: 0px;
+}
+#chevroletmenu2 ul li a {
+font-size: 80%;
+display: block;
+margin-bottom: 2px;
+text-decoration: none;
+text-align:left;
+color: #000000;
+background:#FFFFFF;
+width:228px;
+padding: 5px 0px 2px 2px;
+}
+
+#chevroletmenu2 ul li a:hover, #chevroletmenu ul li a:focus {
+background:#5da81a;
+color: #ffffff;
+}
+
+/**************************NISSAN**************************/
+
+.nissan {background:#623dbd; color:#FFFFFF;}
+#nissan-model-box{text-align:center; float:right; width:100px; background:#06a7b1; line-height:35px;  height:100px; margin-top:2px;}
+.nissan-menu-section{ width:185px; float:left; margin-top:0px;}
+.nissan-content{ width:200px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px; padding:5px 5px 5px 5px; height:auto; float:left; margin-left:5px; margin-top:0px; background:#4bdce5;}
+.nissan-content2{ width:236px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px;  height:421px; float:left; margin-left:2px; margin-top:0px; background: #f2f2f2; padding-left:5px; padding-top:5px;}
+.nissan_menu_top_text_box{ width:900px; height:25px; margin:auto; font-family:Arial, Helvetica, sans-serif; font-size:35px; color:#666666; font-weight:normal;}
+#nissan_internal_text{ font-size:12px; font-family:Arial, Helvetica, sans-serif; color: #000000; font-weight:bold; text-indent:10px;}
+.nissan-body_text a{ font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color: #666666; text-decoration:none;}
+.nissan-body_text { font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color:  text-decoration:none;}
+.nissan-body_text a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#1e7983; text-decoration:none;}
+.nissan-body_text2 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.nissan-body_text2{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.nissan-body_text2 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#1e7983; text-decoration:none;  text-align:center; }
+
+.nissan-body_text{ font-family:Arial, Helvetica, sans-serif; font-size:14pxpx; font-weight:bold; color: #FFFFFF; text-decoration:none;}
+
+.nissan_center_box{ margin:auto; width:800px;}
+.nissan-body_text3{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.nissan-body_text3 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.nissan-body_text3 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color: #666666; text-decoration:none;  text-align:center; }
+
+
+#nissanmenu {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 160px;
+padding: 0px;
+margin: 0px;
+}
+
+
+#nissanmenu ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+border: none;
+}
+#nissanmenu ul li {
+margin: 0px;
+padding: 0px;
+}
+#nissanmenu ul li a {
+font-size: 80%;
+display: block;
+padding: 5px 0px 2px 2px;
+margin-bottom: 2px;
+text-decoration: none;
+text-align:left;
+color: #FFFFFF;
+background:#06a7b1;
+width:200px;
+}
+
+#nissanmenu ul li a:hover, #nissanmenu ul li a:focus {
+color: #000000;
+background-color: #eeeeee;
+}
+#nissanmenu2 {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 228px;
+padding: 0px;
+margin: 0px;
+}
+#nissanmenu2 ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+border: none;
+}
+#nissanmenu2 ul li {
+margin: 0px;
+padding: 0px;
+}
+#nissanmenu2 ul li a {
+font-size: 80%;
+display: block;
+margin-bottom: 2px;
+text-decoration: none;
+text-align:left;
+color: #000000;
+background:#FFFFFF;
+width:228px;
+padding: 5px 0px 2px 2px;
+}
+
+#nissanmenu2 ul li a:hover, #nissanmenu ul li a:focus {
+background:#06a7b1;
+color: #ffffff;
+}
+
+/******************************FIAT****************************/
+.fiat {background:#623dbd; color:#FFFFFF;}
+#fiat-model-box{text-align:center; float:right; width:100px; background:#87a63b; line-height:35px;  height:100px; margin-top:2px;}
+.fiat-menu-section{ width:185px; float:left; margin-top:0px;}
+.fiat-content{ width:200px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px; padding:5px 5px 5px 5px; height:auto; float:left; margin-left:5px; margin-top:0px; background:#cfee85;}
+.fiat-content2{ width:236px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px;  height:421px; float:left; margin-left:2px; margin-top:0px; background: #f2f2f2; padding-left:5px; padding-top:5px;}
+.fiat_menu_top_text_box{ width:900px; height:25px; margin:auto; font-family:Arial, Helvetica, sans-serif; font-size:35px; color:#666666; font-weight:normal;}
+#fiat_internal_text{ font-size:12px; font-family:Arial, Helvetica, sans-serif; color: #000000; font-weight:bold; text-indent:10px;}
+.fiat-body_text a{ font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color: #666666; text-decoration:none;}
+.fiat-body_text { font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color:  text-decoration:none;}
+.fiat-body_text a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#1e7983; text-decoration:none;}
+.fiat-body_text2 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.fiat-body_text2{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.fiat-body_text2 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#1e7983; text-decoration:none;  text-align:center; }
+
+.fiat-body_text{ font-family:Arial, Helvetica, sans-serif; font-size:14pxpx; font-weight:bold; color: #FFFFFF; text-decoration:none;}
+
+.fiat_center_box{ margin:auto; width:800px;}
+.fiat-body_text3{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.fiat-body_text3 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.fiat-body_text3 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color: #666666; text-decoration:none;  text-align:center; }
+
+
+#fiatmenu {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 160px;
+padding: 0px;
+margin: 0px;
+}
+
+
+#fiatmenu ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+border: none;
+}
+#fiatmenu ul li {
+margin: 0px;
+padding: 0px;
+}
+#fiatmenu ul li a {
+font-size: 80%;
+display: block;
+padding: 5px 0px 2px 2px;
+margin-bottom: 2px;
+text-decoration: none;
+text-align:left;
+color: #FFFFFF;
+background:#87a63b;
+width:200px;
+}
+
+#fiatmenu ul li a:hover, #fiatmenu ul li a:focus {
+color: #000000;
+background-color: #eeeeee;
+}
+#fiatmenu2 {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 228px;
+padding: 0px;
+margin: 0px;
+}
+#fiatmenu2 ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+border: none;
+}
+#fiatmenu2 ul li {
+margin: 0px;
+padding: 0px;
+}
+#fiatmenu2 ul li a {
+font-size: 80%;
+display: block;
+margin-bottom: 2px;
+text-decoration: none;
+text-align:left;
+color: #000000;
+background:#FFFFFF;
+width:228px;
+padding: 5px 0px 2px 2px;
+}
+
+#fiatmenu2 ul li a:hover, #fiatmenu ul li a:focus {
+background:#87a63b;
+color: #ffffff;
+}
+
+
+/*********************JAGUAR******************/
+.jaguar {background:#623dbd; color:#FFFFFF;}
+#jaguar-model-box{ text-align:center; float:right; width:100px; background:#1e7983; line-height:35px;  height:100px; margin-top:2px;}
+.jaguar-menu-section{ width:185px; float:left; margin-top:0px;}
+.jaguar-content{ width:240px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px; padding:5px 5px 5px 5px; height:auto; float:left; margin-left:5px; margin-top:0px; background:#aef96a;}
+.jaguar-content2{ width:286px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px;  height:421px; float:left; margin-left:2px; margin-top:0px; background: #f2f2f2; padding-left:5px; padding-top:5px;}
+.jaguar_menu_top_text_box{ width:750px; height:25px; margin:auto; font-family:Arial, Helvetica, sans-serif; font-size:35px; color:#666666; font-weight:normal;}
+#jaguar_internal_text{ font-size:12px; font-family:Arial, Helvetica, sans-serif; color: #000000; font-weight:bold; text-indent:10px;}
+.jaguar-body_text a{ font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color: #666666; text-decoration:none;}
+.jaguar-body_text { font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color:  text-decoration:none;}
+.jaguar-body_text a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#1e7983; text-decoration:none;}
+.jaguar-body_text2 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.jaguar-body_text2{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.jaguar-body_text2 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#1e7983; text-decoration:none;  text-align:center; }
+
+.jaguar-body_text{ font-family:Arial, Helvetica, sans-serif; font-size:14pxpx; font-weight:bold; color: #FFFFFF; text-decoration:none;}
+
+.jaguar_center_box{ margin:auto; width:500px;}
+.jaguar-body_text3{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.jaguar-body_text3 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.jaguar-body_text3 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color: #666666; text-decoration:none;  text-align:center; }
+
+#jaguarmenu2 {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 280px;
+padding: 0px;
+margin: 0px;
+}
+#jaguarmenu2 ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+border: none;
+}
+#jaguarmenu2 ul li {
+margin: 0px;
+padding: 0px;
+}
+#jaguarmenu2 ul li a {
+font-size: 80%;
+display: block;
+margin-bottom: 2px;
+text-decoration: none;
+text-align:left;
+color: #000000;
+background:#FFFFFF;
+width:280px;
+padding: 5px 0px 2px 2px;
+}
+
+#jaguarmenu2 ul li a:hover, #jaguarmenu ul li a:focus {
+background:#1e7983;
+color: #ffffff;
+}
+
+/*****************************AUDI**************************/
+.audi {background:#623dbd; color:#FFFFFF;}
+#audi-model-box{text-align:center; float:right; width:100px; background:#895bb1; line-height:35px;  height:100px; margin-top:2px;}
+.audi-menu-section{ width:185px; float:left; margin-top:0px;}
+.audi-content{ width:200px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px; padding:5px 5px 5px 5px; height:auto; float:left; margin-left:5px; margin-top:0px; background:#b99dff;}
+.audi-content2{ width:236px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px;  height:421px; float:left; margin-left:2px; margin-top:0px; background: #f2f2f2; padding-left:5px; padding-top:5px;}
+.audi_menu_top_text_box{ width:900px; height:25px; margin:auto; font-family:Arial, Helvetica, sans-serif; font-size:35px; color:#666666; font-weight:normal;}
+#audi_internal_text{ font-size:12px; font-family:Arial, Helvetica, sans-serif; color: #000000; font-weight:bold; text-indent:10px;}
+.audi-body_text a{ font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color: #666666; text-decoration:none;}
+.audi-body_text { font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color:  text-decoration:none;}
+.audi-body_text a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#1e7983; text-decoration:none;}
+.audi-body_text2 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.audi-body_text2{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.audi-body_text2 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#1e7983; text-decoration:none;  text-align:center; }
+
+.audi-body_text{ font-family:Arial, Helvetica, sans-serif; font-size:14pxpx; font-weight:bold; color: #FFFFFF; text-decoration:none;}
+
+.audi_center_box{ margin:auto; width:800px;}
+.audi-body_text3{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.audi-body_text3 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.audi-body_text3 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color: #666666; text-decoration:none;  text-align:center; }
+
+
+#audimenu {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 160px;
+padding: 0px;
+margin: 0px;
+}
+
+
+#audimenu ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+border: none;
+}
+#audimenu ul li {
+margin: 0px;
+padding: 0px;
+}
+#audimenu ul li a {
+font-size: 80%;
+display: block;
+padding: 5px 0px 2px 2px;
+margin-bottom: 2px;
+text-decoration: none;
+text-align:left;
+color: #FFFFFF;
+background:#895bb1;
+width:200px;
+}
+
+#audimenu ul li a:hover, #audimenu ul li a:focus {
+color: #000000;
+background-color: #eeeeee;
+}
+#audimenu2 {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 228px;
+padding: 0px;
+margin: 0px;
+}
+#audimenu2 ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+border: none;
+}
+#audimenu2 ul li {
+margin: 0px;
+padding: 0px;
+}
+#audimenu2 ul li a {
+font-size: 80%;
+display: block;
+margin-bottom: 2px;
+text-decoration: none;
+text-align:left;
+color: #000000;
+background:#FFFFFF;
+width:228px;
+padding: 5px 0px 2px 2px;
+}
+
+#audimenu2 ul li a:hover, #audimenu ul li a:focus {
+background:#895bb1;
+color: #ffffff;
+}
+
+/*********************Force**************************/
+.force {background:#623dbd; color:#FFFFFF;}
+#force-model-box{ text-align:center; float:right; width:100px; background:#5da81a; line-height:35px;  height:100px; margin-top:2px;}
+.force-menu-section{ width:185px; float:left; margin-top:0px;}
+.force-content{ width:200px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px; padding:5px 5px 5px 5px; height:auto; float:left; margin-left:5px; margin-top:0px; background:#aef96a;}
+.force-content2{ width:236px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px;  height:421px; float:left; margin-left:2px; margin-top:0px; background: #f2f2f2; padding-left:5px; padding-top:5px;}
+.force_menu_top_text_box{ width:900px; height:25px; margin:auto; font-family:Arial, Helvetica, sans-serif; font-size:35px; color:#666666; font-weight:normal;}
+#force_internal_text{ font-size:12px; font-family:Arial, Helvetica, sans-serif; color: #000000; font-weight:bold; text-indent:10px;}
+.force-body_text a{ font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color: #666666; text-decoration:none;}
+.force-body_text { font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color:  text-decoration:none;}
+.force-body_text a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#1e7983; text-decoration:none;}
+.force-body_text2 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.force-body_text2{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.force-body_text2 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#1e7983; text-decoration:none;  text-align:center; }
+
+.force-body_text{ font-family:Arial, Helvetica, sans-serif; font-size:14pxpx; font-weight:bold; color: #FFFFFF; text-decoration:none;}
+
+.force_center_box{ margin:auto; width:500px;}
+.force-body_text3{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.force-body_text3 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.force-body_text3 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color: #666666; text-decoration:none;  text-align:center; }
+
+
+#forcemenu {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 200px;
+padding: 0px;
+margin: 0px;
+}
+
+
+#forcemenu ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+border: none;
+}
+#forcemenu ul li {
+margin: 0px;
+padding: 0px;
+}
+#forcemenu ul li a {
+font-size: 80%;
+display: block;
+padding: 5px 0px 2px 2px;
+margin-bottom: 2px;
+text-decoration: none;
+text-align:left;
+color: #FFFFFF;
+background:#5da81a;
+width:200px;
+}
+
+#forcemenu ul li a:hover, #forcemenu ul li a:focus {
+color: #000000;
+background-color: #eeeeee; 
+}
+#forcemenu2 {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 228px;
+padding: 0px;
+margin: 0px;
+}
+#forcemenu2 ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+border: none;
+}
+#forcemenu2 ul li {
+margin: 0px;
+padding: 0px;
+}
+#forcemenu2 ul li a {
+font-size: 80%;
+display: block;
+margin-bottom: 2px;
+text-decoration: none;
+text-align:left;
+color: #000000;
+background:#FFFFFF;
+width:228px;
+padding: 5px 0px 2px 2px;
+}
+
+#forcemenu2 ul li a:hover, #forcemenu ul li a:focus {
+background:#5da81a;
+color: #ffffff;
+}
+
+/******************************Hindustan Motors*********************/
+.hindustan-motors {background:#623dbd; color:#FFFFFF;}
+#hindustan-motors-model-box{ text-align:center; float:right; width:150px; background:#a9b21b; line-height:35px;  height:100px; margin-top:2px;}
+.hindustan-motors-menu-section{ width:185px; float:left; margin-top:0px;}
+.hindustan-motors-content{ width:200px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px; padding:5px 5px 5px 5px; height:auto; float:left; margin-left:5px; margin-top:0px; background:#aef96a;}
+.hindustan-motors-content2{ width:236px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px;  height:421px; float:left; margin-left:2px; margin-top:0px; background: #f2f2f2; padding-left:5px; padding-top:5px;}
+.hindustan-motors_menu_top_text_box{ width:900px; height:25px; margin:auto; font-family:Arial, Helvetica, sans-serif; font-size:35px; color:#666666; font-weight:normal;}
+#hindustan-motors_internal_text{ font-size:12px; font-family:Arial, Helvetica, sans-serif; color: #000000; font-weight:bold; text-indent:10px;}
+.hindustan-motors-body_text a{ font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color: #666666; text-decoration:none;}
+.hindustan-motors-body_text { font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color:  text-decoration:none;}
+.hindustan-motors-body_text a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#1e7983; text-decoration:none;}
+.hindustan-motors-body_text2 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.hindustan-motors-body_text2{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.hindustan-motors-body_text2 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#1e7983; text-decoration:none;  text-align:center; }
+
+.hindustan-motors-body_text{ font-family:Arial, Helvetica, sans-serif; font-size:14pxpx; font-weight:bold; color: #FFFFFF; text-decoration:none;}
+
+.hindustan-motors_center_box{ margin:auto; width:500px;}
+.hindustan-motors-body_text3{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.hindustan-motors-body_text3 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.hindustan-motors-body_text3 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color: #666666; text-decoration:none;  text-align:center; }
+
+#hindustan-motorsmenu2 {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 228px;
+padding: 0px;
+margin: 0px;
+}
+#hindustan-motorsmenu2 ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+border: none;
+}
+#hindustan-motorsmenu2 ul li {
+margin: 0px;
+padding: 0px;
+}
+#hindustan-motorsmenu2 ul li a {
+font-size: 80%;
+display: block;
+margin-bottom: 2px;
+text-decoration: none;
+text-align:left;
+color: #000000;
+background:#FFFFFF;
+width:228px;
+padding: 5px 0px 2px 2px;
+}
+
+#hindustan-motorsmenu2 ul li a:hover, #hindustan-motorsmenu ul li a:focus {
+background:#a9b21b;
+color: #ffffff;
+}
+
+/******************************Land Rover**********************/
+.land-rover {background:#623dbd; color:#FFFFFF;}
+#land-rover-model-box{ text-align:center; float:right; width:100px; background:#d25944; line-height:35px;  height:100px; margin-top:2px;}
+.land-rover-menu-section{ width:185px; float:left; margin-top:0px;}
+.land-rover-content{ width:200px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px; padding:5px 5px 5px 5px; height:auto; float:left; margin-left:5px; margin-top:0px; background:#ff9785;}
+.land-rover-content2{ width:280px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px;  height:352px; float:left; margin-left:2px; margin-top:0px; background: #f2f2f2; padding-left:5px; padding-top:5px;}
+.land-rover_menu_top_text_box{ width:900px; height:25px; margin:auto; font-family:Arial, Helvetica, sans-serif; font-size:35px; color:#666666; font-weight:normal;}
+#land-rover_internal_text{ font-size:12px; font-family:Arial, Helvetica, sans-serif; color: #000000; font-weight:bold; text-indent:10px;}
+.land-rover-body_text a{ font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color: #666666; text-decoration:none;}
+.land-rover-body_text { font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color:  text-decoration:none;}
+.land-rover-body_text a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#1e7983; text-decoration:none;}
+.land-rover-body_text2 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.land-rover-body_text2{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.land-rover-body_text2 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#1e7983; text-decoration:none;  text-align:center; }
+
+.land-rover-body_text{ font-family:Arial, Helvetica, sans-serif; font-size:14pxpx; font-weight:bold; color: #FFFFFF; text-decoration:none;}
+
+.land-rover_center_box{ margin:auto; width:500px;}
+.land-rover-body_text3{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.land-rover-body_text3 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.land-rover-body_text3 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color: #666666; text-decoration:none;  text-align:center; }
+
+#land-rovermenu2 {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 275px;
+padding: 0px;
+margin: 0px;
+}
+#land-rovermenu2 ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+border: none;
+}
+#land-rovermenu2 ul li {
+margin: 0px;
+padding: 0px;
+}
+#land-rovermenu2 ul li a {
+font-size: 80%;
+display: block;
+margin-bottom: 2px;
+text-decoration: none;
+text-align:left;
+color: #000000;
+background:#FFFFFF;
+width:275px;
+padding: 5px 0px 2px 2px;
+}
+
+#land-rovermenu2 ul li a:hover, #land-rovermenu ul li a:focus {
+background:#d25944;
+color: #ffffff;
+}
+
+/************************************Renault******************/
+.renault {background:#623dbd; color:#FFFFFF;}
+#renault-model-box{text-align:center; float:right; width:100px; background:#651757; line-height:35px;  height:100px; margin-top:2px;}
+.renault-menu-section{ width:185px; float:left; margin-top:0px;}
+.renault-content{ width:200px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px; padding:5px 5px 5px 5px; height:auto; float:left; margin-left:5px; margin-top:0px; background:#ca53b5;}
+.renault-content2{ width:236px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px;  height:421px; float:left; margin-left:2px; margin-top:0px; background: #f2f2f2; padding-left:5px; padding-top:5px;}
+.renault_menu_top_text_box{ width:900px; height:25px; margin:auto; font-family:Arial, Helvetica, sans-serif; font-size:35px; color:#666666; font-weight:normal;}
+#renault_internal_text{ font-size:12px; font-family:Arial, Helvetica, sans-serif; color: #000000; font-weight:bold; text-indent:10px;}
+.renault-body_text a{ font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color: #666666; text-decoration:none;}
+.renault-body_text { font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color:  text-decoration:none;}
+.renault-body_text a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#1e7983; text-decoration:none;}
+.renault-body_text2 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.renault-body_text2{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.renault-body_text2 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#1e7983; text-decoration:none;  text-align:center; }
+
+.renault-body_text{ font-family:Arial, Helvetica, sans-serif; font-size:14pxpx; font-weight:bold; color: #FFFFFF; text-decoration:none;}
+
+.renault_center_box{ margin:auto; width:800px;}
+.renault-body_text3{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.renault-body_text3 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.renault-body_text3 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color: #666666; text-decoration:none;  text-align:center; }
+
+
+#renaultmenu {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 160px;
+padding: 0px;
+margin: 0px;
+}
+
+
+#renaultmenu ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+border: none;
+}
+#renaultmenu ul li {
+margin: 0px;
+padding: 0px;
+}
+#renaultmenu ul li a {
+font-size: 80%;
+display: block;
+padding: 5px 0px 2px 2px;
+margin-bottom: 2px;
+text-decoration: none;
+text-align:left;
+color: #FFFFFF;
+background:#651757;
+width:200px;
+}
+
+#renaultmenu ul li a:hover, #renaultmenu ul li a:focus {
+color: #000000;
+background-color: #eeeeee;
+}
+#renaultmenu2 {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 228px;
+padding: 0px;
+margin: 0px;
+}
+#renaultmenu2 ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+border: none;
+}
+#renaultmenu2 ul li {
+margin: 0px;
+padding: 0px;
+}
+#renaultmenu2 ul li a {
+font-size: 80%;
+display: block;
+margin-bottom: 2px;
+text-decoration: none;
+text-align:left;
+color: #000000;
+background:#FFFFFF;
+width:228px;
+padding: 5px 0px 2px 2px;
+}
+
+#renaultmenu2 ul li a:hover, #renaultmenu ul li a:focus {
+background:#651757;
+color: #ffffff;
+}
+
+/**********************Premier************************/
+.premier {background:#459fa7; color:#FFFFFF;}
+#premier-model-box{ text-align:center; float:right; width:100px; background:#459fa7; line-height:35px;  height:100px; margin-top:2px;}
+.premier-menu-section{ width:185px; float:left; margin-top:0px;}
+.premier-content{ width:200px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px; padding:5px 5px 5px 5px; height:auto; float:left; margin-left:5px; margin-top:0px; background:#9fe1e7;}
+.premier-content2{ width:236px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px;  height:421px; float:left; margin-left:2px; margin-top:0px; background: #f2f2f2; padding-left:5px; padding-top:5px;}
+.premier_menu_top_text_box{ width:900px; height:25px; margin:auto; font-family:Arial, Helvetica, sans-serif; font-size:35px; color:#666666; font-weight:normal;}
+#premier_internal_text{ font-size:12px; font-family:Arial, Helvetica, sans-serif; color: #000000; font-weight:bold; text-indent:10px;}
+.premier-body_text a{ font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color: #666666; text-decoration:none;}
+.premier-body_text { font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color:  text-decoration:none;}
+.premier-body_text a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#1e7983; text-decoration:none;}
+.premier-body_text2 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.premier-body_text2{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.premier-body_text2 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#1e7983; text-decoration:none;  text-align:center; }
+
+.premier-body_text{ font-family:Arial, Helvetica, sans-serif; font-size:14pxpx; font-weight:bold; color: #FFFFFF; text-decoration:none;}
+
+.premier_center_box{ margin:auto; width:500px;}
+.premier-body_text3{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.premier-body_text3 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.premier-body_text3 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color: #666666; text-decoration:none;  text-align:center; }
+
+#premiermenu2 {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 228px;
+padding: 0px;
+margin: 0px;
+}
+#premiermenu2 ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+border: none;
+}
+#premiermenu2 ul li {
+margin: 0px;
+padding: 0px;
+}
+#premiermenu2 ul li a {
+font-size: 80%;
+display: block;
+margin-bottom: 2px;
+text-decoration: none;
+text-align:left;
+color: #000000;
+background:#FFFFFF;
+width:228px;
+padding: 5px 0px 2px 2px;
+}
+
+#premiermenu2 ul li a:hover, #premiermenu ul li a:focus {
+background:#459fa7;
+color: #ffffff;
+}
+
+/**************************mitsubishi**************************/
+.mitsubishi {background:#623dbd; color:#FFFFFF;}
+#mitsubishi-model-box{ text-align:center; float:right; width:100px; background:#db891d; line-height:35px;  height:100px; margin-top:2px;}
+.mitsubishi-menu-section{ width:185px; float:left; margin-top:0px;}
+.mitsubishi-content{ width:200px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px; padding:5px 5px 5px 5px; height:auto; float:left; margin-left:5px; margin-top:0px; background:#ffc06c;}
+.mitsubishi-content2{ width:236px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px;  height:421px; float:left; margin-left:2px; margin-top:0px; background: #f2f2f2; padding-left:5px; padding-top:5px;}
+.mitsubishi_menu_top_text_box{ width:900px; height:25px; margin:auto; font-family:Arial, Helvetica, sans-serif; font-size:35px; color:#666666; font-weight:normal;}
+#mitsubishi_internal_text{ font-size:12px; font-family:Arial, Helvetica, sans-serif; color: #000000; font-weight:bold; text-indent:10px;}
+.mitsubishi-body_text a{ font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color: #666666; text-decoration:none;}
+.mitsubishi-body_text { font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color:  text-decoration:none;}
+.mitsubishi-body_text a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#1e7983; text-decoration:none;}
+.mitsubishi-body_text2 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.mitsubishi-body_text2{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.mitsubishi-body_text2 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#1e7983; text-decoration:none;  text-align:center; }
+
+.mitsubishi-body_text{ font-family:Arial, Helvetica, sans-serif; font-size:14pxpx; font-weight:bold; color: #FFFFFF; text-decoration:none;}
+
+.mitsubishi_center_box{ margin:auto; width:500px;}
+.mitsubishi-body_text3{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.mitsubishi-body_text3 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.mitsubishi-body_text3 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color: #666666; text-decoration:none;  text-align:center; }
+
+#mitsubishimenu2 {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 228px;
+padding: 0px;
+margin: 0px;
+}
+#mitsubishimenu2 ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+border: none;
+}
+#mitsubishimenu2 ul li {
+margin: 0px;
+padding: 0px;
+}
+#mitsubishimenu2 ul li a {
+font-size: 80%;
+display: block;
+margin-bottom: 2px;
+text-decoration: none;
+text-align:left;
+color: #000000;
+background:#FFFFFF;
+width:228px;
+padding: 5px 0px 2px 2px;
+}
+
+#mitsubishimenu2 ul li a:hover, #mitsubishimenu ul li a:focus {
+background:#db891d;
+color: #ffffff;
+}
+
+/*****************************Volvo*******************/
+.volvo {background:#623dbd; color:#FFFFFF;}
+#volvo-model-box{ text-align:center; float:right; width:100px; background:#5aaab1; line-height:35px;  height:100px; margin-top:2px;}
+.volvo-menu-section{ width:185px; float:left; margin-top:0px;}
+.volvo-content{ width:200px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px; padding:5px 5px 5px 5px; height:auto; float:left; margin-left:5px; margin-top:0px; background:#aef96a;}
+.volvo-content2{ width:236px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px;  height:421px; float:left; margin-left:2px; margin-top:0px; background: #f2f2f2; padding-left:5px; padding-top:5px;}
+.volvo_menu_top_text_box{ width:900px; height:25px; margin:auto; font-family:Arial, Helvetica, sans-serif; font-size:35px; color:#666666; font-weight:normal;}
+#volvo_internal_text{ font-size:12px; font-family:Arial, Helvetica, sans-serif; color: #000000; font-weight:bold; text-indent:10px;}
+.volvo-body_text a{ font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color: #666666; text-decoration:none;}
+.volvo-body_text { font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color:  text-decoration:none;}
+.volvo-body_text a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#1e7983; text-decoration:none;}
+.volvo-body_text2 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.volvo-body_text2{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.volvo-body_text2 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#1e7983; text-decoration:none;  text-align:center; }
+
+.volvo-body_text{ font-family:Arial, Helvetica, sans-serif; font-size:14pxpx; font-weight:bold; color: #FFFFFF; text-decoration:none;}
+
+.volvo_center_box{ margin:auto; width:500px;}
+.volvo-body_text3{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.volvo-body_text3 a{  text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #ffffff; text-decoration:none;}
+.volvo-body_text3 a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color: #666666; text-decoration:none;  text-align:center; }
+
+#volvomenu2 {font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 100%;width: 228px;padding: 0px;margin: 0px;}
+#volvomenu2 ul {list-style: none;margin: 0px;padding: 0px;border: none;}
+#volvomenu2 ul li {margin: 0px;padding: 0px;}
+#volvomenu2 ul li a {font-size: 80%;display: block;margin-bottom: 2px;text-decoration: none;text-align:left;color: #000000;background:#FFFFFF;width:228px;padding: 5px 0px 2px 2px; }
+
+#volvomenu2 ul li a:hover, #volvomenu ul li a:focus {background:#5aaab1;color: #ffffff;}

@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+body{ margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.car-loan-hdfc-middlebx{ margin:auto; width:536px; background:#fde3c0; padding:10px 0px 10px 0px;}
+.hdtext-form{ font-family:Arial, Helvetica, sans-serif; font-size:22px; color:#171616;} 
+.hdtext-formsub{font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#171616; font-weight:bold;} 
+.hdtext-car-formsub{font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#171616; font-weight:normal;} 
+.hdtext-input-car{font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#171616; font-weight:normal; width:130px; height:20px; border:#bebebf solid thin; border-radius:5px; text-indent:5px;} 
+.hdtext-select-car{font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#171616; font-weight:normal; width:130px; height:25px; border:#bebebf solid thin; border-radius:5px; text-indent:5px;} 
+.hdtext-mrs-car{font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#171616; font-weight:normal; width:50px;height:25px; border:#bebebf solid thin; border-radius:5px;}
+.hdtext-mrs-input-car{font-family:Arial, Helvetica, sans-serif;font-size:12px; color:#171616; font-weight:normal; width:90px; height:20px; border:#bebebf solid thin; border-radius:5px; text-indent:5px;}
+.hdtext-mrs-inputb-car{font-family:Arial, Helvetica, sans-serif;font-size:12px; color:#171616; font-weight:normal; width:122px; height:20px; border:#bebebf solid thin; border-radius:5px; text-indent:5px;}
+.hdtext-dd-inputb-car{font-family:Arial, Helvetica, sans-serif;font-size:12px; color:#171616; font-weight:normal; width:40px; height:20px; border:#bebebf solid thin; border-radius:5px; text-indent:5px;}
+.hdtext-yy-inputb-car{font-family:Arial, Helvetica, sans-serif;font-size:12px; color:#171616; font-weight:normal; width:60px; height:20px; border:#bebebf solid thin; border-radius:5px; text-indent:5px;}
+.hdtext-dependents-inputb-car{font-family:Arial, Helvetica, sans-serif;font-size:12px; color:#171616; font-weight:normal; width:114px; height:20px; border:#bebebf solid thin; border-radius:5px; text-indent:5px;}
+.hdtext-varify-car{font-family:Arial, Helvetica, sans-serif;font-size:12px; color:#171616; font-weight:normal; width:75px; height:20px; border:#bebebf solid thin; border-radius:5px; text-indent:5px;}
+.hdtext-captcha-car{font-family:Arial, Helvetica, sans-serif;font-size:12px; color:#171616; font-weight:normal; width:81px; height:20px; border:#bebebf solid thin; border-radius:5px; text-indent:5px;}

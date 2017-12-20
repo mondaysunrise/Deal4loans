@@ -1,0 +1,122 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+@charset "utf-8";
+/* CSS Document */
+body{ padding:0px 0px 0px 0px; margin:0px 0px 0px 0px; font-family:'Droid Sans', sans-serif; line-height:19px;}
+.header{ width:100%; padding-top:10px; padding-bottom:10px; background:#FFF;}
+.headerin{ width:1000px; margin:auto;}
+.logo{ float:left; width:142px; margin-bottom:5px;}
+.banner{ width:100%; height:auto; background:url(../careers-images/banner-career.jpg) no-repeat;}
+.padding{ padding-bottom:50px; padding-top:30px;}
+.clearfix{ clear:both;}
+.dicription{ margin-top:30px; width:750px; background:url(../careers-images/details-bg.png) repeat; padding:10px 30px 10px 30px; border:#CCC 1px solid; border-radius:5px;}
+h1{ color:#FFF; text-shadow: #666 2px 2px 2px; font-weight:normal;}
+.discriptiontext ul{ margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.discriptiontext li{ list-style:url(../careers-images/bulletblue.png); font-size:18px; color:#FFF; text-shadow: #666 2px 2px 2px;}
+.wrapper{ margin:35px auto; width:1000px;}
+.column1{ float:left; width:48%; font-size:14px; border-right:#f2f2f2 solid thin; height:230px;}
+.column2{ float:right; width:48%; font-size:14px; height:230px;}
+hr{ border:#f2f2f2 solid thin; margin:0px 0px 0px 0px;}
+.name-wrapper{ width:202px;}
+.name-wrapper-in{width:152px; padding-top:17px; float:left; padding-bottom:17px; background:#007bb5; text-align:center; font-size:18px; color:#FFF; border-right:thin #FFF solid;}
+h2{ font-size:28px; color:#000; font-weight:normal;}
+h3{ color:#046ed9; font-size:18px; margin:20px 0px 5px 0px;}
+.joblisting ul{ margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.joblisting li{font-size:14px; color:#046ed9; list-style:none; margin-left:18px;}
+.inner-page{ margin-top:0px;
+float:left; width:608px; padding:0px;}
+.inner-pagetext li{ margin-top:10px; }
+.h1{ color:#046ed9; font-size:28px; font-weight:normal; text-shadow:none; margin-top:0px; margin-bottom:10px;} 
+.location{ color:#999; font-size:14px;}
+.right-fromwraper{ float:right; width:360px;}
+.form{ padding:10px; background:#f1f1f1; border:#e4e4e2 solid thin; width:90%; margin:auto;}
+lable{clear:right;}
+.font_a{ font-size:12px; color:#666; font-weight:500; }
+input{ width:100%; height:30px; border:#e9e9e9 solid thin; margin-bottom:7px; margin-top:2px; outline:none; text-indent:7px; font-size:12px; color:#666;}
+.filed{ width:100%; height:25px; border:#e9e9e9 solid thin; margin-bottom:7px; margin-top:2px; outline:none; text-indent:7px; font-size:12px; color:#666; text-transform:uppercase;}
+select{width:100%; height:32px; border:#e9e9e9 solid thin; margin-bottom:7px; margin-top:2px; outline:none; text-indent:7px; font-size:12px; color:#666; text-transform:uppercase;}
+textarea{ width:100%;border:#e9e9e9 solid thin; margin-bottom:7px; margin-top:2px; outline:none; text-indent:7px; font-size:12px; color:#666;}
+.submit{ background:#046ed9; height:46px; width:100px; color:#FFF; font-size:18px; margin-top:15px; font-weight:normal;}
+a {color:#046ed9; text-decoration:none;}
+a:hover {color:#046ed9; text-decoration:underline;}
+.whitetext{ color:#FFF;}
+.error-messages{ font-size:12px; color:#F00; text-align:center;}
+ .right{ border: thin #CCC solid;
+    width: 89%;
+    padding: 10px;
+    margin: 10px auto;}
+.success-messages{ font-size:12px; color:#060; text-align:center;}
+.h3{ color:#046ed9; font-size:18px; margin:0px 0px 5px 0px;}
+.column3{ float:left; width:500px; margin-right:15px;}
+.hintanchor {
+    font-size: 12px;
+    color: #D50000;
+    background: #FFF;
+    padding: 0px 5px 0px 5px;
+    margin-top: 3px !important;
+    width: 100%;}
+	#countchars{font-size:12px; color:#666; font-weight:500;}
+	.column5{ float:left; width:55%;}
+	.column6{ float:left; width:43%; margin-top:7px;}
+	.mrgin-top{    margin-top: 19px;}
+@media screen and (max-width:680px){
+	.header{ width:100%; padding-top:10px; padding-bottom:10px; background:#FFF;}
+.headerin{ width:100%; margin:auto;}
+.logo{ float:left; width:142px; margin-bottom:5px;}
+.banner{ width:100%; background-image: -webkit-gradient(linear, to right, to left, color-stop(0%, #005e93), color-stop(100%, #8c68cb));
+    background-image: -webkit-linear-gradient(to right, #005e93,#8c68cb);
+    background-image: -moz-linear-gradient(to right, #005e93,#8c68cb);
+    background-image: -o-linear-gradient(to right, #005e93,#8c68cb);
+    background-image: linear-gradient(to right, #005e93,#68C2CB);}
+.padding{ padding-bottom:30px; padding-top:20px;}
+.clearfix{ clear:both;}
+.dicription{ margin:30px auto; width:88%; background:url(../careers-images/details-bg.png) repeat; padding:10px 10px 10px 10px; border:#CCC 1px solid; border-radius:5px;}
+h1{ color:#FFF; text-shadow: #666 2px 2px 2px; font-weight:normal; line-height:25px;}
+.discriptiontext ul{ margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.discriptiontext li{ list-style:url(../careers-images/bulletblue.png); font-size:16px; margin-left:15px; margin-top:7px; color:#FFF; text-shadow: #666 2px 2px 2px;}
+.wrapper{ margin:5px auto; width:95%;}
+.column1{ float:none; width:100%; font-size:14px; border-right:#f2f2f2 solid thin; height:auto !important;}
+.column2{ float:none; width:100%; font-size:14px; height:auto !important;}
+hr{ border:#f2f2f2 solid thin; margin:0px 0px 0px 0px;}
+.name-wrapper{ width:202px;}
+.name-wrapper-in{width:152px; padding-top:17px; float:left; padding-bottom:17px; background:#007bb5; text-align:center; font-size:18px; color:#FFF; border-right:thin #FFF solid;}
+h2{ font-size:28px; color:#000; font-weight:normal;}
+h3{ color:#046ed9; font-size:18px; margin:20px 0px 5px 0px;}
+.joblisting ul{ margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.joblisting li{font-size:14px; color:#046ed9; list-style:none; margin-left:18px;}
+.inner-page{ margin-top:0px;
+float:none; width:100%; padding:0px;}
+.inner-pagetext li{ margin-top:10px; }
+.h1{ color:#046ed9; font-size:28px; font-weight:normal; text-shadow:none; margin-top:0px; margin-bottom:10px;} 
+.location{ color:#999; font-size:14px;}
+.right-fromwraper{ float:none; width:100%;}
+.form{ padding:10px; background:#f1f1f1; border:#e4e4e2 solid thin; width:90%; margin:auto;}
+lable{clear:right;}
+.font_a{ font-size:12px; color:#666; font-weight:500; }
+input{ width:100%; height:30px; border:#e9e9e9 solid thin; margin-bottom:7px; margin-top:2px; outline:none; text-indent:7px; font-size:12px; color:#666;}
+.filed{ width:100%; height:28px; border:#e9e9e9 solid thin; margin-bottom:7px; margin-top:2px; outline:none; text-indent:7px; font-size:12px; color:#666; text-transform:uppercase;}
+select{width:100%; height:32px; border:#e9e9e9 solid thin; margin-bottom:7px; margin-top:2px; outline:none; text-indent:7px; font-size:12px; color:#666; text-transform:uppercase;}
+textarea{ width:100%;border:#e9e9e9 solid thin; margin-bottom:7px; margin-top:2px; outline:none; text-indent:7px; font-size:12px; color:#666;}
+.submit{ background:#046ed9; height:46px; width:100px; color:#FFF; font-size:18px; margin-top:15px; font-weight:normal;}
+a {color:#046ed9; text-decoration:none;}
+a:hover {color:#046ed9; text-decoration:underline;}
+.whitetext{ color:#FFF;}
+.error-messages{ font-size:12px; color:#F00; text-align:center;}
+ .right{ border: thin #CCC solid;
+    width: 89%;
+    padding: 10px;
+    margin: 10px auto;}
+.success-messages{ font-size:12px; color:#060; text-align:center;}
+.h3{ color:#046ed9; font-size:18px; margin:0px 0px 5px 0px;}
+.column3{ float:none; width:90%; margin-right:0px;}
+.hintanchor {
+    font-size: 12px;
+    color: #D50000;
+    background: #FFF;
+    padding: 0px 5px 0px 5px;
+    margin-top: 3px !important;
+    width: 100%;}
+	#countchars{font-size:12px; color:#666; font-weight:500;}
+	.column5{ float:left; width:55%;}
+	.column6{ float:left; width:43%; margin-top:7px;}
+	.mrgin-top{margin-top: 19px;}	
+	}

@@ -1,0 +1,158 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800,900);
+@charset "utf-8";
+/* CSS Document */
+
+body{ padding:0px 0px 0px 0px; margin:0px 0px 0px 0px; background:#f7f7f7 !important;}
+.header-credit-card{ width:100%; background:#FFF; padding-top:10px; padding-bottom:10px;}
+.header_inner-credit-card{ width:1000px; margin:auto;}
+.form_top_wrapper-credit-card{ margin:15px auto; width:441px;}
+.h1-credit-card{margin:auto;font-family:'Raleway';font-size:39px;color:#FFF; margin-top:0px;
+font-weight:300;text-align:center; text-shadow:#000 1px 2px 2px; padding:25px 0px 5px 0px;}
+.logo{ float:left; width:181px;}
+.banner-credit-card{ width:100%; height:300px; background:url(../images/banner-bg-credit-card-8.jpg) repeat-x;}
+.banner_a-credit-card{ width:950px; margin:auto;}
+.clearfix{clear:both;}
+
+.form_top_wrapper-credit-card{ margin:15px auto; width:441px;}
+.box1_tp_form-credit-card{ font-family:'Raleway'; font-size:17px; color:#FFF; background:#3399ff; padding-left:5px; text-align:left; width:230px; margin-bottom:15px;}
+.second-wrapper-credit-card{ width:950px; margin:15px auto;} 
+.p-credit-card{ text-align:left; margin-left:66px; font-family:'Raleway'; font-size:17px; color:#000; margin-bottom:11px;}
+.row1-credit-card{ width:800px; margin:12px auto; font-family:'Raleway'; font-size:17px; color:#000; }
+.row1_sub-credit-card{ width:380px; float:left; }
+.row1_sub_a-credit-card{ width:155px; float:left; margin-top:5px; }
+.select_input-credit-card{ width:185px; border:#009ec2 solid thin; height:35px; border-radius:5px; font-size:15px; 
+  border:1px solid #00A0C6; color:#009dc1;}
+  	
+  .input-credit-card{ width:148px; height:25px; background:none; color:#009dc1; font-size:15px;
+  
+  border-bottom: 2px solid #00a3cb; border-left:none; border-top:none; border-right:none;}
+
+  .age-input-credit-card{ width:80px; border: 1px solid #00A0C6; color: #009dc1;  font-size:15px; height:35px;
+    border-radius:5px;}
+	.selectnegative-margintop{ margin-top:-5px;}
+ 
+.row1_sub_b-credit-card{ width:185px; float:left;
+}
+.row1_sub_c-credit-card{ width:185px; float:left; margin-top:5px; }
+.row1_sub_2-credit-card{ width:350px; float:left; }
+.third-row-credit-card{ width:800px; margin:10px auto; font-family:'Raleway'; font-size:17px;}
+.third-row-inn-credit-card{ width:285px;margin:10px auto;}
+.third-row-inn-a-credit-card{ width:120px; float:left; margin-top:7px; font-family:'Raleway'; font-size:17px;}
+.third-row-inn-b-credit-card{ width:162px; float:left;}
+.fourth-row-credit-card{ float:left; width:300px; font-family:'Raleway'; font-size:15px;}
+.fourth-row_a-credit-card{ float:left; width:86px; margin-top:7px; font-family:'Raleway'; font-size:17px;}
+.fourth-row_b-credit-card{ float:left; width:203px; font-family:'Raleway'; font-size:17px;}
+.fifth_wrapper-credit-card{width:800px; margin:15px auto;}
+.fifth_row-credit-card{ float:left; width:151px;}
+.fifth_row_b-credit-card{ float:left; width:578px; margin-left:8px; margin-top:7px; font-family:'Raleway'; font-size:17px;}
+.fifth_cs{ float:left;}
+.fifth_row_c-credit-card{ float:left; width:153px; margin-left:5px; font-family:'Raleway'; font-size:17px;}
+.sixth-row-credit-card{ width:800px; margin:10px auto; font-family:'Raleway'; font-size:15px;}
+.sixth-row-inner-credit-card{width:300px; float:left;}
+.sixth-row-inner-a-credit-card{width:151px; float:left; margin-top:7px; font-family:'Raleway'; font-size:17px;}
+.sixth-row-inner-b-credit-card{width:155px; float:left; }
+.sixthe_right-credit-card{ float:left; width:220px;}
+.sixthe_right-a-credit-card{ float:left; width:89px; margin-top:7px;}
+.sixthe_right-b-credit-card{ float:left; width:120px;}
+.seventh-wrapper-credit-card{ width:800px; margin:29px auto;}
+.seventh-row-a-credit-card{width:255px; float:left; margin-top:7px; font-family:'Raleway'; font-size:17px;}
+.seventh-row-b-credit-card{width:210px; float:left;}
+.creditcard_wrapper-credit-card{width:950px; margin:25px auto;}
+.second_wrapper-credit-card{ width:975px; margin:15px auto; font-family:'Raleway';font-size:27px; font-weight:}
+.top-text_wrapper-credit-card{ float:left; width:600px; margin-left:10px; margin-top:10px; color:#181818; font-size:36px; font-family:'Raleway'; }
+.sbi_text-credit-card{float:left; padding:5px; border-bottom:thick solid #1185bb; font-family:Arial, Helvetica, sans-serif; color:#1185bb; font-size:17px; margin-right:5px;}
+.main_form-wrapper_newui{background: #ebf4fd;
+padding:15px 7px 15px 7px;
+border-radius: 13px;
+border: solid thin #cdcece;} 
+.bg-creditcard-shadow{ width:1000px; margin:auto;}
+.table-credit-card{ width:955px; margin:10px auto; padding:0px 0px 0px 0px; border:#00cafa solid 2px; border-radius:5px;  background:#fafefe;}
+.white-text{ color:#FFF; font-size:13px;}
+.tablebody-text{ color:#020202; font-size:12px; padding-left:5px;}
+.tablebody-text:hover{ color:#020202; font-size:12px; background:#E2F1FC; padding-left:5px;}
+.hide-table-row { display: inherit; }
+.white-text2{color:#FFF; font-size:13px;}
+.tablebody-text2{ color:#020202; font-size:12px; padding-left:5px;}
+.tablebody-text2:hover{ color:#020202; font-size:12px; background:#E2F1FC; padding-left:5px;}
+.rating-text{ color: #666; font-weight:normal; font-size:12px;}
+.hanger-middle-text{ width:1000px; margin:10px auto; font-family:'Raleway';}
+.cc-hanger-middle-text{ width:1000px; margin:10px auto; font-family:'Raleway'; font-size:16px;}
+.personal-detailsabc{ width:800px; margin:21px auto;}
+.personal-detailsabc-in{float:left; font-size:17px;}  
+.personal-detailsabc-details{ width:480px; margin-left:50px; float:left; text-align:right;} 
+.overflow-width{ width:100%;}
+.credit-card-info-new1{ width:950px; padding:10px; background:#f4f4f4; border:#CCCCCC solid thin; margin:auto;}
+.credit-card-info-new2{ width:950px; padding:10px; background:#f6f8f8; border:#CCCCCC solid thin; margin:15px auto;}
+
+
+@media screen and (max-width:880px){
+	.personal-detailsabc{ width:100%; margin:10px auto;}
+.header-credit-card{ width:100%; background:#00aad3!important; padding-top:10px; padding-bottom:10px;}
+.header_inner-credit-card{ width:100%; margin:auto;}
+.form_top_wrapper-credit-card{ margin:15px auto; width:90%;}
+.h1-credit-card{margin:auto;font-family:'Raleway';font-size:39px;color:#FFF; margin-top:0px;
+font-weight:300;text-align:center; text-shadow:#000 1px 2px 2px; padding:25px 0px 5px 0px;}
+.logo{ float:left; width:181px;}
+.banner-credit-card{ width:100%; height:450px; background:#00aad3!important;}
+.banner_a-credit-card{ width:90%; margin:auto;}
+.clearfix{clear:both;}
+
+.form_top_wrapper-credit-card{ margin:15px auto; width:100%;}
+.box1_tp_form-credit-card{ font-family:'Raleway';font-size:17px; color:#FFF; background:#3399ff; padding-left:5px; text-align:left; width:230px; margin-bottom:15px;}
+.second-wrapper-credit-card{ width:95%; margin:15px auto;} 
+.p-credit-card{ text-align:left; margin-left:5px; font-family:'Raleway';font-size:17px; color:#000;}
+.row1-credit-card{ width:98%; margin:5px auto; font-family:'Raleway';font-size:17px; color:#000; }
+.row1_sub-credit-card{ width:100%; float:left; }
+.row1_sub_a-credit-card{ width:100%; float:left; }
+.select_input-credit-card{ width:100%; border:#009ec2 solid thin; height:35px; border-radius:5px; 
+  border:1px solid #00A0C6; color:#009dc1; margin-top:5px;}
+  
+  .input-credit-card{ width:100%; height:25px; background:none; color:#009dc1; font-size:17px;
+  
+  border-bottom: 2px solid #00a3cb; border-left:none; border-top:none; border-right:none;}
+
+  .age-input-credit-card{ width:100%; height:28px; margin-top:5px;      border: 1px solid #00A0C6;
+    color: #009dc1;}
+ 
+.row1_sub_b-credit-card{ width:100%; float:left;
+}
+.row1_sub_c-credit-card{ width:100%; float:left; margin-top:5px; }
+.row1_sub_2-credit-card{ width:100%; float:left; }
+.third-row-credit-card{ width:100%; margin:10px auto; font-family:'Raleway'; font-size:15px;}
+.third-row-inn-credit-card{ width:100%;margin:10px auto;}
+.third-row-inn-a-credit-card{ width:120px; float:left; margin-top:7px; font-family:'Raleway'; font-size:17px;}
+.third-row-inn-b-credit-card{ width:100%; float:left;}
+.fourth-row-credit-card{ float:left; width:300px; font-family:'Raleway'; font-size:15px;}
+.fourth-row_a-credit-card{ float:left; width:86px; margin-top:7px; font-family:'Raleway'; font-size:17px;}
+.fourth-row_b-credit-card{ float:left; width:203px; font-family:'Raleway'; font-size:15px;}
+.fifth_wrapper-credit-card{ width:100%; margin:15px auto;}
+.fifth_row-credit-card{ float:left; width:100%;}
+.fifth_row_b-credit-card{ float:left; width:100%; margin-left:8px; margin-top:7px; font-family:'Raleway'; font-size:17px;}
+.fifth_cs{ float:left;}
+.fifth_row_c-credit-card{ float:left; width:100%; margin-left:5px; font-family:'Raleway'; font-size:15px;}
+.sixth-row-credit-card{ width:100%; margin:10px auto; font-family:'Raleway'; font-size:15px;}
+.sixth-row-inner-credit-card{width:100%; float:left;}
+.sixth-row-inner-a-credit-card{width:100%; float:left; margin-top:7px; font-family:'Raleway'; font-size:15px;}
+.sixth-row-inner-b-credit-card{width:100%; float:left; }
+.sixthe_right-credit-card{ float:left; width:100%;}
+.sixthe_right-a-credit-card{ float:left; width:89px; margin-top:7px;}
+.sixthe_right-b-credit-card{ float:left; width:120px;}
+.seventh-wrapper-credit-card{ width:100%; margin:10px auto;}
+.seventh-row-a-credit-card{width:100%; float:left; margin-top:7px; font-family:'Raleway'; font-size:15px;}
+.seventh-row-b-credit-card{width:100%; float:left;}
+.creditcard_wrapper-credit-card{width:100%; margin:25px auto;}
+.second_wrapper-credit-card{ width:100%; margin:15px auto; font-family:'Raleway';font-size:27px; font-weight:}
+.top-text_wrapper-credit-card{ float:left; width:100%; margin-left:10px; margin-top:10px; color:#181818; font-size:36px; font-family:'Raleway'; }
+.sbi_text-credit-card{float:left; padding:5px; border-bottom:thick solid #1185bb; font-family:Arial, Helvetica, sans-serif; color:#1185bb; font-size:17px; margin-right:5px;}
+.main_form-wrapper_newui{ background:#ebf4fd; padding:10px 10px 10px 10px;} 
+.bg-creditcard-shadow{ width:100%; margin:auto;}
+.table-credit-card{ width:95%; margin:10px auto; padding:0px 0px 0px 0px; border:#00cafa solid 2px; border-radius:5px;  background:#fafefe;}
+.white-text{ color:#FFF; font-size:13px;}
+.tablebody-text{ color:#020202; font-size:12px; padding-left:5px; display:none;}
+.tablebody-text:hover{color:#020202; font-size:12px; background:#E2F1FC; padding-left:5px;}
+.white-text2{color:#FFF; font-size:13px; display:none;}
+.hanger-middle-text{width:95%; margin:10px auto;}
+.overflow-width{width:99%; overflow:scroll; margin:auto;}s
+.credit-card-info-new1{width:90%!important; padding:10px; background:#f4f4f4; border:#CCCCCC solid thin; margin:auto;}
+.credit-card-info-new2{width:90% !important; padding:10px; background:#f6f8f8; border:#CCCCCC solid thin; margin:15px auto;}
+.cc-hanger-middle-text{width:95%; margin:10px auto; font-family:'Raleway'; font-size:16px;}}

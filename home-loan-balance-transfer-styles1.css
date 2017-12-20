@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.hlbt_top{ height:89px; width:100%; background:#f9f9f9; border-bottom:#d8d8d8 thin solid; }
+.hlbt_top_b , .hlbt_second{ width:1000px; margin:auto;}
+.hlbt_logo{ float:left; margin-top:7px;}
+.hlbt_top_text{ width:564px; float:left; margin-left:50px; margin-top:15px;}
+.head_text{ font-family:Arial, Helvetica, sans-serif; color:#0a8bd9; font-size:29px; font-weight:bold;}
+.sub_text{font-family:Arial, Helvetica, sans-serif; color:#323333; font-size:19px; font-weight:bold;}
+.hlbt_form{ width:502px; float:left; background:#fafafa; border:#cfd0d1 thin solid; padding:5px;}
+.text_one{ font-family:Verdana, Geneva, sans-serif; font-size:29px; color:#4b4c4d;}
+.text_two{ font-family:Verdana, Geneva, sans-serif; font-size:13px; color:#4b4c4d;}
+.text_three{ font-family:Verdana, Geneva, sans-serif; font-size:11px; color: #333;}
+.text_four{ font-family:Verdana, Geneva, sans-serif; font-size:13px; color:#FFF;}
+.hlbt_input{ width:287px; height:26px; border:#cbcdce solid thin;}
+.hlbt_select{ width:289px; height:28px; border:#cbcdce solid thin;}ss
+.hlbt_mobile{ width:258px; height:28px; border:#cbcdce solid thin;}
+.hlbt_right_panel{ width:471px; float:right; padding:5px;}
+.interest_box_a{ float:left; width:74px;}
+.interest_box_b{ float:left; width:369px; margin-left:5px; height:219px; background:url(d4limages/calculator-bg.jpg) no-repeat;}
+.interest_box{ width:369px; float:left;}
+.right_row_one{width:430px; padding:10px;  margin:auto;}
+.logo_wrapper{ width:435px; margin:auto; border-radius:7px 7px 7px 7px;
+-moz-border-radius:7px 7px 7px 7px;
+-ms-border-radius:7px 7px 7px 7px;
+-o-border-radius:7px 7px 7px 7px;
+-webkit-border-radius:7px 7px 7px 7px;
+background:#fbfbfb; border:thin solid #adadad;
+padding:5px; height:67px;}
+.logo_b ul{ margin:20px 0px 0px 0px; display:block; padding:0px 0px 0px 0px; list-style:none;}
+.logo_b li{ padding:7px 8px 7px 8px; border-radius:7px 7px 7px 7px; display:inline; float:left;
+-moz-border-radius:7px 7px 7px 7px;
+-ms-border-radius:7px 7px 7px 7px;
+-o-border-radius:7px 7px 7px 7px;
+-webkit-border-radius:7px 7px 7px 7px; margin-right:3px; margin-left:8px;
+border:thin solid #adadad; font-family: Arial, Helvetica, sans-serif; font-size:15px; text-align:center;}
+.text_5{ font-family: Verdana, Geneva, sans-serif; font-size:19px; color:#242424;}
+.why_tex_box{ width:430px; padding:7px; background:#fafafa; border:thin solid #adadad; margin:auto;}
+.why_listing ul{ margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.why_listing li{ margin-left:25px; vertical-align:text-top;  list-style:url(d4limages/home-loan_bt_bullet.png); font-family: Verdana, Geneva, sans-serif; font-size:13px;}
+
+.buttom_text_box{ width:990px; margin:auto; padding:5px; color:#5f6061; font-family: Verdana, Geneva, sans-serif; text-align:justify; font-size:12px;}
+
+
+@media screen and (max-width:680px) {
+	
+	
+	.hlbt_top_b , .hlbt_second{ width:300px; margin:auto;}
+.hlbt_logo{margin-top:7px;}
+.hlbt_top_text{ width:300px; margin-left:0px; margin-top:15px;}
+.head_text{ font-family:Arial, Helvetica, sans-serif; color:#0a8bd9; font-size:20px;  font-weight:bold;}
+.sub_text{font-family:Arial, Helvetica, sans-serif; color:#323333; font-size:12px; font-weight:bold;}
+.hlbt_form{ width:300px; background:#fafafa; border:#cfd0d1 thin solid; padding:5px;}
+.text_one{ font-family:Verdana, Geneva, sans-serif; font-size:20px; color:#4b4c4d; font-weight:bold;}
+.text_two{ font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#4b4c4d;}
+.text_three{ font-family:Verdana, Geneva, sans-serif; font-size:11px; color: #333;}
+.text_four{ font-family:Verdana, Geneva, sans-serif; font-size:13px; color:#FFF;}
+.hlbt_input{ width:200px; height:26px; border:#cbcdce solid thin;}
+.hlbt_select{ width:200px; height:28px; border:#cbcdce solid thin;}ss
+.hlbt_mobile{ width:180px; height:28px; border:#cbcdce solid thin;}
+.hlbt_right_panel{ width:300px;  padding:5px;}
+.interest_box_a{ width:50px; float:left;}
+.interest_box_b{width:230px;  border:thin solid #CCC; height:219px; background:url(d4limages/calculator-bg.jpg) no-repeat;}
+.interest_box{ width:230px; float:left; }
+.right_row_one{width:300px; padding:10px; margin:auto;}
+.logo_wrapper{ width:300px; margin:auto; border-radius:7px 7px 7px 7px;
+-moz-border-radius:7px 7px 7px 7px;
+-ms-border-radius:7px 7px 7px 7px;
+-o-border-radius:7px 7px 7px 7px;
+-webkit-border-radius:7px 7px 7px 7px;
+background:#fbfbfb; border:thin solid #adadad;
+padding:5px; height:67px;}
+.interest_box_ab{ width:300px; margin-left:-50px;}
+.logo_b ul{ margin:25px 0px 0px 0px; display:block; padding:0px 0px 0px 0px; list-style:none;}
+.logo_b li{ padding:7px 5px 7px 5px; border-radius:7px 7px 7px 7px; display:inline;
+-moz-border-radius:7px 7px 7px 7px;
+-ms-border-radius:7px 7px 7px 7px;
+-o-border-radius:7px 7px 7px 7px;
+-webkit-border-radius:7px 7px 7px 7px; margin-right:1px; margin-left:1px;
+border:thin solid #adadad; font-family: Arial, Helvetica, sans-serif; font-size:15px; text-align:center;}
+.text_5{ font-family: Verdana, Geneva, sans-serif; font-size:19px; color:#242424;}
+.why_tex_box{ width:300px; padding:7px; background:#fafafa; border:thin solid #adadad; margin:auto;}
+.why_listing ul{ margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.why_listing li{ margin-left:25px; vertical-align:text-top;  list-style:url(d4limages/home-loan_bt_bullet.png); font-family: Verdana, Geneva, sans-serif; font-size:13px;}
+
+.buttom_text_box{ width:300px; margin:auto; padding:5px; color:#5f6061; font-family: Verdana, Geneva, sans-serif; text-align:justify; font-size:12px;}
+
+}

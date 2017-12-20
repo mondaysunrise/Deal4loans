@@ -1,0 +1,47 @@
+<Script Language="JavaScript">
+   function validateMe(theFrm){
+	if(!checkData(theFrm.PWDO, 'Old Password', 5))
+		return false;
+	if(!checkData(theFrm.PWD1, 'Password', 5))
+		return false;
+	if(!checkData(theFrm.PWD2, 'Password', 5))
+		return false;
+	if(theFrm.PWD1.value != theFrm.PWD2.value){
+		alert('Please enter similar passwords.');
+		theFrm.PWD1.value = "";
+		theFrm.PWD2.value = "";
+		theFrm.PWD1.focus();
+		return false;
+		}
+	return true;
+    }
+ </Script>
+ 
+ 
+ <input type="hidden" name="UserID" value="<?=$UserID?>">
+ <table width="400" border="0" cellpadding="4" cellspacing="0" class="blueborder" id="frm">
+   <tr>
+     <td colspan="2" class="head1">Change Password</td>
+   </tr>
+   <tr><td colspan="2" id="Alert"> &nbsp; <?=$Msg?></td></tr>
+   <tr>
+     <td width="30%" class="bodyarial11">Enter Old Password</td>
+     <td width="70%"><input name="PWDO" type="password" class="form" size="15" maxlength="15"></td>
+   </tr>
+   <tr>
+     <td class="bodyarial11">Password</td>
+     <td><input name="PWD1" type="password" class="form" size="15" maxlength="15"></td>
+   </tr>
+   <tr>
+     <td class="bodyarial11">Password Again</td>
+     <td><input name="PWD2" type="password" class="form" size="15" maxlength="15"></td>
+   </tr>
+   <tr>
+     <td colspan="2">&nbsp;</td>
+   </tr>
+   <tr>
+     <td colspan="2" align="center"><br><input type="submit" class="bluebutton" value="Submit">
+     &nbsp;
+     <input type="reset" class="bluebutton" value="Reset"></td>
+   </tr>
+ </table>

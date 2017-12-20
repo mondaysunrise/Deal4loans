@@ -1,0 +1,348 @@
+@charset "utf-8";
+/* CSS Document */
+
+.pl_sbi_wrapper{ width:970px; margin:auto; }
+.pl_sbi_text_box{ width:950px; margin: auto; 
+ padding:5px; }
+.pl_input_form{ float:left; width:230px;  margin-left:5px; }
+.festiv_box{ float:left; width:663px; height:auto; margin-top:5px; display:inline;}
+.pl_sbi_form{ width:950px; margin: auto; float:left; margin-left:7px;
+border-radius:10px 10px 10px 10px; background:#21405F; padding:5px;}
+.terms_box{ width:750px; color:#FFF; margin-top:0px;}
+.pl_bnt{ float:right; width:114px; height:52px; margin-top:-30px; margin-right:60px; }
+.hide_top_menu{ display: inline;}
+.pl_input{ width:180px; height:18px;}
+.pl_dd{ width:43px; margin-right:2px; height:18px;}
+.pl_yy{ width:60px; height:18px;}
+.pl_select{ width:180px; height:24px;}
+.pl_mobo{ width:153px; height:18px;}
+
+.ad_hide_pl{ display:inline;}
+.pl_intres_sec{ width:970px; margin:auto;}
+#home_sec{ width:970px;}
+.blink_hide{display:inline; margin-left:15px;}
+
+
+/*...............car-loan-interest-rate1.php......................*/
+.responsive_ad{ display: none; margin-top:-50px; }
+		
+.line_ad{ display:inline !important;}
+.car_loan_text{ width:600px; float:left; margin-left:135px;}
+.car_loan_tbt{ width:970px;}
+.pl_logo{ width:243px; float:left; display:none;}
+.line_ad{ display:inline !important; }
+.pl_heading_text{ height:33; margin-top:0px; float:left; clear:right; font-size:36px; text-transform:none; color:#88a943;}
+
+/*....................end .....*/
+
+/*............................................personal-loans.php styles starts .................*/ 
+.pl_left_box{ width:663px; float:left; margin-top:15px;}
+.pl_form_box{ width:661px; float:left;
+border-radius:7px 7px 7px 7px;
+-moz-border-radius:7px 7px 7px 7px;
+-webkit-border-radius:7px 7px 7px 7px;
+-o-border-radius:7px 7px 7px 7px;
+background:#21405f;}
+
+.pl_titile_wraper{ width:663px; float:left; border-bottom: thin solid #88a943; padding:5px 0px 5px 0px;}
+
+#title_pl{width:300px; height:33; margin-top:0px; float:left; font-size:36px; 
+text-transform:none; 	font-family: 'Droid Sans', sans-serif;
+	font-weight: normal;
+	font-variant: normal;
+	color: #88a943;
+	text-decoration: none;
+	@import url(https://fonts.googleapis.com/css?family=Droid+Sans);
+
+}
+.pl_emi_btn_box{  width:95px; height:33; margin-top:15px; float:right;}
+
+.pl_right_box{ width:275px; float:left;}
+.pl_form_title{font-size:15px; text-transform:none; width:600px; float:left; margin-left:25px; color:#FFF; padding:5px 0px 5px 0px;}
+.pl_blink_text{width:600px; float:left; margin-left:25px; padding:5px 0px 5px 0px;}
+.pl_input_box{ float:left; width:183px; margin-left:25px;}
+
+.pl_input_b{width:180px; height:15px;}
+.pl_dd_b{width:43px; margin-right:2px; height:15px;}
+.pl_yy_b{width:60px; height:15px;}
+.pl_select_b{width:180px; height:22px;}
+.pl_mobo_b{width:153px; height:15px;}
+.pl_terms_box{ width:500px; color:#FFF; float:left; margin-left:25px; margin-top:10px; color:#FFF; font-size:11px; text-transform:none;}
+.pl_bnt_b{ float:right; width:114px; height:52px; margin-top:5px; margin-right:20px;}
+.pl_hide_compare_box{float:left; width:663px; margin-top:5px; text-align:justify;}
+.pl_right_box_b{float:right; width:227px; margin-top:5px;}
+.pl_text_wrapper{float:left; width:663px;}
+/*............................................personal-loans.php styles end .................*/ 
+
+
+/*............................................home-loans.php styles start 25-3-2013 .................*/
+.hl_text_wrapper_a{float:left; width:663px;}
+
+/*............................................home-loans.php styles end 25-3-2013 .................*/
+
+/*............................................car-loans.php styles start 26-3-2013 .................*/
+.cl_text_wrapper_a{float:left; width:663px; }
+.cl_pie_hide{ width:100%; display: inline;}
+.cl_right_box_b{float:right; width:227px; margin-top:5px;}
+/*............................................car-loans.php styles end 26-3-2013 .................*/
+
+/*............................................apply-credit-card.php styles start 26-3-2013 .................*/
+.ac_card_form{float:left; width:970px; 
+border-radius:7px 7px 7px 7px;
+-moz-border-radius:7px 7px 7px 7px;
+-webkit-border-radius:7px 7px 7px 7px;
+-o-border-radius:7px 7px 7px 7px;
+background:#21405f;}
+
+.ac_input_box{float:left; width:183px; margin:5px 30px 0px 25px;}
+.ac_table_box{ margin-top:10px; width:960px; margin:auto;}
+.ac_terms_box{width:750px; color:#FFF; margin-left:25px; margin-top:10px;}
+.ac_get_btn_box{float:right; width:114px; height:47px; margin-top:-30px; margin-left:0px; margin-right:23px;}
+
+/*............................................apply-credit-card.php styles end 26-3-2013 .................*/
+
+/*............................................personal-loan-axis-bank1.php start 28-3-2013 .................*/
+.pl_asix_offer{ width:650px; float:left; margin-top:5px; text-align:justify;}
+#pl_asix_tet_wraper{ float:left; width:940px; height:auto; margin-top:15px; text-align:justify; }
+/*............................................personal-loan-axis-bank1.php end 28-3-2013 .................*/
+
+/*............................................personal-loan-axis-bank1.php end 28-3-2013 .................*/
+.hl_emi_cal_form{ width:950px; margin: auto; float:left; margin-left:7px;
+border-radius:5px 5px 5px 5px; background:#21405F; padding:5px; }
+
+.pl_emi_cal_text{ width:940px; margin-left:25px;}
+.hl_emi_input_form{ float:left; width:230px; margin-left:5px;}
+.hl_emi_input{width:180px; height:18px;}
+.pl_emi_cal_blink_b{ width:940px; margin-left:25px; display:inline; text-align:left;}
+
+.hl_emi_dd{width:43px; height:18px;}
+.hl_emi_yy{width:60px; height:18px;}
+.hl_emi_select{width:180px; height:24px;}
+/*............................................personal-loan-axis-bank1.php end 28-3-2013 .................*/
+
+/*............................................hdfc-ltd-home-loan1.php start 28-3-2013 .................*/
+
+#title_hdfc_ltd{width:100%; height:33; margin-top:0px; float:left; font-size:36px; 
+text-transform:none; color:#88a943;
+font-family: Verdana, Geneva, sans-serif;
+}
+
+.hdfc_get_btn_box{float:right; width:114px; height:47px; margin-top:-50px; margin-right:30px;}
+
+.hdfc_ltd_form{float:left; width:970px;
+padding-bottom:10px;
+border-radius:7px 7px 7px 7px;
+-moz-border-radius:7px 7px 7px 7px;
+-webkit-border-radius:7px 7px 7px 7px;
+-o-border-radius:7px 7px 7px 7px;
+background:#21405f;}
+.hl_emi_get_quote{ float:right; width:151px;}
+
+.hl_emi_term_box{ float:left; width:760px; height:auto; color:#FFF; font-size:11px; text-transform:none; margin-top:5px;}
+/*............................................hdfc-ltd-home-loan1.php end 28-3-2013 .................*/
+
+/*.................................hdfc-personal-loan-eligibility1.php start 28-3-2013 .........................*/
+.hdfc_la_offer{ width:500px;}
+.hdfc_la_ad{ width:160px;}
+
+/*.................................hdfc-personal-loan-eligibility1.php end .........................*/
+/*.................................insert-car-loan-values1.php 29-3-2013 .........................*/
+
+.inser_cl_input{ width:279px; float:left; margin-left:25px; margin-top:25px;}
+.inser__btn_box{  width:114px; height:52; margin-top:25px; float:right;}
+/*.................................insert-car-loan-values1.php end 29-3-2013
+ /*...................personal loan start 1-4-2013.........................*/
+.pl_compare_a{ width:234px; float:left; margin-top:10px;}
+.pl_compare_b{ width:167px; float:left; margin-top:10px;}
+.pl_compare_c{ width:242px; float:left; margin-top:10px; margin-left:2px;}
+  /*...................personal loan start 1-4-2013 end.........................*/
+  
+   /*...................hdfc-ltd-home-loan.php start 1-4-2013.........................*/
+   .hdfc_ltd_loan{ width:964px; float:left;}
+         /*...................hdfc-ltd-home-loan.php end 1-4-2013.........................*/
+		 
+		 /*...................apply-credit-card1.php start 2-4-2013.........................*/
+   .ac_card_colum{width:230px; float:left; height:710px; margin-left:3px; border:#ecd77b thin solid;}
+         #ac_card_hide_row{width:100%;}
+         /*...................apply-credit-card1.php end 2-4-2013.......................*/
+
+
+@media screen and (max-width:680px){
+	.ad_hide_pl{ display:none;}
+			.pl_sbi_wrapper{ width:300px;}
+.pl_sbi_text_box{ width:300px; }
+.pl_input_form{ float:left; width:300px;  margin-left:5px;}
+.festiv_box{ float:left; width:300px; height:auto; margin-top:5px;}
+.pl_sbi_form{ width:293px; margin: auto;
+border-radius:5px 5px 5px 5px; background:#21405F; padding:3px;}
+.terms_box{ width:300px; color:#FFF;}
+
+.hide_top_menu{ display:none;}
+.festiv_box{ float:left; width:300px; height:auto; margin-top:5px; display:none;}
+.pl_input{ width:280px; height:18px;}
+.pl_dd{ width:75px; height:18px;}
+.pl_yy{ width:113px; height:18px;}
+.pl_select{ width:280px; height:24px;}
+.pl_mobo{ width:255px; height:18px;}
+.pl_intres_sec{ width:292px; margin:auto;}
+#home_sec{ width:280px; padding-bottom:20px;}
+
+.pl_bnt{width:290px; height:52px; margin-top:10px; text-align:center;}
+	.blink_hide{ display:none; margin-left:20px;}
+	.pl_logo{ width:243px; float:left; display:inline;}
+	
+	/*...............car-loan-interest-rate1.php......................*/
+
+.car_loan_text{width:300px; margin:0px;}
+.car_loan_tbt{ width:300px;}
+.cl_right_box_b{float:right; width:227px; margin-top:5px; display:none;}
+
+.intrl_txt{
+margin:auto;
+width:300px; margin-top:1px;
+}
+
+.pl_heading_text{ height:33; margin-top:0px; float:left; clear:right; font-size:18px; text-transform:none; color:#88a943; padding-buttom:10px;}
+
+
+.line_ad{ display: none !important; }
+
+/*....................end .....*/
+
+/*............................................personal-loans.php styles starts .................*/ 
+.pl_left_box{ width:300px; float:left;}
+.pl_form_box{width:98%; margin:0px 0px 0px 2px;}
+.title_pl{
+width: 300px;
+border-bottom: thin solid #88a943; margin:0px 0px 0px 0px; font-size: 18px;
+font-family: 'Droid Sans', sans-serif;
+	font-weight: normal;
+	font-variant: normal;
+	text-decoration: none;
+	@import url(https://fonts.googleapis.com/css?family=Droid+Sans);
+color: #88a943;}
+
+.pl_right_box{ width:275px; float:left;}
+.pl_titile_wraper{ width:300px; border-bottom: thin solid #88a943; padding:5px 0px 5px 0px;}
+
+#title_pl{width:300px; margin-top:25px; float:left; font-size:20px; 
+text-transform:none; color:#88a943;
+font-family: Verdana, Geneva, sans-serif;
+}
+.pl_emi_btn_box{  width:95px;  margin-top:-15px; float:right;}
+.pl_form_title{font-size:15px; text-transform:none; width:300px; margin:0px 0px 0px 0px; float:left; color:#FFF;}
+.pl_blink_text{width:300px; float:left; display:none;}
+.pl_input_box{width:300px; margin:0px 0px 0px 0px; }
+.pl_input_b{ width:280px; height:15px;}
+.pl_dd{ width:75px; height:15px;}
+.pl_yy_b{ width:113px; height:15px;}
+.pl_select_b{ width:280px; height:22px;}
+.pl_mobo_b{width:255px; height:15px;}
+.pl_terms_box{ width:98%; margin:0px 0px 0px 0px;}
+.pl_hide_compare_box{ display:none;}
+.pl_right_box_b{width:300px; float:left; display:inline;}
+.pl_text_wrapper{width:300px; margin:0px 0px 0px 0px; }
+.pl_bnt_b{width:300px; height:52px; text-align:center;}
+.hl_text_wrapper_a{float:left; width:663px; margin-top:275px;}
+
+/*............................................home-loans.php media start 25-3-2013 .................*/
+.hl_text_wrapper_a{float:left; width:300px; margin:0px 0px 0px 0px;}
+
+/*............................................home-loans.php media end 25-3-2013 .................*/	
+
+/*............................................home-loans.php styles start 26-3-2013 .................*/
+.cl_text_wrapper_a{float:left; width:300px; margin:0px 0px 0px 0px;}
+.cl_pie_hide{ display:none;}
+/*............................................home-loans.php styles end 26-3-2013 .................*/
+
+
+/*............................................apply-credit-card.php styles start 26-3-2013 .................*/
+.ac_card_form{ width:300px;
+border-radius:7px 7px 7px 7px;
+-moz-border-radius:7px 7px 7px 7px;
+-webkit-border-radius:7px 7px 7px 7px;
+-o-border-radius:7px 7px 7px 7px;
+background:#21405f; padding-bottom:5px;}
+.ac_terms_box{ width:300px;}
+.ac_input_box{width:300px; margin:0px 0px 0px 0px;}
+.ac_table_box{ margin-top:10px; width:300px; }
+.ac_get_btn_box{ width:300px; text-align:center; margin:-5px 0px 0px 0px;}
+.ac_terms_box{width:300px; color:#FFF;}
+/*............................................apply-credit-card.php styles end 26-3-2013 .................*/
+.responsive_ad{ display:inline !important; padding-top:15px; text-align:center; }
+/*............................................personal-loan-axis-bank1.php start 28-3-2013 .................*/
+.pl_asix_offer{ display:none;}
+#pl_asix_tet_wraper{ width:300px; }
+/*............................................personal-loan-axis-bank1.php end 28-3-2013 .................*/
+	
+	.hl_emi_cal_form{ width:98%; margin: auto; 
+border-radius:5px 5px 5px 5px; background:#21405F; padding:5px; }
+	.pl_emi_cal_text{ width:300px; margin:0px 0px 0px 0px;}
+	.hl_emi_input_form{ float:left; width:300px;margin-top:10px;  margin-left:0px;}
+	.pl_emi_cal_blink_b{ display:none;}
+	.hl_emi_input{ width:100%;}
+	
+	.hl_emi_dd{width:28%; height:18px;}
+.hl_emi_yy{width:37%; height:18px;}
+.hl_emi_mob_input{width:262px; height:18px;}
+.hl_emi_select{width:100%; height:24px;}
+
+/*............................................hdfc-ltd-home-loan1.php start 28-3-2013 .................*/
+
+#title_hdfc_ltd{width:100%; height:33; margin-top:0px; float:left; font-size:18px; 
+text-transform:none; color:#88a943;
+font-family: Verdana, Geneva, sans-serif;
+}
+.hdfc_ltd_form{float:left; width:300px; padding-bottom:10px;
+border-radius:7px 7px 7px 7px;
+-moz-border-radius:7px 7px 7px 7px;
+-webkit-border-radius:7px 7px 7px 7px;
+-o-border-radius:7px 7px 7px 7px;
+background:#21405f;}
+.hdfc_get_btn_box{ width:300px; text-align:center; margin:5px 0px 0px 0px;}
+	.hl_emi_get_quote{ margin:auto; width:300px; text-align:center;}
+
+.hl_emi_term_box{ width:300px; height:auto; color:#FFF; font-size:11px; text-transform:none; margin:5px 0px 0px 0px;}
+/*............................................hdfc-ltd-home-loan1.php end 28-3-2013 .................*/
+
+/*.................................hdfc-personal-loan-eligibility1.php start 28-3-2013 .........................*/
+.hdfc_la_offer{ width:500px; display:none;}
+.hdfc_la_ad{ width:160px; display:none;}
+/*.................................hdfc-personal-loan-eligibility1.php end .........................*/
+
+
+.text3 {
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 16px !important;
+	font-weight: normal;
+	font-variant: normal;
+	color: #909faf;
+	text-decoration: none;
+	text-transform: uppercase;
+	@import url(https://fonts.googleapis.com/css?family=Droid+Sans);
+ 
+}
+
+/*.................................insert-car-loan-values1.php 29-3-2013 .........................*/
+
+.inser_cl_input{ width:279px; margin-left:2px; margin-top:25px;}
+/*.................................insert-car-loan-values1.php end 29-3-2013 .........................*/
+
+ /*...................personal loan start 1-4-2013.........................*/
+.pl_compare_a{ width:300px; text-align:center; margin-top:10px;}
+.pl_compare_b{width:300px; text-align:center; margin-top:10px;}
+.pl_compare_c{width:300px; text-align:center; margin-top:10px;}
+  /*...................personal loan start 1-4-2013 end.........................*/
+  
+     /*...................hdfc-ltd-home-loan.php start 1-4-2013.........................*/
+   .hdfc_ltd_loan{ width:300px; background:#F00; margin:0px 0px 0px 0px;}
+   
+      /*...................hdfc-ltd-home-loan.php end 1-4-2013.........................*/
+	  
+	  		 /*...................apply-credit-card1.php start 2-4-2013.........................*/
+   .ac_card_colum{width:300px; border:#ecd77b thin solid; margin:0px 0px 0px 0px; height:auto;}
+      #ac_card_hide_row{width:300px; border:#ecd77b thin solid; display:none;}
+   
+         /*...................apply-credit-card1.php end 2-4-2013.......................*/
+}
+	

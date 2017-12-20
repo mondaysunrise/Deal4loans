@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+.wrapper-vert_box{ width:280px; padding:10px; border-radius:7px; background:#EAEDEE; margin:auto; border:#CCCCCC solid thin;}
+.vert-column1{width:120px; float:left; color:#151414; font-family:Verdana, Geneva, sans-serif; font-size:14px; margin-top:10px;}
+.vert-column1_a{width:140px; float:left; color:#151414; font-family:Verdana, Geneva, sans-serif; font-size:14px; margin-top:10px;}
+.vert-column1_b{width:130px; float:left; color:#151414; font-family:Verdana, Geneva, sans-serif; font-size:14px; margin-top:10px;}
+.vert-column2{width:160px; float:left; color:#151414; font-family:Verdana, Geneva, sans-serif; font-size:14px;}
+.input-new-vert{ width:160px; height:37px; border-radius:5px; border:thin solid #cccccc; float:left;}
+.clear-both{ clear:both; height:5px;}
+.bank_logo-icon_poll{ width:65px; margin-left:5px; float:left;}
+.input-new-vert{ width:160px; height:37px; border-radius:5px; border:thin solid #cccccc;}
+.submit_btn_vrt_poll{ width:100%; text-align:center; margin-top:10px;}

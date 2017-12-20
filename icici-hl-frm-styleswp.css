@@ -1,0 +1,64 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+@charset "utf-8";
+/* CSS Document */
+body{font-family: 'Droid Sans', sans-serif!important;}
+.form_section{ width:100%; padding:5px; background:#7bcabd;
+border-radius:5px 5px 5px 5px;
+-moz-border-radius:5px 5px 5px 5px;
+-ms-border-radius:5px 5px 5px 5px;
+-o-border-radius:5px 5px 5px 5px;
+-webkit-border-radius:5px 5px 5px 5px;
+margin:auto; float:left; }
+.text_head{padding-left:10px; font-family: 'Droid Sans', sans-serif!important; font-size:18px; font-weight:bold; color: #333333; width:100%; text-align:left;}
+.text_body{ padding-left:55px; font-size:19px; color:#FFFFFF;}
+.input_box{ width:170px; float:left; margin-right:20px; margin-left:20px; margin-top:5px; }
+.box_b{ width:721px; margin-left:10px; margin-top:15px; font-family: 'Droid Sans', sans-serif!important; font-size:11px; color: #333333; float:left; text-align:left; }
+.box_d{ width:100%; float:none; margin-left:10px; margin-top:10px;}
+.box_c{ width:98%;  margin:auto; margin-top:10px;}
+.second_wrapper{}
+.box_term{ width:90%; float:none; text-align:left; font-size:14px;}
+.box_btn{ width:107px; float:right; margin-left:15px;}
+.input{ width:180px; height:18px;}
+.dd{ width:25%; height:18px; margin-right:3px; }
+.yy{ width:25%; height:18px; margin-right:3px;}
+.select{ width:180px; height:26px; }
+.mobile{ width:130px; height:18px; margin-left:5px;}
+#salary_account{ height:50px;}
+.hl_emi_mob_input{ width:150px; height:24px;}
+.menu{ display: inherit;}
+.header{ width:100%; margin:auto;}
+.ad{ display:inherit;}
+.big_text{ border-bottom: thin solid #88a943;}
+.btnnewwp{ width:117px; float:none; margin-right:10px;}
+/* new styles added on 5-4-2015..............*/
+.formhlwpbody-text{font-family: 'Droid Sans', sans-serif!important; font-size:14px; color: #333333;}
+/* new styles added on 5-4-2015..............*/
+
+@media screen and (max-width:680px){
+	.menu{ display: none; width:300px; margin:auto;}
+	.ad{ display:none;}
+	.header{ width:300px; margin:auto;}
+.form_section{ width:98%; padding:5px 5px 5px 5px; background:#7bcabd;
+border-radius:5px 5px 5px 5px; margin:auto;
+-moz-border-radius:5px 5px 5px 5px;
+-ms-border-radius:5px 5px 5px 5px;
+-o-border-radius:5px 5px 5px 5px; margin:0px 0px 0px 0px;
+-webkit-border-radius:5px 5px 5px 5px; 
+}
+.yy{ width:31%; height:24px; margin-right:3px;}
+.dd{ width:28%; height:24px;}
+.mobile{ width:98%; height:24px; margin-left:5px;}
+.select{ width:99%; height:26px; }
+.input{ width:98%; height:24px;}
+.text_head{font-family: 'Droid Sans', sans-serif!important; font-size:20px; font-weight:bold; color: #333333; width:98%; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.text_body{ padding-left:55px; font-size:19px; color: #333333; margin:0px 0px 0px 0px;}
+.input_box{ width:98%;  float:none; margin:10px 0px 0px 0px;}
+.box_b{ width:98%; margin:0px 0px 0px 0px; margin-top:15px; font-family: 'Droid Sans', sans-serif!important; font-size:11px; color: #333333;}
+.box_d{ width:98%; margin:0px 0px 0px 0px;}
+.box_c{ width:98%; margin:0px 0px 0px 0px;}
+.box_term{ width:98%; font-size:14px;}
+.box_btn{ width:107px;  margin-left:15px;}
+.second_wrapper{ width:95%;}
+.hl_emi_mob_input{ width:98%; height:24px;}
+.btnnewwp{ width:117px; margin:auto;}
+}

@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+body{ padding:0px 0px 0px 0px; margin:0px 0px 0px 0px; background:#e6f4fd;}
+.header{ height:71px; width:100%; background:url(images/window-theme-lp-topbg.jpg) repeat-x; border-bottom:#CCC solid thin;}
+.header_a{ height:71px; width:1000px; margin:auto;}
+.header_b{ float:right; width:800px; font-family:Verdana, Geneva, sans-serif; font-size:22px; color:#db552d; margin-top:5px; text-align:center; margin-right:25px;}
+.logo{ width:157px; float:left;}
+.second_container{ width:1000px; padding:3px; margin:auto; background:#FFF url(images/second-container-bg.jpg) center repeat; background-size:100%;}
+.second_container-inn{width:960px; padding:3px; margin:auto;}
+.form-box{width:975px; background: #FFF; }
+.tab_container-main{width:500px; float:left; background:#f5f5f5; padding:0px 0px 5px 5px; margin-left:-5px;}
+.text-a{ font-family:Verdana, Geneva, sans-serif; font-size:21px; color: 
+;}
+.form_body{ font-family:Verdana, Geneva, sans-serif; font-size:13px; color: #000; font-weight:bold;}
+.input{ width:292px; border:none; height:25px; border:thin solid #d8d8d8;}
+.mobile{ width:259px; border:none; height:25px; border:thin solid #d8d8d8;}
+.select{ width:292px; padding:3px; border:none; height:25px; border:thin solid #d8d8d8;}
+.dd{ width:90px; border:none; height:25px; border:thin solid #d8d8d8;}
+.yy{ width:102px; border:none; height:25px; border:thin solid #d8d8d8;}
+
+.left_container{ width:940px; height:auto;}
+.right_box{ float:right; width:430px; padding:10px; background:#FFF;}
+.right_box_a{width:420px; margin:auto; }
+.right_box_b{width:420px; margin:5px auto; height:196px; background:#0083c9;}
+.right_box_c{width:220px; height:119px; background:#a200a9; float:left;}
+.right_box_c-new{width:95%;  background:#fefefe; margin:10px auto; color:#000; padding:5px 5px 5px 5px ; border:#DFDFDF thin solid;}
+.right_box_d{width:195px; margin-left:5px; height:119px; background:#db552d; float:right;}
+.right_box_e{width:181px; height:155px; margin-top:5px; background:#db552d; float:left;}
+.right_box_f{width:235px; height:155px; margin-top:5px; background:#0097aa; float:right;}
+.form_bottom_box{ width:100%; padding:3px;  margin-top:5px; font-family:Verdana, Geneva, sans-serif; color: #000; font-size:12px; text-align:left; }
+.right_text_a{ font-family:Verdana, Geneva, sans-serif; color: #000;  font-size:20px;}
+.right_text_b{ font-family:Verdana, Geneva, sans-serif; color: #FFF;  font-size:20px;}
+.right_text_c{ font-family:Verdana, Geneva, sans-serif; color: #000;  font-size:16px;}
+.right_text_c-new{ font-family:Verdana, Geneva, sans-serif; color: #FFF;  font-size:15px;}
+.banks_logo{ float:left; width:125px; height:43px; background:#FFF; text-align:center; margin-left:12px; margin-top:8px; margin-right:5px; border:#CCC solid thin; border-radius:5px;}
+.banks_logo_b{ float:left; width:125px; height:43px; background:#FFF; text-align:center; margin-left:0px; margin-top:8px; margin-right:5px; border:#CCC solid thin; border-radius:5px;}
+.sbi_text{ font-family: Arial, Helvetica, sans-serif; font-size:30px; color:#139ddb; line-height:25px;}
+.lic_text{ font-family: Arial, Helvetica, sans-serif; font-size:30px; color:#004190; line-height:25px;}
+.logo_wdth_axis { width:103px; height:40px;}
+.logo_wdth_hdfc { width:113px; height:41px;}
+.logo_wdth_pnb { width:119px; height:31px;}
+.logo_wdth_icici { width:118px; height:35px;}
+.standard_ch{ font-family:Arial, Helvetica, sans-serif; font-size:19px; color:#0072aa;}
+.city_bank{ font-family:Arial, Helvetica, sans-serif; font-size:19px; color:#003c7e;}
+.federal_bank{ font-family:Arial, Helvetica, sans-serif; font-size:19px; color:#004e96;}
+.axis_bank{ font-family:Arial, Helvetica, sans-serif; font-size:19px; color:#a60e47;}
+.pnb_housing{ font-family:Arial, Helvetica, sans-serif; font-size:19px; color:#daaa00;}
+.icici_bank{ font-family:Arial, Helvetica, sans-serif; font-size:19px; color:#0e3264;}
+.hdfc_bank{ font-family:Arial, Helvetica, sans-serif; font-size:30px; color:#de1616;}
+.table_tp_text{ font-family: Arial, Helvetica, sans-serif; color:#000; font-size:12px; font-weight:bold;}
+.table_hil_text{ font-family: Arial, Helvetica, sans-serif; color:#0083c9; font-size:12px;}
+.table-new{ width:500px; margin-left:-5px; padding:3px;}
+.bullet_c { font-family:Verdana, Geneva, sans-serif; font-size:13px; color: #000;}
+
+@media screen and (max-width:680px){
+.header{ width:100%; background:url(images/window-theme-lp-topbg.jpg) repeat-x; border-bottom:#CCC solid thin; height:150px;}
+.header_a{ width:100%; margin:auto; height:auto;}
+.header_b{width:100%; font-family:Verdana, Geneva, sans-serif; font-size:18px; color:#db552d; margin-top:5px; text-align:center; margin-right:10px ; height:auto;}
+.logo{ width:157px; float:none; margin:auto;}
+.second_container{ width:100%; padding:3px; margin:auto; background:#FFF url(images/second-container-bg.jpg) center repeat; background-size:100%;}
+.second_container-inn{ width:100%; padding:3px; margin:auto;}
+.form-box{width:98%; background: #FFF;}
+.text-a{ font-family:Verdana, Geneva, sans-serif; font-size:22px; color:#000;}
+.form_body{ font-family:Verdana, Geneva, sans-serif; font-size:11px; color:#000;}
+.input{ width:100%; border:none; height:25px; border:thin solid #d8d8d8;}
+.select{ width:100%; padding:3px; border:none; height:25px; border:thin solid #d8d8d8;}
+.mobile{ width:82%; border:none; height:25px; border:thin solid #d8d8d8;}
+.dd{ width:25%; border:none; height:25px; border:thin solid #d8d8d8;}
+.yy{ width:35%; border:none; height:25px; border:thin solid #d8d8d8;}
+.left_container{ width:100%;}
+.right_box{width:100%;}
+.right_box_a{width:100%; margin:auto; }
+.right_box_b{width:100%; margin:5px auto;  background:#0083c9;}
+.right_box_c{width:100%;  background:#a200a9; float:left;}
+.right_box_d{width:100%; margin-left:5px;  background:#db552d; float:right;}
+.right_box_e{width:100%;  margin-top:5px; background:#db552d; float:left;}
+.right_box_f{width:100%;  margin-top:5px; background:#0097aa; float:right;}
+.form_bottom_box{ width:98%; padding:3px;  margin-top:5px; font-family:Verdana, Geneva, sans-serif; color: #000; font-size:12px; text-align:left;}
+.right_text_a{ font-family:Verdana, Geneva, sans-serif; color: #000;  font-size:20px;}
+.right_text_b{ font-family:Verdana, Geneva, sans-serif; color: #FFF;  font-size:20px;}
+.right_text_c{ font-family:Verdana, Geneva, sans-serif; color: #FFF;  font-size:15px;}
+.banks_logo{ float:left; width:28%; height:43px; background:#FFF; text-align:center; margin-left:12px; margin-top:8px; margin-right:5px;}
+.banks_logo_b{ float:left; width:28%; height:43px; background:#FFF; text-align:center; margin-left:0px; margin-top:8px; margin-right:5px;}
+.logo_wdth_axis { width:96px; height:40px;}
+.logo_wdth_hdfc { width:96px; height:40px;}
+.logo_wdth_pnb { width:96px; height:31px;}
+.logo_wdth_icici { width:96px; height:35px;}
+.sbi_text{ font-family: Arial, Helvetica, sans-serif; font-size:30px; color:#139ddb; line-height:25px;}
+.lic_text{ font-family: Arial, Helvetica, sans-serif; font-size:30px; color:#004190; line-height:25px;}
+.table-new{ width:100%; margin-left:-5px; padding:3px;}
+}

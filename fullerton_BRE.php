@@ -1,0 +1,834 @@
+<?php
+ini_set('max_execution_time', 1000);
+
+require_once ("lib/nusoap_fullerton.php");
+$xmlstr='<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://serviceimpl.alobr.valuemomentum.com">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ser:invokeBRE>
+         <ser:objModel><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<loanContract>
+<loanApplication>
+<applicant>
+<partyReference/>
+<companyName>Mywish Marketplaces Pvt ltd</companyName>
+<companyCategory>OTHERS</companyCategory>
+<qualification></qualification>
+<dateOfBirth>1985-02-01</dateOfBirth>
+<ageInMonths>0.0</ageInMonths>
+<ageInYears>0.0</ageInYears>
+<ageAtMaturity>0.0</ageAtMaturity>
+<incomeDetails>
+<declaredGrossMonthlyIncome>75000</declaredGrossMonthlyIncome>
+<minMonthlyIncome>0.0</minMonthlyIncome>
+<verifiedMonthlyIncome>0.0</verifiedMonthlyIncome>
+<totalMonthlyEMI>0</totalMonthlyEMI>
+<totalMonthlyEMIPersonalLoans>0</totalMonthlyEMIPersonalLoans>
+<grossAnnualIncome>900000</grossAnnualIncome>
+<otherIncome>0.0</otherIncome>
+<spouseIncome>0.0</spouseIncome>
+<disposableMonthlyIncome>0.0</disposableMonthlyIncome>
+<clubbedIncome>0.0</clubbedIncome>
+<netAdjustedIncome>0.0</netAdjustedIncome>
+<additionalIncome>0.0</additionalIncome>
+<netMonthlyTakeHomeSalary>75000</netMonthlyTakeHomeSalary>
+<salesTurnover>0</salesTurnover>
+</incomeDetails>
+<cibilBureauDetails>
+<score>0.0</score>
+<LIVE_UNSECURED_MUE>0.0</LIVE_UNSECURED_MUE>
+<totalCardsOutstanding>0.0</totalCardsOutstanding>
+<creditCard>
+<overDueAmt>0.0</overDueAmt>
+<writeOffAmt>0.0</writeOffAmt>
+<cardVintage>0.0</cardVintage>
+<outStandingAmt>0.0</outStandingAmt>
+</creditCard>
+<loanHistory>
+<writeOffAmt>0.0</writeOffAmt>
+<outStandingAmt>0.0</outStandingAmt>
+<emi>0.0</emi>
+<TwelveMonth30PlusDPDCount>0.0</TwelveMonth30PlusDPDCount>
+<CurrentBalance>0.0</CurrentBalance>
+</loanHistory>
+<Total_Card_Util>0.0</Total_Card_Util>
+<Total_Card_Balance>0.0</Total_Card_Balance>
+<Months_Since_30DPD>0.0</Months_Since_30DPD>
+<afterFICCWriteoffAmt>0.0</afterFICCWriteoffAmt>
+<total_Delinquent_Trades>0.0</total_Delinquent_Trades>
+<trade_info_4>0.0</trade_info_4>
+<trade_info_9>0.0</trade_info_9>
+<pt_var_23>0.0</pt_var_23>
+<LiveCardUtil>0.0</LiveCardUtil>
+<Total_PastDueBalance_SecuredTrade>0.0</Total_PastDueBalance_SecuredTrade>
+<Total_Utilization_LivePL_Accounts>0.0</Total_Utilization_LivePL_Accounts>
+<Unsecured_LastTrade_Opened>0.0</Unsecured_LastTrade_Opened>
+<Trade_summary_1>0.0</Trade_summary_1>
+<Trade_summary_2>0.0</Trade_summary_2>
+<Trade_summary_3>0.0</Trade_summary_3>
+</cibilBureauDetails>
+<totalAddCardLiabilities>0.0</totalAddCardLiabilities>
+<totalAddLoanLiabilities>0.0</totalAddLoanLiabilities>
+<totalCibilLoanLiabilities>0.0</totalCibilLoanLiabilities>
+<totalCibilCardLiabilities>0.0</totalCibilCardLiabilities>
+<totalLiabilities>0.0</totalLiabilities>
+<prevYearTotalLiabilities>0.0</prevYearTotalLiabilities>
+<existingDebtBurdenServiced>0.0</existingDebtBurdenServiced>
+<gender>M</gender>
+<maritalStatus>1</maritalStatus>
+<noOfMonthsInCurrentJob>0.0</noOfMonthsInCurrentJob>
+<noOfYearsInCurrentJob>0.0</noOfYearsInCurrentJob>
+<noOfYearsInPreviousJob>0.0</noOfYearsInPreviousJob>
+<accomodationType>PARENTL</accomodationType>
+<noOfYearsAtCurrentAddress>10</noOfYearsAtCurrentAddress>
+<noOfMonthsAtCurrentAddress>0.0</noOfMonthsAtCurrentAddress>
+<minYearsAtCurrentAddress>0.0</minYearsAtCurrentAddress>
+<address>
+<currentResidenceAddressOwnershipStatus>PARENTAL OWNED</currentResidenceAddressOwnershipStatus>
+<officeAddressCity>hdjdjdj</officeAddressCity>
+<currentResidenceAddressMobile>8943652533</currentResidenceAddressMobile>
+<noOfMonthsCurrentResidenceAddress>0.0</noOfMonthsCurrentResidenceAddress>
+<noOfYearsCurrentResidenceAddress>0.0</noOfYearsCurrentResidenceAddress>
+<noOfMonthsPermanentResidenceAddress>0.0</noOfMonthsPermanentResidenceAddress>
+<noOfYearsPermanentResidenceAddress>0.0</noOfYearsPermanentResidenceAddress>
+<noOfMonthsOfficeAddress>0.0</noOfMonthsOfficeAddress>
+<noOfYearsOfficeAddress>0.0</noOfYearsOfficeAddress>
+<City>New Delhi</City>
+</address>
+<designation>9</designation>
+<typeOfOrganization>4</typeOfOrganization>
+<abb>0.0</abb>
+<resiStabilityInYears>0.0</resiStabilityInYears>
+<applicantType>01</applicantType>
+<employmentType>K</employmentType>
+<noOfDependants>0</noOfDependants>
+<educationalQualification>2</educationalQualification>
+<organizationType>4</organizationType>
+<noOfYearsWithCurrentEmployer>10</noOfYearsWithCurrentEmployer>
+<companyType>4</companyType>
+<totalYearsInPresentBusiness>0.0</totalYearsInPresentBusiness>
+<cibilScore>-1.0</cibilScore>
+<appDate>2016-06-21</appDate>
+<avgIncomePF>0.0</avgIncomePF>
+<bankBalancePF>0.0</bankBalancePF>
+<officeLandlineNumber>9566224220</officeLandlineNumber>
+<eVerifyScore>0.0</eVerifyScore>
+<cir_Name_Match>0.0</cir_Name_Match>
+<cir_Address1_Match>0.0</cir_Address1_Match>
+<cir_Address2_Match>0.0</cir_Address2_Match>
+<vtr_Name_Match>0.0</vtr_Name_Match>
+<vtr_DOB_Match>0.0</vtr_DOB_Match>
+<vtr_Name_Match_CIR>0.0</vtr_Name_Match_CIR>
+<vtr_DOB_Match_CIR>0.0</vtr_DOB_Match_CIR>
+<pan_Name_Match>0.0</pan_Name_Match>
+<pan_Name_Match_CIR>0.0</pan_Name_Match_CIR>
+<costofHome>0.0</costofHome>
+<costofLand>0.0</costofLand>
+<costofConstruction>0.0</costofConstruction>
+<marketvalueofProperty>0.0</marketvalueofProperty>
+<outstandingLoanBalance>0.0</outstandingLoanBalance>
+<requestedTopupLoanamount>0.0</requestedTopupLoanamount>
+<variableIncome>0.0</variableIncome>
+<annualIncome>0.0</annualIncome>
+<emiperMonth>0.0</emiperMonth>
+</applicant>
+<outputVariables>
+<loanAmount>0.0</loanAmount>
+<rate>0.0</rate>
+<procFee>0.0</procFee>
+<netDisbursalAmount>0.0</netDisbursalAmount>
+<stampDutyAndRegCharges>0.0</stampDutyAndRegCharges>
+</outputVariables>
+<loginDate>2017-02-13</loginDate>
+<loanOpenDate>2016-06-21</loanOpenDate>
+<appRefNo>121417</appRefNo>
+<IRR>17.99</IRR>
+<baseIrr>0.0</baseIrr>
+<irrDifference>0.0</irrDifference>
+<rateOfInterest>0.0</rateOfInterest>
+<emiCFA>0.0</emiCFA>
+<emiDebtBurdenRatio>0.0</emiDebtBurdenRatio>
+<emiOffered>0.0</emiOffered>
+<emiBasisAbb>0.0</emiBasisAbb>
+<appliedTenor>36</appliedTenor>
+<offeredLoanAmt>0.0</offeredLoanAmt>
+<finalLoanAmt>0.0</finalLoanAmt>
+<incrementalLoanAmt>0.0</incrementalLoanAmt>
+<finalLoanAmtFivePercentIncr>0.0</finalLoanAmtFivePercentIncr>
+<finalLoanAmtPlusFee>0.0</finalLoanAmtPlusFee>
+<tier>Metro</tier>
+<loanAmtApplied>0.0</loanAmtApplied>
+<loanAmtBasisDbr>0.0</loanAmtBasisDbr>
+<loanAmtBasisAbb>0.0</loanAmtBasisAbb>
+<loanAmtBasisMultiplier>0.0</loanAmtBasisMultiplier>
+<netIncomeMultiplier>0.0</netIncomeMultiplier>
+<productTypeCode>FIRSTCALL</productTypeCode>
+<applicantScore>0.0</applicantScore>
+<maxLoanAmount>0.0</maxLoanAmount>
+<minLoanAmount>0.0</minLoanAmount>
+<emiOfTotalUnsecuredLoans>0.0</emiOfTotalUnsecuredLoans>
+<emiOfUnsecuredLoan>0.0</emiOfUnsecuredLoan>
+<emiOfTotalSecuredLoans>0.0</emiOfTotalSecuredLoans>
+<emiOfSecuredLoan>0.0</emiOfSecuredLoan>
+<interestObligationOfCCOrOD>0.0</interestObligationOfCCOrOD>
+<totalObligation>0.0</totalObligation>
+<totalExistingUnsecuredExposure>0.0</totalExistingUnsecuredExposure>
+<currentPOS>0.0</currentPOS>
+<DBRValue>0.0</DBRValue>
+<dumyABB>0.0</dumyABB>
+<requiredLoanAmount>100000.0</requiredLoanAmount>
+<finalTenureRequired>0.0</finalTenureRequired>
+<imputedPL>0.0</imputedPL>
+<imputedCC>0.0</imputedCC>
+<imputedHML>0.0</imputedHML>
+<imputedTW>0.0</imputedTW>
+<imputedCD>0.0</imputedCD>
+<imputedOthers>0.0</imputedOthers>
+<emiBasisCibilLiabilty>0.0</emiBasisCibilLiabilty>
+<totalDeclaredEmiLiabilty>0.0</totalDeclaredEmiLiabilty>
+<imputedOthersCC>0.0</imputedOthersCC>
+<loanPMTNumerator>0.0</loanPMTNumerator>
+<loanPMTDenominator>0.0</loanPMTDenominator>
+<emiPMTDenominator>0.0</emiPMTDenominator>
+<emiPMTNumerator>0.0</emiPMTNumerator>
+<TIME_TAG_1>0.0</TIME_TAG_1>
+<TIME_TAG_2>0.0</TIME_TAG_2>
+<TIME_TAG_3>0.0</TIME_TAG_3>
+<TIME_TAG_4>0.0</TIME_TAG_4>
+<TIME_TAG_5>0.0</TIME_TAG_5>
+<TIME_TAG_6>0.0</TIME_TAG_6>
+<TIME_TAG_7>0.0</TIME_TAG_7>
+<TIME_TAG_8>0.0</TIME_TAG_8>
+<TIME_TAG_9>0.0</TIME_TAG_9>
+<TIME_TAG_10>0.0</TIME_TAG_10>
+<FF1_TAG_1>0.0</FF1_TAG_1>
+<FF1_TAG_2>0.0</FF1_TAG_2>
+<FF2_TAG_1>0.0</FF2_TAG_1>
+<FF2_TAG_2>0.0</FF2_TAG_2>
+<FF3_TAG_1>0.0</FF3_TAG_1>
+<FF3_TAG_2>0.0</FF3_TAG_2>
+<FF4_TAG_1>0.0</FF4_TAG_1>
+<FF4_TAG_2>0.0</FF4_TAG_2>
+<FF5_TAG_1>0.0</FF5_TAG_1>
+<FF5_TAG_2>0.0</FF5_TAG_2>
+<FF6_TAG_1>0.0</FF6_TAG_1>
+<FF6_TAG_2>0.0</FF6_TAG_2>
+<FF7_TAG_1>0.0</FF7_TAG_1>
+<FF7_TAG_2>0.0</FF7_TAG_2>
+<FF8_TAG_1>0.0</FF8_TAG_1>
+<FF8_TAG_2>0.0</FF8_TAG_2>
+<FF9_TAG_1>0.0</FF9_TAG_1>
+<FF9_TAG_2>0.0</FF9_TAG_2>
+<FF10_TAG_1>0.0</FF10_TAG_1>
+<FF10_TAG_2>0.0</FF10_TAG_2>
+<FF11_TAG_1>0.0</FF11_TAG_1>
+<FF11_TAG_2>0.0</FF11_TAG_2>
+<FF12_TAG_1>0.0</FF12_TAG_1>
+<FF12_TAG_2>0.0</FF12_TAG_2>
+<FF13_TAG_1>0.0</FF13_TAG_1>
+<FF13_TAG_2>0.0</FF13_TAG_2>
+<FF14_TAG_1>0.0</FF14_TAG_1>
+<FF14_TAG_2>0.0</FF14_TAG_2>
+<FF15_TAG_1>0.0</FF15_TAG_1>
+<FF15_TAG_2>0.0</FF15_TAG_2>
+<FF16_TAG_1>0.0</FF16_TAG_1>
+<FF16_TAG_2>0.0</FF16_TAG_2>
+<FF17_TAG_1>0.0</FF17_TAG_1>
+<FF17_TAG_2>0.0</FF17_TAG_2>
+<FF18_TAG_1>0.0</FF18_TAG_1>
+<FF18_TAG_2>0.0</FF18_TAG_2>
+<FF19_TAG_1>0.0</FF19_TAG_1>
+<FF19_TAG_2>0.0</FF19_TAG_2>
+<FF20_TAG_1>0.0</FF20_TAG_1>
+<FF20_TAG_2>0.0</FF20_TAG_2>
+<FF21_TAG_1>0.0</FF21_TAG_1>
+<FF21_TAG_2>0.0</FF21_TAG_2>
+<FF22_TAG_1>0.0</FF22_TAG_1>
+<FF22_TAG_2>0.0</FF22_TAG_2>
+<FF23_TAG_1>0.0</FF23_TAG_1>
+<FF23_TAG_2>0.0</FF23_TAG_2>
+<FF24_TAG_1>0.0</FF24_TAG_1>
+<FF24_TAG_2>0.0</FF24_TAG_2>
+<FF25_TAG_1>0.0</FF25_TAG_1>
+<FF25_TAG_2>0.0</FF25_TAG_2>
+<FF26_TAG_1>0.0</FF26_TAG_1>
+<FF26_TAG_2>0.0</FF26_TAG_2>
+<FF27_TAG_1>0.0</FF27_TAG_1>
+<FF27_TAG_2>0.0</FF27_TAG_2>
+<FF28_TAG_1>0.0</FF28_TAG_1>
+<FF28_TAG_2>0.0</FF28_TAG_2>
+<FF29_TAG_1>0.0</FF29_TAG_1>
+<FF29_TAG_2>0.0</FF29_TAG_2>
+<FF30_TAG_1>0.0</FF30_TAG_1>
+<FF30_TAG_2>0.0</FF30_TAG_2>
+<FF31_TAG_1>0.0</FF31_TAG_1>
+<FF31_TAG_2>0.0</FF31_TAG_2>
+<FF32_TAG_1>0.0</FF32_TAG_1>
+<FF32_TAG_2>0.0</FF32_TAG_2>
+<FF33_TAG_1>0.0</FF33_TAG_1>
+<FF33_TAG_2>0.0</FF33_TAG_2>
+<FF34_TAG_1>0.0</FF34_TAG_1>
+<FF34_TAG_2>0.0</FF34_TAG_2>
+<FF35_TAG_1>0.0</FF35_TAG_1>
+<FF35_TAG_2>0.0</FF35_TAG_2>
+<FF36_TAG_1>0.0</FF36_TAG_1>
+<FF36_TAG_2>0.0</FF36_TAG_2>
+<FF37_TAG_1>0.0</FF37_TAG_1>
+<FF37_TAG_2>0.0</FF37_TAG_2>
+<FF38_TAG_1>0.0</FF38_TAG_1>
+<FF38_TAG_2>0.0</FF38_TAG_2>
+<FF39_TAG_1>0.0</FF39_TAG_1>
+<FF39_TAG_2>0.0</FF39_TAG_2>
+<FF40_TAG_1>0.0</FF40_TAG_1>
+<FF40_TAG_2>0.0</FF40_TAG_2>
+<renovationLoan>0.0</renovationLoan>
+</loanApplication>
+<source>PLSALARIED</source>
+<isSynchronous>YES</isSynchronous>
+<randomNumber>0.0</randomNumber>
+</loanContract>]]></ser:objModel>
+         <ser:rawData><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CIBIL>
+	<party>
+		<partyreference>applicant</partyreference>
+		<rawdata>
+						  <TransactData>
+							<Application.UniqueCPlusApplicationNumber>044874725</Application.UniqueCPlusApplicationNumber>
+							<ClientSpecific.NumericSL15Var5></ClientSpecific.NumericSL15Var5>
+							<ClientSpecific.NumericSL15Var29>-00000000000009</ClientSpecific.NumericSL15Var29>
+							<ClientSpecific.NumericSL15Var37>-00000000000009</ClientSpecific.NumericSL15Var37>
+							<ClientSpecific.NumericSL3Var54>-09</ClientSpecific.NumericSL3Var54>
+							<ClientSpecific.NumericSL3Var59>-09</ClientSpecific.NumericSL3Var59>
+							<ClientSpecific.NumericSL3Var62>-09</ClientSpecific.NumericSL3Var62>
+							<ClientSpecific.NumericSL15Var40>-00000000000009</ClientSpecific.NumericSL15Var40>
+							<ClientSpecific.NumericSL15Var41>-00000000000009</ClientSpecific.NumericSL15Var41>
+							<ClientSpecific.NumericSL15Var42>-00000000000009</ClientSpecific.NumericSL15Var42>
+							<ClientSpecific.NumericSL15Var43>-00000000000009</ClientSpecific.NumericSL15Var43>
+							<ClientSpecific.NumericSL15Var44>-00000000000009</ClientSpecific.NumericSL15Var44>
+							<ClientSpecific.NumericSL15Var2>-00000000000009</ClientSpecific.NumericSL15Var2>
+							<ClientSpecific.NumericSL15Var3>-00000000000009</ClientSpecific.NumericSL15Var3>
+							<ClientSpecific.NumericSL3Var61>-09</ClientSpecific.NumericSL3Var61>
+							<ClientSpecific.NumericSL3Var19>-09</ClientSpecific.NumericSL3Var19>
+							<ClientSpecific.NumericSL15Var33>-00000000000009</ClientSpecific.NumericSL15Var33>
+							<ClientSpecific.NumericSL3Var31>-09</ClientSpecific.NumericSL3Var31>
+							<ClientSpecific.NumericSL3Var5>-09</ClientSpecific.NumericSL3Var5>
+							<ClientSpecific.NumericSL15Var11>-00000000000009</ClientSpecific.NumericSL15Var11>
+							<ErrorBlock.BureauErrorCode></ErrorBlock.BureauErrorCode>
+						  </TransactData>
+<RawData><applicant><segment><0><block><field><0><!cibil_tag>ProcessTime</!cibil_tag><!>125905</!></0><1><!cibil_tag>ProcessDate</!cibil_tag><!>05032017</!></1><2><!cibil_tag>ControlNumber</!cibil_tag><!>001426323088</!></2><3><!cibil_tag>ReturnCode</!cibil_tag><!>0</!></3><4><!cibil_tag>MemberCode</!cibil_tag><!>NB66304585</!></4><5><!cibil_tag>FutureUse2</!cibil_tag><!>0000</!></5><6><!cibil_tag>FutureUse1</!cibil_tag></6><7><!cibil_tag>MemberRef</!cibil_tag><!>1616176</!></7><8><!cibil_tag>Version</!cibil_tag><!>12</!></8><9><!cibil_tag>SegmentTag</!cibil_tag><!>TUEF</!></9></field><!nb>1</!nb></block><!name>OUT_FIXED_TUEF</!name></0><1><block><field><0><!cibil_tag>81</!cibil_tag></0><1><!cibil_tag>80</!cibil_tag></1><2><!cibil_tag>08</!cibil_tag><!>2</!></2><3><!cibil_tag>87</!cibil_tag></3><4><!cibil_tag>07</!cibil_tag><!>01021985</!></4><5><!cibil_tag>86</!cibil_tag></5><6><!cibil_tag>05</!cibil_tag></6><7><!cibil_tag>85</!cibil_tag></7><8><!cibil_tag>04</!cibil_tag></8><9><!cibil_tag>84</!cibil_tag></9><10><!cibil_tag>03</!cibil_tag></10><11><!cibil_tag>83</!cibil_tag></11><12><!cibil_tag>02</!cibil_tag><!>BALBIR</!></12><13><!cibil_tag>82</!cibil_tag></13><14><!cibil_tag>01</!cibil_tag><!>SINGH</!></14><15><!cibil_tag>PN</!cibil_tag><!>N01</!></15></field><!nb>1</!nb></block><!name>OUT_PN</!name></1><2><block><field><0><!cibil_tag>90</!cibil_tag><!>Y</!></0><1><!cibil_tag>04</!cibil_tag></1><2><!cibil_tag>03</!cibil_tag></2><3><!cibil_tag>02</!cibil_tag><!>AAAPA2115A</!></3><4><!cibil_tag>01</!cibil_tag><!>01</!></4><5><!cibil_tag>ID</!cibil_tag><!>I01</!></5></field><!nb>1</!nb></block><!name>OUT_ID</!name></2><3><block><0><field><0><!cibil_tag>90</!cibil_tag><!>Y</!></0><1><!cibil_tag>03</!cibil_tag><!>03</!></1><2><!cibil_tag>02</!cibil_tag></2><3><!cibil_tag>01</!cibil_tag><!>43744900</!></3><4><!cibil_tag>PT</!cibil_tag><!>T01</!></4></field><!nb>1</!nb></0><1><field><0><!cibil_tag>90</!cibil_tag><!>Y</!></0><1><!cibil_tag>03</!cibil_tag><!>01</!></1><2><!cibil_tag>02</!cibil_tag></2><3><!cibil_tag>01</!cibil_tag><!>9717594462</!></3><4><!cibil_tag>PT</!cibil_tag><!>T02</!></4></field><!nb>2</!nb></1></block><!name>OUT_PT</!name></3><4><block><field><0><!cibil_tag>01</!cibil_tag></0><1><!cibil_tag>EC</!cibil_tag></1></field><!nb>1</!nb></block><!name>OUT_EC</!name></4><5><block><field><0><!cibil_tag>83</!cibil_tag></0><1><!cibil_tag>82</!cibil_tag></1><2><!cibil_tag>80</!cibil_tag></2><3><!cibil_tag>06</!cibil_tag></3><4><!cibil_tag>05</!cibil_tag></4><5><!cibil_tag>87</!cibil_tag></5><6><!cibil_tag>04</!cibil_tag></6><7><!cibil_tag>86</!cibil_tag></7><8><!cibil_tag>03</!cibil_tag></8><9><!cibil_tag>85</!cibil_tag></9><10><!cibil_tag>02</!cibil_tag></10><11><!cibil_tag>84</!cibil_tag></11><12><!cibil_tag>01</!cibil_tag></12><13><!cibil_tag>EM</!cibil_tag></13></field><!nb>1</!nb></block><!name>OUT_EM</!name></5><6><block><field><0><!cibil_tag>01</!cibil_tag></0><1><!cibil_tag>PI</!cibil_tag></1></field><!nb>1</!nb></block><!name>OUT_PI</!name></6><7><block><field><0><!cibil_tag>59</!cibil_tag></0><1><!cibil_tag>58</!cibil_tag></1><2><!cibil_tag>57</!cibil_tag></2><3><!cibil_tag>56</!cibil_tag></3><4><!cibil_tag>55</!cibil_tag></4><5><!cibil_tag>54</!cibil_tag></5><6><!cibil_tag>53</!cibil_tag></6><7><!cibil_tag>52</!cibil_tag></7><8><!cibil_tag>51</!cibil_tag></8><9><!cibil_tag>50</!cibil_tag></9><10><!cibil_tag>49</!cibil_tag></10><11><!cibil_tag>48</!cibil_tag></11><12><!cibil_tag>47</!cibil_tag></12><13><!cibil_tag>46</!cibil_tag></13><14><!cibil_tag>45</!cibil_tag></14><15><!cibil_tag>44</!cibil_tag></15><16><!cibil_tag>43</!cibil_tag></16><17><!cibil_tag>42</!cibil_tag></17><18><!cibil_tag>41</!cibil_tag></18><19><!cibil_tag>40</!cibil_tag></19><20><!cibil_tag>39</!cibil_tag></20><21><!cibil_tag>38</!cibil_tag></21><22><!cibil_tag>37</!cibil_tag></22><23><!cibil_tag>36</!cibil_tag></23><24><!cibil_tag>35</!cibil_tag></24><25><!cibil_tag>34</!cibil_tag></25><26><!cibil_tag>33</!cibil_tag></26><27><!cibil_tag>32</!cibil_tag></27><28><!cibil_tag>31</!cibil_tag></28><29><!cibil_tag>30</!cibil_tag></29><30><!cibil_tag>29</!cibil_tag></30><31><!cibil_tag>28</!cibil_tag></31><32><!cibil_tag>27</!cibil_tag></32><33><!cibil_tag>26</!cibil_tag></33><34><!cibil_tag>25</!cibil_tag></34><35><!cibil_tag>24</!cibil_tag></35><36><!cibil_tag>23</!cibil_tag></36><37><!cibil_tag>22</!cibil_tag></37><38><!cibil_tag>21</!cibil_tag></38><39><!cibil_tag>20</!cibil_tag></39><40><!cibil_tag>09</!cibil_tag></40><41><!cibil_tag>08</!cibil_tag></41><42><!cibil_tag>07</!cibil_tag></42><43><!cibil_tag>06</!cibil_tag></43><44><!cibil_tag>05</!cibil_tag></44><45><!cibil_tag>04</!cibil_tag><!>-0001</!></45><46><!cibil_tag>03</!cibil_tag><!>05032017</!></46><47><!cibil_tag>02</!cibil_tag><!>10</!></47><48><!cibil_tag>01</!cibil_tag><!>01</!></48><49><!cibil_tag>SC</!cibil_tag><!>CIBILTUSCR</!></49><50><!cibil_tag>19</!cibil_tag></50><51><!cibil_tag>18</!cibil_tag></51><52><!cibil_tag>17</!cibil_tag></52><53><!cibil_tag>16</!cibil_tag></53><54><!cibil_tag>15</!cibil_tag></54><55><!cibil_tag>14</!cibil_tag></55><56><!cibil_tag>13</!cibil_tag></56><57><!cibil_tag>12</!cibil_tag></57><58><!cibil_tag>11</!cibil_tag></58><59><!cibil_tag>75</!cibil_tag></59><60><!cibil_tag>10</!cibil_tag></60><61><!cibil_tag>74</!cibil_tag></61><62><!cibil_tag>73</!cibil_tag></62><63><!cibil_tag>72</!cibil_tag></63><64><!cibil_tag>71</!cibil_tag></64><65><!cibil_tag>70</!cibil_tag></65><66><!cibil_tag>69</!cibil_tag></66><67><!cibil_tag>68</!cibil_tag></67><68><!cibil_tag>67</!cibil_tag></68><69><!cibil_tag>66</!cibil_tag></69><70><!cibil_tag>65</!cibil_tag></70><71><!cibil_tag>64</!cibil_tag></71><72><!cibil_tag>63</!cibil_tag></72><73><!cibil_tag>62</!cibil_tag></73><74><!cibil_tag>61</!cibil_tag></74><75><!cibil_tag>60</!cibil_tag></75></field><!nb>1</!nb></block><!name>OUT_SC</!name></7><8><block><0><field><0><!cibil_tag>09</!cibil_tag></0><1><!cibil_tag>08</!cibil_tag><!>03</!></1><2><!cibil_tag>07</!cibil_tag><!>110002</!></2><3><!cibil_tag>06</!cibil_tag><!>07</!></3><4><!cibil_tag>05</!cibil_tag><!>NCR RMM</!></4><5><!cibil_tag>04</!cibil_tag><!>DELHI</!></5><6><!cibil_tag>90</!cibil_tag><!>Y</!></6><7><!cibil_tag>03</!cibil_tag><!>NEW DELHI</!></7><8><!cibil_tag>11</!cibil_tag></8><9><!cibil_tag>02</!cibil_tag><!>NEW DELHI</!></9><10><!cibil_tag>10</!cibil_tag><!>05032017</!></10><11><!cibil_tag>01</!cibil_tag><!>10 DARYA GANJ</!></11><12><!cibil_tag>PA</!cibil_tag><!>A01</!></12></field><!nb>1</!nb></0><1><field><0><!cibil_tag>09</!cibil_tag></0><1><!cibil_tag>08</!cibil_tag><!>02</!></1><2><!cibil_tag>07</!cibil_tag><!>110014</!></2><3><!cibil_tag>06</!cibil_tag><!>07</!></3><4><!cibil_tag>05</!cibil_tag><!>NCR RMM</!></4><5><!cibil_tag>04</!cibil_tag><!>DELHI</!></5><6><!cibil_tag>90</!cibil_tag><!>Y</!></6><7><!cibil_tag>03</!cibil_tag><!>ASHRAM</!></7><8><!cibil_tag>11</!cibil_tag></8><9><!cibil_tag>02</!cibil_tag><!>HARI NAGAR</!></9><10><!cibil_tag>10</!cibil_tag><!>05032017</!></10><11><!cibil_tag>01</!cibil_tag><!>A-29 FF</!></11><12><!cibil_tag>PA</!cibil_tag><!>A02</!></12></field><!nb>2</!nb></1></block><!name>OUT_PA</!name></8><9><block><field><0><!cibil_tag>45</!cibil_tag></0><1><!cibil_tag>44</!cibil_tag></1><2><!cibil_tag>43</!cibil_tag></2><3><!cibil_tag>42</!cibil_tag></3><4><!cibil_tag>41</!cibil_tag></4><5><!cibil_tag>40</!cibil_tag></5><6><!cibil_tag>39</!cibil_tag></6><7><!cibil_tag>38</!cibil_tag></7><8><!cibil_tag>37</!cibil_tag></8><9><!cibil_tag>36</!cibil_tag></9><10><!cibil_tag>12</!cibil_tag></10><11><!cibil_tag>11</!cibil_tag></11><12><!cibil_tag>35</!cibil_tag></12><13><!cibil_tag>10</!cibil_tag></13><14><!cibil_tag>34</!cibil_tag></14><15><!cibil_tag>09</!cibil_tag></15><16><!cibil_tag>33</!cibil_tag></16><17><!cibil_tag>08</!cibil_tag></17><18><!cibil_tag>32</!cibil_tag></18><19><!cibil_tag>05</!cibil_tag></19><20><!cibil_tag>31</!cibil_tag></20><21><!cibil_tag>04</!cibil_tag></21><22><!cibil_tag>30</!cibil_tag></22><23><!cibil_tag>03</!cibil_tag></23><24><!cibil_tag>29</!cibil_tag></24><25><!cibil_tag>02</!cibil_tag></25><26><!cibil_tag>28</!cibil_tag></26><27><!cibil_tag>TL</!cibil_tag></27><28><!cibil_tag>14</!cibil_tag></28><29><!cibil_tag>13</!cibil_tag></29><30><!cibil_tag>87</!cibil_tag></30><31><!cibil_tag>86</!cibil_tag></31><32><!cibil_tag>85</!cibil_tag></32><33><!cibil_tag>84</!cibil_tag></33><34><!cibil_tag>83</!cibil_tag></34><35><!cibil_tag>82</!cibil_tag></35><36><!cibil_tag>80</!cibil_tag></36></field><!nb>1</!nb></block><!name>OUT_TL</!name></9><10><block><field><0><!cibil_tag>06</!cibil_tag></0><1><!cibil_tag>05</!cibil_tag></1><2><!cibil_tag>04</!cibil_tag></2><3><!cibil_tag>01</!cibil_tag></3><4><!cibil_tag>IQ</!cibil_tag></4></field><!nb>1</!nb></block><!name>OUT_IQ</!name></10><11><block><field><0><!cibil_tag>06</!cibil_tag></0><1><!cibil_tag>05</!cibil_tag></1><2><!cibil_tag>04</!cibil_tag></2><3><!cibil_tag>03</!cibil_tag></3><4><!cibil_tag>02</!cibil_tag></4><5><!cibil_tag>01</!cibil_tag></5><6><!cibil_tag>DR</!cibil_tag></6><7><!cibil_tag>07</!cibil_tag></7></field><!nb>1</!nb></block><!name>OUT_DR</!name></11><12><block><field><0><!cibil_tag>01</!cibil_tag><!>**</!></0><1><!cibil_tag>ES</!cibil_tag><!>0000505</!></1></field><!nb>1</!nb></block><!name>OUT_ES</!name></12></segment><!index>1</!index></applicant></RawData>
+</rawdata>
+	</party>
+</CIBIL>]]></ser:rawData>
+      </ser:invokeBRE>
+   </soapenv:Body>
+</soapenv:Envelope>';
+
+$url ='https://breesb.fullertonindia.com:9080/magicxpi4_1/MGrqispi.dll?appname=IFSBRE&prgname=HTTP&arguments=-AHTTP_BRE%23BRE';
+$soapClient = new nusoap_client("https://14.140.27.7:9080/RupeePowerWebService/services/RupeePowerService?wsdl", true);   
+
+$soapClient->setEndpoint($url);
+
+$info = $soapClient->call("invokeBRE", $xmlstr);
+print_r($info);
+//echo "<pre>";print_r($soapClient);
+
+//http://192.168.84.63:8085/OUGBufferedWebServiceComponent/UGService
+//
+/*response
+
+Array
+(
+    [invokeBREReturn] => <loanContract>
+  <loanApplication>
+    <applicant>
+      <partyReference/>
+      <companyName>Mywish Marketplaces Pvt ltd</companyName>
+      <companyCategory>OTHERS</companyCategory>
+      <qualification/>
+      <dateOfBirth>1985-02-01</dateOfBirth>
+      <ageInMonths>384.0</ageInMonths>
+      <ageInYears>32.0</ageInYears>
+      <ageAtMaturity>35.0</ageAtMaturity>
+      <incomeDetails>
+        <declaredGrossMonthlyIncome>75000</declaredGrossMonthlyIncome>
+        <minMonthlyIncome>0.0</minMonthlyIncome>
+        <verifiedMonthlyIncome>0.0</verifiedMonthlyIncome>
+        <totalMonthlyEMI>0</totalMonthlyEMI>
+        <totalMonthlyEMIPersonalLoans>0</totalMonthlyEMIPersonalLoans>
+        <grossAnnualIncome>900000</grossAnnualIncome>
+        <otherIncome>0.0</otherIncome>
+        <spouseIncome>0.0</spouseIncome>
+        <disposableMonthlyIncome>0.0</disposableMonthlyIncome>
+        <clubbedIncome>0.0</clubbedIncome>
+        <netAdjustedIncome>52500.0</netAdjustedIncome>
+        <additionalIncome>0.0</additionalIncome>
+        <netMonthlyTakeHomeSalary>75000.0</netMonthlyTakeHomeSalary>
+        <salesTurnover>0</salesTurnover>
+      </incomeDetails>
+      <cibilBureauDetails>
+        <loanHistory>
+          <status>000</status>
+          <maxDpd>0</maxDpd>
+          <closed_Ind>0</closed_Ind>
+          <trade_Type>OTHER</trade_Type>
+          <trade_Grp/>
+          <finalDPDString>-01-01-01-01-01-01-01-01-01-01-01-01-01-01-01-01-01-01-01-01-01-01-01-01-01-01-01-01-01-01-01-01-01-01-01-01</finalDPDString>
+          <ownership/>
+          <reportingMemberShortName/>
+          <writeOffMonth>00000000</writeOffMonth>
+          <noOfPaidEmisPostDPD>1</noOfPaidEmisPostDPD>
+          <writeOffAmt>0</writeOffAmt>
+          <writeOffDate/>
+          <closerDate/>
+          <actualCloserDate>00000000</actualCloserDate>
+          <reportDate/>
+          <lastRepaymentDate>2017-02-13</lastRepaymentDate>
+          <foreclosureStatus/>
+          <emi>000</emi>
+          <TwelveMonth30PlusDPDCount>000</TwelveMonth30PlusDPDCount>
+          <secured/>
+          <durationOfWriteOfftoLogin>00000000</durationOfWriteOfftoLogin>
+          <DateOpened>2017-02-13</DateOpened>
+          <liabilityType>Other</liabilityType>
+          <CurrentBalance>0</CurrentBalance>
+          <Sanctioned>0</Sanctioned>
+          <outStandingAmt>0</outStandingAmt>
+          <subStatus>000</subStatus>
+          <durationOfWriteOffToLogin>0</durationOfWriteOffToLogin>
+        </loanHistory>
+        <notrackavailable>0</notrackavailable>
+        <loan_ever_90Plus>0</loan_ever_90Plus>
+        <Trade_summary_1>0.0</Trade_summary_1>
+        <Trade_summary_2>0.0</Trade_summary_2>
+        <trade_info_1>0</trade_info_1>
+        <trade_info_2>0</trade_info_2>
+        <trade_info_3>0</trade_info_3>
+        <trade_info_4>0.0</trade_info_4>
+        <trade_info_5>0</trade_info_5>
+        <trade_info_6>0</trade_info_6>
+        <trade_info_7>0</trade_info_7>
+        <max_delinq>0</max_delinq>
+        <trade_info_8>0</trade_info_8>
+        <enq_info_1>0</enq_info_1>
+        <enq_info_2>0</enq_info_2>
+        <enq_info_3>0</enq_info_3>
+        <enq_Ever_Card>0</enq_Ever_Card>
+        <enq_Ever_Unsec>6</enq_Ever_Unsec>
+        <enq_info_4>0</enq_info_4>
+        <enq_info_5>0</enq_info_5>
+        <enq_info_6>0</enq_info_6>
+        <enq_info_7>0</enq_info_7>
+        <LoanEnquiries_6MNTH>0</LoanEnquiries_6MNTH>
+        <MaxDEL_HL_6MNTH>0</MaxDEL_HL_6MNTH>
+        <LiveCardUtil>NaN</LiveCardUtil>
+        <HL_Enquiries_6MNTH>0</HL_Enquiries_6MNTH>
+        <HL_Enquiries_Total>0</HL_Enquiries_Total>
+        <TotalOFFUS_SecuredEnquiries_12MNTH>0</TotalOFFUS_SecuredEnquiries_12MNTH>
+        <TotalOFFUS_PLEnquiries_12MNTH>6</TotalOFFUS_PLEnquiries_12MNTH>
+        <Total_LiveCard_Trades>0</Total_LiveCard_Trades>
+        <Total_LiveTrades>1</Total_LiveTrades>
+        <Total_UnsecuredTrades_Opened_6MNTH>0</Total_UnsecuredTrades_Opened_6MNTH>
+        <Unsecured_LastTrade_Opened>99999.0</Unsecured_LastTrade_Opened>
+        <Total_PastDueBalance_SecuredTrade>0.0</Total_PastDueBalance_SecuredTrade>
+        <Total_Utilization_LivePL_Accounts>NaN</Total_Utilization_LivePL_Accounts>
+        <MaxDEL_CARD>0</MaxDEL_CARD>
+        <MaxDEL_NONCARD>0</MaxDEL_NONCARD>
+        <MaxDEL_24MNTH>0</MaxDEL_24MNTH>
+        <MaxDEL_12MNTH>0</MaxDEL_12MNTH>
+        <MaxDEL_PL_12MNTH>0</MaxDEL_PL_12MNTH>
+        <MaxDEL_UNSECURED_6MNTH>0</MaxDEL_UNSECURED_6MNTH>
+        <young_Unsec_Trade>0</young_Unsec_Trade>
+        <total_Delinquent_Trades>0.0</total_Delinquent_Trades>
+        <trade_info_9>0.0</trade_info_9>
+        <Total_Card_Util>0.0</Total_Card_Util>
+        <Total_Card_Balance>0.0</Total_Card_Balance>
+        <Months_Since_30DPD>98.0</Months_Since_30DPD>
+        <Clean_Record_3Years>Yes</Clean_Record_3Years>
+        <derogPolicy>no deviation</derogPolicy>
+        <beforeFICCStatus>NO</beforeFICCStatus>
+        <beforeFICCSubStatus>NO</beforeFICCSubStatus>
+        <beforeFICCDPD>NO</beforeFICCDPD>
+        <beforeFICCWriteoffAmt>NO</beforeFICCWriteoffAmt>
+        <beforeFICCWriteofftoLogin>NO</beforeFICCWriteofftoLogin>
+        <afterFICCStatus>NB</afterFICCStatus>
+        <afterFICCSubStatus>0</afterFICCSubStatus>
+        <afterFICCDPD>147</afterFICCDPD>
+        <afterFICCWriteoffAmt>NO</afterFICCWriteoffAmt>
+        <afterFICCWriteofftoLogin>NO</afterFICCWriteofftoLogin>
+        <trackRecordAfterWriteOffMonth>NO</trackRecordAfterWriteOffMonth>
+        <noOfLiveCreditCards>0</noOfLiveCreditCards>
+        <noOfLivePersonalLoans>0</noOfLivePersonalLoans>
+        <noOfLiveHomeLoans>-9</noOfLiveHomeLoans>
+        <totalCardsOutstanding>0</totalCardsOutstanding>
+        <worstDelinquencyAcrossSecured>-9</worstDelinquencyAcrossSecured>
+        <worstDelinquencyAcrossUnSecured>-9</worstDelinquencyAcrossUnSecured>
+        <maxMobOfLiveUnsecuredLoans>-9</maxMobOfLiveUnsecuredLoans>
+        <cust_info_1>0</cust_info_1>
+        <score>-0001</score>
+        <NON_FIC_ENQUIRIES_3MTH>6</NON_FIC_ENQUIRIES_3MTH>
+        <UNSEC_ENQUIRIES_3MTH>6</UNSEC_ENQUIRIES_3MTH>
+        <UNSEC_ENQUIRIES_6MTH>6</UNSEC_ENQUIRIES_6MTH>
+        <PL_ENQUIRIES_3MTH>6</PL_ENQUIRIES_3MTH>
+        <CARD_ENQUIRIES_6MNTH>-1</CARD_ENQUIRIES_6MNTH>
+        <CARD_ENQUIRIES_4MNTH>0</CARD_ENQUIRIES_4MNTH>
+        <LOAN_ENQUIRIES_6MNTH>6</LOAN_ENQUIRIES_6MNTH>
+        <HL_ENQUIRIES_12MNTH>-1</HL_ENQUIRIES_12MNTH>
+        <HL_ENQUIRIES_6MNTH>-1</HL_ENQUIRIES_6MNTH>
+        <PL_ENQUIRIES_12MNTH>6</PL_ENQUIRIES_12MNTH>
+        <SEC_ENQUIRIES_12MTH>-1</SEC_ENQUIRIES_12MTH>
+        <trade_info_10>0</trade_info_10>
+        <TOTAL_HL_ENQUIRIES>-1</TOTAL_HL_ENQUIRIES>
+        <TOTAL_ENQUIRIES_3MNTH>6</TOTAL_ENQUIRIES_3MNTH>
+        <OFFUS_SECURED_ENQUIRIES_12MNTH>0</OFFUS_SECURED_ENQUIRIES_12MNTH>
+        <LIVE_UNSECURED_MUE>-1</LIVE_UNSECURED_MUE>
+        <OFFUS_PL_ENQUIRIES_12MNTH>6</OFFUS_PL_ENQUIRIES_12MNTH>
+        <hlEnquiry>0</hlEnquiry>
+        <youngTrade>0</youngTrade>
+        <Last_30_DEL>0</Last_30_DEL>
+        <TIME_FIRST_TRADEOPENED>0</TIME_FIRST_TRADEOPENED>
+        <UNSECURED_TRADES_OPENED_L6M>-1</UNSECURED_TRADES_OPENED_L6M>
+        <UNSECURED_LAST_TRADE_OPENED>-1</UNSECURED_LAST_TRADE_OPENED>
+        <TOTAL_PASTDUE_BALANCE_SECURED>0</TOTAL_PASTDUE_BALANCE_SECURED>
+        <Max_DEL>0</Max_DEL>
+        <Max_DEL_HL_6M>0</Max_DEL_HL_6M>
+        <Max_DEL_CARD>0</Max_DEL_CARD>
+        <Max_DEL_NONCARD>0</Max_DEL_NONCARD>
+        <Max_DEL_12MNTH>0</Max_DEL_12MNTH>
+        <Max_DEL_24MNTH>0</Max_DEL_24MNTH>
+        <Max_DEL_PL_12MNTH>0</Max_DEL_PL_12MNTH>
+        <Max_DEL_UNSECURED_6MNTH>0</Max_DEL_UNSECURED_6MNTH>
+        <trade_info_11>-1</trade_info_11>
+        <LIVE_PL_MUE>-1</LIVE_PL_MUE>
+        <LIVE_CARD_MUE>0</LIVE_CARD_MUE>
+        <LIVE_CARD_ACCOUNT>-1</LIVE_CARD_ACCOUNT>
+        <LIVE_TRADELINE_MUE>-1</LIVE_TRADELINE_MUE>
+        <trade_info_12>0</trade_info_12>
+        <NoOfAccount_Settled>0</NoOfAccount_Settled>
+        <pt_var_23>0</pt_var_23>
+        <pt_var_1>0</pt_var_1>
+        <pt_var_2>0</pt_var_2>
+        <pt_var_3>0</pt_var_3>
+        <pt_var_4>0</pt_var_4>
+        <pt_var_5>0</pt_var_5>
+        <pt_var_6>0</pt_var_6>
+        <pt_var_7>0</pt_var_7>
+        <pt_var_8>0</pt_var_8>
+        <pt_var_9>0</pt_var_9>
+        <pt_var_10>0</pt_var_10>
+        <pt_var_11>0</pt_var_11>
+        <pt_var_12>0</pt_var_12>
+        <pt_var_13>0</pt_var_13>
+        <pt_var_14>0</pt_var_14>
+        <pt_var_15>0</pt_var_15>
+        <pt_var_16>0</pt_var_16>
+        <pt_var_17>0</pt_var_17>
+        <pt_var_18>0</pt_var_18>
+        <pt_var_19>0</pt_var_19>
+        <pt_var_20>0</pt_var_20>
+        <pt_var_21>0</pt_var_21>
+        <pt_var_22>0</pt_var_22>
+      </cibilBureauDetails>
+      <totalAddCardLiabilities>0.0</totalAddCardLiabilities>
+      <totalAddLoanLiabilities>0.0</totalAddLoanLiabilities>
+      <totalCibilLoanLiabilities>0.0</totalCibilLoanLiabilities>
+      <totalCibilCardLiabilities>0.0</totalCibilCardLiabilities>
+      <totalLiabilities>0.0</totalLiabilities>
+      <prevYearTotalLiabilities>0.0</prevYearTotalLiabilities>
+      <existingDebtBurdenServiced>0.0</existingDebtBurdenServiced>
+      <gender>M</gender>
+      <maritalStatus>1</maritalStatus>
+      <noOfMonthsInCurrentJob>0.0</noOfMonthsInCurrentJob>
+      <noOfYearsInCurrentJob>0.0</noOfYearsInCurrentJob>
+      <noOfYearsInPreviousJob>0.0</noOfYearsInPreviousJob>
+      <accomodationType>PARENTL</accomodationType>
+      <noOfYearsAtCurrentAddress>10</noOfYearsAtCurrentAddress>
+      <noOfMonthsAtCurrentAddress>0.0</noOfMonthsAtCurrentAddress>
+      <minYearsAtCurrentAddress>0.0</minYearsAtCurrentAddress>
+      <address>
+        <currentResidenceAddressOwnershipStatus>PARENTAL OWNED</currentResidenceAddressOwnershipStatus>
+        <officeAddressCity>hdjdjdj</officeAddressCity>
+        <currentResidenceAddressMobile>8943652533</currentResidenceAddressMobile>
+        <noOfMonthsCurrentResidenceAddress>0.0</noOfMonthsCurrentResidenceAddress>
+        <noOfYearsCurrentResidenceAddress>0.0</noOfYearsCurrentResidenceAddress>
+        <noOfMonthsPermanentResidenceAddress>0.0</noOfMonthsPermanentResidenceAddress>
+        <noOfYearsPermanentResidenceAddress>0.0</noOfYearsPermanentResidenceAddress>
+        <noOfMonthsOfficeAddress>0.0</noOfMonthsOfficeAddress>
+        <noOfYearsOfficeAddress>0.0</noOfYearsOfficeAddress>
+        <City>New Delhi</City>
+      </address>
+      <designation>9</designation>
+      <typeOfOrganization>4</typeOfOrganization>
+      <abb>0.0</abb>
+      <resiStabilityInYears>0.0</resiStabilityInYears>
+      <applicantType>01</applicantType>
+      <employmentType>K</employmentType>
+      <noOfDependants>0</noOfDependants>
+      <educationalQualification>2</educationalQualification>
+      <organizationType>4</organizationType>
+      <noOfYearsWithCurrentEmployer>10</noOfYearsWithCurrentEmployer>
+      <companyType>4</companyType>
+      <totalYearsInPresentBusiness>0.0</totalYearsInPresentBusiness>
+      <cibilScore>-1.0</cibilScore>
+      <appDate>2016-06-21</appDate>
+      <avgIncomePF>0.0</avgIncomePF>
+      <bankBalancePF>0.0</bankBalancePF>
+      <officeLandlineNumber>9566224220</officeLandlineNumber>
+      <eVerifyScore>0.0</eVerifyScore>
+      <cir_Name_Match>0.0</cir_Name_Match>
+      <cir_Address1_Match>0.0</cir_Address1_Match>
+      <cir_Address2_Match>0.0</cir_Address2_Match>
+      <vtr_Name_Match>0.0</vtr_Name_Match>
+      <vtr_DOB_Match>0.0</vtr_DOB_Match>
+      <vtr_Name_Match_CIR>0.0</vtr_Name_Match_CIR>
+      <vtr_DOB_Match_CIR>0.0</vtr_DOB_Match_CIR>
+      <pan_Name_Match>0.0</pan_Name_Match>
+      <pan_Name_Match_CIR>0.0</pan_Name_Match_CIR>
+      <costofHome>0.0</costofHome>
+      <costofLand>0.0</costofLand>
+      <costofConstruction>0.0</costofConstruction>
+      <marketvalueofProperty>0.0</marketvalueofProperty>
+      <outstandingLoanBalance>0.0</outstandingLoanBalance>
+      <requestedTopupLoanamount>0.0</requestedTopupLoanamount>
+      <variableIncome>0.0</variableIncome>
+      <annualIncome>0.0</annualIncome>
+      <emiperMonth>0.0</emiperMonth>
+      <noOfYearsInBusiness>0</noOfYearsInBusiness>
+      <customerId>0</customerId>
+      <minYearsInBusiness>0</minYearsInBusiness>
+      <numberOfInwardBouncedPaymentsPF>0</numberOfInwardBouncedPaymentsPF>
+      <numberOfSalaryPensionCreditsPF>0</numberOfSalaryPensionCreditsPF>
+      <totalNumberOfTransactionsPF>0</totalNumberOfTransactionsPF>
+    </applicant>
+    <outputVariables>
+      <loanAmount>0.0</loanAmount>
+      <rate>0.0</rate>
+      <procFee>0.0</procFee>
+      <netDisbursalAmount>0.0</netDisbursalAmount>
+      <stampDutyAndRegCharges>0.0</stampDutyAndRegCharges>
+      <riskStatus>AMBER</riskStatus>
+      <riskGrade>GRADEE</riskGrade>
+    </outputVariables>
+    <loginDate>2017-02-13</loginDate>
+    <loanOpenDate>2016-06-21</loanOpenDate>
+    <appRefNo>121417</appRefNo>
+    <IRR>16.49</IRR>
+    <baseIrr>16.49</baseIrr>
+    <irrDifference>0.0</irrDifference>
+    <rateOfInterest>0.0</rateOfInterest>
+    <emiCFA>0.0</emiCFA>
+    <emiDebtBurdenRatio>52500.0</emiDebtBurdenRatio>
+    <emiOffered>0.0</emiOffered>
+    <emiBasisAbb>0.0</emiBasisAbb>
+    <appliedTenor>36</appliedTenor>
+    <offeredLoanAmt>0.0</offeredLoanAmt>
+    <finalLoanAmt>0.0</finalLoanAmt>
+    <incrementalLoanAmt>0.0</incrementalLoanAmt>
+    <finalLoanAmtFivePercentIncr>0.0</finalLoanAmtFivePercentIncr>
+    <finalLoanAmtPlusFee>0.0</finalLoanAmtPlusFee>
+    <tier>Metro</tier>
+    <loanAmtApplied>0.0</loanAmtApplied>
+    <loanAmtBasisDbr>0.0</loanAmtBasisDbr>
+    <loanAmtBasisAbb>0.0</loanAmtBasisAbb>
+    <loanAmtBasisMultiplier>975000.0</loanAmtBasisMultiplier>
+    <netIncomeMultiplier>13.0</netIncomeMultiplier>
+    <productTypeCode>FIRSTCALL</productTypeCode>
+    <applicantScore>0.0</applicantScore>
+    <maxLoanAmount>2000000.0</maxLoanAmount>
+    <minLoanAmount>65000.0</minLoanAmount>
+    <emiOfTotalUnsecuredLoans>0.0</emiOfTotalUnsecuredLoans>
+    <emiOfUnsecuredLoan>0.0</emiOfUnsecuredLoan>
+    <emiOfTotalSecuredLoans>0.0</emiOfTotalSecuredLoans>
+    <emiOfSecuredLoan>0.0</emiOfSecuredLoan>
+    <interestObligationOfCCOrOD>0.0</interestObligationOfCCOrOD>
+    <totalObligation>0.0</totalObligation>
+    <totalExistingUnsecuredExposure>0.0</totalExistingUnsecuredExposure>
+    <currentPOS>0.0</currentPOS>
+    <DBRValue>0.7</DBRValue>
+    <dumyABB>0.0</dumyABB>
+    <requiredLoanAmount>100000.0</requiredLoanAmount>
+    <finalTenureRequired>0.0</finalTenureRequired>
+    <imputedPL>0.0</imputedPL>
+    <imputedCC>0.0</imputedCC>
+    <imputedHML>0.0</imputedHML>
+    <imputedTW>0.0</imputedTW>
+    <imputedCD>0.0</imputedCD>
+    <imputedOthers>0.0</imputedOthers>
+    <emiBasisCibilLiabilty>0.0</emiBasisCibilLiabilty>
+    <totalDeclaredEmiLiabilty>0.0</totalDeclaredEmiLiabilty>
+    <imputedOthersCC>0.0</imputedOthersCC>
+    <loanPMTNumerator>0.0</loanPMTNumerator>
+    <loanPMTDenominator>0.013741666666666666</loanPMTDenominator>
+    <emiPMTDenominator>0.0</emiPMTDenominator>
+    <emiPMTNumerator>0.013741666666666666</emiPMTNumerator>
+    <TIME_TAG_1>0.0</TIME_TAG_1>
+    <TIME_TAG_2>0.0</TIME_TAG_2>
+    <TIME_TAG_3>0.0</TIME_TAG_3>
+    <TIME_TAG_4>0.0</TIME_TAG_4>
+    <TIME_TAG_5>0.0</TIME_TAG_5>
+    <TIME_TAG_6>0.0</TIME_TAG_6>
+    <TIME_TAG_7>0.0</TIME_TAG_7>
+    <TIME_TAG_8>0.0</TIME_TAG_8>
+    <TIME_TAG_9>0.0</TIME_TAG_9>
+    <TIME_TAG_10>0.0</TIME_TAG_10>
+    <FF1_TAG_1>0.0</FF1_TAG_1>
+    <FF1_TAG_2>0.0</FF1_TAG_2>
+    <FF2_TAG_1>0.0</FF2_TAG_1>
+    <FF2_TAG_2>0.0</FF2_TAG_2>
+    <FF3_TAG_1>0.0</FF3_TAG_1>
+    <FF3_TAG_2>0.0</FF3_TAG_2>
+    <FF4_TAG_1>0.0</FF4_TAG_1>
+    <FF4_TAG_2>0.0</FF4_TAG_2>
+    <FF5_TAG_1>0.0</FF5_TAG_1>
+    <FF5_TAG_2>0.0</FF5_TAG_2>
+    <FF6_TAG_1>0.0</FF6_TAG_1>
+    <FF6_TAG_2>0.0</FF6_TAG_2>
+    <FF7_TAG_1>0.0</FF7_TAG_1>
+    <FF7_TAG_2>0.0</FF7_TAG_2>
+    <FF8_TAG_1>0.0</FF8_TAG_1>
+    <FF8_TAG_2>0.0</FF8_TAG_2>
+    <FF9_TAG_1>0.0</FF9_TAG_1>
+    <FF9_TAG_2>0.0</FF9_TAG_2>
+    <FF10_TAG_1>0.0</FF10_TAG_1>
+    <FF10_TAG_2>0.0</FF10_TAG_2>
+    <FF11_TAG_1>0.0</FF11_TAG_1>
+    <FF11_TAG_2>0.0</FF11_TAG_2>
+    <FF12_TAG_1>0.0</FF12_TAG_1>
+    <FF12_TAG_2>0.0</FF12_TAG_2>
+    <FF13_TAG_1>0.0</FF13_TAG_1>
+    <FF13_TAG_2>0.0</FF13_TAG_2>
+    <FF14_TAG_1>0.0</FF14_TAG_1>
+    <FF14_TAG_2>0.0</FF14_TAG_2>
+    <FF15_TAG_1>0.0</FF15_TAG_1>
+    <FF15_TAG_2>0.0</FF15_TAG_2>
+    <FF16_TAG_1>0.0</FF16_TAG_1>
+    <FF16_TAG_2>0.0</FF16_TAG_2>
+    <FF17_TAG_1>0.0</FF17_TAG_1>
+    <FF17_TAG_2>0.0</FF17_TAG_2>
+    <FF18_TAG_1>0.0</FF18_TAG_1>
+    <FF18_TAG_2>0.0</FF18_TAG_2>
+    <FF19_TAG_1>0.0</FF19_TAG_1>
+    <FF19_TAG_2>0.0</FF19_TAG_2>
+    <FF20_TAG_1>0.0</FF20_TAG_1>
+    <FF20_TAG_2>0.0</FF20_TAG_2>
+    <FF21_TAG_1>0.0</FF21_TAG_1>
+    <FF21_TAG_2>0.0</FF21_TAG_2>
+    <FF22_TAG_1>0.0</FF22_TAG_1>
+    <FF22_TAG_2>0.0</FF22_TAG_2>
+    <FF23_TAG_1>0.0</FF23_TAG_1>
+    <FF23_TAG_2>0.0</FF23_TAG_2>
+    <FF24_TAG_1>0.0</FF24_TAG_1>
+    <FF24_TAG_2>0.0</FF24_TAG_2>
+    <FF25_TAG_1>0.0</FF25_TAG_1>
+    <FF25_TAG_2>0.0</FF25_TAG_2>
+    <FF26_TAG_1>0.0</FF26_TAG_1>
+    <FF26_TAG_2>0.0</FF26_TAG_2>
+    <FF27_TAG_1>0.0</FF27_TAG_1>
+    <FF27_TAG_2>0.0</FF27_TAG_2>
+    <FF28_TAG_1>0.0</FF28_TAG_1>
+    <FF28_TAG_2>0.0</FF28_TAG_2>
+    <FF29_TAG_1>0.0</FF29_TAG_1>
+    <FF29_TAG_2>0.0</FF29_TAG_2>
+    <FF30_TAG_1>0.0</FF30_TAG_1>
+    <FF30_TAG_2>0.0</FF30_TAG_2>
+    <FF31_TAG_1>0.0</FF31_TAG_1>
+    <FF31_TAG_2>0.0</FF31_TAG_2>
+    <FF32_TAG_1>0.0</FF32_TAG_1>
+    <FF32_TAG_2>0.0</FF32_TAG_2>
+    <FF33_TAG_1>0.0</FF33_TAG_1>
+    <FF33_TAG_2>0.0</FF33_TAG_2>
+    <FF34_TAG_1>0.0</FF34_TAG_1>
+    <FF34_TAG_2>0.0</FF34_TAG_2>
+    <FF35_TAG_1>0.0</FF35_TAG_1>
+    <FF35_TAG_2>0.0</FF35_TAG_2>
+    <FF36_TAG_1>0.0</FF36_TAG_1>
+    <FF36_TAG_2>0.0</FF36_TAG_2>
+    <FF37_TAG_1>0.0</FF37_TAG_1>
+    <FF37_TAG_2>0.0</FF37_TAG_2>
+    <FF38_TAG_1>0.0</FF38_TAG_1>
+    <FF38_TAG_2>0.0</FF38_TAG_2>
+    <FF39_TAG_1>0.0</FF39_TAG_1>
+    <FF39_TAG_2>0.0</FF39_TAG_2>
+    <FF40_TAG_1>0.0</FF40_TAG_1>
+    <FF40_TAG_2>0.0</FF40_TAG_2>
+    <renovationLoan>0.0</renovationLoan>
+    <loanDisbursementDate>2017-02-13</loanDisbursementDate>
+    <applicableProgram/>
+    <disbursentInSecondHalfMonth/>
+    <appRefStatus/>
+    <applicationStatus/>
+    <loanStatus/>
+    <totalDebtBurden>0</totalDebtBurden>
+    <totalDebt>0</totalDebt>
+    <totalDebtBurdenPercent>0</totalDebtBurdenPercent>
+    <emiComfortable>0</emiComfortable>
+    <emiMaximum>0</emiMaximum>
+    <emiBasisMultiplier>0</emiBasisMultiplier>
+    <branchCode/>
+    <isResidenceCpvWaived/>
+    <servicingBranchcode/>
+    <breRun>2017-02-13</breRun>
+    <deviations>
+      <deviationMessage>Unsecured enquiries in last 6 months larger than or equal to 5</deviationMessage>
+      <deviationSeverity>L4</deviationSeverity>
+      <approvalAuthority>RCM</approvalAuthority>
+      <isCibil>NO</isCibil>
+    </deviations>
+    <gradeType>grade B</gradeType>
+    <loanProgramType>1</loanProgramType>
+  </loanApplication>
+  <source>PLSALARIED</source>
+  <isSynchronous>YES</isSynchronous>
+  <randomNumber>0.0</randomNumber>
+  <logMessages>Ruleset Name : Derivation Rules. Rule Name : deriveAgeatMaturity</logMessages>
+  <logMessages>Ruleset Name : ScorePoint_Ruleset. Rule Name : pt_var_1_cardInfo</logMessages>
+  <logMessages>Ruleset Name : ScorePoint_Ruleset. Rule Name : pt_var_2_tradecurrentx</logMessages>
+  <logMessages>Ruleset Name : ScorePoint_Ruleset. Rule Name : pt_var_3_enqoffus6m</logMessages>
+  <logMessages>Ruleset Name : ScorePoint_Ruleset. Rule Name : pt_var_4_resi</logMessages>
+  <logMessages>Ruleset Name : ScorePoint_Ruleset. Rule Name : pt_var_5_livehl</logMessages>
+  <logMessages>Ruleset Name : ScorePoint_Ruleset. Rule Name : pt_var_6_agebureau</logMessages>
+  <logMessages>Ruleset Name : ScorePoint_Ruleset. Rule Name : pt_var_7_ever90plus</logMessages>
+  <logMessages>Ruleset Name : ScorePoint_Ruleset. Rule Name : pt_var_8_delratio</logMessages>
+  <logMessages>Ruleset Name : ScorePoint_Ruleset. Rule Name : pt_var_9_phonejob</logMessages>
+  <logMessages>Ruleset Name : ScorePoint_Ruleset. Rule Name : pt_var_10_fixphone</logMessages>
+  <logMessages>Ruleset Name : ScorePoint_Ruleset. Rule Name : pt_var_11_resitype</logMessages>
+  <logMessages>Ruleset Name : ScorePoint_Ruleset. Rule Name : pt_var_12_loanamount</logMessages>
+  <logMessages>Ruleset Name : ScorePoint_Ruleset. Rule Name : pt_var_13_sex</logMessages>
+  <logMessages>Ruleset Name : ScorePoint_Ruleset. Rule Name : pt_var_14_enqcard</logMessages>
+  <logMessages>Ruleset Name : ScorePoint_Ruleset. Rule Name : pt_var_15_eduage</logMessages>
+  <logMessages>Ruleset Name : ScorePoint_Ruleset. Rule Name : pt_var_16_jobmonth</logMessages>
+  <logMessages>Ruleset Name : ScorePoint_Ruleset. Rule Name : pt_var_17_enqunsec3m</logMessages>
+  <logMessages>Ruleset Name : ScorePoint_Ruleset. Rule Name : pt_var_18_resimonth</logMessages>
+  <logMessages>Ruleset Name : ScorePoint_Ruleset. Rule Name : pt_var_19_phonetype</logMessages>
+  <logMessages>Ruleset Name : ScorePoint_Ruleset. Rule Name : pt_var_20_enqhl</logMessages>
+  <logMessages>Ruleset Name : ScorePoint_Ruleset. Rule Name : pt_var_21_appscore</logMessages>
+  <logMessages>Ruleset Name : ScorePoint_Ruleset. Rule Name : pt_var_22_Phoneiszero</logMessages>
+  <logMessages>Ruleset Name : ScorePoint_Ruleset. Rule Name : NoOfYearsCurrentResiInMonths</logMessages>
+  <logMessages>Ruleset Name : ScorePoint_Ruleset. Rule Name : pt_var_23_Division</logMessages>
+  <logMessages>Ruleset Name : ScorePoint_Ruleset. Rule Name : SPL</logMessages>
+  <logMessages>Ruleset Name : ScorePoint_Ruleset. Rule Name : Total trades smaller than or equal to zero</logMessages>
+  <logMessages>Ruleset Name : BureauPolicy_Ruleset. Rule Name : Unsec Enquiry 6 month Amber</logMessages>
+  <logMessages>Ruleset Name : RiskGrade_Ruleset. Rule Name : Risk Grade E</logMessages>
+  <logMessages>Ruleset Name : AIP_Ruleset. Rule Name : Derive Grade B</logMessages>
+  <logMessages>Ruleset Name : AIP_Ruleset. Rule Name : BASE IRR METRO TIER1 AUG 2016</logMessages>
+  <logMessages>Ruleset Name : AIP_Ruleset. Rule Name : IRR=BASE IRR</logMessages>
+  <logMessages>Ruleset Name : AIP_Ruleset. Rule Name : lOAN PMT NUMERATOR</logMessages>
+  <logMessages>Ruleset Name : AIP_Ruleset. Rule Name : lOAN PMT DENOMINATOR</logMessages>
+  <logMessages>Ruleset Name : AIP_Ruleset. Rule Name : EMI PMT NUMERATOR</logMessages>
+  <logMessages>Ruleset Name : AIP_Ruleset. Rule Name : Loan Program type</logMessages>
+  <logMessages>Ruleset Name : AIP_Ruleset. Rule Name : EMI PMT DENOMINATOR</logMessages>
+  <logMessages>Ruleset Name : AIP_Ruleset. Rule Name : EmiBasusCibilLiability</logMessages>
+  <logMessages>Ruleset Name : AIP_Ruleset. Rule Name : DBR DT New Feb 15</logMessages>
+  <logMessages>Ruleset Name : AIP_Ruleset. Rule Name : Net Income Multiplier DT 2016</logMessages>
+  <logMessages>Ruleset Name : AIP_Ruleset. Rule Name : DeriveMaxLoanAmount DT</logMessages>
+  <logMessages>Ruleset Name : AIP_Ruleset. Rule Name : DeriveMinLoanAmount DT</logMessages>
+  <logMessages>Ruleset Name : AIP_Ruleset. Rule Name : Net Adjusted Income</logMessages>
+  <logMessages>Ruleset Name : AIP_Ruleset. Rule Name : Calculate EMI Basis DBR IC</logMessages>
+  <logMessages>Ruleset Name : AIP_Ruleset. Rule Name : lOANAMTBASIS DBR</logMessages>
+  <logMessages>Ruleset Name : AIP_Ruleset. Rule Name : Loanamtbasis dbr Rounding</logMessages>
+  <logMessages>Ruleset Name : AIP_Ruleset. Rule Name : ComputeLoanAmountbasisMultiplier</logMessages>
+  <logMessages>Ruleset Name : AIP_Ruleset. Rule Name : Calculate LoanAmount</logMessages>
+  <logMessages>Ruleset Name : NonDigitalPL_Ruleset. Rule Name : NMTHS</logMessages>
+</loanContract>
+)
+*/
+?>

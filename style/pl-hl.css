@@ -1,0 +1,78 @@
+/************************************
+            By Dan Harper
+        http://www.danharper.me
+
+           For NETTUTS.com
+
+     Check out http://vivawp.com
+************************************/
+
+.widget {
+width: 250px;
+float:right;
+/*padding: 10px;
+border: 1px solid #d2d2d2;
+*/margin-bottom: 15px;
+}
+
+.widget a {
+color: #222;
+text-decoration: none;
+}
+	
+.widget a:hover {
+color: #009;
+text-decoration: underline;
+}
+
+.widget ul {
+	margin:0px 0px 0px 4px;
+	padding:0px 0px 0px 4px;
+}
+
+.tabnav li {
+display: inline;
+list-style: none;
+}
+	
+.tabnav li a {
+text-decoration: none;
+color: #222;
+font-weight: bold;
+padding: 6px 6px;
+outline: none;
+}
+		
+.tabnav li a:hover, .tabnav li a:active, .tabnav li.ui-tabs-selected a {
+background: #6e6e6e;
+color: #FFFFFF;
+text-decoration: none;
+}
+		
+/*	.tabdiv {
+	margin-top: 2px;
+	background: #fff;
+	border: 1px solid #aaaaaa;
+	padding: 5px;
+	}*/
+
+.ui-tabs-hide {
+display: none;
+}
+
+#featuredvid {
+text-align: center;
+}
+		
+.fvid {
+margin-bottom: 5px;
+}
+
+.vidselector li {
+text-align: left;
+list-style: none;
+padding: 5px;
+background: #ffffff;
+border: 1px solid #dedbd1;
+margin-bottom: 5px;
+}

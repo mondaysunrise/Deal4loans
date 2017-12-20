@@ -1,0 +1,1035 @@
+<?php
+	require 'scripts/session_check.php';
+	require 'scripts/db_init.php';
+	require 'scripts/functions.php';
+
+
+$maxage=date('Y')-62;
+$minage=date('Y')-18;
+
+	$retrivesource = $_SESSION['source'];
+$page_Name = "LoanAgainstProperty";
+  if ($_SESSION['flag']==1)
+		{
+		$source="partner1";
+		}
+
+	$Msg = "";
+	if($_SESSION['UserType']== "bidder")
+	{
+	$Msg = getAlert("Sorry!!!! You are not Authorised to Apply for Loan.", TRUE, "index.php");
+	echo $Msg;
+	}
+
+	if ($_SERVER['REQUEST_METHOD'] == 'POST'){
+		foreach($_POST as $a=>$b)
+			$$a=$b;
+			
+			$UserID = $_SESSION['UserID'];
+
+		/* FIX STRINGS */
+		 
+		$FName = FixString($FName);
+		$LName = FixString($LName);
+		$Name=$FName." ".$LName;
+		$Day=FixString($day);
+		$Month=FixString($month);
+		$Year=FixString($year);
+		$Activate =FixString($Activate);
+		$DOB=$Year."-".$Month."-".$Day;
+		$Phone = FixString($Phone);
+		$Phone1 = FixString($Phone1);
+		$Phone2 = FixString($Phone2);
+		$Std_Code1 = FixString($Std_Code1);
+		$Std_Code2 = FixString($Std_Code2);
+		$Employment_Status = FixString($Employment_Status);
+		$Company_Name = FixString($Company_Name);
+		$City = FixString($City);
+		$City_Other = FixString($City_Other);
+		$Total_Experience = FixString($Total_Experience);
+		$Net_Salary = FixString($Net_Salary);
+		$Residential_Status = FixString($Residential_Status);
+		$Residence_Address = FixString($Residence_Address);
+		$Property_Type = FixString($Property_Type);
+		$Property_Value = FixString($Property_Value);
+		$Loan_Amount = FixString($Loan_Amount);
+		$Accidental_Insurance = FixString($Accidental_Insurance);
+		$Descr = FixString($Descr);
+		$Contact_Time = FixString($Contact_Time);
+		$Pincode = FixString($Pincode);
+		$Reference_Code = FixString($Reference_Code);
+		$activation_code = FixString($activation_code);
+		$edelweiss = FixString($edelweiss);
+		$cpp_card_protect = FixString($cpp_card_protect);
+		$Dated = ExactServerdate();
+
+		if($Reference_Code==$activation_code)
+		{
+			$Is_Valid=1;
+		}
+		else
+		{
+			$Is_Valid=0;
+		}
+		$Count_Views = 0;
+		$Count_Replies = 0;
+		$IsModified = 0;
+		$IsProcessed = 0;
+        $IsPublic = 1;
+		if($Activate>0)
+	{
+		$DeleteIncompleteSql = "Delete from Req_Incomplete_Lead where  IncompeletID=".$Activate;		
+		 Maindeletefunc($DeleteIncompleteSql,$array = array());
+	}
+
+if($_SESSION=="")
+		{
+		$_SERVER['Temp_Type'] = "PropertyLoan";
+		$_SERVER['Temp_Name'] = $Name;
+		$_SERVER['Temp_FName'] = $FName;
+		$_SERVER['Temp_LName'] = $LName;
+		$_SERVER['Temp_Phone'] = $Phone;
+		$_SERVER['Temp_Phone1'] = $Phone1;
+		$_SERVER['Temp_Phone2'] = $Phone2;
+		$_SERVER['Temp_Std_Code1'] = $Std_Code1;
+		$_SERVER['Temp_Std_Code2'] = $Std_Code2;
+		$_SERVER['Temp_DOB'] = $DOB;
+		$_SERVER['Temp_Email'] = $Email;
+		$_SERVER['Temp_Flag'] = "0";
+		$_SERVER['Temp_Employment_Status'] = $Employment_Status;
+		$_SERVER['Temp_Company_Name'] = $Company_Name;
+		$_SERVER['Temp_City'] = $City;
+		$_SERVER['Temp_City_Other'] = $City_Other;
+		$_SERVER['Temp_Total_Experience'] = $Total_Experience;
+		$_SERVER['Temp_Net_Salary'] = $Net_Salary;
+		$_SERVER['Temp_Residential_Status'] = $Residential_Status;
+		$_SERVER['Temp_Residence_Address'] = $Residence_Address;
+		$_SERVER['Temp_Property_Type'] = $Property_Type;
+		$_SERVER['Temp_Property_Value'] = $Property_Value;
+		$_SERVER['Temp_Loan_Amount'] = $Loan_Amount;
+		$_SERVER['Temp_Descr'] = $Descr;
+		$_SERVER['Temp_IsPublic'] = $IsPublic;
+		}
+		else
+		{
+		$_SESSION['Temp_Type'] = "PropertyLoan";
+		$_SESSION['Temp_Name'] = $Name;
+		$_SESSION['Temp_FName'] = $FName;
+		$_SESSION['Temp_LName'] = $LName;
+		$_SESSION['Temp_Phone'] = $Phone;
+		$_SESSION['Temp_Phone1'] = $Phone1;
+		$_SESSION['Temp_Phone2'] = $Phone2;
+		$_SESSION['Temp_Std_Code1'] = $Std_Code1;
+		$_SESSION['Temp_Std_Code2'] = $Std_Code2;
+		$_SESSION['Temp_DOB'] = $DOB;
+		$_SESSION['Temp_Email'] = $Email;
+		$_SESSION['Temp_Flag'] = "0";
+		$_SESSION['Temp_Employment_Status'] = $Employment_Status;
+		$_SESSION['Temp_Company_Name'] = $Company_Name;
+		$_SESSION['Temp_City'] = $City;
+		$_SESSION['Temp_City_Other'] = $City_Other;
+		$_SESSION['Temp_Total_Experience'] = $Total_Experience;
+		$_SESSION['Temp_Net_Salary'] = $Net_Salary;
+		$_SESSION['Temp_Residential_Status'] = $Residential_Status;
+		$_SESSION['Temp_Residence_Address'] = $Residence_Address;
+		$_SESSION['Temp_Property_Type'] = $Property_Type;
+		$_SESSION['Temp_Property_Value'] = $Property_Value;
+		$_SESSION['Temp_Loan_Amount'] = $Loan_Amount;
+		$_SESSION['Temp_Descr'] = $Descr;
+		$_SESSION['Temp_IsPublic'] = $IsPublic;
+		}
+
+function  InsertEdelweiss($ProductValue, $Name,$City, $Phone, $DOB, $Pincode )
+	{
+
+		
+	$dataInsert = array("E_RequestID"=>$ProductValue, "E_Product"=>5, "E_Name"=>$Name, "E_City"=>$City, "E_Mobile_Number"=>$Phone, "E_DOB"=>$DOB, "E_Pincode"=>$Pincode, "E_Dated"=>$Dated);
+$table = 'edelweiss_leads';
+$insert = Maininsertfunc ($table, $dataInsert);
+		
+	}
+
+	function  Insertcpp($ProductValue, $Name,$City, $Phone, $DOB, $Email )
+	{
+			
+		$dataInsert = array("CPP_RequestID"=>$ProductValue, "CPP_Product"=>5, "CPP_Name"=>$Name, "CPP_City"=>$City, "CPP_Mobile_Number"=>$Phone, "CPP_DOB"=>$DOB, "CPP_Dated"=>$Dated, "CPP_Email"=>$Email);
+$table = 'cpp_card_protection_leads';
+$insert = Maininsertfunc ($table, $dataInsert);
+		
+		
+		//echo "Edelweiss:".$Sql."<br>";
+		//exit();
+	}
+
+$crap = " ".$Name." ".$Email." ".$Company_Name." ".$City_Other;
+		//echo $crap,"<br>";
+		$crapValue = validateValues($crap);
+		$_SESSION['crapValue'] = $crapValue;
+		//exit();
+		if($crapValue=='Put')
+		{
+			$tomorrow  = mktime(0, 0, 0, date("m")  , date("d")-30, date("Y"));
+			$days30date=date('Y-m-d',$tomorrow);
+			$days30datetime = $days30date." 00:00:00";
+			$currentdate= date('Y-m-d');
+			$currentdatetime = date('Y-m-d')." 23:59:59";
+			
+			$getdetails="select RequestID From Req_Loan_Against_Property  Where (Mobile_Number='".$Phone."' and Updated_Date between '".$days30datetime."' and '".$currentdatetime."') order by RequestID DESC";
+			//echo $getdetails."<br>";
+			//exit();
+			
+			 list($alreadyExist,$myrow)=MainselectfuncNew($getdetails,$array = array());
+		$cntr=0;
+			
+		
+			if($alreadyExist>0)
+			{
+				$ProductValue=$myrow[$cntr]['RequestID'];
+				$_SESSION['Temp_LID'] = $ProductValue;
+				echo "<script language=javascript>"." location.href='update-property-loan-lead.php'"."</script>";
+			}
+			else
+			{
+			
+		
+			$validMobile = is_numeric($Phone);
+		$validYear  = is_numeric($Year);
+		$validMonth = is_numeric($Month);
+		$validDay = is_numeric($Day);
+			
+			if(($validMobile==1) && ($validMonth==1) && ($validDay==1) && ($validYear==1) && ($Name!=""))
+{		
+
+
+list($First,$Last) = split('[ ]', $Name);
+
+			//echo "heelo";
+			$SMSMessage = "Dear $First,Thanks for applying at Deal4loans for LAP. You will get a call from us to give you quotes & information to get you best deal for loans.";
+			if(strlen(trim($Phone)) > 0)
+				SendSMS($SMSMessage, $Phone);
+
+		if(isset($_SESSION['UserType'])) 
+		{
+			$sql = "INSERT INTO Req_Loan_Against_Property (UserID, Name, Email, Employment_Status, Company_Name, City, City_Other, Mobile_Number, Std_Code, Landline, Std_Code_O, Landline_O, Total_Experience, Net_Salary, Residential_Status, Property_Type,Property_Value, Loan_Amount, Descr, DOB, Count_Views, Count_Replies, IsModified, IsProcessed, IsPublic, Dated, Contact_Time, Pincode, Residence_Address, source,Accidental_Insurance,Updated_Date, Reference_Code,Is_Valid, Edelweiss_Compaign,Cpp_Compaign)
+					VALUES ( '$UserID', '$Name', '$Email', '$Employment_Status', '$Company_Name', '$City', '$City_Other', '$Phone', '$Std_Code1', '$Phone1', '$Std_Code2', '$Phone2', '$Total_Experience', '$Net_Salary', '$Residential_Status', '$Property_Type', '$Property_Value', '$Loan_Amount', '$Descr', '$DOB', 0, 0, 0, 0, '$IsPublic', Now(), '$Contact_Time', '$Pincode', '$Residence_Address','$source','$Accidental_Insurance',Now(),'$Reference_Code','$Is_Valid','".$edelweiss."','".$cpp_card_protect."' )";
+		
+		
+		}
+		else
+		{
+			$sql = "INSERT INTO Req_Loan_Against_Property (UserID, Name, Email, Employment_Status, Company_Name, City, City_Other, Mobile_Number, Std_Code, Landline, Std_Code_O, Landline_O, Total_Experience, Net_Salary, Residential_Status, Property_Type, Property_Value, Loan_Amount, Descr, DOB, Count_Views, Count_Replies, IsModified, IsProcessed, IsPublic, Dated, Contact_Time, Pincode, Residence_Address, source,Accidental_Insurance,Updated_Date, Reference_Code,Is_Valid, Edelweiss_Compaign,Cpp_Compaign)
+					VALUES ( '', '$Name', '$Email', '$Employment_Status', '$Company_Name', '$City', '$City_Other', '$Phone', '$Std_Code1', '$Phone1', '$Std_Code2', '$Phone2', '$Total_Experience', '$Net_Salary', '$Residential_Status', '$Property_Type', '$Property_Value', '$Loan_Amount', '$Descr', '$DOB', 0, 0, 0, 0, '$IsPublic', Now(), '$Contact_Time', '$Pincode', '$Residence_Address','$source','$Accidental_Insurance',Now(),'$Reference_Code','$Is_Valid','".$edelweiss."','".$cpp_card_protect."' )";
+
+			if($Email=="")
+			{
+				if ($_SESSION['flag']==1)
+					{ 
+					header("Location: http://".$_SERVER['HTTP_HOST'].$strDir."/User_Register_New.php?flag=1");
+						echo mysql_error();
+				/*echo "<script language=javascript>"." location.href='Contents_Loan_Against_Property_Mustread.php?flag=1'"."</script>";*/
+					}
+					else
+				{
+						header("Location: http://".$_SERVER['HTTP_HOST'].$strDir."/User_Register_New.php");
+						echo mysql_error();
+						/*echo "<script language=javascript>"." location.href='Contents_Loan_Against_Property_Mustread.php'"."</script>";*/
+				}
+			}
+
+		}
+
+		$Email = trim($Email);
+				
+			$_SESSION['Temp_Flag'] = "1";
+			
+			$qry_user="SELECT UserID FROM wUsers WHERE Email='".$Email."'";
+			
+			 list($recordcount,$row_user)=MainselectfuncNew($qry_user,$array = array());
+			$j=0;
+			
+			$UserID1=$row_user[$j]["UserID"];
+			
+					
+			$dataInsert = array("UserID"=>$UserID1, "Name"=>$Name, "Email"=>$Email, "Employment_Status"=>$Employment_Status, "Company_Name"=>$Company_Name, "City"=>$City, "City_Other"=>$City_Other, "Mobile_Number"=>$Phone, "Std_Code"=>$Std_Code1, "Landline"=>$Phone1, "Std_Code_O"=>$Std_Code2, "Landline_O"=>$Phone2, "Total_Experience"=>$Total_Experience, "Net_Salary"=>$Net_Salary, "Residential_Status"=>$Residential_Status, "Property_Type"=>$Property_Type, "Property_Value"=>$Property_Value, "Loan_Amount"=>$Loan_Amount, "Descr"=>$Descr, "DOB"=>$DOB, "Count_Views"=>0, "Count_Replies"=>0, "IsModified"=>0, "IsProcessed"=>0, "IsPublic"=>$IsPublic, "Dated"=>$Dated, "Contact_Time"=>$Contact_Time, "Pincode"=>$Pincode, "Residence_Address"=>$Residence_Address, "source"=>$source, "Accidental_Insurance"=>$Accidental_Insurance, "Updated_Date"=>$Dated, "Reference_Code"=>$Reference_Code, "Is_Valid"=>$Is_Valid, "Edelweiss_Compaign"=>$edelweiss, "Cpp_Compaign"=>$cpp_card_protect);
+$table = 'Req_Loan_Against_Property';	
+$ProductValue = Maininsertfunc ($table, $dataInsert);	
+					
+		if($edelweiss=="1")
+				{
+				 InsertEdelweiss($ProductValue, $Name,$City, $Phone, $DOB, $Pincode );
+				}
+
+			if($cpp_card_protect=="1")
+				{
+				 Insertcpp($ProductValue, $Name,$City, $Phone, $DOB,$Email);
+				}
+
+			if (($_SESSION['flag']==1) || ($_REQUEST['flag']==1))
+					{ 
+header("Location: http://".$_SERVER['HTTP_HOST'].$strDir."/User_Register_New.php?flag=1");
+						echo mysql_error();
+			/*echo "<script language=javascript>"." location.href='User_Register_New.php?flag=1'"."</script>";*/
+					}
+					else
+					{
+						header("Location: http://".$_SERVER['HTTP_HOST'].$strDir."/User_Register_New.php");
+						echo mysql_error();
+					/*echo "<script language=javascript>"." location.href='User_Register_New.php'"."</script>";*/
+					}
+			
+		}
+		
+		else
+			{
+				list($rows,$result)=MainselectfuncNew($sql,$array = array());
+			getEligibleBidders("property","$City","$Phone");
+			$strDir = dir_name();
+			if($Email!="")
+			{
+				if (($_SESSION['flag']==1) || ($_REQUEST['flag']==1))
+					{ 
+						header("Location: http://".$_SERVER['HTTP_HOST'].$strDir."/User_Register_New.php?flag=1");
+						echo mysql_error();
+					}
+				else
+					{
+					header("Location: http://".$_SERVER['HTTP_HOST'].$strDir."/User_Register_New.php");
+						echo mysql_error();
+					}
+			}
+			}
+		echo mysql_error();
+
+		if ($result[0] == 1 && isset($_SESSION['UserType']))
+			{
+			$Msg = getAlert("Your request has been added. !!", TRUE, "myRequests.php");
+			}
+			
+			
+			
+		//echo $result;
+		
+
+		
+		else
+		{
+			//echo "Track URI and redirect this to the same page";
+			$msg = "NotAuthorised";
+			$PostURL = $_POST["PostURL"]."?msg=".$msg;
+			header("Location: $PostURL");
+		}
+		
+		}
+		}//$crap Check
+		else if($crapValue=='Discard')
+		{
+			header("Location: Redirect.php");
+			exit();
+		}
+		else
+		{
+			header("Location: Redirect.php");
+			exit();
+		}
+    }
+?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Apply and Compare Loans Against Property India</title>
+<meta name="description" content="Apply Loans Against Property online. Know the schemes from all loans against property providing banks located in major cities of India like Mumbai, Delhi, Gurgaon, Bangalore, Ahmedabad, Chennai, Hyderabad, Navi Mumbai, Kochi, Pune etc. Compare Documents, EMI, Interest rates and Fees.">
+<meta name="keywords" content="Loan Against Property India, Apply Loan Against Property, Compare Loan Against Property in Mumbai Hyderabad Pune kolkata Delhi Noida Bangalore">
+<link href="style/new-bima.css" rel="stylesheet"  type="text/css" />
+<link href="style/glowing.css" rel="stylesheet"  type="text/css" />
+<script type="text/javascript" src="js/dropdowntabs.js"></script>
+<script type="text/javascript" src="scripts/common.js"></script>
+<script src='scripts/digitToWordConvert.js' type='text/javascript' language='javascript'></script>
+<script language="javascript">
+function validmail(email1) 
+{
+	invalidChars = " /:,;";
+	if (email1 == "")
+	{// cannot be empty
+		alert("Invalid E-mail ID.");
+		return false;	
+	}
+	for (i=0; i<invalidChars.length; i++) 
+	{	// does it contain any invalid characters?
+		badChar = invalidChars.charAt(i);
+		if (email1.indexOf(badChar,0) > -1) 
+		{
+			return false;
+		}
+	}
+	atPos = email1.indexOf("@",1)// there must be one "@" symbol
+	if (atPos == -1) 
+	{
+		alert("Invalid E-mail ID.");
+		return false;
+	}
+	if (email1.indexOf("@",atPos+1) != -1) 
+	{	// and only one "@" symbol
+		alert("Invalid E-mail ID.");
+		return false;
+	}
+	periodPos = email1.indexOf(".",atPos)
+	if (periodPos == -1) 
+	{// and at least one "." after the "@"
+		alert("Invalid E-mail ID.");
+		return false;
+	}
+	//alert(periodPos);
+	//alert(email.length);
+	if (periodPos+3 > email1.length)	
+	{		// must be at least 2 characters after the "."
+		alert("Invalid E-mail ID.");
+		return false;
+		
+	}
+	return true;
+}
+function cityother()
+{
+	if(document.loan_form.City.value=="Others")
+	{
+		document.loan_form.City_Other.disabled = false;
+	}
+	else
+	{
+		document.loan_form.City_Other.disabled = true;
+	}
+}
+function validmobile(mobile) 
+{
+	
+	atPos = mobile.indexOf("0")// there must be one "@" symbol
+	if (atPos == 0) 
+	{
+		alert("Mobile number cannot start with 0.");
+		return false;
+	}
+	if(!checkData(document.loan_form.Phone, 'Mobile number', 10))
+		return false;
+
+return true;
+}
+
+function retain(strPlan)
+{
+	if(document.loan_form.Email.value!="")
+	{
+	   if ((document.getElementById('plantype') != undefined)  && (document.getElementById('plantype1') != undefined))
+       {
+               document.getElementById('plantype').innerHTML = strPlan;
+			     document.getElementById('plantype1').innerHTML = strPlan;
+       }
+	}
+       return true;
+	}
+function Decoration(strPlan)
+{
+       if ((document.getElementById('plantype') != undefined)  && (document.getElementById('plantype1') != undefined))
+       {
+               document.getElementById('plantype').innerHTML = strPlan;
+			     document.getElementById('plantype1').innerHTML = strPlan;
+       }
+
+       return true;
+}
+function Decoration1(strPlan)
+{
+       if ((document.getElementById('plantype') != undefined)  && (document.getElementById('plantype1') != undefined))
+       {
+               document.getElementById('plantype').innerHTML = strPlan;
+			     document.getElementById('plantype1').innerHTML = strPlan;
+       }
+
+       return true;
+}
+function chkform()
+{
+	var regMail = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9])+$/
+var dt,mdate;dt=new Date();
+
+var alpha=/^[a-zA-Z\ ]*$/;
+var alphanum=/^[a-zA-Z0-9]*$/;
+var num=/^[0-9]*$/;
+var space=/^[\ ]*$/;
+var iChars ="/@#$%^&*()+=-[]\\\';,.{}|\":<>?!";
+
+	<?	if ($_SESSION['flag']==1)
+	{?>
+	if(document.loan_form.Email.value=="")
+	{
+		alert("Please fill your Email.");
+		document.loan_form.Email.focus();
+		return false;
+	}
+	<?} ?><?
+if($_SESSION['UserType']=="")
+{
+?>	
+	 if(document.loan_form.Email.value!="")
+	{
+		if (!validmail(document.loan_form.Email.value))
+		{
+			//alert("Please enter your valid email address!");
+			document.loan_form.Email.focus();
+			return false;
+		}
+		
+	
+	}
+	
+	
+<?
+}
+?>
+
+	if(document.loan_form.FName.value=="")
+	{
+		alert("Please fill your full name.");
+		document.loan_form.FName.focus();
+		return false;
+	}
+	 if(document.loan_form.FName.value!="")
+	{
+	 if(containsdigit(document.loan_form.FName.value)==true)
+	{
+	alert("full Name contains numbers!");
+	document.loan_form.FName.focus();
+	return false;
+	}
+	}
+  for (var i = 0; i <document.loan_form.FName.value.length; i++) {
+  	if (iChars.indexOf(document.loan_form.FName.value.charAt(i)) != -1) {
+  	alert ("First Name has special characters.\n Please remove them and try again.");
+	document.loan_form.FName.focus();
+
+  	return false;
+  	}
+  }
+	
+  if(document.loan_form.Phone.value=="")
+	{
+		alert("Please fill your mobile number.");
+		document.loan_form.Phone.focus();
+		return false;
+	}
+	 if(isNaN(document.loan_form.Phone.value)|| document.loan_form.Phone.value.indexOf(" ")!=-1)
+		{
+              alert("Enter numeric value");
+			  document.loan_form.Phone.focus();
+			  return false;  
+		}
+        if (document.loan_form.Phone.value.length < 10 )
+		{
+                alert("Please Enter 10 Digits"); 
+				 document.loan_form.Phone.focus();
+				return false;
+        }
+        if ((document.loan_form.Phone.value.charAt(0)!="9") && (document.loan_form.Phone.value.charAt(0)!="8") && (document.loan_form.Phone.value.charAt(0)!="7"))
+		{
+                alert("The number should start only with 9 or 8 or 7");
+				 document.loan_form.Phone.focus();
+                return false;
+        }
+	
+	if(document.loan_form.day.value=="" || document.loan_form.day.value=="DD")
+	{
+		alert("Please fill your day of birth.");
+		document.loan_form.day.focus();
+		return false;
+	}
+	if(document.loan_form.day.value!="" && document.loan_form.day.value!="DD") 
+	{
+	 if((document.loan_form.day.value<1) || (document.loan_form.day.value>31))
+	{
+	alert("Kindly Enter your valid Date of Birth(Range 1-31)");
+	document.loan_form.day.focus();
+	return false;
+	}
+	}
+	if(!checkData(document.loan_form.day, 'Day', 2))
+		return false;
+	
+	if(document.loan_form.month.value=="" || document.loan_form.month.value=="MM")
+	{
+		alert("Please fill your month of birth.");
+		document.loan_form.month.focus();
+		return false;
+	}
+	if(document.loan_form.month.value!="" && document.loan_form.month.value!="MM")
+	{
+	if((document.loan_form.month.value<1) || (document.loan_form.month.value>12))
+	{
+	alert("Kindly Enter your valid Month of Birth(Range 1-12)");
+	document.loan_form.month.focus();
+	return false;
+	}
+	}
+	if(!checkData(document.loan_form.month, 'month', 2))
+		return false;
+
+	if(document.loan_form.year.value=="" || document.loan_form.year.value=="YYYY")
+	{
+		alert("Please fill your year of birth.");
+		document.loan_form.year.focus();
+		return false;
+	}
+		if(document.loan_form.year.value!="" && document.loan_form.year.value!="YYYY")
+	{
+	  if((document.loan_form.year.value < "<?php echo $maxage;?>") || (document.loan_form.year.value >"<?php echo $minage;?>"))
+	{
+		alert("Age Criteria! \n Applicants between age group 18 - 62 only are elgibile.");
+		document.loan_form.year.focus();
+		return false;
+		}
+	}
+	if(!checkData(document.loan_form.year, 'Year', 4))
+		return false;
+	
+	
+	if(document.loan_form.Phone1.value!="")
+	{
+		if(document.loan_form.Std_Code1.value=="")
+		{
+			alert("Please fill your STD Code for Residence Landline number.");
+			document.loan_form.Std_Code1.focus();
+			return false;
+		}
+	}
+	if(document.loan_form.Phone2.value!="")
+	{
+		if(document.loan_form.Std_Code2.value=="")
+		{
+			alert("Please fill your STD Code for Office Landline number.");
+			document.loan_form.Std_Code2.focus();
+			return false;
+		}
+	}
+	if(!checkData(document.loan_form.Company_Name, 'Company Name', 3))
+		return false;
+		
+	if (document.loan_form.Residence_Address.value=="")
+	{
+		alert("Please enter Residence Address.");
+		document.loan_form.Residence_Address.focus();
+		return false;
+	}
+	if (document.loan_form.City.selectedIndex==0)
+	{
+		alert("Please enter City Name to Continue");
+		document.loan_form.City.focus();
+		return false;
+	}
+	if((document.loan_form.City.value=="Others") && (document.loan_form.City_Other.value=="" || document.loan_form.City_Other.value=="Other City"  ) || !isNaN(document.loan_form.City_Other.value))
+	{
+		alert("Kindly fill your Other City!");
+		document.loan_form.City_Other.focus();
+		return false;
+	}
+	for (var i = 0; i <document.loan_form.City_Other.value.length; i++) {
+  	if (iChars.indexOf(document.loan_form.City_Other.value.charAt(i)) != -1) {
+  	alert ("Other city has special characters.\n Please remove them and try again.");
+	document.loan_form.City_Other.focus();
+  	return false;
+  	}
+  }
+  
+	if (document.loan_form.Pincode.value=="")
+	{
+		alert("Please enter Pincode.");
+		document.loan_form.Pincode.focus();
+		return false;
+	}
+	if (document.loan_form.Pincode.value!="")
+	{
+		if(document.loan_form.Pincode.value.length < 6)
+	{
+		alert("Kindly fill in Pincode!");
+		document.loan_form.Pincode.focus();
+		return false;
+	}
+	}
+	
+	if (document.loan_form.Net_Salary.value=="")
+	{
+		alert("Please enter Net Salary.");
+		document.loan_form.Net_Salary.focus();
+		return false;
+	}
+	if(!checkNum(document.loan_form.Net_Salary, 'Net Salary',0))
+		return false;
+		
+	if (document.loan_form.Property_Value.value=="")
+	{
+		alert("Please enter Property Value.");
+		document.loan_form.Property_Value.focus();
+		return false;
+	}	
+	if(!checkNum(document.loan_form.Property_Value, 'Value of the Property',0))
+		return false;
+		
+	if (document.loan_form.Loan_Amount.value=="")
+	{
+		alert("Please enter Loan Amount.");
+		document.loan_form.Loan_Amount.focus();
+		return false;
+	}
+	if(!checkNum(document.loan_form.Loan_Amount, 'Loan Amount',0))
+		return false;
+
+if(document.loan_form.activation_code.value=="")
+	{
+		alert("Please fill your Activation code.");
+		document.loan_form.activation_code.focus();
+		return false;
+	}
+
+		if(!document.loan_form.accept.checked)
+	{
+	alert("Accept the Terms and Condition");
+	document.loan_form.accept.focus();
+	return false;
+	}
+}  
+function containsdigit(param)
+{
+mystrLen = param.length;
+for(i=0;i<mystrLen;i++)
+{
+if((param.charAt(i)=="0") || (param.charAt(i)=="1") || (param.charAt(i)=="2") || (param.charAt(i)=="3") || (param.charAt(i)=="4") || (param.charAt(i)=="5") || (param.charAt(i)=="6") || (param.charAt(i)=="7") || (param.charAt(i)=="8") || (param.charAt(i)=="9") || (param.charAt(i)=="/"))
+{
+return true;
+}
+}
+return false;
+}
+
+function Decorate(strPlan)
+{
+       if (document.getElementById('plantype2') != undefined)  
+       {
+               document.getElementById('plantype2').innerHTML = strPlan;
+			   document.getElementById('plantype2').style.background='Beige';  
+       }
+
+       return true;
+}
+function Decorate1(strPlan)
+{
+       if (document.getElementById('plantype2') != undefined) 
+       {
+               document.getElementById('plantype2').innerHTML = strPlan;
+			   document.getElementById('plantype2').style.background='';  
+			     
+               
+       }
+
+       return true;
+}
+
+
+function edelweiss_comp()
+{
+	//alert("hello");
+	var ni = document.getElementById('edelweiss_compaign');
+		
+		if(ni.innerHTML=="")
+		{
+			if(document.loan_form.City.value=="Bangalore" || document.loan_form.City.value=='Chandigarh' || document.loan_form.City.value=='Chennai'  ||  document.loan_form.City.value=='Coimbatore'  ||  document.loan_form.City.value=='Delhi'  ||  document.loan_form.City.value=='Gurgaon'  ||  document.loan_form.City.value=='Hyderabad'  ||  document.loan_form.City.value=='Indore'  || document.loan_form.City.value=='Jaipur'  ||  document.loan_form.City.value=='Kolkata'  ||  document.loan_form.City.value=='Lucknow'  ||  document.loan_form.City.value=='Ludhiana'  ||  document.loan_form.City.value=='Mumbai'  ||  document.loan_form.City.value=='Nagpur'  ||  document.loan_form.City.value=='Nasik'  ||  document.loan_form.City.value=='Noida'  || document.loan_form.City.value=='Pune')
+			{
+				//alert(document.loan_form.CC_Holder.value);
+				ni.innerHTML = '<input type="checkbox" name="edelweiss" id="edelweiss" value="1" style="border:none;">&nbsp;Execute trades with a single click. Open an online trading account with Edelweiss.';
+			}
+			else 
+			{
+			//alert(document.loan_form.CC_Holder.value);
+				ni.innerHTML = '';
+			}
+			
+		}
+		else if(ni.innerHTML!="")
+		{
+			if(document.loan_form.City.value=="Bangalore" || document.loan_form.City.value=='Chandigarh' || document.loan_form.City.value=='Chennai'  ||  document.loan_form.City.value=='Coimbatore'  ||  document.loan_form.City.value=='Delhi'  ||  document.loan_form.City.value=='Gurgaon'  ||  document.loan_form.City.value=='Hyderabad'  ||  document.loan_form.City.value=='Indore'  || document.loan_form.City.value=='Jaipur'  ||  document.loan_form.City.value=='Kolkata'  ||  document.loan_form.City.value=='Lucknow'  ||  document.loan_form.City.value=='Ludhiana'  ||  document.loan_form.City.value=='Mumbai'  ||  document.loan_form.City.value=='Nagpur'  ||  document.loan_form.City.value=='Nasik'  ||  document.loan_form.City.value=='Noida'  || document.loan_form.City.value=='Pune')
+			{
+				//alert(document.loan_form.CC_Holder.value);
+				ni.innerHTML = '<input type="checkbox" name="edelweiss" value="1" style="border:none;">&nbsp;Execute trades with a single click. Open an online trading account with Edelweiss.';
+			}
+			else 
+			{
+			//alert(document.loan_form.CC_Holder.value);
+				ni.innerHTML = '';
+			}
+			
+		}
+		return true;
+}
+
+
+</script>
+<Script Language="JavaScript">
+var ajaxRequestMain;  // The variable that makes Ajax possible!
+var ajaxRequest;  // The variable that makes Ajax possible!
+		function ajaxFunctionMain(){
+			
+			try{
+				// Opera 8.0+, Firefox, Safari
+				//ajaxRequestMain = new XMLHttpRequest();
+				ajaxRequest = new XMLHttpRequest();
+			} catch (e){
+				// Internet Explorer Browsers
+				try{
+					//ajaxRequestMain = new ActiveXObject("Msxml2.XMLHTTP");
+					ajaxRequest = new ActiveXObject("Msxml2.XMLHTTP");
+				} catch (e) {
+					try{
+						//ajaxRequestMain = new ActiveXObject("Microsoft.XMLHTTP");
+						ajaxRequest = new ActiveXObject("Microsoft.XMLHTTP");
+					} catch (e){
+						// Something went wrong
+						alert("Your browser broke!");
+						return false;
+					}
+				}
+			}
+		}
+
+		function insertData()
+		{
+			var get_full_name = document.getElementById('FName').value;
+			//var get_full_name = document.getElementById('full_name').value;
+			
+			var get_email = document.getElementById('Email').value;
+			//var get_email = document.getElementById('email').value;		
+			
+			var get_mobile_no = document.getElementById('Phone').value;
+			//var get_mobile_no = document.getElementById('mobile_no').value;
+			
+			var get_city = document.getElementById('City').value;
+			
+			var get_id = document.getElementById('Activate').value;
+			//alert();
+			var get_product ="5";
+
+				var queryString = "?get_Mobile=" + get_mobile_no +"&get_City=" + get_city + "&get_Full_Name=" + get_full_name +"&get_Email=" + get_email +"&get_product=" + get_product +"&get_Id=" + get_id ;
+				
+				//alert(queryString); 
+				ajaxRequestMain.open("GET", "insert-incomplete-data.php" + queryString, true);
+				// Create a function that will receive data sent from the server
+				ajaxRequestMain.onreadystatechange = function(){
+					if(ajaxRequestMain.readyState == 4)
+					{
+						document.getElementById('Activate').value=ajaxRequestMain.responseText;
+					}
+				}
+
+				ajaxRequestMain.send(null); 
+			 
+		}
+
+
+	
+		function activatecode()
+		{
+			
+			var get_full_name = document.getElementById('FName').value;
+			
+			var get_mobile_no = document.getElementById('Phone').value;
+			
+			var get_reference_code = document.getElementById('Reference_Code').value;
+			
+if(get_reference_code=="" && get_mobile_no>0)
+			{
+				var queryString = "?get_Mobile=" + get_mobile_no + "&get_name=" + get_full_name ;
+			//alert(queryString); 
+				ajaxRequest.open("GET", "get_activation_codeLAP.php" + queryString, true);
+				// Create a function that will receive data sent from the server
+				ajaxRequest.onreadystatechange = function(){
+					if(ajaxRequest.readyState == 4)
+					{
+						document.getElementById('Reference_Code').value=ajaxRequest.responseText;
+					}
+				}
+			}
+
+				ajaxRequest.send(null); 
+				
+			 
+		}
+
+
+	window.onload = ajaxFunctionMain;
+	
+</script>
+<?php include '~Top-new.php';?>
+<?php include '~menu.php';?>
+<div id="container">
+  <span><a href="index.php">Home</a> > <a href="loan-against-property.php">Loan Against Property</a> > Apply Loan Against Property</span>
+ 
+  <div id="txt">	
+
+<font face="Verdana, Arial, Helvetica, sans-serif" color="#FF0000"><strong><?php if(isset($_GET['msg']) && ($_GET['msg']=="NotAuthorised")) echo "Kindly give Valid Details"; ?></strong></font>
+
+     <form name="loan_form" method="post" action="<? echo $_SERVER['PHP_SELF'] ?>" onSubmit="return chkform();">
+	 <input type="hidden" name="Activate" id="Activate" >
+ 	 <input type="hidden" name="Reference_Code" id="Reference_Code" >
+	 <input type="hidden" name="source" value="<? echo $retrivesource; ?>">
+<table width="458" border="0" cellspacing="0" align="center" cellpadding="0">
+  <tr>
+          <td valign="middle" style="background-repeat:no-repeat;">&nbsp;</td>
+        </tr>
+        <tr>
+          <td height="74" valign="middle" background="new-images/apl-tp.gif" style="background-repeat:no-repeat;"><h1 >Apply Loan Against Property</h1></td>
+      </tr>
+  <tr>
+          <td valign="top" class="aplfrm" style="padding-left:30px; "><table width="380" border="0" align="center" cellpadding="0" cellspacing="0" id="frm">
+            
+            <tr>
+              <td height="30" class="frmbldtxt">Full Name</td>
+              <td class="frmbldtxt"><input type="text" name="FName" id="FName" style="width:150px;" maxlength="30" /></td>
+            </tr>
+           
+            <? if(!isset($_SESSION['UserType'])) {?>
+            <tr>
+              <td width="46%" height="30" class="frmbldtxt">Email ID </td>
+              <td width="54%" class="frmbldtxt"><input type="text" name="Email" id="Email" style="width:150px;" onchange="insertData();" /></td>
+            </tr>
+            <? }?>
+			 <tr>
+              <td height="30" class="frmbldtxt" style="font-weight:normal; "><b>Mobile</b> (For SMS Alerts)</td>
+              <td class="frmbldtxt">+91
+                 
+                <input type="text" name="Phone" id="Phone" style="width:123px;" maxlength="10" onChange="activatecode();" onkeypress="intOnly(this);" /></td>
+            </tr>
+            <tr>
+              <td height="30" class="frmbldtxt">DOB</td>
+              <td class="frmbldtxt"><input name="day" type="text" id="day" style="width:40px;" maxlength="2" onkeyup="intOnly(this);" Onfocus="activatecode();" onkeypress="intOnly(this);" value="DD" />
+                  <input name="month" type="text" id="month" style="width:40px;" maxlength="2" onchange="intOnly(this);" onkeyup="intOnly(this);" onkeypress="intOnly(this);" value="MM" />
+                  <input name="year" type="text" id="year" style="width:55px;" maxlength="4" onchange="intOnly(this);" onkeyup="intOnly(this);" onkeypress="intOnly(this);" value="YYYY" />              </td>
+            </tr>
+           
+            <tr>
+              <td height="30" align="bottom" class="frmbldtxt"><b>Residence Landline No.</b></td>
+              <td class="frmbldtxt"><input onfocus="insertData();" type="text" name="Std_Code1" style="width:25px;" maxlength="5" onchange="intOnly(this);" onkeyup="intOnly(this);" onkeypress="intOnly(this);" />
+                  <input type="text" name="Phone1" style="width:118px;" maxlength="10" onchange="intOnly(this);" onkeyup="intOnly(this);" onkeypress="intOnly(this)"; /></td>
+            </tr>
+            <tr>
+              <td height="30" align="bottom" class="frmbldtxt"><b>Office Landline No.</b></td>
+              <td class="frmbldtxt"><input type="text" name="Std_Code2" style="width:25px;" maxlength="5" onchange="intOnly(this);" onkeyup="intOnly(this);" onkeypress="intOnly(this)"; />
+                  <input type="text" name="Phone2" style="width:118px;" maxlength="10" onchange="intOnly(this);" onkeyup="intOnly(this);" onkeypress="intOnly(this)"; /></td>
+            </tr>
+            
+            <tr>
+              <td height="30" class="frmbldtxt">Occupation</td>
+              <td class="frmbldtxt"><select style="width:154px;" name="Employment_Status" onchange="insertData();">
+                  <option selected="selected" value="1">Salaried</option>
+                  <option value="0">Self Employed</option>
+              </select></td>
+            </tr>
+            <tr>
+              <td height="30" class="frmbldtxt"><b>Company Name</b></td>
+              <td class="frmbldtxt"><input type="text" name="Company_Name" style="width:150px;" /></td>
+            </tr>
+            <tr>
+              <td height="30" valign="middle" class="frmbldtxt"><b>Residence Address</b></td>
+              <td  class="frmbldtxt"><textarea rows="3" name="Residence_Address" cols="40" style="width:150px;"> </textarea></td>
+            </tr>
+            <tr>
+              <td height="30" class="frmbldtxt">City</td>
+              <td class="frmbldtxt"><select style="width:154px;" name="City" id="City" onchange="cityother(); edelweiss_comp(); insertData();">
+                  <?=getCityList($City)?>
+                </select>              </td>
+            </tr>
+            <tr>
+              <td height="30" class="frmbldtxt">Other City </td>
+              <td width="54%" class="frmbldtxt"><input type="text" name="City_Other" disabled value="Other City" onfocus="this.select();" style="width:150px;" /></td>
+            </tr>
+            <tr>
+              <td height="30" class="frmbldtxt">Pincode</td>
+              <td width="54%" class="frmbldtxt"><input type="text" name="Pincode"  onfocus="this.select();" style="width:150px;" maxlength="6" onkeypress="intOnly(this);" onkeyup="intOnly(this);" />              </td>
+            </tr>
+            
+            <tr>
+              <td height="30" class="frmbldtxt" style="font-weight:normal; "><b>Net Salary</b> (Yearly)</td>
+              <td class="frmbldtxt"><input type="text" name="Net_Salary" id="Net_Salary" style="width:150px;" onblur="getDigitToWords('Net_Salary','formatedSalary','wordSalary');" onkeyup="getDigitToWords('Net_Salary','formatedSalary','wordSalary'); intOnly(this);" onkeypress="intOnly(this);" /></td>
+            </tr>
+            <tr>
+              <td class="frmbldtxt" colspan="2" align="left"><span id='formatedSalary' style='font-size:11px; font-weight:bold;color:#671212;font-Family:Verdana;'></span><span id='wordSalary' style='font-size:11px;
+font-weight:bold;color:#671212;font-Family:Verdana;text-transform: capitalize;'></span></td>
+            </tr>
+   
+            <tr>
+              <td height="30" class="frmbldtxt">Value of Property</td>
+              <td class="frmbldtxt"><input type="text" name="Property_Value"  style="width:150px;" onkeypress="intOnly(this);" onkeyup="intOnly(this);" /></td>
+            </tr>
+            <tr>
+              <td height="30" class="frmbldtxt">Loan Amount</td>
+              <td class="frmbldtxt"><input type="text"  id="Loan_Amount" name="Loan_Amount" style="width:150px;" maxlength="30" onblur="getDigitToWords('Loan_Amount','formatedIncome','wordIncome');" onkeyup="getDigitToWords('Loan_Amount','formatedIncome','wordIncome'); intOnly(this);" onkeypress="intOnly(this);" /></td>
+            </tr>
+            <tr>
+              <td class="frmbldtxt" colspan="2"><span id='formatedIncome' style='font-size:11px; font-weight:bold;color:#671212;font-Family:Verdana;'></span><span id='wordIncome' style='font-size:11px; font-weight:bold;color:#671212;font-Family:Verdana;text-transform: capitalize;'></span> </td>
+            </tr>
+            <tr>
+              <td height="30" class="frmbldtxt">Prefered Time To Contact</td>
+              <td><select style="width:154px;"  name="Contact_Time" >
+                  <option value="1">Please Select</option>
+                  <option value="10- 12 am">10- 12 am</option>
+                  <option value="12- 2 pm">12- 2 pm</option>
+                  <option value="2- 4 pm">2- 4 pm</option>
+                  <option value="4- 6 pm">4- 6 pm</option>
+                  <option value="After 6 pm">After 6 pm</option>
+                </select>              </td>
+            </tr>
+<tr>
+              <td height="30" class="frmbldtxt">Activation Code</td>
+              <td class="frmbldtxt"><input type="text" name="activation_code"  id="activation_code" style="width:150px;" onkeypress="intOnly(this);" onkeyup="intOnly(this);" onFocus="return Decorate('Please enter 4 digit code you have received on your mobile,to activate your loan request and to get the bidder contacts.')"  onBlur="return Decorate1(' ')"><div id="plantype2" style="position:absolute;font-size:11px;width:150;font-weight:none; " ></div></td>
+            </tr>
+			<tr>
+            <td class="frmbldtxt" colspan="2" align="left">&nbsp;</td>
+            </tr>
+             <tr>
+            <td class="frmbldtxt" colspan="2" align="left"> <div  id="edelweiss_compaign" ></div></td>
+            </tr> 
+			<tr>
+            <td class="frmbldtxt" colspan="2" align="left">&nbsp;</td>
+            </tr>
+			 <tr>
+            <td class="frmbldtxt" colspan="2" align="left"><input type="checkbox" name="cpp_card_protect" value="1" style="border:none;">&nbsp;<a href="http://www.deal4loans.com/cpp/cpp.html">Now make your wallet safe with CPP Card Protection.</a><br></td>
+            </tr>
+            <tr>
+              <td colspan="2"><input type="checkbox" name="accept" style="border:none;" checked />
+                I have read the <a href="Privacy.php" target="_blank">Privacy Policy</a> and
+                agree to the <a href="Privacy.php" target="_blank">Terms And Condition</a>.</td>
+            </tr>
+            <tr>
+              <td colspan="2" align="center" valign="top"> 
+                  <input type="submit" style="border: 0px none ; background-image: url(new-images/quote-btn.jpg); width: 128px; height: 31px; margin-bottom: 0px;" value=""/>
+                </td>
+            </tr>
+            <!-- <tr>
+     <td colspan="2"><font style="font-weight:normal; font-size:9;">Clicking "Submit" means that you agree to the terms of the Deal4Loans <a href="Privacy.php" target="_blank">Terms and Condition</a> and <a href="Privacy.php" target="_blank">Privacy</a> statement.</font>	</td> 
+   </tr>-->
+          </table></td>
+      </tr>
+        <tr>
+          <td width="458" height="26"><img src="new-images/apl-bt.gif" width="458" height="26" /></td>
+      </tr>
+      </table>
+ 
+  </form>
+ </div>
+ 
+<? if(!isset($_SESSION['UserType'])) 
+  {
+ // include '~Right-new1.php';
+  }
+  ?>
+<?php include '~Bottom-new.php';?>
+</div>
+</body>
+</html>

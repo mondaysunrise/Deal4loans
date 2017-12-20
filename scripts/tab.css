@@ -1,0 +1,102 @@
+body{
+	margin:0px;
+	padding:0px;
+	background:#cbecff url(../new-images/main-bg.gif) repeat-y center;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+}
+.brdr{
+	border:1px solid #d3d5d8;
+	background-color:#FFFFFF;
+	margin-top:5px;
+	text-align:left;
+	padding:5px 5px;
+	width:942px;
+	font:11px Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#444444;
+}
+
+.brdr a{
+	font:11px Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	text-decoration:none;
+	font-weight:bold;
+	color:#a15307;
+}
+
+.brdr span{
+	font:11px Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	text-decoration:none;
+	font-weight:bold;
+	color:#a15307;
+}
+
+#tabContainer{  width:952px; }
+
+#tabMenu{height:30px; padding-top:10px; } 
+
+#tabContent{ border:1px solid #d3d5d8; background-color:#FFFFFF; }
+
+.txt h2{
+	margin:10px 0px 7px 0px;
+	padding:8px 0px 5px 5px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px; 
+	font-weight:bold;
+	border:1px dashed #CCCCCC; width:920px;
+	color:#2f7ab6; 
+}
+.txt ul{
+	margin:2px 0px 2px 0px;
+	padding:2px 0px 2px 0px;
+}
+
+.txt ul li{
+	background: url(http://www.bimadeals.com/new-images/blk-aro.gif) no-repeat 0px 4px;
+	list-style-type:none; 
+	padding-left:15px; 
+	padding-right:0; 
+	padding-top:0; 
+	padding-bottom:4px 
+}
+
+#tabContent .content{ display:none; }
+
+#tabContent .content img{ padding:4px 0px 8px 0px;}
+
+
+
+.brdr3
+{ font-family:Arial, Helvetica, sans-serif; font-size:17px; font-weight:bold; color:#2f7ab6; border:1px solid #cccccc; padding:5px 20px; margin-bottom:10px;}
+
+
+#btmbg{
+	background-image:url(brdr_bg.gif);
+	background-repeat: repeat-x;
+	background-position:bottom;
+	text-align:left;
+	font-weight:normal;
+	color:#444444;
+	padding-left:55px;
+
+}
+
+#tabContent .active{ padding:5px 10px; display:block; } /* Tab menu styles generated via the horitontal menu builder @ www.cssmenubuilder.com */ 
+
+.menu{margin:0 auto; padding:0; height:30px; width:100%; display:block; background:url('../new-images/topMenuImages1.png') repeat-x;} 
+
+.menu li{padding:0; margin:0; list-style:none; display:inline;} 
+
+.menu li a{float:left; padding-left:15px; display:block; color:#a15307 !important; text-decoration:none; font:12px Verdana, Arial, Helvetica, sans-serif;  font-weight:bold; cursor:pointer; background:url('../new-images/topMenuImages1.png') 0px -30px no-repeat; outline:none;} 
+
+.menu li a span{line-height:30px; float:left; display:block; padding-right:15px; background:url('../new-images/topMenuImages1.png') 100% -30px no-repeat;  outline:none;} 
+
+.menu li a:hover{background-position:0px -90px; color:#21649a !important;} 
+
+.menu li a:hover span{background-position:100% -90px;} 
+
+.menu li a.active, .menu li a.active:hover{line-height:30px; font:12px Verdana, Arial, Helvetica, sans-serif; font-weight:bold; background:url('../new-images/topMenuImages1.png') 0px -91px no-repeat; color:#21649a !important;} 
+
+.menu li a.active span, .menu li a.active:hover span{background:url('../new-images/topMenuImages1.png') 100% -91px no-repeat;} 

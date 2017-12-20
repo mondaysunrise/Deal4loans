@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+.hide-top{ display:inherit;}
+.logo{ display:none;}
+.pl-bank-left{ float:left; width:100%; max-width:663px;}
+.pl-bank-leftinn{ float:left; width:100%; max-width:663px; border:1px solid #cccccc; padding:4px;}
+.text-box{ float:left; width:316px;}
+.secondwrapper-pl{ width:970px; margin:auto;}
+.right-panel{ float:left; width:275px;}
+.h1-text{width:80%; height:33px; margin-top:0px; float:left; clear:right; font-size:36px; text-transform:none; color:#88a943;}
+@media screen and (max-width: 768px) {
+.hide-top{display:none !important;}
+.logo{ display:inherit; width:243px; float:left;}
+.pl-bank-left{width:100%; max-width:100%;}
+.pl-bank-leftinn{width:100%; max-width:100%; border:1px solid #cccccc; padding:4px;}
+.secondwrapper-pl{ width:100%; margin:auto;}
+.right-panel{width:100%;}
+.h1-text{width:80%; height:33px; margin-top:0px; float:left; clear:right; font-size:25px; text-transform:none; color:#88a943; margin-top:15px;}
+}

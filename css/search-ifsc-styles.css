@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+body{ margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; font-family: 'Open Sans', sans-serif;}
+.ifsc-main{ width:1000px; margin:80px auto 0px;}
+.ifsc-left{ float:left; width:357px;}
+.ifsc-right{ float:right; width:550px; margin-top:20px;}
+.ifsc-select{ width:95%; height:45px; border-radius:5px; border:thin solid #b8b8b8; margin-top:10px; color:#666; font-size:17px;}
+.head-search{ font-size:43px; margin:0px 0px 0px 0px; color:#000;}
+.head-search a{ font-size:43px; margin:0px 0px 0px 0px; color:#000;}
+.sub-head-search{ font-size:25px; margin:0px 0px 10px 0px; font-weight:normal;}
+.gray-wrapper-ifsc{ background:#eeeeee; padding:10px 0px 10px 0px; margin-top:50px; margin-bottom:25px;}
+.gray-wrapper-ifsc-in{ background:#eeeeee; padding:10px 0px 10px 0px; margin:auto; width:1000px;} 
+.ifsc-clearfix{ clear:both;}
+.table-text-ifsc{ font-size:15.8px;}
+.listing-wrapper{background:#CCC; text-align:center; color:#03F; font-size:19px; float:left; margin-left:10px; margin-top:10px;}
+.listing-wrapper a{background:#CCC; text-align:center; color:#03F; font-size:19px;}
+.listing-wrapper-in{ margin:10px auto; width:1000px;}
+.breadcrumb-text{ margin-top:75px; padding-bottom:10px;}
+.breadcrumb-text a{ color:#06F;}
+.district-name{ font-size:18px;}
+@media screen and (max-width:680px){
+.ifsc-main{ width:95%; margin:20px auto;}
+.ifsc-left{ float:none; width:95%;}
+.ifsc-right{ float:none; width:95%; margin-top:20px;}
+.ifsc-select{ width:95%; height:45px; border-radius:5px; border:thin solid #b8b8b8; margin-top:10px; color:#666; font-size:17px;}
+.head-search{ font-size:30px; margin:5px 0px 0px 0px;}
+.head-search a{ font-size:30px; margin:0px 0px 0px 0px; color:#000;}
+.sub-head-search{ font-size:25px; margin:0px 0px 10px 0px; font-weight:normal;}
+.gray-wrapper-ifsc{ background:#eeeeee; padding:10px 0px 10px 0px; margin-top:50px; margin-bottom:25px;}
+.gray-wrapper-ifsc-in{ background:#eeeeee; padding:10px 0px 10px 0px; margin:auto; width:95%;} 
+.ifsc-clearfix{ clear:both;}
+.table-text-ifsc{ font-size:15.8px;}
+.listing-wrapper{ background:#CCC; text-align:center; color:#03F; font-size:19px; float:left; width:98%; margin-left:0px; margin-top:10px;}
+.listing-wrapper a{background:#CCC; text-align:center; color:#03F; font-size:19px; float:left; margin-left:10px; margin-top:10px;}
+.listing-wrapper-in{ margin:10px auto; width:95%;}	
+}

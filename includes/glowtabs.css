@@ -1,0 +1,111 @@
+.glowingtabs{
+	float:left;
+	width:100%;
+	font-size:20px;
+	line-height:normal; /*Add border strip to bottom of menu*/
+	border-bottom-style: none;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+
+.glowingtabs ul{
+float:left;
+list-style-type: none;
+margin:0;
+margin-left: 0px; /*Left offset of entire tab menu relative to page*/
+padding:0;
+}
+
+.glowingtabs li{
+display:inline;
+margin:0;
+padding:0;
+}
+
+.glowingtabs a{
+float:left;
+/*background:url(images/glowtab-left.gif) no-repeat left top;*/
+margin:0;
+margin-right: 0px; /*spacing between each tab*/
+padding:0 0 0 0px;
+text-decoration:none;
+}
+
+.glowingtabs a span{
+float:center;
+display:block;
+/*bgcolor:#9AC7F4;*/
+/*background:url(images/glowtab.gif) no-repeat right top;*/
+padding: 8px 42px 12px 3px;
+font-weight:bold;
+color:White;
+/*color:#1683EF;*/
+}
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+.glowingtabs a span {float:none;}
+/* End IE5-Mac hack */
+
+.glowingtabs a:hover span {
+color: black;
+}
+
+.glowingtabs li.selected a{ /*Selected Tab style*/
+background-position:0 -82px; /*Shift background image up to start of 2nd tab image*/
+}
+
+.glowingtabs li.selected a span{ /*Selected Tab style*/
+background-position:100% -82px; /*Shift background image up to start of 2nd tab image*/
+color: black;
+}
+
+.glowingtabs a:hover, .glowingtabs li.selected a:hover{ /*onMouseover style*/
+background-position:0% -82px; /*Shift background image up to start of 2nd tab image*/
+}
+
+.glowingtabs a:hover span, .glowingtabs li.selected a:hover span{ /*onMouseover style*/
+background-position:100% -82px; /*Shift background image up to start of 2nd tab image*/
+}
+
+/* ######### Style for Drop Down Menu ######### */
+
+.dropmenudiv_d{
+position:absolute;
+top: 0;
+border: 1px solid #4A95E0; /*THEME CHANGE HERE*/
+border-width: 0 1px;
+font:normal 11px Arial;
+text-align:left;
+line-height:16px;
+z-index:100;
+background-color: #317AC5;
+width: 100px;
+visibility: hidden;
+}
+
+
+.dropmenudiv_d a{
+width: auto;
+display: block;
+text-indent: 0px;
+border: 0 solid #4A95E0; /*THEME CHANGE HERE*/
+border-bottom-width: 1px;
+padding: 2px 0;
+text-decoration: none;
+color: White;
+}
+
+* html .dropmenudiv_d a{ /*IE only hack*/
+width: 100%;
+}
+
+.dropmenudiv_d a:hover{ /*THEME CHANGE HERE*/
+background-color: #E1EDFA;
+color:#0C63B5;
+}
+

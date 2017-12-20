@@ -1,0 +1,106 @@
+@charset utf-8;
+.hide_top_menu{display:inline;}
+.hl_emi_cal_form{width:950px;float:left;border-radius:5px 5px 5px 5px;background:#21405F;margin:auto auto auto 7px;padding:5px;}
+.hl_emi_get_quote{float:right;width:151px;}
+.hl_emi_term_box{float:left;width:760px;height:auto;color:#FFF;font-size:11px;text-transform:none;margin-top:5px;}
+.hl_emi_process_box{float:left;width:623px;padding-top:4px;}
+.hl_emi_logo_box{float:left;width:243px;display:none;}
+.hl_emi_chart{float:left;width:623px;}
+.hl_emi_right_box{float:right;width:340px;padding-top:8px}
+.hl_emi_process_text{float:left;width:623px;margin-top:7px;color:#4c4c4c;size:18px;font-family:Verdana, Geneva, sans-serif;padding-left:10px;}
+.hl_emi_input{width:180px;height:22px;}
+.hl_emi_mob_input{width:153px;height:18px;}
+.hl_emi_dd{width:43px;height:18px;}
+.hl_emi_yy{width:60px;height:18px;}
+.hl_emi_select{width:182px;height:24px;}
+.line_ad{display:inline!important;}
+.home_loan_tex_h{font-family:Arial,Helvetica,sans-serif;color:#88a943;font-size:24px;margin:0;padding:0;}
+.title{width:970px;border-bottom:thin solid #88a943;font-size:35px;font-family:Verdana, Geneva, sans-serif;color:#88a943;margin-bottom:8px;}
+.cl_emi_chart{float:left;margin-top:5px;width:623px;}
+.cl_emi_process_box{float:left;width:600px;padding-top:4px;padding-bottom:25px;background:#F8F8F8;}
+.process_sec{width:950px;color:#4c4c4c;font-family:'Droid Serif', serif;font-size:18px;font-weight:400;font-variant:normal;text-decoration:none;font-style:italic;importurlhttp://fonts.googleapis.com/css?family=Droid+Serif);margin:5px 0 10px 0px;}
+.pl_emi_cal_table{width:700px;text-align:center;margin:auto;}
+.pl_emi_cal_text{width:940px;margin:auto;}
+.pl_emi_cal_blink_b{width:940px;margin-left:25px;display:inline;text-align:left;}
+.hl_emi_input_form_b{float:left;width:230px;margin-left:5px;margin-top:20px;}
+.hli_dd_contine{width:43px;height:16px;}
+.hli_yy_contine{width:60px;height:16px;}
+.hli_select_contine{width:180px;height:24px;}
+#hli_more_box{margin-left:100px;width:183px;height:24px;}
+.responsive_ad{display:none;margin-top:-50px;}
+.hl_emi_cal_wrapper,.hl_emi_cal_titel,.pl_form_emi_box{width:970px;margin:auto;}
+.hl_emi_input_form,.hli_input_section{float:left;width:230px;margin-left:5px;}
+.hl_emi_input_form-new{float:left; width:220px;margin-left:5px;}
+.hl_emi_tbl_dis,.cl_emi_table{float:right;width:340px;}
+.cl_emi_table_b,.cl_emi_text_a{width:600px;margin:auto;}
+.margin_top{ margin-top:0px;}
+.hdfclife{ width:750px; padding:2px;}
+.pl_logo{ display:none;}
+.hlc_left_cal-box4{ float:right; width:438px;}
+.hlc_left_cal-box3{ float:left; width:449px; margin-right:10px;}
+.hlc_left_cal-box{ float:left; width:550px; background:#f8f8f8; border:thin solid #000000; margin-right:45px;}
+.hlc_left_cal-box2{ float:left; width:354px;}
+
+/*new css for personal-loan-interest-rate.php on 1/4/2015 starts ........*/
+.tble-rowhide-show{}
+
+.overflow-width{ width:100%;}
+
+/*new css for personal-loan-interest-rate.php on 1/4/2015 ends........*/
+
+ @media screen and (max-width:680px){
+.hide_top_menu { display:none !important;}
+.hlc_left_cal-box4{width:100%; margin:0px 0px 0px 0px; }
+.heading_text{ font-family:Verdana, Geneva, sans-serif; font-size:12px !important; font-weight:bold; color:#39C;}
+.style100 {font-family: Verdana, Geneva, sans-serif; font-size: 11px !important; color: #666; font-weight: bold; }
+.intrl_txt{ width:100% !important;}
+.hl_emi_logo_box{float:left;width:243px;display:inline;}
+.hl_emi_cal_form{width:95%; border-radius:5px 5px 5px 5px;background:#21405F; margin:auto;padding:2px;}
+.hl_emi_process_box{float:left;width:300px;}
+.hl_emi_input_form{float:none; width:98%;margin-top:10px;margin-left:5;}
+.hl_emi_term_box{float:left;width:300px;height:auto;color:#FFF;font-size:11px;text-transform:none;margin-top:5px;}
+.hl_emi_get_quote{width:300px;text-align:center;margin:auto;}
+.hl_emi_input{width:98%;height:22px;}
+.hl_emi_dd{width:28%;height:18px;}
+.hl_emi_yy{width:35%;height:18px;}
+.hl_emi_mob_input{width:93% !important;height:18px; }
+.line_ad{display:none!important;}
+.emi_right_box{float:left;width:299px!important;border:5px solid #547295;}
+.hl_emi_right_box{width:299px!important; float:left; padding-left:13}
+.emi_sum_amount{float:left;width:217px!important;font-size:14px!important;padding:2px;}
+.emi_sum_value{float:right;font-size:12px!important;font-weight:700;width:72px!important;padding:2px;}
+.textM{font-size:16px!important;}
+.textM1{font-size:14px!important;padding-bottom:5px;}
+.home_loan_tex_h{font-family:Arial,Helvetica,sans-serif;color:#88a943;font-size:18px;margin:0;padding:0;}
+.text{font-family:'Droid Serif', serif;font-size:14px;font-weight:400;font-variant:normal;text-decoration:none;font-style:italic;color:#4c4c4c;size:16px;height:37px;padding-left:5px;}
+.cl_emi_chart{float:left;margin-top:20px;width:300px;}
+.cl_emi_table{float:right;margin-top:0;width:300px;}
+.cl_emi_process_box{float:left;width:290px;padding-top:4px;padding-bottom:5px;background:#F8F8F8;}
+.title{width:300px;border-bottom:thin solid #88a943;font-size:18px;font-family:Verdana, Geneva, sans-serif;color:#88a943;}
+.hl_emi_select{width:98%;height:24px; margin-left:5px;}
+.process_sec{width:300px;color:#4c4c4c; margin:0px 0px 0px 0px !important;font-family:'Droid Serif', serif;font-size:13px;font-weight:400;font-variant:normal;text-decoration:none;font-style:italic;importurlhttp://fonts.googleapis.com/css?family=Droid+Serif); padding:0px 0px 0px 0px;}
+.pl_emi_cal_blink_b{width:100%;margin-left:25px;display:none;text-align:left;}
+.hl_emi_input_form_b{width:297px;margin:0px;}
+.hli_input_text_contine{width:95%;height:16px;}
+.hli_select_contine{width:98%;height:24px;}
+.getquote_btn{width:98%;text-align:center;margin:auto;}
+.responsive_ad{display:inline!important;padding-top:15px;text-align:center;}
+.hl_emi_cal_wrapper,.hl_emi_cal_titel,.cl_emi_table_b,.pl_emi_cal_text{width:300px;margin:auto;}
+#hide_text { display:none !important;}
+.hl_emi_chart,.hl_emi_tbl_dis,.pl_form_emi_box,.pl_emi_cal_table{width:300px;}
+.hli_dd_contine,.hli_yy_contine{width:28%;height:16px;}
+.hli_input_section,.hli_input_section_b{width:300px;margin-left:5px;}
+.hl_emi_input_form-new{width:95%;}
+.margin_top{ margin-top:30px;}
+.hdfclife{ width:99%;}
+.pl_logo{ display: inherit;}
+.hlc_left_cal-box3{width:100%; margin:0px 0px 0px 0px; display:none !important; background:#FF0000; }
+.hlc_left_cal-box{width:98%; float:none; background:#f8f8f8; border:thin solid #000000;}
+.hlc_left_cal-box2{ width:100%; margin:5px 0px 0px -5px;}
+
+/*new css for personal-loan-interest-rate.php on 1/4/2015 starts ........*/
+.tble-rowhide-show{ display:none !important;}
+.overflow-width{width:99%; overflow:scroll; margin:auto;}
+
+/*new css for personal-loan-interest-rate.php on 1/4/2015 ends........*/
+}

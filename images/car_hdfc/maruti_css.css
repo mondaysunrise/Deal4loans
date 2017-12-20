@@ -1,0 +1,278 @@
+body { background:#f5f5f5;}
+.main-wrapper{ width:1000px; height:800px; margin: auto;}
+.header-box{ width:95%; padding:20px 0px 20px 10px; height:50px;}
+.maruti-heading_A{ font-family:Arial, Helvetica, sans-serif; font-size:23px; font-weight:bold; color:#9c9898; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.maruti-heading_B{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#623dbe; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.maruti-form-box{ float:left; width:535px; height: auto; margin-left:5px; background:#f9f7ff; border:#e4ddf9 solid thin;}
+.heading_body-text_sub{ font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#8f8e8e; font-weight:bold;}
+.right-box-specification{ width:100%; padding:0px 2px 0px 2px;  margin:auto; border:#e4ddf9 solid thin; background: #FFFFFF; height:432px;} 
+.vehicle_heading_text{ font-family:Arial, Helvetica, sans-serif; color:#FFFFFF; font-size:14px; font-weight:bold; padding:3px;} 
+.vehicle_sub_heading_text{ font-family:Arial, Helvetica, sans-serif; color:#FFFFFF; font-size:12px; font-weight:normal; padding:3px;} 
+ 
+.maruti-vehicle_box_left{ float:left; width:194px; height:134px; margin-left:5px; background:#623dbe;}
+.maruti-heading_text{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#7d7a7a; font-weight:bold;}
+.maruti-heading_body-text{ font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#8f8e8e; font-weight:bold;}
+.maruti-terms_condition-text{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#8f8e8e; font-weight:bold;}
+.right-box{ width:240px; float:left; margin-left:5px;height:385px;} 
+
+/*..............TATA.......................*/
+.tata-vehicle_box_left{ float:left; width:194px; height:134px; margin-left:5px; background:#2e87ef;}
+.tata-heading_text{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#7d7a7a; font-weight:bold;}
+.tata-heading_body-text{ font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#8f8e8e; font-weight:bold;}
+.tata-terms_condition-text{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#8f8e8e; font-weight:bold;}
+.tata-heading_A{ font-family:Arial, Helvetica, sans-serif; font-size:23px; font-weight:bold; color:#9c9898; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.tata-heading_B{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#2e87ef; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.tata-form-box{ float:left; width:535px; height: auto; margin-left:5px; background:#edf5fe; border:#e4ddf9 solid thin;}
+/*..............TATA End.......................*/
+ 
+/*..............SKODA.......................*/
+.skoda-vehicle_box_left{ float:left; width:194px; height:134px; margin-left:5px; background:#623dbd;}
+.skoda-heading_text{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#7d7a7a; font-weight:bold;}
+.skoda-heading_body-text{ font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#8f8e8e; font-weight:bold;}
+.skoda-terms_condition-text{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#8f8e8e; font-weight:bold;}
+.skoda-heading_A{ font-family:Arial, Helvetica, sans-serif; font-size:23px; font-weight:bold; color:#9c9898; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.skoda-heading_B{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#623dbd; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.skoda-form-box{ float:left; width:535px; height: auto; margin-left:5px; background:#f9f7ff; border:#e4ddf9 solid thin;}
+/*..............SKODA END.......................*/
+ 
+/*..............Mercedes.......................*/
+.mercedes-vehicle_box_left{ float:left; width:194px; height:134px; margin-left:5px; background:#d54b27;}
+.mercedes-heading_text{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#7d7a7a; font-weight:bold;}
+.mercedes-heading_body-text{ font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#8f8e8e; font-weight:bold;}
+.mercedes-terms_condition-text{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#8f8e8e; font-weight:bold;}
+.mercedes-heading_A{ font-family:Arial, Helvetica, sans-serif; font-size:23px; font-weight:bold; color:#9c9898; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.mercedes-heading_B{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#d54b27; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.mercedes-form-box{ float:left; width:535px; height: auto; margin-left:5px; background:#fae6e6; border:#e4ddf9 solid thin;}
+/*..............Mercedes END.......................*/
+ 
+/*..............Mahindra.......................*/
+.mahindra-vehicle_box_left{ float:left; width:194px; height:134px; margin-left:5px; background:#1f7982;}
+.mahindra-heading_text{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#7d7a7a; font-weight:bold;}
+.mahindra-heading_body-text{ font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#8f8e8e; font-weight:bold;}
+.mahindra-terms_condition-text{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#8f8e8e; font-weight:bold;}
+.mahindra-heading_A{ font-family:Arial, Helvetica, sans-serif; font-size:23px; font-weight:bold; color:#9c9898; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.mahindra-heading_B{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#1f7982; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.mahindra-form-box{ float:left; width:535px; height: auto; margin-left:5px; background:#e9fafc; border:#e4ddf9 solid thin;}
+/*..............Mahindra END.......................*/
+ 
+/*..............chevrolet.......................*/
+.chevrolet-vehicle_box_left{ float:left; width:194px; height:134px; margin-left:5px; background:#5da81a;}
+.chevrolet-heading_text{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#7d7a7a; font-weight:bold;}
+.chevrolet-heading_body-text{ font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#8f8e8e; font-weight:bold;}
+.chevrolet-terms_condition-text{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#8f8e8e; font-weight:bold;}
+.chevrolet-heading_A{ font-family:Arial, Helvetica, sans-serif; font-size:23px; font-weight:bold; color:#9c9898; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.chevrolet-heading_B{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#5da81a; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.chevrolet-form-box{ float:left; width:535px; height: auto; margin-left:5px; background:#eafadc; border:#e4ddf9 solid thin;}
+/*..............chevrolet END.......................*/
+
+/*..............Nissan.......................*/
+.nissan-vehicle_box_left{ float:left; width:194px; height:134px; margin-left:5px; background:#06a7b1;} 
+.nissan-heading_text{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#7d7a7a; font-weight:bold;}
+.nissan-heading_body-text{ font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#8f8e8e; font-weight:bold;}
+.nissan-terms_condition-text{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#8f8e8e; font-weight:bold;}
+.nissan-heading_A{ font-family:Arial, Helvetica, sans-serif; font-size:23px; font-weight:bold; color:#9c9898; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.nissan-heading_B{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#06a7b1; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.nissan-form-box{ float:left; width:535px; height: auto; margin-left:5px; background:#d0f9fc; border:#b6f4f8 solid thin;}
+/*..............Nissan End.......................*/
+
+/*..............Toyota.......................*/
+.toyota-vehicle_box_left{ float:left; width:194px; height:134px; margin-left:5px; background:#2e87ef;}
+.toyota-heading_text{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#7d7a7a; font-weight:bold;}
+.toyota-heading_body-text{ font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#8f8e8e; font-weight:bold;}
+.toyota-terms_condition-text{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#8f8e8e; font-weight:bold;}
+.toyota-heading_A{ font-family:Arial, Helvetica, sans-serif; font-size:23px; font-weight:bold; color:#9c9898; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.toyota-heading_B{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#2e87ef; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.toyota-form-box{ float:left; width:535px; height: auto; margin-left:5px; background:#edf5fe; border:#97c5fb solid thin;}
+/*..............Toyota End.......................*/
+
+/*..............volkswagen.......................*/
+.volkswagen-vehicle_box_left{ float:left; width:194px; height:134px; margin-left:5px; background:#af1b40;}
+.volkswagen-heading_text{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#7d7a7a; font-weight:bold;}
+.volkswagen-heading_body-text{ font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#8f8e8e; font-weight:bold;}
+.volkswagen-terms_condition-text{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#8f8e8e; font-weight:bold;}
+.volkswagen-heading_A{ font-family:Arial, Helvetica, sans-serif; font-size:23px; font-weight:bold; color:#9c9898; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.volkswagen-heading_B{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#af1b40; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.volkswagen-form-box{ float:left; width:535px; height: auto; margin-left:5px; background:#fed9e2; border:#fdc1d0 solid thin;}
+/*..............volkswagen END.......................*/
+
+
+/*..............Ford.......................*/
+.ford-vehicle_box_left{ float:left; width:194px; height:134px; margin-left:5px; background:#043361;}
+.ford-heading_text{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#7d7a7a; font-weight:bold;}
+.ford-heading_body-text{ font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#8f8e8e; font-weight:bold;}
+.ford-terms_condition-text{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#8f8e8e; font-weight:bold;}
+.ford-heading_A{ font-family:Arial, Helvetica, sans-serif; font-size:23px; font-weight:bold; color:#9c9898; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.ford-heading_B{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#043361; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.ford-form-box{ float:left; width:535px; height:auto; margin-left:5px; background:#e4f1fd; border:#a3cbf3 solid thin;}
+/*..............Ford END.......................*/
+
+/*..............HindustanMotors.......................*/
+.hindustan-vehicle_box_left{ float:left; width:194px; height:134px; margin-left:5px; background:#a9b21b;}
+.hindustan-heading_text{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#7d7a7a; font-weight:bold;}
+.hindustan-heading_body-text{ font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#8f8e8e; font-weight:bold;}
+.hindustan-terms_condition-text{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#8f8e8e; font-weight:bold;}
+.hindustan-heading_A{ font-family:Arial, Helvetica, sans-serif; font-size:23px; font-weight:bold; color:#9c9898; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.hindustan-heading_B{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#a9b21b; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.hindustan-form-box{ float:left; width:535px; height:auto; margin-left:5px; background:#fdffe3; border:#eef39f solid thin;}
+/*..............HindustanMotors END.......................*/
+		
+/*..............land rover.......................*/
+.landrover-vehicle_box_left{ float:left; width:194px; height:134px; margin-left:5px; background:#d25944;}
+.landrover-heading_text{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#7d7a7a; font-weight:bold;}
+.landrover-heading_body-text{ font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#8f8e8e; font-weight:bold;}
+.landrover-terms_condition-text{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#8f8e8e; font-weight:bold;}
+.landrover-heading_A{ font-family:Arial, Helvetica, sans-serif; font-size:23px; font-weight:bold; color:#9c9898; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.landrover-heading_B{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#d25944; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.landrover-form-box{ float:left; width:535px; height:auto; margin-left:5px; background:#fccdc5; border:#f9bbb1 solid thin;}
+/*..............land rover END.......................*/
+
+/*..............mitsubishi.......................*/
+.mitsubishi-vehicle_box_left{ float:left; width:194px; height:134px; margin-left:5px; background:#db891d;}
+.mitsubishi-heading_text{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#7d7a7a; font-weight:bold;}
+.mitsubishi-heading_body-text{ font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#8f8e8e; font-weight:bold;}
+.mitsubishi-terms_condition-text{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#8f8e8e; font-weight:bold;}
+.mitsubishi-heading_A{ font-family:Arial, Helvetica, sans-serif; font-size:23px; font-weight:bold; color:#9c9898; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.mitsubishi-heading_B{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#db891d; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.mitsubishi-form-box{ float:left; width:535px; height:auto; margin-left:5px; background:#fde3c0; border:#fce2bf solid thin;}
+/*..............mitsubishi END.......................*/
+
+
+/*..............Fiat.......................*/
+.fiat-vehicle_box_left{ float:left; width:194px; height:134px; margin-left:5px; background:#87a73c;}
+.fiat-heading_text{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#7d7a7a; font-weight:bold;}
+.fiat-heading_body-text{ font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#8f8e8e; font-weight:bold;}
+.fiat-terms_condition-text{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#8f8e8e; font-weight:bold;}
+.fiat-heading_A{ font-family:Arial, Helvetica, sans-serif; font-size:23px; font-weight:bold; color:#9c9898; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.fiat-heading_B{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#87a73c; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.fiat-form-box{ float:left; width:535px; height:auto; margin-left:5px; background:#e1f1ba; border:#d2e89e solid thin;}
+/*..............fiat END.......................*/
+
+/*..............Audi.......................*/
+.audi-vehicle_box_left{ float:left; width:194px; height:134px; margin-left:5px; background:#895cb1;}
+.audi-heading_text{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#7d7a7a; font-weight:bold;}
+.audi-heading_body-text{ font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#8f8e8e; font-weight:bold;}
+.audi-terms_condition-text{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#8f8e8e; font-weight:bold;}
+.audi-heading_A{ font-family:Arial, Helvetica, sans-serif; font-size:23px; font-weight:bold; color:#9c9898; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.audi-heading_B{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#895cb1; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.audi-form-box{ float:left; width:535px; height:auto; margin-left:5px; background:#efe4f9; border:#e0c7f6 solid thin;}
+/*..............fiat END.......................*/
+
+/*..............Renault.......................*/
+.renault-vehicle_box_left{ float:left; width:194px; height:134px; margin-left:5px; background:#661758;}
+.renault-heading_text{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#7d7a7a; font-weight:bold;}
+.renault-heading_body-text{ font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#8f8e8e; font-weight:bold;}
+.renault-terms_condition-text{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#8f8e8e; font-weight:bold;}
+.renault-heading_A{ font-family:Arial, Helvetica, sans-serif; font-size:23px; font-weight:bold; color:#9c9898; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.renault-heading_B{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#661758; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.renault-form-box{ float:left; width:535px; height:auto; margin-left:5px; background:#eccee7; border:#e6bcde solid thin;}
+/*..............Renault END.......................*/
+
+/*..............premier.......................*/
+.premier-vehicle_box_left{ float:left; width:194px; height:134px; margin-left:5px; background:#459fa7;}
+.premier-heading_text{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#7d7a7a; font-weight:bold;}
+.premier-heading_body-text{ font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#8f8e8e; font-weight:bold;}
+.premier-terms_condition-text{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#8f8e8e; font-weight:bold;}
+.premier-heading_A{ font-family:Arial, Helvetica, sans-serif; font-size:23px; font-weight:bold; color:#9c9898; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.premier-heading_B{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#459fa7; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.premier-form-box{ float:left; width:535px; height:auto; margin-left:5px; background:#d9f9fc; border:#b8f3f8 solid thin;}
+/*..............premier END.......................*/
+
+/*..............porsche.......................*/
+.porsche-vehicle_box_left{ float:left; width:194px; height:134px; margin-left:5px; background:#94af4e;}
+.porsche-heading_text{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#7d7a7a; font-weight:bold;}
+.porsche-heading_body-text{ font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#8f8e8e; font-weight:bold;}
+.porsche-terms_condition-text{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#8f8e8e; font-weight:bold;}
+.porsche-heading_A{ font-family:Arial, Helvetica, sans-serif; font-size:23px; font-weight:bold; color:#9c9898; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.porsche-heading_B{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#94af4e; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.porsche-form-box{ float:left; width:535px; height:auto; margin-left:5px; background:#edf6d6; border:#dfefb6 solid thin;}
+/*..............premier END.......................*/
+
+/*..............jaguar.......................*/
+.jaguar-vehicle_box_left{ float:left;  width:194px; height:134px; margin-left:5px; background:#245a89;}
+.jaguar-heading_text{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#7d7a7a; font-weight:bold;}
+.jaguar-heading_body-text{ font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#8f8e8e; font-weight:bold;}
+.jaguar-terms_condition-text{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#8f8e8e; font-weight:bold;}
+.jaguar-heading_A{ font-family:Arial, Helvetica, sans-serif; font-size:23px; font-weight:bold; color:#9c9898; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.jaguar-heading_B{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#245a89; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.jaguar-form-box{ float:left; width:535px; height:auto; margin-left:5px; background:#cde1f3; border:#bdd9f2 solid thin;}
+/*..............jaguar END.......................*/
+
+/*..............volvo.......................*/
+.volvo-vehicle_box_left{ float:left;  width:194px; height:134px; margin-left:5px; background:#5aaab1;}
+.volvo-heading_text{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#7d7a7a; font-weight:bold;}
+.volvo-heading_body-text{ font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#8f8e8e; font-weight:bold;}
+.volvo-terms_condition-text{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#8f8e8e; font-weight:bold;}
+.volvo-heading_A{ font-family:Arial, Helvetica, sans-serif; font-size:23px; font-weight:bold; color:#9c9898; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.volvo-heading_B{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#5aaab1; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.volvo-form-box{ float:left; width:535px; height:auto; margin-left:5px; background:#eafdff; border:#baf0f5 solid thin;}
+/*..............volvo END.......................*/
+
+/*..............volvo.......................*/
+.volvo-vehicle_box_left{ float:left;  width:194px; height:134px; margin-left:5px; background:#5aaab1;}
+.volvo-heading_text{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#7d7a7a; font-weight:bold;}
+.volvo-heading_body-text{ font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#8f8e8e; font-weight:bold;}
+.volvo-terms_condition-text{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#8f8e8e; font-weight:bold;}
+.volvo-heading_A{ font-family:Arial, Helvetica, sans-serif; font-size:23px; font-weight:bold; color:#9c9898; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.volvo-heading_B{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#5aaab1; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.volvo-form-box{ float:left; width:535px; height:auto; margin-left:5px; background:#eafdff; border:#baf0f5 solid thin;}
+/*..............volvo END.......................*/
+
+/*..............BMW.......................*/
+.bmw-vehicle_box_left{ float:left; width:194px; height:134px; margin-left:5px; background:#db891d;}
+.bmw-heading_text{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#7d7a7a; font-weight:bold;}
+.bmw-heading_body-text{ font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#8f8e8e; font-weight:bold;}
+.bmw-terms_condition-text{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#8f8e8e; font-weight:bold;}
+.bmw-heading_A{ font-family:Arial, Helvetica, sans-serif; font-size:23px; font-weight:bold; color:#9c9898; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.bmw-heading_B{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#db891d; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.bmw-form-box{ float:left; width:535px; height:auto; margin-left:5px; background:#fde3c0; border:#fce2bf solid thin;}
+/*..............mitsubishi END.......................*/
+
+/*..............Hyundai.......................*/
+.hyundai-vehicle_box_left{ float:left; width:194px; height:134px; margin-left:5px; background:#d54b27;}
+.hyundai-heading_text{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#7d7a7a; font-weight:bold;}
+.hyundai-heading_body-text{ font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#8f8e8e; font-weight:bold;}
+.hyundai-terms_condition-text{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#8f8e8e; font-weight:bold;}
+.hyundai-heading_A{ font-family:Arial, Helvetica, sans-serif; font-size:23px; font-weight:bold; color:#9c9898; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.hyundai-heading_B{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#d54b27; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.hyundai-form-box{ float:left; width:535px; height: auto; margin-left:5px; background:#fae6e6; border:#e4ddf9 solid thin;}
+/*..............Hyundai END.......................*/
+ 
+/*..............Honda.......................*/
+.honda-vehicle_box_left{ float:left; width:194px; height:134px; margin-left:5px; background:#009118;}
+.honda-heading_text{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#7d7a7a; font-weight:bold;}
+.honda-heading_body-text{ font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#8f8e8e; font-weight:bold;}
+.honda-terms_condition-text{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#8f8e8e; font-weight:bold;}
+.honda-heading_A{ font-family:Arial, Helvetica, sans-serif; font-size:23px; font-weight:bold; color:#9c9898; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.honda-heading_B{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#009118; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.honda-form-box{ float:left; width:535px; height: auto; margin-left:5px; background:#d3ffda; border:#b3f4be solid thin;}
+/*..............Honda END.......................*/
+
+/*..............Honda.......................*/
+.force-vehicle_box_left{ float:left; width:194px; height:134px; margin-left:5px; background:#009118;}
+.force-heading_text{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#7d7a7a; font-weight:bold;}
+.force-heading_body-text{ font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#8f8e8e; font-weight:bold;}
+.force-terms_condition-text{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#8f8e8e; font-weight:bold;}
+.force-heading_A{ font-family:Arial, Helvetica, sans-serif; font-size:23px; font-weight:bold; color:#9c9898; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.force-heading_B{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#009118; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.force-form-box{ float:left; width:535px; height: auto; margin-left:5px; background:#d3ffda; border:#b3f4be solid thin;}
+/*..............Honda END.......................*/
+
+/*..............Honda.......................*/
+.isuzu-vehicle_box_left{ float:left; width:194px; height:134px; margin-left:5px; background:#009118;}
+.isuzu-heading_text{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#7d7a7a; font-weight:bold;}
+.isuzu-heading_body-text{ font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#8f8e8e; font-weight:bold;}
+.isuzu-terms_condition-text{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#8f8e8e; font-weight:bold;}
+.isuzu-heading_A{ font-family:Arial, Helvetica, sans-serif; font-size:23px; font-weight:bold; color:#9c9898; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.isuzu-heading_B{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#009118; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.isuzu-form-box{ float:left; width:535px; height: auto; margin-left:5px; background:#d3ffda; border:#b3f4be solid thin;}
+/*..............Honda END.......................*/
+
+/*..............chevrolet.......................*/
+.-vehicle_box_left{ float:left; width:194px; height:134px; margin-left:5px; background:#5da81a;}
+.-heading_text{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#7d7a7a; font-weight:bold;}
+.-heading_body-text{ font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#8f8e8e; font-weight:bold;}
+.-terms_condition-text{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#8f8e8e; font-weight:bold;}
+.-heading_A{ font-family:Arial, Helvetica, sans-serif; font-size:23px; font-weight:bold; color:#9c9898; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.-heading_B{ font-family:Arial, Helvetica, sans-serif; font-size:23px; color:#5da81a; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+.-form-box{ float:left; width:535px; height: auto; margin-left:5px; background:#eafadc; border:#e4ddf9 solid thin;}
+/*..............chevrolet END.......................*/

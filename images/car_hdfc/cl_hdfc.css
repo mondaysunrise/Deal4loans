@@ -1,0 +1,158 @@
+.top_text_box{ width:1024px; height:25px; margin:auto;}
+.head_text1{ font-family:Arial, Helvetica, sans-serif; font-size:24px; color: #999999; font-weight:normal;}
+p{ padding:0px 0px 0px 0px; margin:auto; margin-top:5px; text-indent:15px; font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#999999;  font-weight:normal;}
+.box_text{  margin:auto;  text-align:center;  font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF; font-weight:bold;}
+.modelcontent{ width:300px; height:500px; float:left; margin-left:65px; margin-top:5px; background:#CCCCCC;}
+.modelmenu{ width:150px;  float:left; margin-left:7 px;}
+#menu5 {	width: 195px; background: #0066FF;	margin: 10px; height:50px; 	margin-top:5px; }
+
+/*
+.porsche{background:#2e87ef;}
+.premier{background:#623dbd;}
+.mercedes {background:#d54b28;}
+.jaguar {background:#1e7983;}
+.mitsubishi{background:#009118;}
+.maruti{background:#623dbd;}
+.hyundai{background:#06a7b1;}
+.force{background:#5da81a;}
+.volkswagen{background:#db562e;}
+.landrover{background:#b01a40;}
+.toyota{background:#297aee;}
+.chevrolet{background:#5da819;}
+
+.premier{background:#623dbd;}
+.premier_center_box{ margin:auto; width:500px;}
+.premier {background:#5da81a; color:#FFFFFF;}
+#premier {width: 125px; background:#b99ff8;
+ height:40px; 	margin-top:2px;}
+ .premier_content{ width:300px; height:400px; float:left; margin-left:5px; margin-top:5px; background: #b99ff8;	}
+.premier_menu_top_text_box{ width:600px; height:25px; margin:auto; }
+#premier_internal_text{ font-size:12px; font-family:Arial, Helvetica, sans-serif; color: #000000; font-weight:bold; text-indent:10px;}
+ 
+ .mercedes {background:#d54b28; color:#FFFFFF;}
+#mercedes {width: 125px; background:  #F0D1B3;
+ height:40px; 	margin-top:2px;}
+ .mercedes_content{ width:300px; height:400px; float:left; margin-left:5px; margin-top:5px; background: #F0D1B3 ;	}
+.mercedes_menu_top_text_box{ width:600px; height:25px; margin:auto; }
+#mercedes_internal_text{ font-size:12px; font-family:Arial, Helvetica, sans-serif; color: #000000; font-weight:bold; text-indent:10px;}
+.mercedes_menu_head_text1{ font-family:Arial, Helvetica, sans-serif; font-size:24px; color: #FFFFFF; font-weight:normal;}
+
+.volkswagen {background:#db562e8; color:#FFFFFF;}
+#volkswagen {width: 125px; background:  #F0D1B3;
+ height:40px; 	margin-top:2px;}
+ .volkswagen_content{ width:300px; height:400px; float:left; margin-left:5px; margin-top:5px; background: #F0D1B3 ;	}
+.volkswagen_menu_top_text_box{ width:600px; height:25px; margin:auto; }
+#volkswagen_internal_text{ font-size:12px; font-family:Arial, Helvetica, sans-serif; color: #000000; font-weight:bold; text-indent:10px;}
+
+.force {background:#5da81a; color:#FFFFFF;}
+#force {width: 125px; background: #9AE879;
+ height:40px; 	margin-top:2px;}
+ .force_content{ width:300px; height:400px; float:left; margin-left:5px; margin-top:5px; background: #9AE879;	}
+.force_menu_top_text_box{ width:600px; height:25px; margin:auto; }
+#force_internal_text{ font-size:12px; font-family:Arial, Helvetica, sans-serif; color: #000000; font-weight:bold; text-indent:10px;}
+
+
+
+.jaguar {background:#1e7983;}
+.mitsubishi{background:#009118;}
+.maruti-ertiga{background:#623dbd;}
+.hyundai{background:#06a7b1;}
+.force{background:#5da81a;}
+.volkswagen{background:#db562e;}
+.jlr{background:#b01a40;}
+.toyota{background:#297aee;}
+.cheverolet{background:##5da819;}
+*/
+
+
+
+.jaguar  {background:#1e7983; color:#FFFFFF;}
+#jaguar-model-box{ text-align:center; width: 185px; background:#51ccd9; line-height:35px;  height:40px; margin-top:2px;}
+.jaguar-menu-section{ width:185px; float:left; margin-top:48px;}
+.jaguar-content{ width:400px; padding:5px; height:400px; float:left; margin-left:5px; margin-top:50px; background:#51ccd9;	}
+.jaguar_menu_top_text_box{ width:600px; height:25px; margin:auto; font-family:Arial, Helvetica, sans-serif; font-size:36px; color: #FFFFFF; font-weight:normal;}
+#jaguar_internal_text{ font-size:12px; font-family:Arial, Helvetica, sans-serif; color: #000000; font-weight:bold; text-indent:10px;}
+.jaguar-body_text a{ font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#000000; text-decoration:none;}
+.jaguar-body_text a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#1e7983; text-decoration:none;}
+.jaguar-body_text2 a{ margin-left:10px; padding-top:15px; text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.jaguar-body_text2{ margin-left:10px; margin-top:15px; text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.jaguar-body_text2 a:hover{margin-left:10px; padding-top:15px; font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#1e7983; text-decoration:none;  text-align:center; }
+.jaguar-body_text{ font-family:Arial, Helvetica, sans-serif; font-size:14pxpx; font-weight:bold; color:#000000; text-decoration:none;}
+.jaguar_center_box{ margin:auto; width:600px;}
+
+.force  {background:#5da81a; color:#FFFFFF;}
+#force-model-box{ text-align:center; width: 185px; background:#c1ef98; line-height:35px;  height:40px; margin-top:2px;}
+.force-menu-section{ width:185px; float:left; margin-top:48px;}
+.force-content{ width:300px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px; padding:5px; height:400px; float:left; margin-left:5px; margin-top:50px; background:#c1ef98;	}
+.force_menu_top_text_box{ width:600px; height:25px; margin:auto; font-family:Arial, Helvetica, sans-serif; font-size:24px; color: #FFFFFF; font-weight:normal;}
+#force_internal_text{ font-size:12px; font-family:Arial, Helvetica, sans-serif; color: #000000; font-weight:bold; text-indent:10px;}
+.force-body_text a{ font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color: #666666; text-decoration:none;}
+.force-body_text { font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color:  text-decoration:none;}
+.force-body_text a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#1e7983; text-decoration:none;}
+.force-body_text2 a{ margin-left:10px; padding-top:15px; text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.force-body_text2{ margin-left:10px; margin-top:15px; text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.force-body_text2 a:hover{margin-left:10px; padding-top:15px; font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#1e7983; text-decoration:none;  text-align:center; }
+
+.force-body_text{ font-family:Arial, Helvetica, sans-serif; font-size:14pxpx; font-weight:bold; color:#000000; text-decoration:none;}
+.force_center_box{ margin:auto; width:600px;}
+.mercedes  {background:#d54b28; color:#FFFFFF;}
+#mercedes-model-box{ text-align:center; width: 185px; background:#f9c6ba; line-height:35px;  height:40px; margin-top:2px;}
+.mercedes-menu-section{ width:185px; float:left; margin-top:48px;}
+.mercedes-content{ width:400px; padding:5px; height:400px; float:left; margin-left:5px; margin-top:50px; background:#f9c6ba;	}
+.mercedes_menu_top_text_box{ width:600px; height:25px; margin:auto; font-family:Arial, Helvetica, sans-serif; font-size:24px; color: #FFFFFF; font-weight:normal;}
+#mercedes_internal_text{ font-size:12px; font-family:Arial, Helvetica, sans-serif; color: #000000; font-weight:bold; text-indent:10px;}
+.mercedes-body_text a{ font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#000000; text-decoration:none;}
+.mercedes-body_text a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#1e7983; text-decoration:none;}
+.mercedes-body_text2 a{ margin-left:10px; padding-top:15px; text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.mercedes-body_text2{ margin-left:10px; margin-top:15px; text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.mercedes-body_text2 a:hover{margin-left:10px; padding-top:15px; font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#1e7983; text-decoration:none;  text-align:center; }
+
+.mercedes-body_text{ font-family:Arial, Helvetica, sans-serif; font-size:14pxpx; font-weight:bold; color:#000000; text-decoration:none;}
+.mercedes_center_box{ margin:auto; width:600px;}
+.landrover  {background:#b01a40; color:#FFFFFF;}
+#landrover-model-box{ text-align:center; width: 185px; background:#f8acbf; line-height:35px;  height:40px; margin-top:2px;}
+.landrover-menu-section{ width:185px; float:left; margin-top:48px;}
+.landrover-content{ width:300px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px; padding:5px; height:400px; float:left; margin-left:5px; margin-top:50px; background:#f8acbf;	}
+.landrover_menu_top_text_box{ width:620px; height:25px; margin:auto; font-family:Arial, Helvetica, sans-serif; font-size:24px; color: #FFFFFF; font-weight:normal;}
+#landrover_internal_text{ font-size:12px; font-family:Arial, Helvetica, sans-serif; color: #000000; font-weight:bold; text-indent:10px;}
+.landrover-body_text a{ font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color: #666666; text-decoration:none;}
+.landrover-body_text { font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color:  text-decoration:none;}
+.landrover-body_text a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#1e7983; text-decoration:none;}
+.landrover-body_text2 a{ margin-left:10px; padding-top:15px; text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.landrover-body_text2{ margin-left:10px; margin-top:15px; text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.landrover-body_text2 a:hover{margin-left:10px; padding-top:15px; font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#1e7983; text-decoration:none;  text-align:center; }
+
+.landrover-body_text{ font-family:Arial, Helvetica, sans-serif; font-size:14pxpx; font-weight:bold; color:#000000; text-decoration:none;}
+.landrover_center_box{ margin:auto; width:600px;}
+
+.premier  {background:#623dbd; color:#FFFFFF;}
+#premier-model-box{ text-align:center; width: 185px; background:#cbb8fb; line-height:35px;  height:40px; margin-top:2px;}
+.premier-menu-section{ width:185px; float:left; margin-top:48px;}
+.premier-content{ width:300px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px; padding:5px; height:400px; float:left; margin-left:5px; margin-top:50px; background:#cbb8fb;	}
+.premier_menu_top_text_box{ width:600px; height:25px; margin:auto; font-family:Arial, Helvetica, sans-serif; font-size:24px; color: #FFFFFF; font-weight:normal;}
+#premier_internal_text{ font-size:12px; font-family:Arial, Helvetica, sans-serif; color: #000000; font-weight:bold; text-indent:10px;}
+.premier-body_text a{ font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color: #666666; text-decoration:none;}
+.premier-body_text { font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color:  text-decoration:none;}
+.premier-body_text a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#1e7983; text-decoration:none;}
+.premier-body_text2 a{ margin-left:10px; padding-top:15px; text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.premier-body_text2{ margin-left:10px; margin-top:15px; text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.premier-body_text2 a:hover{margin-left:10px; padding-top:15px; font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#1e7983; text-decoration:none;  text-align:center; }
+
+.premier-body_text{ font-family:Arial, Helvetica, sans-serif; font-size:14pxpx; font-weight:bold; color:#000000; text-decoration:none;}
+.premier_center_box{ margin:auto; width:600px;}
+
+.maruti  {background:#623dbd; color:#FFFFFF;}
+#maruti-model-box{ text-align:center; width: 185px; background:#dccefe; line-height:35px;  height:40px; margin-top:2px;}
+.maruti-menu-section{ width:185px; float:left; margin-top:48px;}
+.maruti-content{ width:300px; border: #FFFFFF solid thin; border-radius:8px 8px 8px 8px; padding:5px; height:400px; float:left; margin-left:5px; margin-top:50px; background:#dccefe;	}
+.maruti_menu_top_text_box{ width:600px; height:25px; margin:auto; font-family:Arial, Helvetica, sans-serif; font-size:35px; color: #dccefe; font-weight:normal;}
+#maruti_internal_text{ font-size:12px; font-family:Arial, Helvetica, sans-serif; color: #000000; font-weight:bold; text-indent:10px;}
+.maruti-body_text a{ font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color: #666666; text-decoration:none;}
+.maruti-body_text { font-family: "Times New Roman", Times, serif; font-size:14px; font-weight:bold; color:  text-decoration:none;}
+.maruti-body_text a:hover{ font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#1e7983; text-decoration:none;}
+.maruti-body_text2 a{ margin-left:10px; padding-top:15px; text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.maruti-body_text2{ margin-left:10px; margin-top:15px; text-align:center; font-family:Arial, Helvetica, sans-serif;  font-size:12px; font-weight:bold; color: #000000; text-decoration:none;}
+.maruti-body_text2 a:hover{margin-left:10px; padding-top:15px; font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#1e7983; text-decoration:none;  text-align:center; }
+
+.maruti-body_text{ font-family:Arial, Helvetica, sans-serif; font-size:14pxpx; font-weight:bold; color:#000000; text-decoration:none;}
+.maruti_center_box{ margin:auto; width:600px;}

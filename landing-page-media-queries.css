@@ -1,0 +1,125 @@
+@media screen and (max-width:680px) {
+	#pagewrap {max-width:310px; 	}
+	#header {height: auto;
+	}
+	/* search form */
+	#searchform #s {
+		width: 70px;
+	}
+	#searchform #s:focus {
+		width: 150px; height:105px;
+	}
+	/* main nav */
+	#main-nav {
+		position: static;
+	}
+	/* site logo */
+	#site-logo {
+		margin: 15px 100px 5px 0;
+		position: static;
+	}
+	/* site description */
+	#site-description {
+		margin: 0 0 15px;
+		position: static;
+	}
+	/* content */
+	#content {
+		width: auto;
+		float: none;
+		margin-top: 1px;
+	}
+	#content_b { 
+		margin: 700px 0px 0px 0px; width:95%;
+		padding:0px; height:150px;
+		/* rounded corner */
+	}
+	/* sidebar */
+	#sidebar {
+	width: 100%;
+	margin: 0;
+
+	}
+	#sidebar_hide {
+		width: 289px;
+		float: left;
+		margin: 5px 0px 0px 0px; visibility: visible;
+	}	
+	#sidebar .widget {
+	padding: 3% 4%;
+	margin: 0 0 10px;
+	}
+	.lining{ display:none;}
+	.Sbi_top_ad_box{ width:300px;  text-align:center; background:#fffee9;  border:thin solid #0199cd; border-radius:5px 5px 5px 5px; height:105px; padding:5px 5px 5px 5px; float:none; margin-top:10px; }
+	
+	.why_deal{width: auto;
+		float: none;
+		margin-top: 1px;}
+	
+	.pl_top_text_box{ float:left; margin-left:5px; font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#347294; font-weight:bold; margin-top:-5px; margin-bottom:10px;}	
+
+
+	#sidebar {
+	width: 289px;
+	float: left;
+	margin: -850px 0px 30px 0px;
+	}
+	.widget {
+	background: #fff;
+	margin: -5px 0 10px;
+	padding:10px;
+	/* rounded corner */
+	-webkit-border-radius:0px 0px 8px 8px;
+	-moz-border-radius:0px 0px 8px 8px;
+	border-radius: 0px 0px 8px 8px;
+	border-bottom: #CCC thin solid;
+ 	border-left: #CCC thin solid;
+	border-right: #CCC thin solid;
+	/* box shadow */
+	}
+
+	.widget_c {
+	background: #fff;
+	margin: -5px 0 20px;
+	/* rounded corner */
+	/* box shadow */
+	}
+	.widget_b{
+	padding:0px; width:289px;
+	}
+	.shadow_box{ float:left; margin-top:-15px; margin-left:-8px; display:none;}
+	.right_side_img{ float:left; display:none;}
+
+	#header {
+		 padding-top:5px; height:50px; padding:5px; background:#fffcf6;
+	}
+	.input_box{ width:95%; height:15px;}
+	.mobo-input_box{ width:76%; height:15px;}
+	.select-input_box{ width:98%; height:22px;}
+	.dd_input{ width:28%; height:15px;}
+	.image_box_a{ margin: auto; visibility: hidden; margin-top:-120px;}
+	.image_box_b{ margin: auto; visibility: visible;}
+	.td_bg{color:#7e5a09; font-size:10px; font-weight:bold; background-color:#f6fcfd;  }
+	
+	.image_box_aaa{ margin: auto; visibility: hidden; margin-top:-120px;}
+	.image_box_bbbb{ margin: auto; display:inherit; }
+	
+	.input_box_s{ width:88%; height:15px;}
+	.select_input_s{ width:90%; height:22px;}
+
+	/*,,,,,,,,,,,,,new media css for continue page.............*/
+
+#header_continue {
+	 padding-top:5px; height: auto; padding:5px;}
+	 
+	 #continue_form { 
+margin:auto;
+	padding:5px;
+	width:97%;
+	border-radius:5px 5px 5px 5px;
+	border:#CCC thin solid; 
+	
+	}
+	.input_txt_less{ width:100%; height:18px;} 
+.select-input_box_less{ width:99%; height:20px;}
+}

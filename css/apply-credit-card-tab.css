@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+/* Specific to example two */
+
+.hide { position: absolute; top: -9999px; left: -9999px; }
+.tab_hide{ float:left; display:none;}
+.tab_hide_b{ float:left; display: inline;}
+#example-two .list-wrap { background:#FFF; padding:15px 1px 1px 1px;}
+
+#example-two ul { list-style: none;}
+#example-two ul li a { display: block; border-bottom: 1px solid #666; padding: 4px; margin-right:5px; color: #666; }
+#example-two ul li a:hover { background: #333; color:white;}
+#example-two ul li:last-child a {border:none;}
+
+#example-two .nav_tab { overflow: hidden; border-bottom:thick #75aa0d solid; }
+#example-two .nav_tab li { float: left; margin-left:0px; font:Verdana, Geneva, sans-serif; font-size:16px;}
+
+
+
+#example-two .nav_tab li.last { margin-right: 0;}
+#example-two .nav_tab li a { display: block;  background:#75aa0d  url(../images/green-bg-arrow.jpg) right no-repeat  !important; font-family:Verdana, Geneva, sans-serif; font-size:14px; text-decoration:none; color:#FFF; text-align:center; border: 0; padding:10px 30px 10px 10px; }
+
+#example-two li a.current,#example-two li a.current:hover { background:#75aa0d url(../images/green-bg-arrow.jpg) right no-repeat  !important; margin-right:5px; color:white; font-family:Verdana, Geneva, sans-serif; font-size:14px; text-decoration:none;  padding:10px 30px 10px 10px;}
+#example-two .nav_tab li a:hover, #example-two .nav_tab li a:focus { background:#ee7232 url(../images/green-bg-arrow.jpg) right no-repeat ; padding:10px 30px 10px 10px; font-family:Verdana, Geneva, sans-serif;}
+#fillform{display: block;}
+@media screen and (max-width:880px){ 
+#leavenumber{ display: block;}
+.tab_hide{ float:left; display: inline;}
+.tab_hide_b{ float:left; display:none;}
+#example-two .list-wrap { background:#FFF; padding:5px;  }
+}

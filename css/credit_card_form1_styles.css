@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+.credit_card_form{ width:950px; float:left; margin-left:7px;
+border-radius:5px 5px 5px 5px; background:#21405F; padding:5px; }
+.credit_card_input_form{ float:left; width:300px; margin-left:5px;}
+.credit_card_title {float:left; width:940px; margin-left:5px;}
+.credit_card_dd{width:45px; height:20px;}
+.credit_card_get_quote{ float:right; width:151px; margin-right:35px;}
+.credit_card_terms{ float:left; width:500px;}
+.credit_card_select{width:182px; height:24px;}
+.credit_card_yy{width:80px; height:20px;}
+.credit_card_input{width:180px; height:20px;}
+.credit_car_wrapper{ width:950px; margin:auto;}
+.credit_card_mobile{width:155px; height:20px;}
+
+
+@media screen and (max-width:680px){
+	
+	.credit_card_form{ width:300px; margin:0px 0px 0px 0px; border-radius:5px 5px 5px 5px; background:#21405F;}
+.credit_card_input_form{ width:300px; margin:0px 0px 0px 0px; }
+.credit_card_title {width:300px;}
+.credit_card_dd{width:45px; height:20px;}
+.credit_card_yy{width:60px; height:20px;}
+.credit_card_select{width:170px; height:22px;}
+.credit_card_get_quote{ width:300px; text-align:center;}
+.credit_card_terms{ width:300px;}
+
+.credit_card_input{width:170px; height:20px;}
+	.credit_card_mobile{width:145px; height:18px;}
+	.credit_car_wrapper{ width:300px; margin:0px 0px 0px 0px;}
+	}
+	

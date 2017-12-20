@@ -1,0 +1,1757 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ColorMag Pro\n"
+"POT-Creation-Date: 2015-08-25 15:53+0600\n"
+"PO-Revision-Date: 2015-08-26 16:47+0600\n"
+"Language-Team: ThemeGrill <themegrill@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Last-Translator: \n"
+"Language: ru\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:22
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Хм.. Страница не найдена!"
+
+#: 404.php:24
+msgid "It looks like nothing was found at this location. Try the search below."
+msgstr ""
+"По данному адресу ничего не найдено. Попробуйте воспользоваться поиском."
+
+#: 404.php:30
+msgid "404"
+msgstr "404"
+
+#: 404.php:32
+msgid "Error"
+msgstr "Ошибка"
+
+#: am/admin/class-wc-api-manager-menu.php:62
+#: am/admin/class-wc-api-manager-menu.php:66
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: am/admin/class-wc-api-manager-menu.php:81
+msgid "API License Activation"
+msgstr "Активация лицензии API"
+
+#: am/admin/class-wc-api-manager-menu.php:82
+msgid "API License Key"
+msgstr "Лицензионный ключ API"
+
+#: am/admin/class-wc-api-manager-menu.php:83
+msgid "API License email"
+msgstr "Email для лицензии API"
+
+#: am/admin/class-wc-api-manager-menu.php:87
+msgid "API License Deactivation"
+msgstr "Деактивация лицензии API"
+
+#: am/admin/class-wc-api-manager-menu.php:88
+msgid "Deactivate API License Key"
+msgstr "Деактивировать лицензионный ключ API"
+
+#: am/admin/class-wc-api-manager-menu.php:159
+msgid "Theme activated. "
+msgstr "Тема активна."
+
+#: am/admin/class-wc-api-manager-menu.php:165
+msgid "Connection failed to the License Key API server. Try again later."
+msgstr "Ошибка соединения с сервером лицензий API. Повторите попытку позднее."
+
+#: am/admin/class-wc-api-manager-menu.php:254
+msgid ""
+"The license could not be deactivated. Use the License Deactivation tab to "
+"manually deactivate the license before activating a new license."
+msgstr ""
+"Лицензия не может быть деактивирована. Перед тем как активировать новую "
+"лицензию, деактивируйте лицензию вручную используя вкладку Деактивации "
+"лицензий."
+
+#: am/admin/class-wc-api-manager-menu.php:296
+msgid "Theme license deactivated. "
+msgstr "Лицензия темы деактивирована."
+
+#: am/admin/class-wc-api-manager-menu.php:365
+msgid "Deactivates an API License Key so it can be used on another blog."
+msgstr ""
+"Деактивирует лицензионный ключ API, после чего он может использаваться на "
+"другом блоге."
+
+#: am/classes/class-wc-plugin-update.php:370
+#, php-format
+msgid ""
+"The license key for %s has expired. You can reactivate or purchase a license "
+"key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Истек срок действия лицензионного ключа для %s. Вы можете повторно "
+"активировать, или купить ключ в вашем аккаунте <a href=\"%s\" target=\"_blank"
+"\">Панель управления</a>."
+
+#: am/classes/class-wc-plugin-update.php:385
+#, php-format
+msgid ""
+"The subscription for %s is on-hold. You can reactivate the subscription from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Подписка для %s приостановлена. Вы можете повторно активировать подписку в "
+"вашем аккаунте <a href=\"%s\" target=\"_blank\">Панель управления</a>."
+
+#: am/classes/class-wc-plugin-update.php:400
+#, php-format
+msgid ""
+"The subscription for %s has been cancelled. You can renew the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>. A new "
+"license key will be emailed to you after your order has been completed."
+msgstr ""
+"Подписка для %s отменена. Вы можете обновить подписку в вашем аккаунте <a "
+"href=\"%s\" target=\"_blank\">Панель управления</a>. Новый лицензионный ключ "
+"будет отправлен вам по электронной почте после того как ваш заказ будет "
+"завершен."
+
+#: am/classes/class-wc-plugin-update.php:415
+#, php-format
+msgid ""
+"The subscription for %s has expired. You can reactivate the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Подписка для %s истекла. Вы можете повторно активировать подписку в вашем "
+"аккаунте <a href=\"%s\" target=\"_blank\">Панель управления</a>."
+
+#: am/classes/class-wc-plugin-update.php:430
+#, php-format
+msgid ""
+"The subscription for %s has been suspended. You can reactivate the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+"Подписка для %s приостановлена. Вы можете повторно активировать подписку в "
+"вашем аккаунте <a href=\"%s\" target=\"_blank\">Панель управления</a>."
+
+#: am/classes/class-wc-plugin-update.php:445
+#, php-format
+msgid ""
+"The subscription for %s is still pending. You can check on the status of the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+"Подписка для %s по-прежнему не завершена. Вы можете проверить состояние "
+"подписки в вашем аккаунте <a href=\"%s\" target=\"_blank\">Панель "
+"управления</a>."
+
+#: am/classes/class-wc-plugin-update.php:460
+#, php-format
+msgid ""
+"The subscription for %s has been placed in the trash and will be deleted "
+"soon. You can purchase a new subscription from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr ""
+"Подписка для %s помещена в корзину и скоро будет удалена. Вы можете купить "
+"новую подписку в вашем аккаунте <a href=\"%s\" target=\"_blank\">Панель "
+"управления</a>."
+
+#: am/classes/class-wc-plugin-update.php:475
+#, php-format
+msgid ""
+"A subscription for %s could not be found. You can purchase a subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Подписка для %s не найдена. Вы можете купить подписку в вашем аккаунте <a "
+"href=\"%s\" target=\"_blank\">Панель управления</a>."
+
+#: am/classes/class-wc-plugin-update.php:490
+#, php-format
+msgid ""
+"A license key for %s could not be found. Maybe you forgot to enter a license "
+"key when setting up %s, or the key was deactivated in your account. You can "
+"reactivate or purchase a license key from your account <a href=\"%s\" target="
+"\"_blank\">dashboard</a>."
+msgstr ""
+"Лицензионный ключ для %s не найден. Возможно, вы не ввели лицензионный ключ "
+"при настройке %s, или он был деактивирован в вашем аккаунте. Вы можете "
+"активировать ключ повторно, либо купить его в вашем аккаунте <a href=\"%s\" "
+"target=\"_blank\">Панель управления</a>."
+
+#: am/classes/class-wc-plugin-update.php:505
+#, php-format
+msgid ""
+"Download permission for %s has been revoked possibly due to a license key or "
+"subscription expiring. You can reactivate or purchase a license key from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Доступ к скачиванию %s отменен. Возможно, срок действия лицензионного ключа "
+"или подписки истек. Вы можете повторно активировать или купить лицензионный "
+"ключ в вашем аккаунте <a href=\"%s\" target=\"_blank\">Панель управления</a>."
+
+#: am/classes/class-wc-plugin-update.php:520
+#, php-format
+msgid ""
+"%s has not been activated. Go to the settings page and enter the license key "
+"and license email to activate %s."
+msgstr ""
+"Не выполнена активация %s. Для активации %s введите лицензионный ключ и "
+"email лицензии на странице настроек."
+
+#: am/classes/class-wc-plugin-update.php:535
+#, php-format
+msgid ""
+"You changed the subscription for %s, so you will need to enter your new API "
+"License Key in the settings page. The License Key should have arrived in "
+"your email inbox, if not you can get it by logging into your account <a href="
+"\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Вы изменили подписку для %s, поэтому вам понадобится ввести новый "
+"лицензионный ключ API на странице настроек. Лицензионный ключ направлен вам "
+"по электронной почте, если он еще не доставлен, вы можете получить его в "
+"вашем аккаунте <a href=\"%s\" target=\"_blank\">Панель управления</a>."
+
+#: archive.php:36
+#, php-format
+msgid "Author: %s"
+msgstr "По автору: %s"
+
+#: archive.php:44
+#, php-format
+msgid "Day: %s"
+msgstr "За день: %s"
+
+#: archive.php:47
+#, php-format
+msgid "Month: %s"
+msgstr "За месяц: %s"
+
+#: archive.php:50
+#, php-format
+msgid "Year: %s"
+msgstr "За год: %s"
+
+#: archive.php:53
+msgid "Asides"
+msgstr "Заметки"
+
+#: archive.php:56
+msgid "Images"
+msgstr "Изображения"
+
+#: archive.php:59
+msgid "Videos"
+msgstr "Видео"
+
+#: archive.php:62
+msgid "Quotes"
+msgstr "Цитаты"
+
+#: archive.php:65
+msgid "Links"
+msgstr "Ссылки"
+
+#: archive.php:68
+msgid "Archives"
+msgstr "Архивы"
+
+#: comments.php:31
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s комментарий к записи &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s комментария к записи &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s комментариев к записи &ldquo;%2$s&rdquo;"
+
+#: comments.php:38 comments.php:55
+msgid "Comment navigation"
+msgstr "Навигация по комментариям"
+
+#: comments.php:39 comments.php:56
+msgid "&larr; Older Comments"
+msgstr "&larr; Предыдущие комментарии"
+
+#: comments.php:40 comments.php:57
+msgid "Newer Comments &rarr;"
+msgstr "Следующие комментарии &rarr;"
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr "Обсуждение закрыто."
+
+#: content-page.php:24 content-single.php:48
+msgid "Pages:"
+msgstr "Страниц:"
+
+#: content.php:38
+msgid "Read more"
+msgstr "Далее..."
+
+#: functions.php:66
+msgid "Primary Menu"
+msgstr "Основное меню"
+
+#: functions.php:67
+msgid "Footer Menu"
+msgstr "Меню подвала"
+
+#: inc/admin/meta-boxes.php:16 inc/admin/meta-boxes.php:18
+msgid "Select Layout"
+msgstr "Выбрать макет"
+
+#: inc/admin/meta-boxes.php:28
+msgid "Default Layout"
+msgstr "Макет по умолчанию"
+
+#: inc/admin/meta-boxes.php:33 inc/widgets/widgets.php:21
+msgid "Right Sidebar"
+msgstr "Правый сайдбар"
+
+#: inc/admin/meta-boxes.php:38 inc/widgets/widgets.php:32
+msgid "Left Sidebar"
+msgstr "Левый сайдбар"
+
+#: inc/admin/meta-boxes.php:43
+msgid "No Sidebar Full Width"
+msgstr "Без сайдбара, по ширине"
+
+#: inc/admin/meta-boxes.php:48
+msgid "No Sidebar Content Centered"
+msgstr "Без сайдбара, по центру"
+
+#: inc/customizer.php:22
+msgid "Documentation"
+msgstr "Документация"
+
+#: inc/customizer.php:26
+msgid "Support"
+msgstr "Поддержка"
+
+#: inc/customizer.php:30
+msgid "View Demo"
+msgstr "Демо"
+
+#: inc/customizer.php:34
+msgid "Rate This Theme"
+msgstr "Оценить тему"
+
+#: inc/customizer.php:46
+msgid "ColorMag Theme Important Links"
+msgstr "ColorMag Theme полезные ссылки"
+
+#: inc/customizer.php:58
+msgid "Important Links"
+msgstr "Важные ссылки"
+
+#: inc/customizer.php:67
+msgid "Change the Header Settings from here as you want"
+msgstr "Измените по желанию настройки заголовка"
+
+#: inc/customizer.php:69
+msgid "Header Options"
+msgstr "Настройки заголовка"
+
+#: inc/customizer.php:74
+msgid "Breaking News"
+msgstr "Последние Новости"
+
+#: inc/customizer.php:87
+msgid "Check to enable the breaking news section"
+msgstr "Включить секцию \"Последние Новости\""
+
+#: inc/customizer.php:94 inc/functions.php:679
+msgid "Latest:"
+msgstr "Новое:"
+
+#: inc/customizer.php:100
+msgid "Enter the text to display for the ticker news"
+msgstr "Ведите текст для указателя новостей"
+
+#: inc/customizer.php:114
+msgid "Choose the animation style for the Breaking News in the Header"
+msgstr "Выберите стиль анимации для блока \"Последние новости\" в заголовке"
+
+#: inc/customizer.php:118 inc/customizer.php:1977
+msgid "Up"
+msgstr "Вверх"
+
+#: inc/customizer.php:119 inc/customizer.php:1978
+msgid "Down"
+msgstr "Вниз"
+
+#: inc/customizer.php:131
+msgid "Enter the duration time for the Breaking News in the Header"
+msgstr ""
+"Выберите длительность показа для блока \"Последние новости\" в заголовке"
+
+#: inc/customizer.php:144
+msgid "Enter the speed time for the Breaking News in the Header"
+msgstr ""
+"Выберите скорость обновления для блока \"Последние новости\" в заголовке"
+
+#: inc/customizer.php:158
+msgid "Choose the location/area to place the Breaking News"
+msgstr "Выберите место размещения блока \"Последние новости\""
+
+#: inc/customizer.php:162 inc/customizer.php:2006
+msgid "Header"
+msgstr "Заголовок"
+
+#: inc/customizer.php:163 inc/customizer.php:2007
+msgid "Below Navigation"
+msgstr "Под навигацией"
+
+#: inc/customizer.php:169
+msgid "Show Date"
+msgstr "Показывать дату"
+
+#: inc/customizer.php:182
+msgid "Check to show the date in header"
+msgstr "Показывать дату в заголовке"
+
+#: inc/customizer.php:189
+msgid "Show Home Icon"
+msgstr "Значок \"Домой\""
+
+#: inc/customizer.php:202
+msgid "Check to show the home icon in the primary menu"
+msgstr "Показывать значок \"Домой\" в основном меню"
+
+#: inc/customizer.php:209
+msgid "Sticky Menu"
+msgstr "Закрепленное меню"
+
+#: inc/customizer.php:222
+msgid "Check to enable the sticky behavior of the primary menu"
+msgstr "Закрепить основное меню"
+
+#: inc/customizer.php:229
+msgid "Search Icon"
+msgstr "Значок \"Поиск\""
+
+#: inc/customizer.php:242
+msgid "Check to display the Search Icon in the primary menu"
+msgstr "Показывать значок \"Поиск\" в основном меню"
+
+#: inc/customizer.php:249
+msgid "Random Post"
+msgstr "Случайная запись"
+
+#: inc/customizer.php:262
+msgid "Check to display the Random Post Icon in the primary menu"
+msgstr "Показывать значок \"Случайная запись\" в основном меню"
+
+#: inc/customizer.php:270
+msgid "Header Logo"
+msgstr "Лого заголовка"
+
+#: inc/customizer.php:281
+msgid "Upload logo for your header"
+msgstr "Загрузить лого для заголовка"
+
+#: inc/customizer.php:294
+msgid "Choose the option that you want"
+msgstr "Выберите нужное. Показывать:"
+
+#: inc/customizer.php:297 inc/customizer.php:1715
+msgid "Header Logo Only"
+msgstr "Только лого заголовка"
+
+#: inc/customizer.php:298 inc/customizer.php:1716
+msgid "Header Text Only"
+msgstr "Только текст заголовка"
+
+#: inc/customizer.php:299 inc/customizer.php:1717
+msgid "Show Both"
+msgstr "Оба"
+
+#: inc/customizer.php:300 inc/customizer.php:1718
+msgid "Disable"
+msgstr "Не показывать"
+
+#: inc/customizer.php:307
+msgid "Header Image Position"
+msgstr "Расположение изображения заголовка"
+
+#: inc/customizer.php:319
+msgid "Header image display position"
+msgstr "Отображать:"
+
+#: inc/customizer.php:322 inc/customizer.php:1729
+msgid "Display the Header image just above the site title/text."
+msgstr "Над текстом заголовка сайта"
+
+#: inc/customizer.php:323 inc/customizer.php:1730
+msgid ""
+"Default: Display the Header image between site title/text and the main/"
+"primary menu."
+msgstr "По умолчанию: между текстом заголовка и основным меню"
+
+#: inc/customizer.php:324 inc/customizer.php:1731
+msgid "Display the Header image below main/primary menu."
+msgstr "Под основным меню"
+
+#: inc/customizer.php:336
+msgid "Check to make header image link back to home page"
+msgstr "Клик по изображению ведет на домашнюю страницу"
+
+#: inc/customizer.php:343
+msgid "Header Display Type"
+msgstr "Стиль отображения заголовка"
+
+#: inc/customizer.php:355
+msgid "Choose the header display type that you want"
+msgstr "Выберите пожеланию стиль отображения заголовка"
+
+#: inc/customizer.php:358 inc/customizer.php:2019
+msgid "Type 1 (Default): Header text & logo on left, header sidebar on right"
+msgstr ""
+"1 (по умолчанию): Текст заголовка и лого слева, сайдбар заголовка справа"
+
+#: inc/customizer.php:359 inc/customizer.php:2020
+msgid "Type 2: Header sidebar on left, header text & logo on right"
+msgstr "2: Сайдбар заголовка слева, текст заголовка и лого справа"
+
+#: inc/customizer.php:360 inc/customizer.php:2021
+msgid "Type 3: Header text, header sidebar both aligned center"
+msgstr "3: Текст заголовка и сайдбар заголовка выровнены по центру"
+
+#: inc/customizer.php:368
+msgid "Change the Design Settings from here as you want"
+msgstr "Измените по желанию настройки дизайна"
+
+#: inc/customizer.php:370
+msgid "Design Options"
+msgstr "Настройки дизайна"
+
+#: inc/customizer.php:376
+msgid "Front Page Settings"
+msgstr "Настройки главной страницы"
+
+#: inc/customizer.php:387
+msgid "Check to hide blog posts/static page on front page"
+msgstr ""
+"Скрыть статическую страницу, или страницу записей блога по умолчанию на "
+"главной"
+
+#: inc/customizer.php:394
+msgid "Site Layout"
+msgstr "Макет сайта"
+
+#: inc/customizer.php:406
+msgid "Choose your site layout. The change is reflected in whole site"
+msgstr "Выберите макет вашего сайта. Изменения отразятся на всем сайте"
+
+#: inc/customizer.php:408 inc/customizer.php:1742
+msgid "Boxed Layout"
+msgstr "Блочный"
+
+#: inc/customizer.php:409 inc/customizer.php:1743
+msgid "Wide Layout"
+msgstr "По ширине страницы"
+
+#: inc/customizer.php:479
+msgid "Default layout"
+msgstr "Макет по умолчанию"
+
+#: inc/customizer.php:491
+msgid ""
+"Select default layout. This layout will be reflected in whole site archives, "
+"categories, search page etc. The layout for a single post and page can be "
+"controlled from below options"
+msgstr ""
+"Выберите макет по умолчанию. Этот макет отразится на всем сайте - архивах, "
+"категориях, странице поиска и т.д. Макет для отдельной записи можно задать с "
+"помощью настроек ниже."
+
+#: inc/customizer.php:505
+msgid "Default layout for pages only"
+msgstr "Макет по умолчанию только для страниц"
+
+#: inc/customizer.php:517
+msgid ""
+"Select default layout for pages. This layout will be reflected in all pages "
+"unless unique layout is set for specific page"
+msgstr ""
+"Выберите макет для страниц. Этот макет отразится на всех страницах, за "
+"исключением тех, для которых задан отдельный дизайн"
+
+#: inc/customizer.php:531
+msgid "Default layout for single posts only"
+msgstr "Макет по умолчанию для отдельных записей"
+
+#: inc/customizer.php:543
+msgid ""
+"Select default layout for single posts. This layout will be reflected in all "
+"single posts unless unique layout is set for specific post"
+msgstr ""
+"Выберите макет для записей. Этот макет отразится на всех записях, за "
+"исключением тех, для которых задан отдельный дизайн"
+
+#: inc/customizer.php:558
+msgid "Primary color option"
+msgstr "Настройка основного цвета"
+
+#: inc/customizer.php:569
+msgid ""
+"This will reflect in links, buttons and many others. Choose a color to match "
+"your site"
+msgstr ""
+"Отразится на ссылках, кнопках, и многом другом. Выберите тот, который "
+"подойдет вашему сайту"
+
+#: inc/customizer.php:592
+msgid "Custom CSS"
+msgstr "Пользовательские CSS"
+
+#: inc/customizer.php:604
+msgid "Write your custom css"
+msgstr "Задайте свои собственные стили CSS"
+
+#: inc/customizer.php:613
+msgid "Social Options"
+msgstr "Социальные сети"
+
+#: inc/customizer.php:614
+msgid "Change the Social Links Settings from here as you want"
+msgstr "Измените по желанию ссылки на социальные сети"
+
+#: inc/customizer.php:620
+msgid "Activate social links area"
+msgstr "Активировать область для ссылок на соцсети"
+
+#: inc/customizer.php:632
+msgid "Check to activate social links area"
+msgstr "Активируйте ссылки на соцсети"
+
+#: inc/customizer.php:640 inc/functions.php:1029 inc/header-functions.php:20
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/customizer.php:645 inc/functions.php:1023 inc/header-functions.php:21
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/customizer.php:650 inc/header-functions.php:22
+msgid "Google-Plus"
+msgstr "Google-Plus"
+
+#: inc/customizer.php:655 inc/functions.php:1053 inc/header-functions.php:23
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/customizer.php:660 inc/header-functions.php:24
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: inc/customizer.php:665 inc/header-functions.php:25
+msgid "YouTube"
+msgstr "YouTube"
+
+#: inc/customizer.php:670 inc/header-functions.php:26
+msgid "Vimeo-Square"
+msgstr "Vimeo-Square"
+
+#: inc/customizer.php:675 inc/functions.php:1047 inc/header-functions.php:27
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: inc/customizer.php:680 inc/header-functions.php:28
+msgid "Delicious"
+msgstr "Delicious"
+
+#: inc/customizer.php:685 inc/functions.php:1041 inc/header-functions.php:29
+msgid "Flickr"
+msgstr "Flickr"
+
+#: inc/customizer.php:690 inc/header-functions.php:30
+msgid "Skype"
+msgstr "Skype"
+
+#: inc/customizer.php:695 inc/header-functions.php:31
+msgid "SoundCloud"
+msgstr "SoundCloud"
+
+#: inc/customizer.php:700 inc/header-functions.php:32
+msgid "Vine"
+msgstr "Vine"
+
+#: inc/customizer.php:705 inc/header-functions.php:33
+msgid "StumbleUpon"
+msgstr "StumbleUpon"
+
+#: inc/customizer.php:710 inc/functions.php:1059 inc/header-functions.php:34
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: inc/customizer.php:715 inc/header-functions.php:35
+msgid "Reddit"
+msgstr "Reddit"
+
+#: inc/customizer.php:720 inc/header-functions.php:36
+msgid "Xing"
+msgstr "Xing"
+
+#: inc/customizer.php:725 inc/header-functions.php:37
+msgid "VK"
+msgstr "VK"
+
+#: inc/customizer.php:755 inc/customizer.php:855
+msgid "Check to show in new tab"
+msgstr "Открывать в новой вкладке"
+
+#: inc/customizer.php:768 inc/header-functions.php:43
+msgid "Additional Social Link One"
+msgstr "Дополнительная ссылка 1"
+
+#: inc/customizer.php:773 inc/header-functions.php:44
+msgid "Additional Social Link Two"
+msgstr "Дополнительная ссылка 2"
+
+#: inc/customizer.php:778 inc/header-functions.php:45
+msgid "Additional Social Link Three"
+msgstr "Дополнительная ссылка 3"
+
+#: inc/customizer.php:783 inc/header-functions.php:46
+msgid "Additional Social Link Four"
+msgstr "Дополнительная ссылка 4"
+
+#: inc/customizer.php:788 inc/header-functions.php:47
+msgid "Additional Social Link Five"
+msgstr "Дополнительная ссылка 5"
+
+#: inc/customizer.php:793 inc/header-functions.php:48
+msgid "Additional Social Link Six"
+msgstr "Дополнительная ссылка 6"
+
+#: inc/customizer.php:800
+msgid "Additional Social Icons"
+msgstr "Дополнительные значки соцсетей"
+
+#: inc/customizer.php:827
+msgid "Preferred Social Link FontAwesome Icon"
+msgstr "Значок FontAwesome для ссылки"
+
+#: inc/customizer.php:841
+msgid "Preferred Social Link Color Option"
+msgstr "Настройка цвета ссылки"
+
+#: inc/customizer.php:868
+msgid "Change the Additional Settings from here as you want"
+msgstr "Измените по желанию дополнительные настройки"
+
+#: inc/customizer.php:870
+msgid "Additional Options"
+msgstr "Дополнительные настройки"
+
+#: inc/customizer.php:876
+msgid "Activate favicon"
+msgstr "Активировать значок сайта (favicon)"
+
+#: inc/customizer.php:888
+msgid "Check to activate favicon. Upload favicon from below option"
+msgstr "Активировать favicon. Далее загрузите favicon."
+
+#: inc/customizer.php:900
+msgid "Upload favicon for your site"
+msgstr "Загрузить favicon"
+
+#: inc/customizer.php:908
+msgid "Related Posts"
+msgstr "Связанные записи"
+
+#: inc/customizer.php:920
+msgid "Check to activate the related posts"
+msgstr "Активировать связанные записи"
+
+#: inc/customizer.php:933
+msgid "Related Posts Must Be Shown As:"
+msgstr "Показывать связанные записи:"
+
+#: inc/customizer.php:937 inc/customizer.php:1703
+msgid "Related Posts By Categories"
+msgstr "По категориям"
+
+#: inc/customizer.php:938 inc/customizer.php:1704
+msgid "Related Posts By Tags"
+msgstr "По тэгам"
+
+#: inc/customizer.php:945
+msgid "Social Share Button"
+msgstr "Кнопки \"Поделиться\""
+
+#: inc/customizer.php:957
+msgid "Check to activate social share buttons in single post"
+msgstr "Активировать кнопки \"Поделиться\" после записей"
+
+#: inc/customizer.php:965
+msgid "Image Lightbox"
+msgstr "Лайтбокс изображения"
+
+#: inc/customizer.php:977
+msgid "Check to enable the lightbox for the featured images in single post"
+msgstr "Включить лайтбокс для миниатюр к записям"
+
+#: inc/customizer.php:985
+msgid "Social Profiles in Author Bio"
+msgstr "Ссылки на странице автора на его профили в соцсетях"
+
+#: inc/customizer.php:997
+msgid "Check to show the Social Profiles in the Author Bio"
+msgstr "Показывать на странице автора ссылки на его профили в соцсетях"
+
+#: inc/customizer.php:1020
+msgid "Footer Copyright Editor"
+msgstr "Редактор копирайта в подвале"
+
+#: inc/customizer.php:1024 inc/functions.php:1200
+msgid "Copyright &copy; "
+msgstr "&copy; "
+
+#: inc/customizer.php:1024 inc/functions.php:1200
+msgid "Theme: ColorMag by "
+msgstr "Тема: ColorMag от "
+
+#: inc/customizer.php:1024 inc/functions.php:1200
+msgid "Powered by "
+msgstr "Сайт работает под управлением "
+
+#: inc/customizer.php:1033
+msgid ""
+"Edit the Copyright information in your footer. You can also use shortcodes "
+"[the-year], [site-link], [wp-link], [tg-link] for current year, your site "
+"link, WordPress site link and ThemeGrill site link respectively."
+msgstr ""
+"Отредактируйте копирайт в подвале вашего сайта. Вы также можете "
+"воспользоваться шорткодами [the-year], [site-link], [wp-link], [tg-link], "
+"которые выводят, соответственно, текущий год, ссылку на ваш сайт, ссылку на "
+"домашний сайт WordPress и ссылку на сайт ThemeGrill."
+
+#: inc/customizer.php:1042
+msgid "Category Color Options"
+msgstr "Настройка цветов категорий"
+
+#: inc/customizer.php:1044
+msgid "Change the color of each category items as you want."
+msgstr "Измените по желанию цвет любой категории"
+
+#: inc/customizer.php:1049
+msgid "Category Color Settings"
+msgstr "Установка цветов категорий"
+
+#: inc/customizer.php:1071
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: inc/customizer.php:1082
+msgid "Typography Options"
+msgstr "Настройки оформления"
+
+#: inc/customizer.php:1083
+msgid "Change the Typography Settings from here as you want"
+msgstr "Измените по желанию настройки оформления"
+
+#: inc/customizer.php:1090
+msgid "Google Font Options"
+msgstr "Настройки шрифтов Google"
+
+#: inc/customizer.php:1098
+msgid "Site title font. Default is \"Open Sans\""
+msgstr "Шрифт названия сайта (title). По умолчанию - \"Open Sans\""
+
+#: inc/customizer.php:1103
+msgid "Site tagline font. Default is \"Open Sans\""
+msgstr "Шрифт описания сайта (tagline). По умолчанию - \"Open Sans\""
+
+#: inc/customizer.php:1108
+msgid "Primary menu font. Default is \"Open Sans\""
+msgstr "Шрифт основного меню. По умолчанию - \"Open Sans\""
+
+#: inc/customizer.php:1113
+msgid "All Titles font. Default is \"Open Sans\""
+msgstr "Шрифт всех заголовков. По умолчанию - \"Open Sans\""
+
+#: inc/customizer.php:1118
+msgid "Content font and for others. Default is \"Open Sans\""
+msgstr "Шрифт контента и всего остального. По умолчанию - \"Open Sans\""
+
+#: inc/customizer.php:1149
+msgid "Header font size Options"
+msgstr "Настройки размеров шрифтов заголовка"
+
+#: inc/customizer.php:1162
+msgid "Site title font size. Default is 46px"
+msgstr "Размер шрифта названия сайта. По умолчанию - 46px"
+
+#: inc/customizer.php:1177
+msgid "Site tagline font size. Default is 16px"
+msgstr "Размер шрифта описания сайта. По умолчанию - 16px"
+
+#: inc/customizer.php:1192
+msgid "Primary menu. Default is 14px"
+msgstr "Основное меню. По умолчанию - 14px"
+
+#: inc/customizer.php:1207
+msgid "Primary sub menu. Default is 14px"
+msgstr "Основное подменю. По умолчанию - 14px"
+
+#: inc/customizer.php:1216
+msgid "Titles related font size options"
+msgstr "Относительные размеры шрифтов заголовков"
+
+#: inc/customizer.php:1229
+msgid "Heading h1 tag. Default is 42px"
+msgstr "Тэг h1. По умолчанию 42px"
+
+#: inc/customizer.php:1244
+msgid "Heading h2 tag. Default is 38px"
+msgstr "Тэг h2. По умолчанию 38px"
+
+#: inc/customizer.php:1259
+msgid "Heading h3 tag. Default is 34px"
+msgstr "Тэг h3. По умолчанию 34px"
+
+#: inc/customizer.php:1274
+msgid "Heading h4 tag. Default is 30px"
+msgstr "Тэг h4. По умолчанию 30px"
+
+#: inc/customizer.php:1289
+msgid "Heading h5 tag. Default is 26px"
+msgstr "Тэг h5. По умолчанию 26px"
+
+#: inc/customizer.php:1304
+msgid "Heading h6 tag. Default is 22px"
+msgstr "Тэг h6. По умолчанию 22px"
+
+#: inc/customizer.php:1319
+msgid "Post Title. Default is 32px"
+msgstr "Название записи. По умолчанию 32px"
+
+#: inc/customizer.php:1334
+msgid "Page Title. Default is 34px"
+msgstr "Название страницы. По умолчанию 34px"
+
+#: inc/customizer.php:1349
+msgid "Widget Title. Default is 18px"
+msgstr "Название виджета. По умолчанию 18px"
+
+#: inc/customizer.php:1364
+msgid "Comment Title. Default is 22px"
+msgstr "Название комментария. По умолчанию 22px"
+
+#: inc/customizer.php:1373
+msgid "Content font size options"
+msgstr "Настройки размеров шрифта контента"
+
+#: inc/customizer.php:1386
+msgid ""
+"Content font size, also applies to other text like in search fields, post "
+"comment button etc. Default is 18px"
+msgstr ""
+"Размер шрифта контента, также применяется к остальному тексту, такому как "
+"поля поиска, кнопка комментария и т.д. По умолчанию -  18px"
+
+#: inc/customizer.php:1401
+msgid "Post meta font size. Default is 12px"
+msgstr "Размер шрифта полей записи (post meta). По умолчанию -  12px"
+
+#: inc/customizer.php:1416
+msgid ""
+"Button text font size (Buttons like Read more, submit, post comment etc). "
+"Default is 12px"
+msgstr ""
+"Размер шрифта кнопки (\"Далее\", \"Отправить комментарий\" и т.д.). По "
+"умолчанию - 12px"
+
+#: inc/customizer.php:1425
+msgid "Footer font size options"
+msgstr "Настройки размеров шрифтов подвала"
+
+#: inc/customizer.php:1438
+msgid "Footer widget Titles. Default is 15px"
+msgstr "Названия виджетов подвала. По умолчанию - 15px"
+
+#: inc/customizer.php:1453
+msgid "Footer widget content font size. Default is 14px"
+msgstr "Размер шрифта контента виджетов подвала. По умолчанию - 14px"
+
+#: inc/customizer.php:1468
+msgid "Footer copyright text font size. Default is 14px"
+msgstr "Размер шрифта копирайта. По умолчанию - 14px"
+
+#: inc/customizer.php:1483
+msgid "Footer small menu. Default is 14px"
+msgstr "Маленькое меню подвала. По умолчанию - 14px"
+
+#: inc/customizer.php:1493
+msgid "Color Options"
+msgstr "Настройки цвета"
+
+#: inc/customizer.php:1495
+msgid "Change the Color Settings from here as you want"
+msgstr "Измените по желанию настройки цвета"
+
+#: inc/customizer.php:1501
+msgid "Header Color Options"
+msgstr "Настройки цвета заголовка"
+
+#: inc/customizer.php:1508
+msgid "Site Title."
+msgstr "Название сайта"
+
+#: inc/customizer.php:1513
+msgid "Site Tagline."
+msgstr "Описание сайта"
+
+#: inc/customizer.php:1518
+msgid "Primary menu text color."
+msgstr "Цвет текста основного меню"
+
+#: inc/customizer.php:1523
+msgid "Primary menu selected/hovered item color."
+msgstr "Цвет выбранного/активного элемента основного меню"
+
+#: inc/customizer.php:1528
+msgid "Header background color."
+msgstr "Цвет фона заголовка"
+
+#: inc/customizer.php:1556
+msgid "Content part color options"
+msgstr "Настройки цвета контента"
+
+#: inc/customizer.php:1563
+msgid "Content Part titles color (like h1, h2 in content section)."
+msgstr "Цвет заголовков в области контента (h1, h2 в области контента)."
+
+#: inc/customizer.php:1568
+msgid "Posts title color."
+msgstr "Цвет названия записи"
+
+#: inc/customizer.php:1573
+msgid "Page title color."
+msgstr "Цвет названия страницы"
+
+#: inc/customizer.php:1578
+msgid "Content text color."
+msgstr "Цвет текста контента"
+
+#: inc/customizer.php:1583
+msgid "Post meta color."
+msgstr "Цвет названия мета полей записи"
+
+#: inc/customizer.php:1588
+msgid "Button text color."
+msgstr "Цвет текста кнопки"
+
+#: inc/customizer.php:1593
+msgid "Button background color."
+msgstr "Цвет фона кнопки"
+
+#: inc/customizer.php:1598
+msgid "Sidebar widget title color."
+msgstr "Цвет названия виджета в сайдбаре"
+
+#: inc/customizer.php:1603
+msgid "Content section background color."
+msgstr "Цвет фона в области контента"
+
+#: inc/customizer.php:1631
+msgid "Footer part color options"
+msgstr "Настройки цвета подвала"
+
+#: inc/customizer.php:1638
+msgid "Widget title color."
+msgstr "Цвет названия виджета"
+
+#: inc/customizer.php:1643
+msgid "Footer widget content color."
+msgstr "Цвет контента виджета в подвале"
+
+#: inc/customizer.php:1648
+msgid "Footer widget content link text color."
+msgstr "Цвет ссылок виджета в подвале"
+
+#: inc/customizer.php:1653
+msgid "Footer widget background color."
+msgstr "Цвет фона виджета в подвале"
+
+#: inc/customizer.php:1658
+msgid "Footer copyright text color."
+msgstr "Цвет текста копирайта в подвале"
+
+#: inc/customizer.php:1663
+msgid "Footer copyright link text color."
+msgstr "Цвет текста ссылок копирайта в подвале"
+
+#: inc/customizer.php:1668
+msgid "Footer small menu text color."
+msgstr "Цвет текста маленького меню в подвале"
+
+#: inc/customizer.php:1673
+msgid "Footer copyright part background color."
+msgstr "Цвет фона копирайта в подвале"
+
+#: inc/functions.php:293 inc/related-posts.php:33 inc/widgets/widgets.php:380
+#: inc/widgets/widgets.php:507 inc/widgets/widgets.php:667
+#: inc/widgets/widgets.php:834 inc/widgets/widgets.php:1467
+#: inc/widgets/widgets.php:1629 inc/widgets/widgets.php:1739
+#: inc/widgets/widgets.php:1797 inc/widgets/widgets.php:1929
+#: inc/widgets/widgets.php:2190 inc/widgets/widgets.php:2368
+#: inc/widgets/widgets.php:2528
+#, php-format
+msgid ""
+"<span class=\"posted-on\"><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark"
+"\"><i class=\"fa fa-calendar-o\"></i> %3$s</a></span>"
+msgstr ""
+"<span class=\"posted-on\"><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark"
+"\"><i class=\"fa fa-calendar-o\"></i> %3$s</a></span>"
+
+#: inc/functions.php:305
+msgid "<i class=\"fa fa-comment\"></i> 0 Comment"
+msgstr "<i class=\"fa fa-comment\"></i> Комментариев: 0"
+
+#: inc/functions.php:305
+msgid "<i class=\"fa fa-comment\"></i> 1 Comment"
+msgstr "<i class=\"fa fa-comment\"></i> Комментариев: 1"
+
+#: inc/functions.php:305
+msgid "<i class=\"fa fa-comments\"></i> % Comments"
+msgstr "<i class=\"fa fa-comments\"></i> Комментариев: %"
+
+#: inc/functions.php:307
+msgid ", "
+msgstr ", "
+
+#: inc/functions.php:310
+msgid "Edit"
+msgstr "Изменить"
+
+#: inc/functions.php:564
+msgid "Post navigation"
+msgstr "Навигация по записям"
+
+#: inc/functions.php:568 navigation.php:44
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: inc/functions.php:569 navigation.php:45
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: inc/functions.php:574
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Предыдущие записи"
+
+#: inc/functions.php:578
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Следующие записи <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/functions.php:604
+msgid "Pingback:"
+msgstr "Уведомление:"
+
+#: inc/functions.php:604
+msgid "(Edit)"
+msgstr "(Изменить)"
+
+#: inc/functions.php:619
+msgid "Post author"
+msgstr "Автор записи"
+
+#: inc/functions.php:622
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s на %2$s"
+
+#: inc/functions.php:630
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает проверки."
+
+#: inc/functions.php:635
+msgid "Reply"
+msgstr "Ответить"
+
+#: inc/functions.php:754
+msgid "View a random post"
+msgstr "Случайная запись"
+
+#: inc/functions.php:906
+msgid "Video URL"
+msgstr "URL видео"
+
+#: inc/functions.php:979
+msgid "0 View"
+msgstr "Просмотров: 0"
+
+#: inc/functions.php:981
+#, php-format
+msgid "%s Views"
+msgstr "Просмотров: %s"
+
+#: inc/functions.php:1003
+msgid "Total Views"
+msgstr "Всего просмотров"
+
+#: inc/functions.php:1020
+msgid "User Social Links"
+msgstr "Ссылки на профили пользователя в соцсетях:"
+
+#: inc/functions.php:1035
+msgid "Google Plus"
+msgstr "Google Plus"
+
+#: inc/functions.php:1065
+msgid "Youtube"
+msgstr "Youtube"
+
+#: inc/functions.php:1182
+msgid "WordPress"
+msgstr "WordPress"
+
+#: inc/functions.php:1191
+msgid "ThemeGrill"
+msgstr "ThemeGrill"
+
+#: inc/related-posts.php:5
+msgid "You May Also Like"
+msgstr "Вам, возможно, понравится:"
+
+#: inc/share.php:2
+msgid "Share This Post:"
+msgstr "Поделиться записью:"
+
+#: inc/share.php:3
+msgid "Tweet This"
+msgstr "Твитнуть"
+
+#: inc/share.php:4
+msgid "Like This"
+msgstr "Лайкнуть"
+
+#: inc/share.php:5
+msgid "+1 This"
+msgstr "Плюсануть"
+
+#: inc/share.php:6
+msgid "Pin It"
+msgstr "Прикрепить"
+
+#: inc/widgets/widgets.php:23
+msgid "Shows widgets at Right side."
+msgstr "Отображает виджеты справа."
+
+#: inc/widgets/widgets.php:34
+msgid "Shows widgets at Left side."
+msgstr "Отображает виджеты слева."
+
+#: inc/widgets/widgets.php:43
+msgid "Header Sidebar"
+msgstr "Секция заголовка"
+
+#: inc/widgets/widgets.php:45
+msgid "Shows widgets in header section just above the main navigation menu."
+msgstr "Отображает виджеты в секции заголовка сразу над меню навигации"
+
+#: inc/widgets/widgets.php:54
+msgid "Front Page: Top Full Width Area"
+msgstr "Главная страница: верхняя область, по ширине"
+
+#: inc/widgets/widgets.php:56
+msgid "Show widget just below menu."
+msgstr "Отображает виджет сразу под меню."
+
+#: inc/widgets/widgets.php:65
+msgid "Front Page: Slider Area"
+msgstr "Главная страница: область слайдера"
+
+#: inc/widgets/widgets.php:67
+msgid "Show widget just below menu. Suitable for TG: Featured Cat Slider."
+msgstr ""
+"Отображает виджет сразу под меню. Подходит для TG: Featured Cat Slider."
+
+#: inc/widgets/widgets.php:76
+msgid "Front Page: Area beside slider"
+msgstr "Главная страница: область около слайдера"
+
+#: inc/widgets/widgets.php:78
+msgid "Show widget beside the slider. Suitable for TG: Highlighted Posts."
+msgstr "Отображает виджет около слайдера. Подходит для TG: Highlighted Posts."
+
+#: inc/widgets/widgets.php:87
+msgid "Front Page: Content Top Section"
+msgstr "Главная страница: верхняя секция контента"
+
+#: inc/widgets/widgets.php:89
+msgid "Content Top Section"
+msgstr "Верхняя секция контента"
+
+#: inc/widgets/widgets.php:98
+msgid "Front Page: Content Middle Left Section"
+msgstr "Главная страница: средняя левая секция контента"
+
+#: inc/widgets/widgets.php:100
+msgid "Content Middle Left Section"
+msgstr "Средняя левая секция контента"
+
+#: inc/widgets/widgets.php:109
+msgid "Front Page: Content Middle Right Section"
+msgstr "Главная страница: средняя правая секция контента"
+
+#: inc/widgets/widgets.php:111
+msgid "Content Middle Right Section"
+msgstr "Средняя правая секция контента"
+
+#: inc/widgets/widgets.php:120
+msgid "Front Page: Content Bottom Section"
+msgstr "Главная страница: нижняя секция контента"
+
+#: inc/widgets/widgets.php:122
+msgid "Content Middle Bottom Section"
+msgstr "Средняя нижняя секция контента"
+
+#: inc/widgets/widgets.php:131
+msgid "Contact Page Sidebar"
+msgstr "Сайдбар страницы контактов"
+
+#: inc/widgets/widgets.php:133
+msgid "Shows widgets on Contact Page Template."
+msgstr "Отображает виджеты на шаблоне страницы контактов"
+
+#: inc/widgets/widgets.php:142
+msgid "Error 404 Page Sidebar"
+msgstr "Сайдбар страницы 404"
+
+#: inc/widgets/widgets.php:144
+msgid "Shows widgets on Error 404 page."
+msgstr "Отображает виджеты на странице 404"
+
+#: inc/widgets/widgets.php:153
+msgid "Advertisement Above The Footer"
+msgstr "Реклама над подвалом"
+
+#: inc/widgets/widgets.php:155
+msgid "Shows widgets Just Above The Footer, suitable for TG: 728x90 widget."
+msgstr "Отображает виджеты сразу над подвалом, подходит для виджета TG: 728x90"
+
+#: inc/widgets/widgets.php:164
+msgid "Footer Sidebar One ( Upper )"
+msgstr "Колонка подвала 1 (верхняя)"
+
+#: inc/widgets/widgets.php:166
+msgid "Shows widgets at footer sidebar one in upper."
+msgstr "Отображает виджеты в верхней колонке 1 подвала"
+
+#: inc/widgets/widgets.php:175
+msgid "Footer Sidebar Two ( Upper )"
+msgstr "Колонка подвала 2 (верхняя)"
+
+#: inc/widgets/widgets.php:177
+msgid "Shows widgets at footer sidebar two in upper."
+msgstr "Отображает виджеты в верхней колонке 2 подвала"
+
+#: inc/widgets/widgets.php:186
+msgid "Footer Sidebar Three ( Upper )"
+msgstr "Колонка подвала 3 (верхняя)"
+
+#: inc/widgets/widgets.php:188
+msgid "Shows widgets at footer sidebar three in upper."
+msgstr "Отображает виджеты в верхней колонке 3 подвала"
+
+#: inc/widgets/widgets.php:197
+msgid "Footer Sidebar One ( Lower )"
+msgstr "Колонка подвала 1 (нижняя)"
+
+#: inc/widgets/widgets.php:199
+msgid "Shows widgets at footer sidebar one."
+msgstr "Отображает виджеты в колонке 1 подвала"
+
+#: inc/widgets/widgets.php:208
+msgid "Footer Sidebar Two ( Lower )"
+msgstr "Колонка подвала 2 (нижняя)"
+
+#: inc/widgets/widgets.php:210
+msgid "Shows widgets at footer sidebar two."
+msgstr "Отображает виджеты в колонке 2 подвала"
+
+#: inc/widgets/widgets.php:219
+msgid "Footer Sidebar Three ( Lower )"
+msgstr "Колонка подвала 3 (нижняя)"
+
+#: inc/widgets/widgets.php:221
+msgid "Shows widgets at footer sidebar three."
+msgstr "Отображает виджеты в колонке 3 подвала"
+
+#: inc/widgets/widgets.php:230
+msgid "Footer Sidebar Four ( Lower )"
+msgstr "Колонка подвала 4 (нижняя)"
+
+#: inc/widgets/widgets.php:232
+msgid "Shows widgets at footer sidebar four."
+msgstr "Отображает виджеты в колонке 4 подвала"
+
+#: inc/widgets/widgets.php:266
+msgid ""
+"Display latest posts or posts of specific category, which will be used as "
+"the slider."
+msgstr ""
+"Отображает последние записи или записи конкретной категории в виде слайдера"
+
+#: inc/widgets/widgets.php:268
+msgid "TG: Featured Category Slider"
+msgstr "TG: Featured Category Slider"
+
+#: inc/widgets/widgets.php:283 inc/widgets/widgets.php:425
+#: inc/widgets/widgets.php:563 inc/widgets/widgets.php:730
+#: inc/widgets/widgets.php:1349 inc/widgets/widgets.php:1525
+#: inc/widgets/widgets.php:1988 inc/widgets/widgets.php:2251
+#: inc/widgets/widgets.php:2424
+msgid "Number of posts to display:"
+msgstr "Отображать записей:"
+
+#: inc/widgets/widgets.php:287 inc/widgets/widgets.php:429
+#: inc/widgets/widgets.php:567 inc/widgets/widgets.php:734
+#: inc/widgets/widgets.php:1353 inc/widgets/widgets.php:1529
+#: inc/widgets/widgets.php:1992 inc/widgets/widgets.php:2255
+#: inc/widgets/widgets.php:2428
+msgid "Show latest Posts"
+msgstr "Показывать последние записи"
+
+#: inc/widgets/widgets.php:288 inc/widgets/widgets.php:430
+#: inc/widgets/widgets.php:568 inc/widgets/widgets.php:735
+#: inc/widgets/widgets.php:1354 inc/widgets/widgets.php:1530
+#: inc/widgets/widgets.php:1993 inc/widgets/widgets.php:2256
+#: inc/widgets/widgets.php:2429
+msgid "Show posts from a category"
+msgstr "Показать записи из категории"
+
+#: inc/widgets/widgets.php:291 inc/widgets/widgets.php:433
+#: inc/widgets/widgets.php:571 inc/widgets/widgets.php:738
+#: inc/widgets/widgets.php:1357 inc/widgets/widgets.php:1533
+#: inc/widgets/widgets.php:1996 inc/widgets/widgets.php:2259
+#: inc/widgets/widgets.php:2432
+msgid "Select category"
+msgstr "Выберите категорию"
+
+#: inc/widgets/widgets.php:294
+msgid "Image Size:"
+msgstr "Размер изображения:"
+
+#: inc/widgets/widgets.php:295
+msgid "Image Size medium (800X445 pixels)"
+msgstr "Средний размер изображения (800X445 пикселей)"
+
+#: inc/widgets/widgets.php:296
+msgid ""
+"Image Size large (1400X600 pixels, suitable for Front Page: Top Full Width "
+"Area)"
+msgstr ""
+"Большой размер изображения (1400X600 пикселей, подходит для главной страницы "
+"в верхней, растянутой по ширине, области)"
+
+#: inc/widgets/widgets.php:410
+msgid ""
+"Display latest posts or posts of specific category. Suitable for the Area "
+"Beside Slider Sidebar."
+msgstr ""
+"Отображает последние записи или записи конкретной категории. Подходит для "
+"области около слайдера."
+
+#: inc/widgets/widgets.php:412
+msgid "TG: Highligted Posts"
+msgstr "TG: Highligted Posts"
+
+#: inc/widgets/widgets.php:536 inc/widgets/widgets.php:703
+#: inc/widgets/widgets.php:1320 inc/widgets/widgets.php:1498
+#: inc/widgets/widgets.php:1961 inc/widgets/widgets.php:2222
+#: inc/widgets/widgets.php:2397
+msgid "Display latest posts or posts of specific category."
+msgstr "Отображает последние записи или записи определенной категории"
+
+#: inc/widgets/widgets.php:538
+msgid "TG: Featured Posts (Style 1)"
+msgstr "TG: Featured Posts (Тип 1)"
+
+#: inc/widgets/widgets.php:554 inc/widgets/widgets.php:721
+#: inc/widgets/widgets.php:1340 inc/widgets/widgets.php:1516
+#: inc/widgets/widgets.php:1979 inc/widgets/widgets.php:2242
+#: inc/widgets/widgets.php:2415
+msgid "Layout will be as below:"
+msgstr "Макет будет указано ниже:"
+
+#: inc/widgets/widgets.php:557 inc/widgets/widgets.php:724
+#: inc/widgets/widgets.php:890 inc/widgets/widgets.php:1004
+#: inc/widgets/widgets.php:1118 inc/widgets/widgets.php:1253
+#: inc/widgets/widgets.php:1343 inc/widgets/widgets.php:1519
+#: inc/widgets/widgets.php:1859 inc/widgets/widgets.php:1982
+#: inc/widgets/widgets.php:2123 inc/widgets/widgets.php:2245
+#: inc/widgets/widgets.php:2418
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: inc/widgets/widgets.php:560 inc/widgets/widgets.php:727
+#: inc/widgets/widgets.php:1346 inc/widgets/widgets.php:1522
+#: inc/widgets/widgets.php:1985 inc/widgets/widgets.php:2248
+#: inc/widgets/widgets.php:2421
+msgid "Description"
+msgstr "Описание"
+
+#: inc/widgets/widgets.php:705
+msgid "TG: Featured Posts (Style 2)"
+msgstr "TG: Featured Posts (Тип 2)"
+
+#: inc/widgets/widgets.php:872
+msgid "Add your 300x250 Advertisement here"
+msgstr "Добавьте сюда рекламный блок 300x250"
+
+#: inc/widgets/widgets.php:874
+msgid "TG: 300x250 Advertisement"
+msgstr "TG: 300x250 Advertisement"
+
+#: inc/widgets/widgets.php:893
+msgid "Add your Advertisement 300x250 Images Here"
+msgstr "Добавьте сюда ваши рекламные изображения 300x250"
+
+#: inc/widgets/widgets.php:895 inc/widgets/widgets.php:1009
+#: inc/widgets/widgets.php:1128
+msgid "Advertisement Image Link "
+msgstr "Ссылка с рекламного изображения"
+
+#: inc/widgets/widgets.php:899 inc/widgets/widgets.php:1013
+#: inc/widgets/widgets.php:1132
+msgid "Advertisement Image "
+msgstr "Рекламное изображение"
+
+#: inc/widgets/widgets.php:909 inc/widgets/widgets.php:1023
+#: inc/widgets/widgets.php:1142
+msgid "Upload Image"
+msgstr "Загрузить изображение"
+
+#: inc/widgets/widgets.php:986
+msgid "Add your 728x90 Advertisement here"
+msgstr "Добавьте сюда рекламный блок 728x90"
+
+#: inc/widgets/widgets.php:988
+msgid "TG: 728x90 Advertisement"
+msgstr "TG: 728x90 Advertisement"
+
+#: inc/widgets/widgets.php:1007
+msgid "Add your Advertisement 728x90 Images Here"
+msgstr "Добавьте сюда ваши рекламные изображения 728x90"
+
+#: inc/widgets/widgets.php:1100
+msgid "Add your 125x125 Advertisement here"
+msgstr "Добавьте сюда рекламный блок 125x125"
+
+#: inc/widgets/widgets.php:1102
+msgid "TG: 125x125 Advertisement"
+msgstr "TG: 125x125 Advertisement"
+
+#: inc/widgets/widgets.php:1121
+msgid "Add your Advertisement 125x125 Images Here"
+msgstr "Добавьте сюда ваши рекламные изображения 125x125"
+
+#: inc/widgets/widgets.php:1236
+msgid "Add the videos here, Youtube and Vimeo Videos is only accepted for now."
+msgstr "Добавьте видео. Пока принимаются ролики только с Youtube и Vimeo."
+
+#: inc/widgets/widgets.php:1238
+msgid "TG: Videos"
+msgstr "TG: Videos"
+
+#: inc/widgets/widgets.php:1257
+msgid "Youtube Video ID:"
+msgstr "Youtube Video ID:"
+
+#: inc/widgets/widgets.php:1261
+msgid "Vimeo Video ID:"
+msgstr "Vimeo Video ID:"
+
+#: inc/widgets/widgets.php:1322
+msgid "TG: Featured Posts (Style 5)"
+msgstr "TG: Featured Posts (Тип 5)"
+
+#: inc/widgets/widgets.php:1362
+msgid "Check not to have the slider effect for this widget"
+msgstr "Отключить эффект слайдера для этого виджета"
+
+#: inc/widgets/widgets.php:1500
+msgid "TG: Featured Posts (Style 4)"
+msgstr "TG: Featured Posts (Тип 4)"
+
+#: inc/widgets/widgets.php:1660
+msgid ""
+"Displays the popular posts, latest posts and the recent comments in tab. "
+"Suitable for the Right/Left sidebar."
+msgstr ""
+"Отображает популярные записи, последние записи и недавние комментарии во "
+"вкладке. Подходит для правого/левого сайдбара."
+
+#: inc/widgets/widgets.php:1662
+msgid "TG: Tabbed Widget"
+msgstr "TG: Tabbed Widget"
+
+#: inc/widgets/widgets.php:1671
+msgid "Number of popular posts, recent posts and comments to display:"
+msgstr ""
+"Количество популярных записей, недавних записей и комментариев к показу:"
+
+#: inc/widgets/widgets.php:1695
+msgid "<i class=\"fa fa-star\"></i>Popular"
+msgstr "<i class=\"fa fa-star\"></i>Популярное"
+
+#: inc/widgets/widgets.php:1696
+msgid "<i class=\"fa fa-history\"></i>Recent"
+msgstr "<i class=\"fa fa-history\"></i>Недавнее"
+
+#: inc/widgets/widgets.php:1697
+msgid "<i class=\"fa fa-comment\"></i>Comment"
+msgstr "<i class=\"fa fa-comment\"></i>Комментарии"
+
+#: inc/widgets/widgets.php:1846
+msgid ""
+"Displays the random posts from your site. Suitable for the Right/Left "
+"sidebar."
+msgstr ""
+"Отображает случайные записи вашего сайта. Подходит для левого/правого "
+"сайдбара."
+
+#: inc/widgets/widgets.php:1848
+msgid "TG: Random Posts Widget"
+msgstr "TG: Random Posts Widget"
+
+#: inc/widgets/widgets.php:1863
+msgid "Number of random posts to display:"
+msgstr "Количество случайных записей к показу:"
+
+#: inc/widgets/widgets.php:1963
+msgid "TG: Featured Posts (Style 6)"
+msgstr "TG: Featured Posts (Тип 6)"
+
+#: inc/widgets/widgets.php:2110
+msgid ""
+"Displays the breaking news in the news ticker way. Suitable for the Right/"
+"Left Sidebar"
+msgstr ""
+"Отображает последние новости в виде ленты новостей. Подходит для левого/"
+"правого слайдера."
+
+#: inc/widgets/widgets.php:2112
+msgid "TG: Breaking News Widget"
+msgstr "TG: Breaking News Widget"
+
+#: inc/widgets/widgets.php:2127
+msgid "Number of recent posts to show as the breaking news:"
+msgstr "Количество недавних записей для отображения в виде последних новостей:"
+
+#: inc/widgets/widgets.php:2224
+msgid "TG: Featured Posts (Style 7)"
+msgstr "TG: Featured Posts (Тип 7)"
+
+#: inc/widgets/widgets.php:2264
+msgid "Check to display the content in the popup"
+msgstr "Показывать контент в виде всплывющего окна"
+
+#: inc/widgets/widgets.php:2399
+msgid "TG: Featured Posts (Style 3)"
+msgstr "TG: Featured Posts (Тип 3)"
+
+#: license.php:127 license.php:136
+msgid "Cheatin&#8217; huh?"
+msgstr "Хакер, что ли?"
+
+#: license.php:172
+msgid "License Activation"
+msgstr "Активация лицензии"
+
+#: license.php:173
+msgid "License Deactivation"
+msgstr "Деактивация лицензии"
+
+#: license.php:392
+#, php-format
+msgid ""
+"The License Key for Theme Colormag has not been activated, %sClick here%s to "
+"activate the license key."
+msgstr ""
+"Лицензионный ключ для темы Colormag не был активирован, %sНажмите здесь%s "
+"для активации ключа."
+
+#: license.php:411
+#, php-format
+msgid ""
+"<b>Warning!</b> You're blocking external requests which means you won't be "
+"able to get %s updates. Please add %s to %s."
+msgstr ""
+"<b>Внимание!</b> Вы блокируете внешние запросы и не сможете получить "
+"обновления %s. Пожалуйста, добавьте %s к %s."
+
+#: navigation.php:24 navigation.php:36
+msgid "&larr; Previous"
+msgstr "&larr; Назад"
+
+#: navigation.php:25 navigation.php:37
+msgid "Next &rarr;"
+msgstr "Далее &rarr;"
+
+#: no-results.php:18
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Готовы опубликовать свою первую запись? <a href=\"%1$s\">Начните здесь</a>."
+
+#: no-results.php:22
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Извините, по вашему запросу ничего не найдено. Попробуйте другие ключевые "
+"слова."
+
+#: no-results.php:27
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"К сожалению данной страницы не существует. Но вы можете воспользоваться "
+"поиском."
+
+#: searchform.php:12
+msgid "Search"
+msgstr "Поиск"
+
+#: sidebar-left.php:24 sidebar.php:24
+msgid "Contact Page"
+msgstr "Контакты"
+
+#: sidebar-left.php:26
+msgid "Left"
+msgstr "Слева"
+
+#: sidebar-left.php:30 sidebar.php:30
+msgid "Example Widget"
+msgstr "Пример виджета"
+
+#: sidebar-left.php:31 sidebar.php:31
+#, php-format
+msgid ""
+"This is an example widget to show how the %s Sidebar looks by default. You "
+"can add custom widgets from the %swidgets screen%s in the admin. If custom "
+"widgets is added than this will be replaced by those widgets."
+msgstr ""
+"Это пример виджета для демонстрации того как сайдбар %s выглядит по "
+"умолчанию. Вы можете добавить собственные виджеты через панель управления "
+"сайтом в разделе %swidgets screen%s. Пользовательские виджеты заменят его "
+"при добавлении."
+
+#: sidebar.php:26
+msgid "Right"
+msgstr "Справа"

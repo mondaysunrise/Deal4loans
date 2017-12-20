@@ -1,0 +1,80 @@
+/* CSS Document */
+body{
+	margin:0;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#000000;
+	}
+body B{
+	margin:0;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#000000;
+	text-align:center;
+	}
+
+.formtxt{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	color:#666666;
+	text-align:left;
+	}
+	
+input{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	color:#999999;
+	padding-left:5px;
+	text-align:left;
+	}	
+	
+	.heading_bl {
+
+	font-family:Verdana, Arial, Helvetica, sans-serif;	
+	font-size:10px;
+	font-weight:bold;
+	color:#000000;
+	text-decoration:none;
+	padding-left:10px;
+		}
+		
+.formfield{
+	border:1px solid  #999999;
+	
+	}		
+select, option{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+	color:#999999;
+font-weight:bold;
+text-decoration:none;
+padding:1px; 
+margin:1px;
+ border: 1px solid #BDBDBD;
+}
+
+.text{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+color:#ffffff;
+text-decoration:none;
+}
+.middlbold{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:32px;	
+font-weight:bold; 
+color:#FFFFFF; 
+}
+
+.smallbold{
+font-family:Verdana, Arial, Helvetica, sans-serif; 
+font-weight: bold; 
+font-size: 14px;
+text-decoration:none;
+color:#FFFFFF;
+}
+
+
+

@@ -1,0 +1,44 @@
+.text11{font-family:Verdana, Geneva, sans-serif;font-size:11px;font-weight:400;font-variant:normal;color:#005399;text-decoration:none}
+.text9{font-family:Verdana, Geneva, sans-serif;font-size:9px;font-weight:400;font-variant:normal;color:#697e94;text-decoration:none}
+.text12{font-family:Verdana, Geneva, sans-serif;font-size:11px;font-weight:400;font-variant:normal;color:#fff;text-decoration:none}
+.text{font-family:'Droid Serif', serif;font-size:18px;font-weight:400;font-variant:normal;color:#005399;text-decoration:none;font-style:italic;importurlhttp://fonts.googleapis.com/css?family=Droid+Serif)}
+.text2{font-family:'Droid Serif', serif;font-size:18px;font-weight:400;font-variant:normal;color:#fff;text-decoration:none;font-style:italic;importurlhttp://fonts.googleapis.com/css?family=Droid+Serif)}
+.text3{font-family:'Droid Sans', sans-serif;font-size:12px;font-weight:400;font-variant:normal;color:#909faf;text-decoration:none;text-transform:uppercase;importurlhttp://fonts.googleapis.com/css?family=Droid+Sans)}
+a.btn:hover{font-family:'Droid Sans', sans-serif;font-size:14px;font-variant:normal;color:#203f5f;text-decoration:none;importurlhttp://fonts.googleapis.com/css?family=Droid+Sans);padding:5px 12px}
+.text4{font-family:'Droid Sans', sans-serif;font-size:10px;font-weight:700;font-variant:normal;color:#fff!important;text-decoration:none;text-transform:uppercase;importurlhttp://fonts.googleapis.com/css?family=Droid+Sans)}
+.textbox{font-family:Verdana, Geneva, sans-serif;font-size:11px;font-weight:400;color:#666;text-decoration:none;height:18px;width:153px;border:none;margin-top:7px;margin-left:30px}
+.font{font-family:'Droid Serif', serif;font-size:11px;font-weight:400;font-variant:normal;color:#666;text-decoration:none;font-style:italic;importurlhttp://fonts.googleapis.com/css?family=Droid+Serif)}
+.font2{font-family:'Droid Sans', sans-serif;font-size:12px;font-weight:400;font-variant:normal;color:#666;text-decoration:none;importurlhttp://fonts.googleapis.com/css?family=Droid+Sans)}
+ul.menu{list-style:none;margin:0;padding:0px;}
+ul.menu *{margin:0;padding:0px;}
+ul.menu a{display:block;color:#000;text-decoration:none;}
+ul.menu li{position:relative;float:left;margin-right:2px;}
+ul.menu ul{position:absolute;top:30px;left:0;background:#d1d1d1;display:none;opacity:0;list-style:none}
+ul.menu ul li{position:relative;border:1px solid #aaa;border-top:none;width:248px;margin:0}
+ul.menu ul li a{display:block;background-color:#fff;padding:3px 7px 5px}
+ul.menu ul ul{left:198px;top:-1px}
+ul.menu .menulink{border:1px solid #aaa;font-weight:700;background-color:#c5c5c5;width:234px;padding:5px 7px 7px}
+ul.menu .sub{background-color:#fff;width:266px;height:8px;}
+ul.menu .topline{border-top:1px solid #aaa;background-color:#fff;}
+a.btn:link,a.btn:visited{font-family:'Droid Sans', sans-serif;font-size:14px;font-variant:normal;color:#588f27;text-decoration:none;importurlhttp://fonts.googleapis.com/css?family=Droid+Sans);padding:5px 12px;}
+.header-d4l-new{margin:auto; width:970px; height:105px; padding-top:28px;}
+.logo-d4l-new{float:left;  width:243px; height:94px;}
+.menu-d4l-new-wrapper{float:left; clear:right; width:714px; margin-top:20px; margin-left:10px;}
+.menu-d4l-new-wrapperinn{float:left; clear:right; width:714px; margin-top:26px; margin-left:10px;} 
+#logoImg{ width:200px; height:70px; }
+@media screen and (max-width:768px) {
+.header-d4l-new{width:100%; margin:3px 0px 0px 0px; padding:0px 0px 0px 0px; float:none;}
+.logo-d4l-new{float:left; width:121px; height:47px;}
+.menu-d4l-new-wrapper{width:100%; height:auto; margin:3px 0px 0px -10px;}
+.menu-d4l-new-wrapperinn{width:100%; margin-top:3px; background:#88a943; height:auto; text-align:left;}
+#logoImg{ width:143px; height:45px; }
+}
+/*........request-credit-card.php page css new added on 14-2-2014.......*/
+.credir-rq-column{ width:240px; float:left; margin-right:0px;}
+
+/*........request-credit-card.php page css new added on 14-2-2014.......*/
+@media screen and (max-width:768px) {
+.credir-rq-column{ width:240px; margin:auto; float:none;}
+	
+	
+	}

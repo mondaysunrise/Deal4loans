@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+body{ margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; font-family:'Droid Sans', sans-serif; font-size:16px; color:#000000;}
+.edu-h1{font-family: 'Droid Sans', sans-serif;
+    color: #0e79b9;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0px 0px 15px 0px;}
+.edu-h2{font-family:'Droid Sans', sans-serif; font-size:22px; font-weight:normal; margin:0px 0px 0px 0px; padding:5px 0px 0px 0px;}
+.edu-h2-from{font-family:'Droid Sans', sans-serif; font-size:22px; font-weight:normal; margin:0px 0px 0px 0px; padding:5px 0px 0px 0px; color:#FFF;}
+.edu-form-wrapper{width:100%; margin:auto; padding:10px; color:#000000; background:#0e79b9;border-radius: 5px; padding-bottom:10px; margin-bottom:5px;} 
+.edu-form-text{ color:#FFF;}
+.edu_inner_wrapper{width:990px; margin:auto;}
+.new-input-box {
+  float: left;
+  width: 24%;
+  margin-left:6px;}
+.edu_left_box {
+  width: 663px;
+  float: left;
+  margin-top: 15px;
+}
+.edu_terms_box {
+  width: 500px;
+  float: left;
+  margin-left: 25px;
+  margin-top: 10px;
+  font-size: 11px;
+  text-transform: none;}
+.d4l-input{
+  width: 96%;
+  height: 20px;
+}
+.d4l-select {
+  width: 93%;
+  height: 24px;
+}
+.form-headline-100 {
+  font-size: 21px; color:#FFF;
+  font-weight: 500;
+  width: 95%;
+  padding-top: 10px;
+}
+.p-details {
+  padding-left: 20px;
+  font-size: 19px;
+}
+
+.hintanchor{ font-size:12px; color:#D50000; background:#FFF; padding:0px 5px 0px 5px; margin-top:3px !important; width:100%;}
+
+.common-bread-crumb{font-family:'Droid Sans', sans-serif; font-size:16px; color:#666; margin-bottom:10px;}
+.common-bread-crumb a{font-family:'Droid Sans', sans-serif; font-size:16px; color:#666;}
+.common-bread-crumb a:hover{font-family:'Droid Sans', sans-serif; font-size:16px; color:#666; text-decoration:underline;}
+
+p{ padding:0px 0px 0px 0px; margin:15px 0px 5px 0px; line-height:22px;}
+.edu-get-quotebtn {
+  background: #06b2a0;
+  width: 110px;
+  border: solid 2px #FFF;
+  height: 39px;
+  border-radius: 5px;
+  color: #FFF;
+  font-size: 16px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+
+#formatedlA{font-size:12px;font-weight:normal; color:#FFF;}
+#wordloanAmount{font-size:12px; font-weight:normal;text-transform: capitalize; color:#FFF;}
+#formatedEdu{font-size:12px;font-weight:normal; color:#FFF;}
+#wordloanAmountEdu{font-size:12px;font-weight:normal;text-transform: capitalize; color:#FFF;}
+.termtext{ font-size:14px; color:#FFF;}
+.termtext a{font-size:14px; color:#FFF; text-decoration:underline;}
+
+.edu_bnt_b{ float:right;}
+@media screen and (max-width:680px){
+.edu-form-wrapper{width:90%; margin:auto; padding:10px; color:#000000; background:#0e79b9;border-radius: 5px; padding-bottom:10px;} 
+.edu_inner_wrapper{width:95%; margin:auto!important;}
+.new-input-box {
+  float:none;
+  width:100%;
+  margin:0px 0px 0px 0px;  margin-top: 5px;}
+.edu_left_box {
+  width:98%;
+  float:none;
+  margin-top: 15px;
+}
+.edu_terms_box {
+  width:96%;
+  float:none;
+  font-size: 11px;
+  text-transform: none;
+  margin:auto;}
+.d4l-input{
+  width: 99%;
+  height: 20px;
+}
+.d4l-select {
+  width: 99%;
+  height: 24px;
+}
+.form-headline-100 {
+  font-size: 21px; color:#FFF;
+  font-weight: 500;
+  width:95%;
+  padding-top:10px;}
+.common-bread-crumb{font-family:'Droid Sans', sans-serif; font-size:16px; color:#666; margin-bottom:10px;}
+.common-bread-crumb a{font-family:'Droid Sans', sans-serif; font-size:16px; color:#666;}
+.common-bread-crumb a:hover{font-family:'Droid Sans', sans-serif; font-size:16px; color:#666; text-decoration:underline;}
+.hintanchor{ font-size:12px; color:#D50000; background:#FFF; padding:0px 5px 0px 5px; margin-top:3px !important; width:100%;}
+p{ padding:0px 0px 0px 0px; margin:5px 0px 5px 0px;}
+.ac_input_box{float:none; width:95%; margin:5px 30px 0px 25px;}
+.ac_table_box{width:98%; margin:auto;}
+.ac_terms_box{width:98%; color:#FFF; margin-left:0px; margin-top:10px;}
+.ac_get_btn_box{float:right; width:114px; height:47px; margin-top:-30px; margin-left:0px; margin-right:23px;}
+.edu-get-quotebtn {
+   background: #06b2a0;
+  width: 110px;
+  border: solid 2px #FFF;
+  height: 39px;
+  border-radius: 5px;
+  color: #FFF;
+  font-size: 16px;
+  margin-right:20px;
+  margin-bottom:5px;}
+  .p-details {
+  padding-left:2px;
+  font-size: 19px;}}
